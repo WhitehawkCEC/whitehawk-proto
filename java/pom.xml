@@ -16,7 +16,7 @@
 
     <bintray.repo>whitehawkcec/maven</bintray.repo>
     <bintray.package>whitehawk-grpc-api-cyber</bintray.package>
-    <bintray.url>https://api.bintray.com/maven/${bintray.repo}/${bintray.package}/</bintray.url>
+    <bintray.url>https://api.bintray.com/maven/${bintray.repo}/${bintray.package}/;publish=1</bintray.url>
 
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
