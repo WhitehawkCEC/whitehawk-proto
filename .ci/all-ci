@@ -30,29 +30,29 @@ deploy() {
 build_java() {
   version=$1
   cd java
-  ./mvnw -B -Pprepare-release -DnewVersion=$version -s settings.xml
-  ./mvnw -B -Pbuild-release -s settings.xml
+  ./mvnw -B -Pprepare-release -DnewVersion=$version -s settings.xml || exit
+  ./mvnw -B -Pbuild-release -s settings.xml || exit
   cd ..
 }
 
 deploy_java() {
   cd java
-  ./mvnw -B -Ppublish-release -s settings.xml
+  ./mvnw -B -Ppublish-release -s settings.xml || exit
   cd ..
 }
 
 build_web() {
   version=$1
   cd web
-  yarn version --new-version $version --no-git-tag-version
-  yarn install
-  yarn run build
+  yarn version --new-version $version --no-git-tag-version || exit
+  yarn install || exit
+  yarn run build || exit
   cd ..
 }
 
 deploy_web() {
   cd web
-  yarn publish
+  yarn publish || exit
   cd ..
 }
 
