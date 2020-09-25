@@ -1,0 +1,16 @@
+{
+  "name": "@whitehawkcec/whitehawk-grpc-api-cyber",
+  "version": "0.1.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "protoc -I=../proto ../proto/cyber.proto --js_out=import_style=commonjs:stub --grpc-web_out=import_style=commonjs,mode=grpcwebtext:stub"
+  },
+  "devDependencies": {
+    "protoc-gen-grpc-web": "^1.2.0"
+  },
+  "dependencies": {
+    "google-protobuf": "^3.13.0",
+    "grpc-web": "^1.2.1"
+  }
+}
