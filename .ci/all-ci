@@ -50,7 +50,7 @@ build_web() {
 
 deploy_web() {
   cd web
-  yarn run publish
+  yarn publish
   cd ..
 }
 
