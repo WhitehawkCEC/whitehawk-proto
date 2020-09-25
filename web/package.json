@@ -1,6 +1,6 @@
 {
   "name": "@whitehawkcec/whitehawk-grpc-api-cyber",
-  "version": "0.1.10-g91",
+  "version": "0.1.10-g9112313",
   "main": "index.js",
   "license": "MIT",
   "scripts": {
