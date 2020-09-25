@@ -37,11 +37,12 @@
   <activeProfiles>
     <activeProfile>this</activeProfile>
   </activeProfiles>
+
   <servers>
     <server>
-      <id>github</id>
-      <username>whitehawkcec</username>
-      <password>${env.GITHUB_TOKEN}</password>
+      <id>bintray</id>
+      <username>${env.BINTRAY_USERNAME}</username>
+      <password>${env.BINTRAY_PASSWORD}</password>
     </server>
   </servers>
 </settings>

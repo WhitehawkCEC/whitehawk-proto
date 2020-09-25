@@ -30,12 +30,11 @@ jobs:
       - name: Build all
         run: |
           ./.ci/all-ci build $(git describe)
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Deploy all
         run: |
           ./.ci/all-ci deploy
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          NPM_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          BINTRAY_USERNAME: ${{ secrets.BINTRAY_USERNAME }}
+          BINTRAY_API_KEY: ${{ secrets.BINTRAY_API_KEY }}
+          NPM_AUTH_TOKEN: ${{ secrets.BINTRAY_API_KEY }}
