@@ -30,15 +30,15 @@ deploy() {
 build_java() {
   version=$1
   cd java
-  ./mvnw -Pprepare-release -DnewVersion=$version -s settings.xml
-  ./mvnw -Pbuild-release -s settings.xml
+  ./mvnw -B -Pprepare-release -DnewVersion=$version -s settings.xml
+  ./mvnw -B -Pbuild-release -s settings.xml
   cd ..
 }
 
 deploy_java() {
   version=$1
   cd java
-  ./mvnw -Ppublish-release -s settings.xml
+  ./mvnw -B -Ppublish-release -s settings.xml
   cd ..
 }
 
