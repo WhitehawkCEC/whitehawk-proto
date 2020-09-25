@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option java_package = "com.whitehawk.grpc.api.cyber";
+
+message EchoRequest {
+  string message = 1;
+}
+
+message EchoResponse {
+  string message = 1;
+}
+
+service Echo {
+  rpc Echo(EchoRequest) returns (EchoResponse);
+}
