@@ -25,11 +25,11 @@ jobs:
       - name: Build all
         run: |
           ./.ci/all-ci build $(git describe)
-        with:
+        env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Publish all
         run: |
           ./.ci/all-ci publish
-        with:
+        env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
