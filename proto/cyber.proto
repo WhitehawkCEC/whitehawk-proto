@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-option java_package = "com.whitehawk.grpc.api.cyber";
+option java_package = "com.whitehawk.api.grpc.cyber";
 
 message EchoRequest {
   string message = 1;

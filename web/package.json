@@ -1,5 +1,5 @@
 {
-  "name": "@whitehawkcec/whitehawk-grpc-api-cyber",
+  "name": "@whitehawkcec/whitehawk-api-grpc-cyber",
   "version": "0.1.0",
   "main": "index.js",
   "license": "MIT",
