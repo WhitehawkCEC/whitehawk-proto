@@ -1,4 +1,4 @@
-name: Auto format
+name: Build
 
 on:
   push:
