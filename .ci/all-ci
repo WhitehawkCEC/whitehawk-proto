@@ -36,7 +36,6 @@ build_java() {
 }
 
 deploy_java() {
-  version=$1
   cd java
   ./mvnw -B -Ppublish-release -s settings.xml
   cd ..
