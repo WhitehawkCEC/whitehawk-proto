@@ -1,6 +1,7 @@
 syntax = "proto3";
 
 option java_package = "com.whitehawk.api.grpc.cyber";
+option java_multiple_files = true;
 
 message EchoRequest {
   string message = 1;
