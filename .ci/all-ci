@@ -44,7 +44,8 @@ deploy_java() {
 
 build_web() {
   cd web
-  yarn run build --plugin=protoc-gen-grpc-web=$(yarn bin)/protoc-gen-grpc-web
+  yarn install
+  yarn run build
   cd ..
 }
 
