@@ -4,7 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "build": "protoc -I=../proto ../proto/cyber.proto --js_out=import_style=commonjs:stub --grpc-web_out=import_style=commonjs,mode=grpcwebtext:stub"
+    "build": "protoc -I=../proto ../proto/cyber.proto --js_out=import_style=commonjs:stub --grpc-web_out=import_style=commonjs,mode=grpcwebtext:stub --plugin=protoc-gen-grpc-web=node_modules/.bin/protoc-gen-grpc-web"
   },
   "devDependencies": {
     "protoc-gen-grpc-web": "^1.2.0"
