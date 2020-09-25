@@ -29,29 +29,29 @@ deploy() {
 
 build_java() {
   version=$1
-  pushd java
+  cd java
   ./mvnw -Pprepare-release -DnewVersion=$version -s settings.xml
   ./mvnw -Pbuild-release -s settings.xml
-  popd
+  cd ..
 }
 
 deploy_java() {
   version=$1
-  pushd java
+  cd java
   ./mvnw -Ppublish-release -s settings.xml
-  popd
+  cd ..
 }
 
 build_web() {
-  pushd web
+  cd web
   yarn run build
-  popd
+  cd ..
 }
 
 deploy_web() {
-  pushd web
+  cd web
   yarn run publish
-  popd
+  cd ..
 }
 
 main "$@"
