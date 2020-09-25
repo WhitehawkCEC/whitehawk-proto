@@ -24,6 +24,9 @@ jobs:
         with:
           node-version: '12.x'
 
+      - name: Set up protoc
+        uses: arduino/setup-protoc@v1
+
       - name: Build all
         run: |
           ./.ci/all-ci build $(git describe)
