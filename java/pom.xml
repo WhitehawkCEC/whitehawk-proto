@@ -182,7 +182,7 @@
     <profile>
       <id>build-release</id>
       <build>
-        <defaultGoal>clean source:jar-no-fork verify promote:make-promotable</defaultGoal>
+        <defaultGoal>clean source:jar verify promote:make-promotable</defaultGoal>
       </build>
     </profile>
     <profile>
