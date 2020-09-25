@@ -20,7 +20,7 @@
     <!-- maven-install-plugin -->
     <installAtEnd>true</installAtEnd>
     <!-- maven-deploy-plugin -->
-    <deployAtEnd>true</deployAtEnd>
+    <deployAtEnd>false</deployAtEnd>
 
     <!-- Allows output directory to be overridden -->
     <build.dir.name>target</build.dir.name>
