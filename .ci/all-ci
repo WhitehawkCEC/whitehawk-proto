@@ -44,7 +44,7 @@ deploy_java() {
 build_web() {
   version=$1
   cd web
-  yarn version --new-version $version
+  yarn version --new-version $version --no-git-tag-version
   yarn install
   yarn run build
   cd ..
