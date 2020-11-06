@@ -25,6 +25,11 @@
       <artifactId>grpc-stub</artifactId>
     </dependency>
 
+    <dependency>
+      <groupId>com.google.protobuf</groupId>
+      <artifactId>protobuf-java</artifactId>
+    </dependency>
+
     <!-- necessary for Java 9+ -->
     <dependency>
       <groupId>org.apache.tomcat</groupId>
@@ -47,6 +52,7 @@
             <configuration>
               <!-- Adds input `.proto` to jar -->
               <addProtoSources>all</addProtoSources>
+              <includeMavenTypes>direct</includeMavenTypes>
               <inputDirectories>
                 <include>../../proto</include>
               </inputDirectories>
