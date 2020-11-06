@@ -45,6 +45,8 @@
               <goal>run</goal>
             </goals>
             <configuration>
+              <!-- Adds input `.proto` to jar -->
+              <addProtoSources>all</addProtoSources>
               <inputDirectories>
                 <include>../../proto</include>
               </inputDirectories>
