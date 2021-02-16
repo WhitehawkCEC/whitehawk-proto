@@ -14,6 +14,8 @@
   <properties>
     <maven.compiler.source>11</maven.compiler.source>
     <maven.compiler.target>11</maven.compiler.target>
+
+    <version.grpc>1.32.1</version.grpc>
   </properties>
 
   <dependencyManagement>
@@ -27,17 +29,17 @@
       <dependency>
         <groupId>io.grpc</groupId>
         <artifactId>grpc-netty-shaded</artifactId>
-        <version>1.32.1</version>
+        <version>${version.grpc}</version>
       </dependency>
       <dependency>
         <groupId>io.grpc</groupId>
         <artifactId>grpc-protobuf</artifactId>
-        <version>1.32.1</version>
+        <version>${version.grpc}</version>
       </dependency>
       <dependency>
         <groupId>io.grpc</groupId>
         <artifactId>grpc-stub</artifactId>
-        <version>1.32.1</version>
+        <version>${version.grpc}</version>
       </dependency>
 
       <dependency>
