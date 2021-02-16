@@ -1,0 +1,17 @@
+{
+  "recommendations": [
+    "bradlc.vscode-tailwindcss",
+    "bungcip.better-toml",
+    "coenraads.bracket-pair-colorizer",
+    "DavidAnson.vscode-markdownlint",
+    "dbaeumer.vscode-eslint",
+    "EditorConfig.EditorConfig",
+    "esbenp.prettier-vscode",
+    "mariusschulz.yarn-lock-syntax",
+    "ms-vsliveshare.vsliveshare",
+    "redhat.vscode-yaml",
+    "usernamehw.errorlens",
+    "zxh404.vscode-proto3"
+  ],
+  "unwantedRecommendations": []
+}
