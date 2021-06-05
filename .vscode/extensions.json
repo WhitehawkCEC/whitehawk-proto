@@ -8,8 +8,10 @@
     "esbenp.prettier-vscode",
     "mariusschulz.yarn-lock-syntax",
     "ms-vsliveshare.vsliveshare",
+    "redhat.java",
     "redhat.vscode-yaml",
     "usernamehw.errorlens",
+    "vscjava.vscode-java-dependency",
     "zxh404.vscode-proto3"
   ],
   "unwantedRecommendations": []
