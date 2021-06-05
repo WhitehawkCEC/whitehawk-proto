@@ -3,5 +3,6 @@
   "singleQuote": true,
   "quoteProps": "consistent",
   "arrowParens": "always",
-  "htmlWhitespaceSensitivity": "ignore"
+  "htmlWhitespaceSensitivity": "ignore",
+  "xmlWhitespaceSensitivity": "ignore"
 }
