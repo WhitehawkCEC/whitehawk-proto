@@ -121,6 +121,41 @@
         </plugin>
 
         <plugin>
+          <groupId>com.diffplug.spotless</groupId>
+          <artifactId>spotless-maven-plugin</artifactId>
+          <version>2.11.1</version>
+
+          <configuration>
+            <java>
+              <removeUnusedImports />
+
+              <importOrder>
+                <order>java,javax,org,com,</order>
+              </importOrder>
+
+              <eclipse>
+                <version>4.13.0</version>
+                <file>${maven.multiModuleProjectDirectory}/../.dev/eclipse/eclipse-formatter.xml</file>
+              </eclipse>
+
+              <replaceRegex>
+                <name>removeBlankLinesAfterOpenBrace</name>
+                <searchRegex>(?m)(?&lt;=\{\n)\n+()</searchRegex>
+                <!-- HACK: Use empty group as workaround for empty string -->
+                <replacement>$1</replacement>
+              </replaceRegex>
+
+              <replaceRegex>
+                <name>removeBlankLinesBeforeCloseBrace</name>
+                <searchRegex>(?m)(?&lt;=\n)\n+(?=\s*\})()</searchRegex>
+                <!-- HACK: Use empty group as workaround for empty string -->
+                <replacement>$1</replacement>
+              </replaceRegex>
+            </java>
+          </configuration>
+        </plugin>
+
+        <plugin>
           <groupId>com.github.os72</groupId>
           <artifactId>protoc-jar-maven-plugin</artifactId>
           <version>3.11.4</version>
@@ -177,6 +212,12 @@
       <id>publish-release</id>
       <build>
         <defaultGoal>promote:artifacts deploy:deploy</defaultGoal>
+      </build>
+    </profile>
+    <profile>
+      <id>format</id>
+      <build>
+        <defaultGoal>spotless:apply</defaultGoal>
       </build>
     </profile>
   </profiles>
