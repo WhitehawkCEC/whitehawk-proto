@@ -1,6 +1,5 @@
 {
   "recommendations": [
-    "bradlc.vscode-tailwindcss",
     "bungcip.better-toml",
     "coenraads.bracket-pair-colorizer",
     "DavidAnson.vscode-markdownlint",
