@@ -6,6 +6,8 @@
   "java.dependency.packagePresentation": "flat",
   "java.format.settings.url": ".dev/eclipse/eclipse-formatter.xml",
 
+  "xml.format.splitAttributes": true,
+
   "[html]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
