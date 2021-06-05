@@ -1,5 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<?xml version="1.0" encoding="UTF-8" ?>
+<project
+  xmlns="http://maven.apache.org/POM/4.0.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd"
+>
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.whitehawk.api.grpc.cyber</groupId>
@@ -12,7 +16,9 @@
 
     <bintray.repo>whitehawkcec/maven</bintray.repo>
     <bintray.package>whitehawk-api-grpc-cyber</bintray.package>
-    <bintray.url>https://api.bintray.com/maven/${bintray.repo}/${bintray.package}/;publish=1</bintray.url>
+    <bintray.url>
+      https://api.bintray.com/maven/${bintray.repo}/${bintray.package}/;publish=1
+    </bintray.url>
 
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
@@ -135,7 +141,9 @@
 
               <eclipse>
                 <version>4.13.0</version>
-                <file>${maven.multiModuleProjectDirectory}/../.dev/eclipse/eclipse-formatter.xml</file>
+                <file>
+                  ${maven.multiModuleProjectDirectory}/../.dev/eclipse/eclipse-formatter.xml
+                </file>
               </eclipse>
 
               <replaceRegex>
@@ -205,7 +213,9 @@
     <profile>
       <id>build-release</id>
       <build>
-        <defaultGoal>clean source:jar verify promote:make-promotable</defaultGoal>
+        <defaultGoal>
+          clean source:jar verify promote:make-promotable
+        </defaultGoal>
       </build>
     </profile>
     <profile>
