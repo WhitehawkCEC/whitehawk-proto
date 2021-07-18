@@ -1,8 +1,0 @@
-{
-  "semi": false,
-  "singleQuote": true,
-  "quoteProps": "consistent",
-  "arrowParens": "always",
-  "htmlWhitespaceSensitivity": "ignore",
-  "xmlWhitespaceSensitivity": "ignore"
-}
