@@ -179,7 +179,7 @@
                     </property>
                   </devDependencyProperties>
                   <configFile>
-                    ${maven.multiModuleProjectDirectory}/../.prettierrc
+                    ${maven.multiModuleProjectDirectory}/../.prettierrc.yml
                   </configFile>
                 </prettier>
               </format>
