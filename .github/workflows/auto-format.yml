@@ -1,0 +1,54 @@
+name: Auto format
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - uses: actions/setup-node@v1.4.4
+        with:
+          node-version: '14.x'
+      - name: Install dependencies
+        run: yarn install
+
+      - name: Set up java
+        uses: actions/setup-java@v1
+        with:
+          java-version: '11'
+
+      - name: Configure git
+        run: |
+          git config --global user.name "${GITHUB_ACTOR}"
+          git config --global user.email "${GITHUB_ACTOR}@users.noreply.github.com"
+
+      - name: Auto format (java)
+        run: |
+          cd java/
+          ./mvnw -s settings.xml -Pformat
+      - name: Commit changes (java)
+        run: |
+          git add -u
+          git commit -m 'style: `./mvnw -settings.xml -Pformat`' || true
+
+      - name: Auto format (prettier)
+        run: |
+          git ls-files '*.js' '*.yml' '*.yaml' '*.json' '*.md' -z | xargs -0 yarn run prettier --write
+      # Cannot modify .github/workflows (refusing to allow a GitHub App to create or update workflow)
+      - name: Ignore github workflows
+        run: |
+          git checkout .github/workflows
+      - name: Commit changes (prettier)
+        run: |
+          git add -u
+          git commit -m 'style: `prettier --write`' || true
+
+      - name: Push changes
+        run: |
+          git push
