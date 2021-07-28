@@ -160,30 +160,6 @@
                 <replacement>$1</replacement>
               </replaceRegex>
             </java>
-
-            <formats>
-              <format>
-                <includes>
-                  <include>**/*.xml</include>
-                </includes>
-
-                <prettier>
-                  <devDependencyProperties>
-                    <property>
-                      <name>prettier</name>
-                      <value>2.3.1</value>
-                    </property>
-                    <property>
-                      <name>@prettier/plugin-xml</name>
-                      <value>0.13.1</value>
-                    </property>
-                  </devDependencyProperties>
-                  <configFile>
-                    ${maven.multiModuleProjectDirectory}/../.prettierrc.yml
-                  </configFile>
-                </prettier>
-              </format>
-            </formats>
           </configuration>
         </plugin>
 
