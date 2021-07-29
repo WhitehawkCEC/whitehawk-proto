@@ -2,6 +2,11 @@
 # yarn lockfile v1
 
 
+"@protobuf-ts/protoc@^1.0.13":
+  version "1.0.13"
+  resolved "https://registry.yarnpkg.com/@protobuf-ts/protoc/-/protoc-1.0.13.tgz#7bbceaedd6af11b26665b3b503d8dd02785107e0"
+  integrity sha512-lkHJ1va6473+mP3OJvVs0ioXeiuNpyDXfDPbfqgRCgqRQwqHhAmtj5OnlHrPopIKVX+Y9oW8bc2xityOt4HVLg==
+
 "@sindresorhus/is@^0.7.0":
   version "0.7.0"
   resolved "https://registry.yarnpkg.com/@sindresorhus/is/-/is-0.7.0.tgz#9a06f4f137ee84d7df0460c1fdb1135ffa6c50fd"
