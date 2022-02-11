@@ -54,6 +54,7 @@
               <goal>run</goal>
             </goals>
             <configuration>
+              <protocVersion>${version.protobuf}</protocVersion>
               <!-- Adds input `.proto` to jar -->
               <addProtoSources>all</addProtoSources>
               <includeMavenTypes>direct</includeMavenTypes>
