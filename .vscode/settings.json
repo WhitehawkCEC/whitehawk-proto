@@ -6,6 +6,10 @@
   "java.dependency.packagePresentation": "flat",
   "java.format.settings.url": ".dev/eclipse/eclipse-formatter.xml",
 
+  "protoc": {
+    "options": ["--proto_path=proto"]
+  },
+
   "xml.format.splitAttributes": true,
 
   "[html]": {
