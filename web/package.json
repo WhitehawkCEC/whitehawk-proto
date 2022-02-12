@@ -1,18 +1,16 @@
 {
   "name": "@whitehawkcec/whitehawk-api-grpc-cyber",
   "version": "0.1.0",
-  "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "build": "protoc -I=../proto ../proto/*.proto --ts_opt output_javascript,add_pb_suffix --ts_out stub"
-  },
-  "devDependencies": {
-    "@protobuf-ts/plugin": "^2.2.2",
-    "protoc-gen-grpc-web": "^1.2.0"
+    "build": "tsc"
   },
   "dependencies": {
     "@protobuf-ts/runtime": "^2.2.2",
-    "google-protobuf": "^3.13.0",
-    "grpc-web": "^1.2.1"
+    "@protobuf-ts/runtime-rpc": "^2.2.2",
+    "google-protobuf": "^3.13.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.5.5"
   }
 }
