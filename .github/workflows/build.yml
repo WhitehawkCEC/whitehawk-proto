@@ -15,6 +15,9 @@ jobs:
           # Get all commits and tags for `git describe`
           fetch-depth: 0
 
+      - name: Set up buf
+        uses: bufbuild/buf-setup-action@v0.6.0
+
       - name: Set up java
         uses: actions/setup-java@v1
         with:
