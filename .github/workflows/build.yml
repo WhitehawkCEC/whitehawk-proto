@@ -31,11 +31,11 @@ jobs:
           node-version: '16.x'
           cache: 'yarn'
 
+      - run: cp $NPM_CONFIG_USERCONFIG web/
+
       - name: Build all
         run: |
           ./.ci/all-ci build $(git describe)
-
-      - run: cp $NPM_CONFIG_USERCONFIG web/
 
       - name: Deploy all
         run: |
