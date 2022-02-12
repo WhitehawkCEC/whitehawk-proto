@@ -1,9 +1,8 @@
 name: Auto format
 
 on:
-  push:
-    branches:
-      - master
+  schedule:
+    - cron: '0 5 * * 1-5'
 
 jobs:
   build:
