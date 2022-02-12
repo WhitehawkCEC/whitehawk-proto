@@ -57,7 +57,6 @@ build_web() {
 
 deploy_web() {
   cd web
-  curl -u$BINTRAY_USERNAME:$BINTRAY_API_KEY https://api.bintray.com/npm/whitehawkcec/npm/auth/scope/whitehawkcec > .npmrc
   yarn publish || exit
   cd ..
 }
