@@ -1,5 +1,6 @@
 {
   "recommendations": [
+    "bufbuild.vscode-buf",
     "bungcip.better-toml",
     "DavidAnson.vscode-markdownlint",
     "dbaeumer.vscode-eslint",
