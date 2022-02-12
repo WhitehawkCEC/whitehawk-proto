@@ -18,6 +18,7 @@ main() {
 
 build() {
   version=$1
+  build_buf
   build_java $version
   build_web $version
 }
@@ -25,6 +26,10 @@ build() {
 deploy() {
   deploy_java
   deploy_web
+}
+
+build_buf() {
+  buf generate
 }
 
 build_java() {
