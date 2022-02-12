@@ -57,6 +57,7 @@ build_web() {
 
 deploy_web() {
   cd web
+  cp ../.npmrc . || exit
   yarn publish || exit
   cd ..
 }
