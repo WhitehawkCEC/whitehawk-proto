@@ -35,7 +35,7 @@ jobs:
         run: |
           ./.ci/all-ci build $(git describe)
 
-      - run: cp .npmrc web/
+      - run: cp $NPM_CONFIG_USERCONFIG web/
 
       - name: Deploy all
         run: |
