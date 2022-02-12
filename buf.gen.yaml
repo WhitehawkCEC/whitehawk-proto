@@ -3,9 +3,9 @@ managed:
   enabled: true
 plugins:
   - remote: buf.build/protocolbuffers/plugins/java:v3.19.1-1
-    out: java/cyber-stub/src-gen/main/java/
+    out: java/proto-stub/src-gen/main/java/
   - remote: buf.build/grpc/plugins/java:v1.42.1-1
-    out: java/cyber-stub/src-gen/main/java/
+    out: java/proto-stub/src-gen/main/java/
   - remote: buf.build/timostamm/plugins/protobuf-ts:v2.2.1-1
     out: web/src-gen/
     opt: add_pb_suffix

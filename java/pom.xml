@@ -6,8 +6,8 @@
 >
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>com.whitehawk.api.grpc.cyber</groupId>
-  <artifactId>cyber</artifactId>
+  <groupId>com.whitehawk.api.proto</groupId>
+  <artifactId>proto</artifactId>
   <version>0-SNAPSHOT</version>
   <packaging>pom</packaging>
 
@@ -33,8 +33,8 @@
   </properties>
 
   <modules>
-    <module>cyber-parent</module>
-    <module>cyber-stub</module>
+    <module>proto-parent</module>
+    <module>proto-stub</module>
   </modules>
 
   <distributionManagement>

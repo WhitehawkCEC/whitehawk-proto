@@ -7,13 +7,13 @@
   <modelVersion>4.0.0</modelVersion>
 
   <parent>
-    <groupId>com.whitehawk.api.grpc.cyber</groupId>
-    <artifactId>cyber-parent</artifactId>
+    <groupId>com.whitehawk.api.proto</groupId>
+    <artifactId>proto-parent</artifactId>
     <version>0-SNAPSHOT</version>
-    <relativePath>../cyber-parent/pom.xml</relativePath>
+    <relativePath>../proto-parent/pom.xml</relativePath>
   </parent>
 
-  <artifactId>cyber-stub</artifactId>
+  <artifactId>proto-stub</artifactId>
 
   <dependencies>
     <dependency>
