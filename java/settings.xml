@@ -38,12 +38,4 @@
   <activeProfiles>
     <activeProfile>this</activeProfile>
   </activeProfiles>
-
-  <servers>
-    <server>
-      <id>bintray</id>
-      <username>${env.BINTRAY_USERNAME}</username>
-      <password>${env.BINTRAY_API_KEY}</password>
-    </server>
-  </servers>
 </settings>

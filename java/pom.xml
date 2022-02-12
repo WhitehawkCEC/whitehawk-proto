@@ -14,12 +14,6 @@
   <properties>
     <real.project.version>0.1</real.project.version>
 
-    <bintray.repo>whitehawkcec/maven</bintray.repo>
-    <bintray.package>whitehawk-api-grpc-cyber</bintray.package>
-    <bintray.url>
-      https://api.bintray.com/maven/${bintray.repo}/${bintray.package}/;publish=1
-    </bintray.url>
-
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
@@ -36,13 +30,6 @@
     <module>proto-parent</module>
     <module>proto-stub</module>
   </modules>
-
-  <distributionManagement>
-    <repository>
-      <id>bintray</id>
-      <url>${bintray.url}</url>
-    </repository>
-  </distributionManagement>
 
   <build>
     <directory>${basedir}/${build.dir.name}</directory>
