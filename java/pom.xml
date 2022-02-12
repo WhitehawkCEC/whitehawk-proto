@@ -14,6 +14,9 @@
   <properties>
     <real.project.version>0.1</real.project.version>
 
+    <github.repo>whitehawkcec/whitehawk-proto</github.repo>
+    <github.url>https://maven.pkg.github.com/${github.repo}</github.url>
+
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
@@ -30,6 +33,13 @@
     <module>proto-parent</module>
     <module>proto-stub</module>
   </modules>
+
+  <distributionManagement>
+    <repository>
+      <id>github</id>
+      <url>${github.url}</url>
+    </repository>
+  </distributionManagement>
 
   <build>
     <directory>${basedir}/${build.dir.name}</directory>

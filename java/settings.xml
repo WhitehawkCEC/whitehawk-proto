@@ -38,4 +38,12 @@
   <activeProfiles>
     <activeProfile>this</activeProfile>
   </activeProfiles>
+
+  <servers>
+    <server>
+      <id>github</id>
+      <username>${env.GITHUB_ACTOR}</username>
+      <password>${env.GITHUB_TOKEN}</password>
+    </server>
+  </servers>
 </settings>
