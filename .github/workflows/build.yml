@@ -33,8 +33,6 @@ jobs:
           always-auth: true
           cache: 'yarn'
 
-      - run: cp $NPM_CONFIG_USERCONFIG web/
-
       - name: Build all
         run: |
           ./.ci/all-ci build $(git describe)
