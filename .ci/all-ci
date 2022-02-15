@@ -29,7 +29,7 @@ deploy() {
 }
 
 build_buf() {
-  buf generate
+  buf generate || exit
 }
 
 build_java() {
