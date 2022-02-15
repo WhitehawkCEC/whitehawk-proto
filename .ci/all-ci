@@ -29,6 +29,7 @@ deploy() {
 }
 
 build_buf() {
+  buf lint || exit
   buf generate || exit
 }
 
