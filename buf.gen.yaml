@@ -4,7 +4,7 @@ managed:
 plugins:
   - remote: buf.build/protocolbuffers/plugins/java:v3.19.3-1
     out: java/proto-stub/src-gen/main/java/
-  - remote: buf.build/grpc/plugins/java:v1.42.1-1
+  - remote: buf.build/grpc/plugins/java:v1.44.0-1
     out: java/proto-stub/src-gen/main/java/
   - remote: buf.build/timostamm/plugins/protobuf-ts:v2.2.1-1
     out: web/src-gen/
