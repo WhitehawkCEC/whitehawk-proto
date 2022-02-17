@@ -8,4 +8,4 @@ plugins:
     out: java/proto-stub/src-gen/main/java/
   - remote: buf.build/timostamm/plugins/protobuf-ts:v2.2.1-1
     out: web/src-gen/
-    opt: add_pb_suffix
+    opt: add_pb_suffix,ts_nocheck
