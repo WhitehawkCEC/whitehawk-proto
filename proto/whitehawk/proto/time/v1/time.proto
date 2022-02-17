@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package whitehawk.proto.time.v1;
+
+message IsoDateTime {
+  string value = 1;
+}
+
+message DateRange {
+  IsoDateTime start = 1;
+  IsoDateTime end = 2;
+}
