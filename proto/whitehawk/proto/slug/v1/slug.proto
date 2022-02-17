@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+package whitehawk.proto.slug.v1;
+
+message Slug {
+  string value = 1;
+}
