@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package whitehawk.proto.meta.v1;
 
-import "whitehawk/proto/time/v1/time.proto";
+import "whitehawk/proto/time/v1/message.proto";
 
 message Meta {
   whitehawk.proto.time.v1.IsoDateTime created_at = 1;
