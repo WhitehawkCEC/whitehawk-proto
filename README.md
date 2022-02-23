@@ -1,21 +1,30 @@
 # whitehawk-proto
 
-API defined in protocolbuffers.
+API defined via:
 
-## Generate source code
+- [Protocol Buffers](https://developers.google.com/protocol-buffers)
+- [gRPC](https://grpc.io/)
+
+## Building
+
+### Generate source code
 
 ```bash
 buf generate
 ```
 
-## Build language-specific artifacts
+### Build language-specific artifacts
 
 ```bash
 .ci/all-ci build
 ```
 
-## Publish language-specific artifacts
+### Publish language-specific artifacts
 
 ```bash
 .ci/all-ci publish
 ```
+
+## Learning Resources
+
+- [Buf](https://docs.buf.build/introduction)
