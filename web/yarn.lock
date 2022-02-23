@@ -14,10 +14,10 @@
   resolved "https://registry.yarnpkg.com/@protobuf-ts/runtime/-/runtime-2.2.2.tgz#d09c012b766cbc37ab2748e5c307c8fe27821d16"
   integrity sha512-4tZToEhqCMwMb5PZ04xs7nRDmNGTy4ha8HNBdxmTnmVi4O0Ik/MlCTxX2v5P+OvqTN5CufXAaz7bmldf/fGLjg==
 
-google-protobuf@^3.13.0:
-  version "3.14.0"
-  resolved "https://registry.yarnpkg.com/google-protobuf/-/google-protobuf-3.14.0.tgz#20373d22046e63831a5110e11a84f713cc43651e"
-  integrity sha512-bwa8dBuMpOxg7COyqkW6muQuvNnWgVN8TX/epDRGW5m0jcrmq2QJyCyiV8ZE2/6LaIIqJtiv9bYokFhfpy/o6w==
+google-protobuf@^3.19.4:
+  version "3.19.4"
+  resolved "https://registry.yarnpkg.com/google-protobuf/-/google-protobuf-3.19.4.tgz#8d32c3e34be9250956f28c0fb90955d13f311888"
+  integrity sha512-OIPNCxsG2lkIvf+P5FNfJ/Km95CsXOBecS9ZcAU6m2Rq3svc0Apl9nB3GMDNKfQ9asNv4KjyAqGwPQFrVle3Yg==
 
 typescript@^4.5.5:
   version "4.5.5"
