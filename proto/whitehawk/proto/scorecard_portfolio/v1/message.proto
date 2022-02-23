@@ -24,7 +24,7 @@ message GroupSummary {
   string name = 2;
   AggregateLicenseUsage group_licenses = 3;
   repeated LicenseBatchUsage group_license_batches = 4;
-  string status = 5;
+  GroupStatus status = 5;
   whitehawk.proto.meta.v1.Meta meta = 6;
 }
 
