@@ -16,7 +16,7 @@ buf generate
 ### Build language-specific artifacts
 
 ```bash
-.ci/all-ci build
+.ci/all-ci build $(git describe)
 ```
 
 ### Publish language-specific artifacts
