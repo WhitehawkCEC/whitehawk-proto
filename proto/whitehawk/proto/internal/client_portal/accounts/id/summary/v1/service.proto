@@ -14,5 +14,5 @@ message ListRequest {
 }
 
 message ListResponse {
-  whitehawk.proto.scorecard_portfolio.v1.AccountSummary value = 1;
+  whitehawk.proto.scorecard_portfolio.v1.AccountSummary data = 1;
 }
