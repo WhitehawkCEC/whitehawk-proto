@@ -41,6 +41,13 @@ enum GroupState {
   GROUP_STATE_ARCHIVED = 4;
 }
 
+message GroupLicenseBatchUsage {
+  whitehawk.proto.slug.v1.Slug account_id = 1;
+  whitehawk.proto.ulid.v1.Ulid account_batch_id = 2;
+  whitehawk.proto.slug.v1.Slug group_id = 3;
+  whitehawk.proto.scorecard_portfolio.v1.LicenseBatchUsage usage = 4;
+}
+
 message LicenseTypeMapQuantities {
   int32 annual = 1;
   int32 one_time = 2;
