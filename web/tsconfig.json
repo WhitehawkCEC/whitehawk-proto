@@ -11,7 +11,7 @@
     "skipLibCheck": true,
     "resolveJsonModule": true,
     "declaration": true,
-    "rootDirs": ["src", "src-gen"],
+    "rootDir": "src-gen",
     "outDir": "dist"
   },
   "exclude": ["dist", "node_modules"]
