@@ -6,6 +6,8 @@ plugins:
     out: java/proto-stub/src-gen/main/java/
   - remote: buf.build/grpc/plugins/java:v1.44.1-1
     out: java/proto-stub/src-gen/main/java/
-  - remote: buf.build/timostamm/plugins/protobuf-ts:v2.2.1-1
+  - name: ts-proto
+    path: ./node_modules/.bin/protoc-gen-ts_proto
     out: web/src-gen/
-    opt: add_pb_suffix,ts_nocheck
+    opt: esModuleInterop=true,outputClientImpl=grpc-web
+    strategy: all
