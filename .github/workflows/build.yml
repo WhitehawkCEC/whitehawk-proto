@@ -33,10 +33,6 @@ jobs:
           always-auth: true
           cache: 'yarn'
 
-      - name: Install dev tools
-        run: |
-          yarn install
-
       - name: Build all
         run: |
           ./.ci/all-ci build $(git describe)
