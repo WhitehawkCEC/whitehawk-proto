@@ -6,7 +6,6 @@
     "build": "tsc"
   },
   "dependencies": {
-    "@improbable-eng/grpc-web": "^0.15.0",
     "@protobuf-ts/runtime": "^2.2.2",
     "@protobuf-ts/runtime-rpc": "^2.2.2",
     "google-protobuf": "^3.19.4"
