@@ -9,8 +9,7 @@
     "@improbable-eng/grpc-web": "^0.15.0",
     "@protobuf-ts/runtime": "^2.2.2",
     "@protobuf-ts/runtime-rpc": "^2.2.2",
-    "google-protobuf": "^3.19.4",
-    "long": "^5.2.0"
+    "google-protobuf": "^3.19.4"
   },
   "devDependencies": {
     "typescript": "^4.5.5"
