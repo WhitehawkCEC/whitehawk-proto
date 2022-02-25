@@ -10,8 +10,7 @@
     "@protobuf-ts/runtime": "^2.2.2",
     "@protobuf-ts/runtime-rpc": "^2.2.2",
     "google-protobuf": "^3.19.4",
-    "long": "^5.2.0",
-    "protobufjs": "^6.11.2"
+    "long": "^5.2.0"
   },
   "devDependencies": {
     "typescript": "^4.5.5"
