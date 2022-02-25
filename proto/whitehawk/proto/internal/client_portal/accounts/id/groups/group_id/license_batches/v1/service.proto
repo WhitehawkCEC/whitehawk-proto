@@ -13,8 +13,10 @@ service Service {
 }
 
 message CreateRequest {
+  whitehawk.proto.slug.v1.Slug account_id = 1;
+  whitehawk.proto.slug.v1.Slug group_id = 2;
   whitehawk.proto.scorecard_portfolio.v1.LicenseTypeMapQuantities quantities =
-      1;
+      3;
 }
 
 message CreateResponse {}
