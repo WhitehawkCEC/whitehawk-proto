@@ -19,6 +19,11 @@ message AggregateLicenseUsage {
   whitehawk.proto.time.v1.DateRange validity = 3;
 }
 
+message AccountLicenseBatchUsage {
+  whitehawk.proto.slug.v1.Slug id = 1;
+  LicenseBatchUsage usage = 2;
+}
+
 message GroupSummary {
   whitehawk.proto.slug.v1.Slug id = 1;
   string name = 2;
@@ -68,10 +73,4 @@ message LicenseBatchUsage {
   whitehawk.proto.ulid.v1.Ulid id = 1;
   whitehawk.proto.time.v1.DateRange validity = 2;
   LicenseTypeMapLicenseUsage counts = 3;
-}
-
-message AccountLicenseBatch {
-  whitehawk.proto.slug.v1.Slug id = 1;
-  LicenseBatchUsage usage = 2;
-  whitehawk.proto.meta.v1.Meta meta = 3;
 }
