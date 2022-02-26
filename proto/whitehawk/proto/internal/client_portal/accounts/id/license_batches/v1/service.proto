@@ -1,0 +1,28 @@
+syntax = "proto3";
+
+package whitehawk.proto.internal.client_portal.accounts.id.license_batches.v1;
+
+import "whitehawk/proto/slug/v1/message.proto";
+import "whitehawk/proto/scorecard_portfolio/v1/message.proto";
+
+service Service {
+  rpc Create(CreateRequest) returns (CreateResponse);
+  rpc List(ListRequest) returns (ListResponse);
+}
+
+message CreateRequest {
+  whitehawk.proto.slug.v1.Slug account_id = 1;
+  whitehawk.proto.scorecard_portfolio.v1.LicenseTypeMapQuantities quantities =
+      2;
+}
+
+message CreateResponse {}
+
+message ListRequest {
+  whitehawk.proto.slug.v1.Slug account_id = 1;
+}
+
+message ListResponse {
+  repeated whitehawk.proto.scorecard_portfolio.v1.AccountLicenseBatchUsage
+      values = 1;
+}
