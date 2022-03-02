@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package whitehawk.proto.openid.v1;
+
+message AddressClaim {
+  string formatted = 1;
+  string street_address = 2;
+  string locality = 3;
+  string region = 4;
+  string postal_code = 5;
+  string country = 6;
+}
