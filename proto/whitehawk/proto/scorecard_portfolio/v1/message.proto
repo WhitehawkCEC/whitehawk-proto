@@ -24,6 +24,11 @@ message AccountLicenseBatchUsage {
   LicenseBatchUsage usage = 2;
 }
 
+message Group {
+  whitehawk.proto.slug.v1.Slug id = 1;
+  string name = 2;
+}
+
 message GroupSummary {
   whitehawk.proto.slug.v1.Slug id = 1;
   string name = 2;
