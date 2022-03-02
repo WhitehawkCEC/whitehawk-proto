@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package whitehawk.proto.company.v1;
+
+import "whitehawk/proto/uuid/v1/message.proto";
+
+message UserInfo {
+  whitehawk.proto.uuid.v1.Uuid id = 1;
+  string name = 2;
+}
