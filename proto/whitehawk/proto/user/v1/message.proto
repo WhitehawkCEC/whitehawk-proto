@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-package whitehawk.proto.company.v1;
+package whitehawk.proto.user.v1;
 
 import "whitehawk/proto/uuid/v1/message.proto";
 
