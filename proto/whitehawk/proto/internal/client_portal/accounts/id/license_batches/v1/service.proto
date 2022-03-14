@@ -30,7 +30,7 @@ message ReadRequest {
 }
 
 message ReadResponse {
-  whitehawk.proto.scorecard_portfolio.v1.GroupLicenseBatchUsage value = 1;
+  whitehawk.proto.scorecard_portfolio.v1.AccountLicenseBatchUsage value = 1;
 }
 
 message ListResponse {
