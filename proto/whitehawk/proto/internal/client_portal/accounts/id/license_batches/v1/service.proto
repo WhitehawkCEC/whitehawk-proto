@@ -3,10 +3,12 @@ syntax = "proto3";
 package whitehawk.proto.internal.client_portal.accounts.id.license_batches.v1;
 
 import "whitehawk/proto/slug/v1/message.proto";
+import "whitehawk/proto/ulid/v1/message.proto";
 import "whitehawk/proto/scorecard_portfolio/v1/message.proto";
 
 service Service {
   rpc Create(CreateRequest) returns (CreateResponse);
+  rpc Read(ReadRequest) returns (ReadResponse);
   rpc List(ListRequest) returns (ListResponse);
 }
 
@@ -20,6 +22,15 @@ message CreateResponse {}
 
 message ListRequest {
   whitehawk.proto.slug.v1.Slug account_id = 1;
+}
+
+message ReadRequest {
+  whitehawk.proto.slug.v1.Slug account_id = 1;
+  whitehawk.proto.ulid.v1.Ulid account_batch_id = 3;
+}
+
+message ReadResponse {
+  whitehawk.proto.scorecard_portfolio.v1.GroupLicenseBatchUsage value = 1;
 }
 
 message ListResponse {
