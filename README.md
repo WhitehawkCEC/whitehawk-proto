@@ -5,7 +5,14 @@ API defined via:
 - [Protocol Buffers](https://developers.google.com/protocol-buffers)
 - [gRPC](https://grpc.io/)
 
-## Building
+## Trigger Release
+
+```bash
+yarn run release
+git push --tags
+```
+
+## Building (manual)
 
 ### Generate source code
 
