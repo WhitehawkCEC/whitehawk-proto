@@ -18,7 +18,7 @@ jobs:
           git fetch --tags --force
 
       - name: Set up buf
-        uses: bufbuild/buf-setup-action@v0.6.0
+        uses: bufbuild/buf-setup-action@v1.3.1
 
       - name: Set up java
         uses: actions/setup-java@v2
