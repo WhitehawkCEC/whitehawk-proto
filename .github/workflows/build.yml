@@ -11,9 +11,11 @@ jobs:
 
     steps:
       - uses: actions/checkout@v2
-        with:
-          # Get all commits and tags for `git describe`
-          fetch-depth: 0
+
+      # https://github.com/actions/checkout/issues/290
+      - name: Fix tags
+        run: |
+          git fetch --tags --force
 
       - name: Set up buf
         uses: bufbuild/buf-setup-action@v0.6.0
