@@ -35,7 +35,7 @@ jobs:
 
       - name: Build all
         run: |
-          ./.ci/all-ci build $(git describe --long)
+          ./.ci/all-ci build $(git describe)
 
       - name: Deploy all
         run: |
