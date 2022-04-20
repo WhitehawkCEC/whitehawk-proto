@@ -50,15 +50,15 @@ deploy_java() {
 build_web() {
   version=$1
   cd web
-  yarn version --new-version $version --no-git-tag-version || exit
-  yarn install || exit
-  yarn run build || exit
+  pnpm version $version --no-git-tag-version || exit
+  pnpm install || exit
+  pnpm run build || exit
   cd ..
 }
 
 deploy_web() {
   cd web
-  yarn publish || exit
+  pnpm publish || exit
   cd ..
 }
 

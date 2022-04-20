@@ -33,7 +33,7 @@ jobs:
           node-version: '16.x'
           registry-url: https://npm.pkg.github.com/
           always-auth: true
-          cache: 'yarn'
+          cache: 'pnpm'
 
       - name: Build all
         run: |
