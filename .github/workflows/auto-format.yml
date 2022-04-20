@@ -14,10 +14,10 @@ jobs:
       - uses: actions/setup-node@v2
         with:
           node-version: '16.x'
-          cache: 'yarn'
+          cache: 'pnpm'
 
       - name: Install dependencies
-        run: yarn install
+        run: pnpm install
 
       - name: Set up java
         uses: actions/setup-java@v2
@@ -42,7 +42,7 @@ jobs:
 
       - name: Auto format (prettier)
         run: |
-          git ls-files '*.js' '*.yml' '*.yaml' '*.json' '*.md' -z | xargs -0 yarn run prettier --write
+          git ls-files '*.js' '*.yml' '*.yaml' '*.json' '*.md' -z | xargs -0 pnpm exec prettier --write
       # Cannot modify .github/workflows (refusing to allow a GitHub App to create or update workflow)
       - name: Ignore github workflows
         run: |
