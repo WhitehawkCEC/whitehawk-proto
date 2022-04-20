@@ -12,7 +12,7 @@ pnpm run release
 git push --tags
 ```
 
-This will cause the [build.yml](./.github/workflows/build.yml) to be executedg.
+This will cause the [build.yml](./.github/workflows/build.yml) to be executed.
 
 ## Building (manual)
 
