@@ -8,7 +8,7 @@ API defined via:
 ## Trigger Release
 
 ```bash
-yarn run release
+pnpm run release
 git push --tags
 ```
 
