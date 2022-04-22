@@ -11,6 +11,9 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
+      - name: Set up buf
+        uses: bufbuild/buf-setup-action@v1.3.1
+
       - uses: actions/setup-node@v2
         with:
           node-version: '16.x'
@@ -30,6 +33,14 @@ jobs:
         run: |
           git config --global user.name "${GITHUB_ACTOR}"
           git config --global user.email "${GITHUB_ACTOR}@users.noreply.github.com"
+
+      - name: Auto format (buf)
+        run: |
+          buf format -w
+      - name: Commit changes (buf)
+        run: |
+          git add -u
+          git commit -m 'style: `buf format -w' || true
 
       - name: Auto format (java)
         run: |
