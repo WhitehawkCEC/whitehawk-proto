@@ -2,8 +2,8 @@ syntax = "proto3";
 
 package whitehawk.proto.internal.client_portal.accounts.id.groups.group_id.summary.v1;
 
-import "whitehawk/proto/slug/v1/message.proto";
 import "whitehawk/proto/scorecard_portfolio/v1/message.proto";
+import "whitehawk/proto/slug/v1/message.proto";
 
 service Service {
   rpc List(ListRequest) returns (ListResponse);
