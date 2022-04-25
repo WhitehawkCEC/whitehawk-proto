@@ -21,6 +21,10 @@ jobs:
           java-version: '11'
           cache: 'maven'
 
+      - uses: pnpm/action-setup@v2
+        with:
+          version: 6.x.x
+
       - uses: actions/setup-node@v2
         with:
           node-version: '16.x'
