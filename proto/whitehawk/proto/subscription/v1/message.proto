@@ -3,10 +3,56 @@ syntax = "proto3";
 package whitehawk.proto.subscription.v1;
 
 import "whitehawk/proto/slug/v1/message.proto";
+import "whitehawk/proto/time/v1/message.proto";
+import "whitehawk/proto/ulid/v1/message.proto";
 
 message Subscription {
   whitehawk.proto.slug.v1.Slug account_id = 1;
   whitehawk.proto.slug.v1.Slug subscription_id = 2;
   whitehawk.proto.slug.v1.Slug type_id = 3;
   string name = 4;
+  SubscriptionStatus status = 5;
+  repeated SubscriptionProduct products = 6;
+}
+
+message SubscriptionStatus {
+  SubscriptionState state = 1;
+  whitehawk.proto.time.v1.DateRange validity = 2;
+}
+
+enum SubscriptionState {
+  SUBSCRIPTION_STATE_UNSPECIFIED = 0;
+  SUBSCRIPTION_STATE_ACTIVE = 1;
+  SUBSCRIPTION_STATE_INACTIVE = 2;
+  SUBSCRIPTION_STATE_ARCHIVED = 3;
+}
+
+message SubscriptionProduct {
+  whitehawk.proto.slug.v1.Slug product_id = 1;
+  string product_name = 2;
+  repeated SubscriptionPartner partners = 3;
+}
+
+message SubscriptionPartner {
+  whitehawk.proto.slug.v1.Slug partner_id = 1;
+  string partner_name = 2;
+  string display_name = 3;
+  LicenseBatchUsage licenses = 4;
+}
+
+message LicenseBatchUsage {
+  whitehawk.proto.ulid.v1.Ulid id = 1;
+  LicenseTypeMapLicenseUsage counts = 2;
+}
+
+message LicenseTypeMapLicenseUsage {
+  LicenseUsage annual = 1;
+  LicenseUsage one_time = 2;
+}
+
+message LicenseUsage {
+  int32 quantity = 1;
+  int32 available = 2;
+  int32 used = 3;
+  whitehawk.proto.time.v1.DateRange validity = 4;
 }
