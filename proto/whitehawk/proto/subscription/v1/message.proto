@@ -30,7 +30,8 @@ enum SubscriptionState {
 message SubscriptionProduct {
   whitehawk.proto.slug.v1.Slug product_id = 1;
   string product_name = 2;
-  repeated SubscriptionPartner partners = 3;
+  whitehawk.proto.time.v1.DateRange product_validity = 3;
+  repeated SubscriptionPartner partners = 4;
 }
 
 message SubscriptionPartner {
