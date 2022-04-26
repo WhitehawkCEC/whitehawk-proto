@@ -37,8 +37,7 @@ message SubscriptionProduct {
 message SubscriptionPartner {
   whitehawk.proto.slug.v1.Slug partner_id = 1;
   string partner_name = 2;
-  string display_name = 3;
-  LicenseBatchUsage licenses = 4;
+  LicenseBatchUsage licenses = 3;
 }
 
 message LicenseBatchUsage {
