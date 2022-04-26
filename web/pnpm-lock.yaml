@@ -15,23 +15,34 @@ devDependencies:
   typescript: 4.6.3
 
 packages:
-
   /@protobuf-ts/runtime-rpc/2.4.0:
-    resolution: {integrity: sha512-S+q3ZT9rM4iC5tYM2inhvaqd16pW9TKaoHfLmPjZh0X67XuI4RC4STvru0os3aowZn3q0OcDtWIzD+rIJXobiA==}
+    resolution:
+      {
+        integrity: sha512-S+q3ZT9rM4iC5tYM2inhvaqd16pW9TKaoHfLmPjZh0X67XuI4RC4STvru0os3aowZn3q0OcDtWIzD+rIJXobiA==,
+      }
     dependencies:
       '@protobuf-ts/runtime': 2.4.0
     dev: false
 
   /@protobuf-ts/runtime/2.4.0:
-    resolution: {integrity: sha512-73/dE1ZCnNSmxN+M07Zu916TIx5I+WVpxQaMF3TrgenUiYqqQvNRpmfksmL9iiJBNMZqIts1u/flc3pzRFDy6Q==}
+    resolution:
+      {
+        integrity: sha512-73/dE1ZCnNSmxN+M07Zu916TIx5I+WVpxQaMF3TrgenUiYqqQvNRpmfksmL9iiJBNMZqIts1u/flc3pzRFDy6Q==,
+      }
     dev: false
 
   /google-protobuf/3.20.0:
-    resolution: {integrity: sha512-hhXv5IKLDIkb0pEm53G053UZGhRAhw3wM5Jk7ly5sGIQRkO1s63FaDqM9QjlrPHygKEE2awUlLP9fFrG6M9vfQ==}
+    resolution:
+      {
+        integrity: sha512-hhXv5IKLDIkb0pEm53G053UZGhRAhw3wM5Jk7ly5sGIQRkO1s63FaDqM9QjlrPHygKEE2awUlLP9fFrG6M9vfQ==,
+      }
     dev: false
 
   /typescript/4.6.3:
-    resolution: {integrity: sha512-yNIatDa5iaofVozS/uQJEl3JRWLKKGJKh6Yaiv0GLGSuhpFJe7P3SbHZ8/yjAHRQwKRoA6YZqlfjXWmVzoVSMw==}
-    engines: {node: '>=4.2.0'}
+    resolution:
+      {
+        integrity: sha512-yNIatDa5iaofVozS/uQJEl3JRWLKKGJKh6Yaiv0GLGSuhpFJe7P3SbHZ8/yjAHRQwKRoA6YZqlfjXWmVzoVSMw==,
+      }
+    engines: { node: '>=4.2.0' }
     hasBin: true
     dev: true
