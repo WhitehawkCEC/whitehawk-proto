@@ -12,8 +12,6 @@
   <packaging>pom</packaging>
 
   <properties>
-    <real.project.version>0.1</real.project.version>
-
     <github.repo>whitehawkcec/whitehawk-proto</github.repo>
     <github.url>https://maven.pkg.github.com/${github.repo}</github.url>
 
