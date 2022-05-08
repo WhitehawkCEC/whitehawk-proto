@@ -1,48 +1,37 @@
 lockfileVersion: 5.3
 
 specifiers:
-  '@protobuf-ts/runtime': ^2.4.0
-  '@protobuf-ts/runtime-rpc': ^2.4.0
-  google-protobuf: ^3.19.4
-  typescript: ^4.5.5
+  '@protobuf-ts/runtime': ^2.5.0
+  '@protobuf-ts/runtime-rpc': ^2.5.0
+  google-protobuf: ^3.20.1
+  typescript: ^4.6.4
 
 dependencies:
-  '@protobuf-ts/runtime': 2.4.0
-  '@protobuf-ts/runtime-rpc': 2.4.0
-  google-protobuf: 3.20.0
+  '@protobuf-ts/runtime': 2.5.0
+  '@protobuf-ts/runtime-rpc': 2.5.0
+  google-protobuf: 3.20.1
 
 devDependencies:
-  typescript: 4.6.3
+  typescript: 4.6.4
 
 packages:
-  /@protobuf-ts/runtime-rpc/2.4.0:
-    resolution:
-      {
-        integrity: sha512-S+q3ZT9rM4iC5tYM2inhvaqd16pW9TKaoHfLmPjZh0X67XuI4RC4STvru0os3aowZn3q0OcDtWIzD+rIJXobiA==,
-      }
+
+  /@protobuf-ts/runtime-rpc/2.5.0:
+    resolution: {integrity: sha512-zO5W1/66Ok68muvmjG0+ucTWTfzhCUurnqyspqcWGF9DDgGKSmrtR8V1MRV051UoTonOxm7NZZvM6VTbBv9DcA==}
     dependencies:
-      '@protobuf-ts/runtime': 2.4.0
+      '@protobuf-ts/runtime': 2.5.0
     dev: false
 
-  /@protobuf-ts/runtime/2.4.0:
-    resolution:
-      {
-        integrity: sha512-73/dE1ZCnNSmxN+M07Zu916TIx5I+WVpxQaMF3TrgenUiYqqQvNRpmfksmL9iiJBNMZqIts1u/flc3pzRFDy6Q==,
-      }
+  /@protobuf-ts/runtime/2.5.0:
+    resolution: {integrity: sha512-ClfuZQ3iPVABJ0CXLGI044eox1PtmrIbbXZaHYczdFJjaxxn8U7vnwb1dPBM9JZ2I6H1VLZu8A9Z5nRv7zydsg==}
     dev: false
 
-  /google-protobuf/3.20.0:
-    resolution:
-      {
-        integrity: sha512-hhXv5IKLDIkb0pEm53G053UZGhRAhw3wM5Jk7ly5sGIQRkO1s63FaDqM9QjlrPHygKEE2awUlLP9fFrG6M9vfQ==,
-      }
+  /google-protobuf/3.20.1:
+    resolution: {integrity: sha512-XMf1+O32FjYIV3CYu6Tuh5PNbfNEU5Xu22X+Xkdb/DUexFlCzhvv7d5Iirm4AOwn8lv4al1YvIhzGrg2j9Zfzw==}
     dev: false
 
-  /typescript/4.6.3:
-    resolution:
-      {
-        integrity: sha512-yNIatDa5iaofVozS/uQJEl3JRWLKKGJKh6Yaiv0GLGSuhpFJe7P3SbHZ8/yjAHRQwKRoA6YZqlfjXWmVzoVSMw==,
-      }
-    engines: { node: '>=4.2.0' }
+  /typescript/4.6.4:
+    resolution: {integrity: sha512-9ia/jWHIEbo49HfjrLGfKbZSuWo9iTMwXO+Ca3pRsSpbsMbc7/IU8NKdCZVRRBafVPGnoJeFL76ZOAA84I9fEg==}
+    engines: {node: '>=4.2.0'}
     hasBin: true
     dev: true
