@@ -58,7 +58,7 @@ build_web() {
 
 deploy_web() {
   cd web
-  pnpm publish || exit
+  pnpm publish --no-git-checks || exit
   cd ..
 }
 
