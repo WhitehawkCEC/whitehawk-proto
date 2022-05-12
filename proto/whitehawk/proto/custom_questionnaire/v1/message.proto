@@ -1,0 +1,33 @@
+syntax = "proto3";
+
+package whitehawk.proto.custom_questionnaire.v1;
+
+import "whitehawk/proto/uuid/v1/message.proto";
+import "whitehawk/proto/slug/v1/message.proto";
+
+message custom_questionnaire {
+  whitehawk.proto.uuid.v1.Uuid questionnaire_id = 1;
+  whitehawk.proto.slug.v1.Slug subscription_id = 2;
+  string name = 3;
+  repeated QuestionSections sections = 4;
+}
+
+message QuestionSections {
+  whitehawk.proto.uuid.v1.Uuid section_id = 1;
+  string name = 2;
+  repeated Questions questions = 3;
+}
+
+message Questions {
+  whitehawk.proto.uuid.v1.Uuid question_id = 1;
+  string text = 2;
+  bool required = 3;
+  string questionType = 4;
+  repeated AnswerList answers = 5;
+}
+
+message AnswerList {
+  string label = 1;
+  string value = 2;
+  string riskScore = 3;
+}
