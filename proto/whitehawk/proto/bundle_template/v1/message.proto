@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+package whitehawk.proto.bundle_template.v1;
+
+import "whitehawk/proto/meta/v1/message.proto";
+import "whitehawk/proto/product/v1/message.proto";
+import "whitehawk/proto/slug/v1/message.proto";
+
+enum BundleType {
+  BUNDLE_TYPE_UNSPECIFIED = 0;
+  BUNDLE_TYPE_BASIC = 1;
+  BUNDLE_TYPE_BALANCED = 2;
+  BUNDLE_TYPE_ADVANCED = 3;
+}
+
+message BundleTemplate {
+  BundleType type = 1;
+  whitehawk.proto.slug.v1.Slug keyword = 2;
+  string description = 3;
+  whitehawk.proto.meta.v1.Meta meta = 4;
+  repeated whitehawk.proto.product.v1.ProductCategory categories = 5;
+}
