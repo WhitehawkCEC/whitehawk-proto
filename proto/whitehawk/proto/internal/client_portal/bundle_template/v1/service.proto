@@ -1,0 +1,40 @@
+syntax = "proto3";
+
+package whitehawk.proto.internal.client_portal.bundle_template.v1;
+
+import "whitehawk/proto/bundle_template/v1/message.proto";
+
+service Service {
+  rpc Create(CreateRequest) returns (CreateResponse);
+  rpc Delete(DeleteRequest) returns (DeleteResponse);
+  rpc Update(UpdateRequest) returns (UpdateResponse);
+  rpc List(ListRequest) returns (ListResponse);
+}
+
+message CreateRequest {
+  whitehawk.proto.bundle_template.v1.BundleTemplate template = 1;
+}
+
+message CreateResponse {}
+
+message DeleteRequest {
+  whitehawk.proto.bundle_template.v1.BundleTemplate template = 1;
+}
+
+message DeleteResponse {
+  whitehawk.proto.bundle_template.v1.BundleTemplate template = 1;
+}
+
+message UpdateRequest {
+  whitehawk.proto.bundle_template.v1.BundleTemplate template = 1;
+}
+
+message UpdateResponse {}
+
+message ListRequest {
+  whitehawk.proto.bundle_template.v1.BundleType type = 1;
+}
+
+message ListResponse {
+  repeated whitehawk.proto.bundle_template.v1.BundleTemplate templates = 1;
+}
