@@ -44,7 +44,7 @@ jobs:
       - name: Commit changes (buf)
         run: |
           git add -u
-          git commit -m 'style: `buf format -w' || true
+          git commit -m 'style: `buf format -w`' || true
 
       - name: Auto format (java)
         run: |
