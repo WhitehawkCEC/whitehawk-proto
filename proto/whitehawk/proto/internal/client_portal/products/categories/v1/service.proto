@@ -15,25 +15,21 @@ message CreateRequest {
   whitehawk.proto.product.v1.ProductCategory category = 1;
 }
 
-message CreateResponse {
-}
+message CreateResponse {}
 
 message UpdateRequest {
   whitehawk.proto.product.v1.ProductCategory category = 1;
 }
 
-message UpdateResponse {
-}
+message UpdateResponse {}
 
 message DeleteRequest {
   whitehawk.proto.product.v1.ProductCategory category = 1;
 }
 
-message DeleteResponse {
-}
+message DeleteResponse {}
 
-message ListRequest {
-}
+message ListRequest {}
 
 message ListResponse {
   repeated whitehawk.proto.product.v1.ProductCategory categories = 1;
