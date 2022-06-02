@@ -1,0 +1,39 @@
+syntax = "proto3";
+
+package whitehawk.proto.internal.client_portal.bundle.set.v1;
+
+import "whitehawk/proto/bundle/v1/message.proto";
+
+service Service {
+  rpc Create(CreateRequest) returns (CreateResponse);
+  rpc Delete(DeleteRequest) returns (DeleteResponse);
+  rpc Update(UpdateRequest) returns (UpdateResponse);
+  rpc List(ListRequest) returns (ListResponse);
+}
+
+message CreateRequest {
+  whitehawk.proto.bundle.v1.BundleSet bundle_set = 1;
+}
+
+message CreateResponse {}
+
+message DeleteRequest {
+  whitehawk.proto.bundle.v1.BundleSet bundle_set = 1;
+}
+
+message DeleteResponse {
+  whitehawk.proto.bundle.v1.BundleSet bundle_set = 1;
+}
+
+message UpdateRequest {
+  whitehawk.proto.bundle.v1.BundleSet bundle_set = 1;
+}
+
+message UpdateResponse {}
+
+message ListRequest {
+}
+
+message ListResponse {
+  repeated whitehawk.proto.bundle.v1.BundleSet bundle_sets = 1;
+}
