@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-package whitehawk.proto.bundle_template.v1;
+package whitehawk.proto.bundle.v1;
 
 import "whitehawk/proto/meta/v1/message.proto";
 import "whitehawk/proto/product/v1/message.proto";
