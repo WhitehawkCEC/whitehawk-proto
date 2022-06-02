@@ -23,3 +23,12 @@ message BundleTemplate {
   repeated whitehawk.proto.company.v1.Company assigned_to_companies = 7;
   whitehawk.proto.meta.v1.Meta meta = 8;
 }
+
+message BundleSet {
+  string name = 1;
+  string description = 2;
+  whitehawk.proto.company.v1.Company created_by_company = 3;
+  repeated whitehawk.proto.company.v1.Company assigned_to_companies = 4;
+  repeated BundleTemplate bundle_templates = 5;
+  whitehawk.proto.meta.v1.Meta meta = 6;
+}
