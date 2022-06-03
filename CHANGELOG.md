@@ -4,16 +4,15 @@ All notable changes to this project will be documented in this file. See [standa
 
 ## [0.11.0](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.10.0...0.11.0) (2022-06-02)
 
-
 ### ⚠ BREAKING CHANGES
 
-* change package name
+- change package name
 
 ### Features
 
-* add bundle set ([267d1bc](https://github.com/WhitehawkCEC/whitehawk-proto/commit/267d1bce787a4a909c91aab2d0a453cac0fdc313))
-* add bundle set service ([b543367](https://github.com/WhitehawkCEC/whitehawk-proto/commit/b543367e4a0a922392c4bcb496436e847e98384d))
-* change package name ([9efbdc7](https://github.com/WhitehawkCEC/whitehawk-proto/commit/9efbdc79bb5adeb8e6b3e1667fb1547ea2fbf282))
+- add bundle set ([267d1bc](https://github.com/WhitehawkCEC/whitehawk-proto/commit/267d1bce787a4a909c91aab2d0a453cac0fdc313))
+- add bundle set service ([b543367](https://github.com/WhitehawkCEC/whitehawk-proto/commit/b543367e4a0a922392c4bcb496436e847e98384d))
+- change package name ([9efbdc7](https://github.com/WhitehawkCEC/whitehawk-proto/commit/9efbdc79bb5adeb8e6b3e1667fb1547ea2fbf282))
 
 ### [0.10.2](https://github.com/whitehawkcec/whitehawk-proto/compare/0.10.1...0.10.2) (2022-05-12)
 
