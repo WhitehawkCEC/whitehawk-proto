@@ -9,7 +9,7 @@ import "whitehawk/proto/ulid/v1/message.proto";
 message Subscription {
   whitehawk.proto.slug.v1.Slug account_id = 1;
   whitehawk.proto.slug.v1.Slug subscription_id = 2;
-  whitehawk.proto.slug.v1.Slug type_id = 3;
+  SubscriptionType type = 3;
   string name = 4;
   SubscriptionStatus status = 5;
   repeated SubscriptionProduct products = 6;

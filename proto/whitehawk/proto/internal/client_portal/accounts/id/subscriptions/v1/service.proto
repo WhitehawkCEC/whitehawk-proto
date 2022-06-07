@@ -15,7 +15,7 @@ service Service {
 message CreateRequest {
   whitehawk.proto.slug.v1.Slug account_id = 1;
   whitehawk.proto.slug.v1.Slug subscription_id = 2;
-  whitehawk.proto.slug.v1.Slug type_id = 3;
+  whitehawk.proto.subscription.v1.SubscriptionType type = 3;
   string name = 4;
 }
 
@@ -33,7 +33,7 @@ message ReadResponse {
 message UpdateRequest {
   whitehawk.proto.slug.v1.Slug account_id = 1;
   whitehawk.proto.slug.v1.Slug subscription_id = 2;
-  whitehawk.proto.slug.v1.Slug type_id = 3;
+  whitehawk.proto.subscription.v1.SubscriptionType type = 3;
   string name = 4;
 }
 
