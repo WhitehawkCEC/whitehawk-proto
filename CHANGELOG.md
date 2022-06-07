@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.12.0](https://github.com/whitehawkcec/whitehawk-proto/compare/0.11.0...0.12.0) (2022-06-07)
+
+
+### ⚠ BREAKING CHANGES
+
+* **proto:** prefer `SubscriptionType` enum
+
+### Features
+
+* **proto:** add `SubscriptionType` ([a41ca75](https://github.com/whitehawkcec/whitehawk-proto/commit/a41ca75e9b16650e804fd12811d0788ae7dbabe5))
+* **proto:** add `validity` when creating/updating subscriptions ([8481401](https://github.com/whitehawkcec/whitehawk-proto/commit/8481401e1d5f822aec5d42e5b18569d86325dd02))
+* **proto:** prefer `SubscriptionType` enum ([0768047](https://github.com/whitehawkcec/whitehawk-proto/commit/0768047c5e2450428ab369d13d5f1af49136b552))
+
 ## [0.11.0](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.10.0...0.11.0) (2022-06-02)
 
 ### ⚠ BREAKING CHANGES
