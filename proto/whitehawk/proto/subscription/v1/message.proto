@@ -15,6 +15,13 @@ message Subscription {
   repeated SubscriptionProduct products = 6;
 }
 
+enum SubscriptionType {
+  SUBSCRIPTION_TYPE_UNSPECIFIED = 0;
+  SUBSCRIPTION_TYPE_INDIVIDUAL = 1;
+  SUBSCRIPTION_TYPE_PORTFOLIO = 2;
+  SUBSCRIPTION_TYPE_RESELLER = 3;
+}
+
 message SubscriptionStatus {
   SubscriptionState state = 1;
   whitehawk.proto.time.v1.DateRange validity = 2;
