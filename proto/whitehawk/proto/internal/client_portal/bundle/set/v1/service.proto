@@ -15,7 +15,9 @@ message CreateRequest {
   whitehawk.proto.bundle.v1.BundleSet bundle_set = 1;
 }
 
-message CreateResponse {}
+message CreateResponse {
+  whitehawk.proto.bundle.v1.BundleSet bundle_set = 1;
+}
 
 message DeleteRequest {
   whitehawk.proto.bundle.v1.BundleSet bundle_set = 1;
