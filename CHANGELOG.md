@@ -6,22 +6,20 @@ All notable changes to this project will be documented in this file. See [standa
 
 ## [0.12.0](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.11.0...0.12.0) (2022-06-22)
 
-
 ### ⚠ BREAKING CHANGES
 
-* add generated Ulid for bundle set and template, make industries repeated and move from template to set, remove assigned_to_companies from template
-* **proto:** prefer `SubscriptionType` enum
+- add generated Ulid for bundle set and template, make industries repeated and move from template to set, remove assigned_to_companies from template
+- **proto:** prefer `SubscriptionType` enum
 
 ### Features
 
-* **proto:** add `SubscriptionType` ([a41ca75](https://github.com/WhitehawkCEC/whitehawk-proto/commit/a41ca75e9b16650e804fd12811d0788ae7dbabe5))
-* **proto:** add `validity` when creating/updating subscriptions ([8481401](https://github.com/WhitehawkCEC/whitehawk-proto/commit/8481401e1d5f822aec5d42e5b18569d86325dd02))
-* **proto:** prefer `SubscriptionType` enum ([0768047](https://github.com/WhitehawkCEC/whitehawk-proto/commit/0768047c5e2450428ab369d13d5f1af49136b552))
-* return created bundle set ([23ae890](https://github.com/WhitehawkCEC/whitehawk-proto/commit/23ae8900b1917be8d9e5ebc3e067e9f6f78b785e))
-* return created bundle template ([fc14857](https://github.com/WhitehawkCEC/whitehawk-proto/commit/fc1485706559b27dfd01a0396ca1ab6dca5a8892))
+- **proto:** add `SubscriptionType` ([a41ca75](https://github.com/WhitehawkCEC/whitehawk-proto/commit/a41ca75e9b16650e804fd12811d0788ae7dbabe5))
+- **proto:** add `validity` when creating/updating subscriptions ([8481401](https://github.com/WhitehawkCEC/whitehawk-proto/commit/8481401e1d5f822aec5d42e5b18569d86325dd02))
+- **proto:** prefer `SubscriptionType` enum ([0768047](https://github.com/WhitehawkCEC/whitehawk-proto/commit/0768047c5e2450428ab369d13d5f1af49136b552))
+- return created bundle set ([23ae890](https://github.com/WhitehawkCEC/whitehawk-proto/commit/23ae8900b1917be8d9e5ebc3e067e9f6f78b785e))
+- return created bundle template ([fc14857](https://github.com/WhitehawkCEC/whitehawk-proto/commit/fc1485706559b27dfd01a0396ca1ab6dca5a8892))
 
-
-* add generated Ulid for bundle set and template, make industries repeated and move from template to set, remove assigned_to_companies from template ([69f0041](https://github.com/WhitehawkCEC/whitehawk-proto/commit/69f0041a392ebf1f2ea6d2dc191eb33759f3aae0))
+- add generated Ulid for bundle set and template, make industries repeated and move from template to set, remove assigned_to_companies from template ([69f0041](https://github.com/WhitehawkCEC/whitehawk-proto/commit/69f0041a392ebf1f2ea6d2dc191eb33759f3aae0))
 
 ## [0.12.0](https://github.com/whitehawkcec/whitehawk-proto/compare/0.11.0...0.12.0) (2022-06-07)
 
