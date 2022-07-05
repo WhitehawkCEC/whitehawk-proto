@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.12.2](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.12.1...0.12.2) (2022-07-05)
+
+
+### Features
+
+* read service for bundle templates and sets ([8f38ba8](https://github.com/WhitehawkCEC/whitehawk-proto/commit/8f38ba869fbf8bae2222ff36571c14dcebadaa9a))
+
 ### [0.12.1](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.12.0...0.12.1) (2022-06-22)
 
 ## [0.12.0](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.11.0...0.12.0) (2022-06-22)
