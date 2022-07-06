@@ -43,7 +43,6 @@ message ReadResponse {
   whitehawk.proto.bundle.v1.BundleTemplate bundle_template = 1;
 }
 
-
 message ListRequest {}
 
 message ListResponse {
