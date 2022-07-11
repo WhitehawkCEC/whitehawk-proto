@@ -4,10 +4,9 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### [0.12.3](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.12.2...0.12.3) (2022-07-08)
 
-
 ### Features
 
-* product feature service ([c2c1c74](https://github.com/WhitehawkCEC/whitehawk-proto/commit/c2c1c74b4d603b588d92670d6cacba8522d7edd5))
+- product feature service ([c2c1c74](https://github.com/WhitehawkCEC/whitehawk-proto/commit/c2c1c74b4d603b588d92670d6cacba8522d7edd5))
 
 ### [0.12.2](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.12.1...0.12.2) (2022-07-05)
 
