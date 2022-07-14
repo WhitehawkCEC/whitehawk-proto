@@ -3,6 +3,7 @@ syntax = "proto3";
 package whitehawk.proto.internal.client_portal.custom_questionnaire.v1;
 
 import "whitehawk/proto/ulid/v1/message.proto";
+import "whitehawk/proto/custom_questionnaire/v1/message.proto";
 
 service Service {
   rpc Upload(stream FileUploadRequest) returns (FileUploadResponse);
