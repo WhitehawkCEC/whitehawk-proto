@@ -27,7 +27,7 @@ message File {
 }
 
 enum Status {
-  STATUS_PENDING = 0;
+  STATUS_PENDING_UNSPECIFIED = 0;
   STATUS_IN_PROGRESS = 1;
   STATUS_SUCCESS = 2;
   STATUS_FAILED = 3;
