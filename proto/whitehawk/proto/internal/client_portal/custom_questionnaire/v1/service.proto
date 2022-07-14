@@ -27,10 +27,11 @@ message File {
 }
 
 enum Status {
-  STATUS_PENDING_UNSPECIFIED = 0;
-  STATUS_IN_PROGRESS = 1;
-  STATUS_SUCCESS = 2;
-  STATUS_FAILED = 3;
+  STATUS_UNSPECIFIED = 0;
+  STATUS_PENDING = 1;
+  STATUS_IN_PROGRESS = 2;
+  STATUS_SUCCESS = 3;
+  STATUS_FAILED = 4;
 }
 
 message UploadResponse {
