@@ -6,7 +6,7 @@ import "whitehawk/proto/ulid/v1/message.proto";
 import "whitehawk/proto/custom_questionnaire/v1/message.proto";
 
 service Service {
-  rpc Upload(stream UploadRequest) returns (UploadResponse);
+  rpc Upload(UploadRequest) returns (UploadResponse);
   rpc Show(ShowRequest) returns (ShowResponse);
 }
 
