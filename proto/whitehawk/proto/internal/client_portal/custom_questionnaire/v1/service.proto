@@ -6,11 +6,11 @@ import "whitehawk/proto/ulid/v1/message.proto";
 import "whitehawk/proto/custom_questionnaire/v1/message.proto";
 
 service Service {
-  rpc Upload(stream FileUploadRequest) returns (FileUploadResponse);
+  rpc Upload(stream UploadRequest) returns (UploadResponse);
   rpc Show(ReadRequest) returns (ReadResponse);
 }
 
-message FileUploadRequest {
+message UploadRequest {
   oneof request {
     MetaData metadata = 1;
     File file = 2;
@@ -27,21 +27,21 @@ message File {
 }
 
 enum Status {
-  PENDING = 0;
-  IN_PROGRESS = 1;
-  SUCCESS = 2;
-  FAILED = 3;
+  STATUS_PENDING = 0;
+  STATUS_IN_PROGRESS = 1;
+  STATUS_SUCCESS = 2;
+  STATUS_FAILED = 3;
 }
 
-message FileUploadResponse {
+message UploadResponse {
   string name = 1;
   Status status = 2;
 }
 
-message ReadRequest {
+message ShowRequest {
   whitehawk.proto.ulid.v1.Ulid id = 1;
 }
 
-message ReadResponse {
+message ShowResponse {
   whitehawk.proto.custom_questionnaire.v1.CustomQuestionnaire questionnaire = 1;
 }

@@ -2,21 +2,19 @@ syntax = "proto3";
 
 package whitehawk.proto.internal.client_portal.custom_questionnaire_response.v1;
 
-import "whitehawk/proto/custom_questionnaire_response/v1/message.proto";
-
 service Service {
-  rpc Create(DataCustomQuestionnaireQuestionResponse) returns (CreateResponse);
-  rpc List(DataCustomQuestionnaireQuestionResponse) returns (ListResponse);
+  rpc Create(CreateRequest) returns (CreateResponse);
+  rpc List(ListRequest) returns (ListResponse);
 }
 
 message DataCustomQuestionnaireQuestionResponse {
 
 }
 
+message CreateRequest{}
+
 message CreateResponse {}
 
 message ListRequest {}
 
-message ListResponse {
-
-}
+message ListResponse {}
