@@ -27,6 +27,9 @@ jobs:
           java-version: 11
           cache: 'maven'
 
+      - uses: pnpm/action-setup@v2
+        with:
+          version: 6.x.x
       - name: Set up nodejs
         uses: actions/setup-node@v3
         with:

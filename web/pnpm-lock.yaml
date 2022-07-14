@@ -1,33 +1,33 @@
 lockfileVersion: 5.3
 
 specifiers:
-  '@protobuf-ts/runtime': ^2.5.0
-  '@protobuf-ts/runtime-rpc': ^2.5.0
+  '@protobuf-ts/runtime': ^2.7.0
+  '@protobuf-ts/runtime-rpc': ^2.7.0
   google-protobuf: ^3.20.1
-  typescript: ^4.6.4
+  typescript: ^4.7.4
 
 dependencies:
-  '@protobuf-ts/runtime': 2.5.0
-  '@protobuf-ts/runtime-rpc': 2.5.0
+  '@protobuf-ts/runtime': 2.7.0
+  '@protobuf-ts/runtime-rpc': 2.7.0
   google-protobuf: 3.20.1
 
 devDependencies:
-  typescript: 4.6.4
+  typescript: 4.7.4
 
 packages:
-  /@protobuf-ts/runtime-rpc/2.5.0:
+  /@protobuf-ts/runtime-rpc/2.7.0:
     resolution:
       {
-        integrity: sha512-zO5W1/66Ok68muvmjG0+ucTWTfzhCUurnqyspqcWGF9DDgGKSmrtR8V1MRV051UoTonOxm7NZZvM6VTbBv9DcA==,
+        integrity: sha512-ha2HFJYLam1Zv04roq4MgYgdivoXv3s5uDQpr6jOAflAduNRWpB5IFegvPvtdc89j4xs7vuNPIGyZtP/MgYAXA==,
       }
     dependencies:
-      '@protobuf-ts/runtime': 2.5.0
+      '@protobuf-ts/runtime': 2.7.0
     dev: false
 
-  /@protobuf-ts/runtime/2.5.0:
+  /@protobuf-ts/runtime/2.7.0:
     resolution:
       {
-        integrity: sha512-ClfuZQ3iPVABJ0CXLGI044eox1PtmrIbbXZaHYczdFJjaxxn8U7vnwb1dPBM9JZ2I6H1VLZu8A9Z5nRv7zydsg==,
+        integrity: sha512-CzunTplg81oMkF9MnSYiX2WOdHnAyHKnokZncgOHm5bt8iEfFNnUsMSbsWUus/ulRNIZ9VAVMjutd96vmySQaw==,
       }
     dev: false
 
@@ -38,10 +38,10 @@ packages:
       }
     dev: false
 
-  /typescript/4.6.4:
+  /typescript/4.7.4:
     resolution:
       {
-        integrity: sha512-9ia/jWHIEbo49HfjrLGfKbZSuWo9iTMwXO+Ca3pRsSpbsMbc7/IU8NKdCZVRRBafVPGnoJeFL76ZOAA84I9fEg==,
+        integrity: sha512-C0WQT0gezHuw6AdY1M2jxUO83Rjf0HP7Sk1DtXj6j1EwkQNZrHAg2XPWlq62oqEhYvONq5pkC2Y9oPljWToLmQ==,
       }
     engines: { node: '>=4.2.0' }
     hasBin: true

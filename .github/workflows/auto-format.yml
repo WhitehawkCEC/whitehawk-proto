@@ -35,8 +35,8 @@ jobs:
 
       - name: Configure git
         run: |
-          git config --global user.name "${GITHUB_ACTOR}"
-          git config --global user.email "${GITHUB_ACTOR}@users.noreply.github.com"
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
 
       - name: Auto format (buf)
         run: |
@@ -44,7 +44,7 @@ jobs:
       - name: Commit changes (buf)
         run: |
           git add -u
-          git commit -m 'style: `buf format -w' || true
+          git commit -m 'style: `buf format -w`' || true
 
       - name: Auto format (java)
         run: |

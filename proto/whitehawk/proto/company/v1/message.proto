@@ -4,6 +4,12 @@ package whitehawk.proto.company.v1;
 
 import "whitehawk/proto/slug/v1/message.proto";
 
+message Company {
+  whitehawk.proto.slug.v1.Slug id = 1;
+  string name = 2;
+  Industry industry = 3;
+}
+
 message Industry {
   whitehawk.proto.slug.v1.Slug id = 1;
   string name = 2;

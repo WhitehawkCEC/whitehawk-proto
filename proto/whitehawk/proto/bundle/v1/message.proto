@@ -1,0 +1,36 @@
+syntax = "proto3";
+
+package whitehawk.proto.bundle.v1;
+
+import "whitehawk/proto/company/v1/message.proto";
+import "whitehawk/proto/meta/v1/message.proto";
+import "whitehawk/proto/product/v1/message.proto";
+import "whitehawk/proto/ulid/v1/message.proto";
+
+enum BundleType {
+  BUNDLE_TYPE_UNSPECIFIED = 0;
+  BUNDLE_TYPE_BASIC = 1;
+  BUNDLE_TYPE_BALANCED = 2;
+  BUNDLE_TYPE_ADVANCED = 3;
+}
+
+message BundleTemplate {
+  whitehawk.proto.ulid.v1.Ulid id = 1;
+  BundleType bundle_type = 2;
+  string name = 3;
+  string description = 4;
+  whitehawk.proto.company.v1.Company created_by_company = 5;
+  repeated whitehawk.proto.product.v1.ProductCategory product_categories = 6;
+  whitehawk.proto.meta.v1.Meta meta = 7;
+}
+
+message BundleSet {
+  whitehawk.proto.ulid.v1.Ulid id = 1;
+  string name = 2;
+  string description = 3;
+  whitehawk.proto.company.v1.Company created_by_company = 4;
+  repeated whitehawk.proto.company.v1.Industry industries = 5;
+  repeated whitehawk.proto.company.v1.Company assigned_to_companies = 6;
+  repeated BundleTemplate bundle_templates = 7;
+  whitehawk.proto.meta.v1.Meta meta = 8;
+}

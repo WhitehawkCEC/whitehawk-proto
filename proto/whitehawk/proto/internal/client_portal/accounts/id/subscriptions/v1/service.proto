@@ -4,6 +4,7 @@ package whitehawk.proto.internal.client_portal.accounts.id.subscriptions.v1;
 
 import "whitehawk/proto/slug/v1/message.proto";
 import "whitehawk/proto/subscription/v1/message.proto";
+import "whitehawk/proto/time/v1/message.proto";
 
 service Service {
   rpc Create(CreateRequest) returns (CreateResponse);
@@ -15,8 +16,9 @@ service Service {
 message CreateRequest {
   whitehawk.proto.slug.v1.Slug account_id = 1;
   whitehawk.proto.slug.v1.Slug subscription_id = 2;
-  whitehawk.proto.slug.v1.Slug type_id = 3;
+  whitehawk.proto.subscription.v1.SubscriptionType type = 3;
   string name = 4;
+  whitehawk.proto.time.v1.DateRange validity = 5;
 }
 
 message CreateResponse {}
@@ -33,8 +35,9 @@ message ReadResponse {
 message UpdateRequest {
   whitehawk.proto.slug.v1.Slug account_id = 1;
   whitehawk.proto.slug.v1.Slug subscription_id = 2;
-  whitehawk.proto.slug.v1.Slug type_id = 3;
+  whitehawk.proto.subscription.v1.SubscriptionType type = 3;
   string name = 4;
+  whitehawk.proto.time.v1.DateRange validity = 5;
 }
 
 message UpdateResponse {}
