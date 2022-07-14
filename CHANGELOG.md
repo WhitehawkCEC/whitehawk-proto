@@ -6,6 +6,8 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### [0.12.4](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.12.3...0.12.4) (2022-07-14)
 
+### [0.12.4](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.12.3...0.12.4) (2022-07-14)
+
 ### [0.12.5](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.12.4...0.12.5) (2022-07-14)
 
 ### [0.12.4](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.12.3...0.12.4) (2022-07-14)
