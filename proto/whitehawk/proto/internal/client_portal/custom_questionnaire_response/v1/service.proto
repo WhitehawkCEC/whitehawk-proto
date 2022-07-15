@@ -7,11 +7,9 @@ service Service {
   rpc List(ListRequest) returns (ListResponse);
 }
 
-message DataCustomQuestionnaireQuestionResponse {
+message DataCustomQuestionnaireQuestionResponse {}
 
-}
-
-message CreateRequest{}
+message CreateRequest {}
 
 message CreateResponse {}
 

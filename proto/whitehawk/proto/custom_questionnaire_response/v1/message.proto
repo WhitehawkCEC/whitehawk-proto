@@ -2,8 +2,8 @@ syntax = "proto3";
 
 package whitehawk.proto.custom_questionnaire_response.v1;
 
-import "whitehawk/proto/ulid/v1/message.proto";
 import "whitehawk/proto/time/v1/message.proto";
+import "whitehawk/proto/ulid/v1/message.proto";
 
 message CustomQuestionnaireResponse {
   whitehawk.proto.ulid.v1.Ulid response_id = 1;
@@ -16,4 +16,3 @@ message CustomQuestionnaireQuestionAnswer {
   whitehawk.proto.ulid.v1.Ulid question_id = 1;
   whitehawk.proto.ulid.v1.Ulid answer_id = 2;
 }
-
