@@ -7,7 +7,7 @@ import "whitehawk/proto/custom_questionnaire_answered/v1/message.proto";
 
 service Service {
   rpc Create(CreateRequest) returns (CreateResponse);
-  rpc show(ShowRequest) returns (ShowResponse);
+  rpc Show(ShowRequest) returns (ShowResponse);
 }
 
 message CreateRequest {
