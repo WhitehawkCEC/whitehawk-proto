@@ -24,8 +24,7 @@ message CustomQuestion {
   string text = 2;
   bool required = 3;
   string question_type = 4;
-  string answer_format = 5;
-  CustomAnswerSet answer_set = 6;
+  CustomAnswerSet answer_set = 5;
 }
 
 message CustomAnswerSet {
