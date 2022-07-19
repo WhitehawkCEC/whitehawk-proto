@@ -2,9 +2,29 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
-### [0.12.15](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.12.14...0.12.15) (2022-07-18)
+### [0.12.16](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.12.15...0.12.16) (2022-07-19)
 
-### [0.12.14](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.12.13...0.12.14) (2022-07-18)
+### [0.12.15](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.12.14...0.12.15) (2022-07-19)
+
+### [0.12.14](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.12.13...0.12.14) (2022-07-19)
+
+### [0.12.13](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.12.12...0.12.13) (2022-07-19)
+
+### [0.12.12](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.12.11...0.12.12) (2022-07-19)
+
+### [0.12.11](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.12.10...0.12.11) (2022-07-19)
+
+
+### Bug Fixes
+
+* remove unused service ([c1d443a](https://github.com/WhitehawkCEC/whitehawk-proto/commit/c1d443af0079c63138a43b20f335f54e086f3674))
+
+### [0.12.10](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.12.9...0.12.10) (2022-07-19)
+
+
+### Features
+
+* add product services ([30f25fa](https://github.com/WhitehawkCEC/whitehawk-proto/commit/30f25fa9d08ef6409389bc7914d43b80253effb8))
 
 ### [0.12.13](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.12.12...0.12.13) (2022-07-18)
 
