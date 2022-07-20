@@ -8,7 +8,7 @@ import "whitehawk/proto/ulid/v1/message.proto";
 message CustomQuestionnaireQuestionAnswer {
   whitehawk.proto.ulid.v1.Ulid response_id = 1;
   whitehawk.proto.ulid.v1.Ulid questionnaire_id = 2;
-  whitehawk.proto.time.v1.IsoDateTime date = 3;
+  whitehawk.proto.time.v1.IsoDateTime created_at = 3;
   whitehawk.proto.ulid.v1.Ulid question_id = 4;
   whitehawk.proto.ulid.v1.Ulid answer_id = 5;
   string answer_text = 6;
