@@ -8,5 +8,3 @@ message CustomQuestionnaireUISchema {
   whitehawk.proto.ulid.v1.Ulid id = 1;
   string uischema = 2;
 }
-
-
