@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+package whitehawk.proto.internal.client_portal.custom_questionnaire.schema.v1;
+
+import "whitehawk/proto/custom_questionnaire/schema/v1/message.proto";
+import "whitehawk/proto/ulid/v1/message.proto";
+
+service Service {
+  rpc GetSchema(GetSchemaRequest) returns (GetSchemaResponse);
+  rpc CreateSchema(CreateSchemaRequest) returns (CreateSchemaResponse);
+}
+
+message GetSchemaRequest {}
+
+message GetSchemaResponse {
+  whitehawk.proto.custom_questionnaire.schema.v1.CustomQuestionnaireSchema schema = 1;
+}
+
+message CreateSchemaRequest {
+  whitehawk.proto.custom_questionnaire.schema.v1.CustomQuestionnaireSchema schema = 1;
+}
+
+message CreateSchemaResponse {}
