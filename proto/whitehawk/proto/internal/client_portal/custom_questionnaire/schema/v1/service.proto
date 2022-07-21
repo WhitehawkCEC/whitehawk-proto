@@ -3,7 +3,6 @@ syntax = "proto3";
 package whitehawk.proto.internal.client_portal.custom_questionnaire.schema.v1;
 
 import "whitehawk/proto/custom_questionnaire/schema/v1/message.proto";
-import "whitehawk/proto/ulid/v1/message.proto";
 
 service Service {
   rpc GetSchema(GetSchemaRequest) returns (GetSchemaResponse);
