@@ -3,12 +3,18 @@ syntax = "proto3";
 package whitehawk.proto.internal.client_portal.custom_questionnaire.v1;
 
 import "whitehawk/proto/custom_questionnaire/v1/message.proto";
+import "whitehawk/proto/custom_questionnaire/schema/v1/message.proto";
+import "whitehawk/proto/custom_questionnaire/uischema/v1/message.proto";
 import "whitehawk/proto/ulid/v1/message.proto";
 
 service Service {
   rpc Upload(UploadRequest) returns (UploadResponse);
   rpc Show(ShowRequest) returns (ShowResponse);
   rpc List(ListRequest) returns (ListResponse);
+  rpc GetSchema(GetSchemaRequest) returns (GetSchemaResponse);
+  rpc CreateSchema(CreateSchemaRequest) returns (CreateSchemaResponse);
+  rpc GetUISchema(GetUISchemaRequest) returns (GetUISchemaResponse);
+  rpc CreateUISchema(CreateUISchemaRequest) returns (CreateUISchemaResponse);
 }
 
 message UploadRequest {
@@ -53,3 +59,27 @@ message ListRequest {}
 message ListResponse {
   repeated whitehawk.proto.custom_questionnaire.v1.CustomQuestionnaire questionnaire = 1;
 }
+
+message GetSchemaRequest {}
+
+message GetSchemaResponse {
+  whitehawk.proto.custom_questionnaire.schema.v1.CustomQuestionnaireSchema schema = 1;
+}
+
+message CreateSchemaRequest {
+  whitehawk.proto.custom_questionnaire.schema.v1.CustomQuestionnaireSchema schema = 1;
+}
+
+message CreateSchemaResponse {}
+
+message GetUISchemaRequest {}
+
+message GetUISchemaResponse {
+  whitehawk.proto.custom_questionnaire.uischema.v1.CustomQuestionnaireUISchema uischema = 1;
+}
+
+message CreateUISchemaRequest {
+  whitehawk.proto.custom_questionnaire.uischema.v1.CustomQuestionnaireUISchema uischema = 1;
+}
+
+message CreateUISchemaResponse {}
