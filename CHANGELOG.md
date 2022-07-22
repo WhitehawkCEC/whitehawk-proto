@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.12.27](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.12.26...0.12.27) (2022-07-22)
+
+
+### Features
+
+* add `Company` service ([5b74a92](https://github.com/WhitehawkCEC/whitehawk-proto/commit/5b74a927779b4a64b38f50407ea712710d37fcdf))
+
 ### [0.12.26](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.12.25...0.12.26) (2022-07-21)
 
 ### [0.12.25](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.12.24...0.12.25) (2022-07-21)
