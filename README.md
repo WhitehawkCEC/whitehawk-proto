@@ -9,7 +9,7 @@ API defined via:
 
 ```bash
 pnpm run release
-git push --tags
+git push --follow-tags
 ```
 
 This will cause the [build.yml](./.github/workflows/build.yml) to be executed.
