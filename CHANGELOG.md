@@ -4,17 +4,15 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### [0.12.28](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.12.27...0.12.28) (2022-07-23)
 
-
 ### Features
 
-* add `Industry` service ([c084782](https://github.com/WhitehawkCEC/whitehawk-proto/commit/c084782574a37e06b7a57b83cf356bcc0e196d00))
+- add `Industry` service ([c084782](https://github.com/WhitehawkCEC/whitehawk-proto/commit/c084782574a37e06b7a57b83cf356bcc0e196d00))
 
 ### [0.12.27](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.12.26...0.12.27) (2022-07-22)
 
-
 ### Features
 
-* add `Company` service ([5b74a92](https://github.com/WhitehawkCEC/whitehawk-proto/commit/5b74a927779b4a64b38f50407ea712710d37fcdf))
+- add `Company` service ([5b74a92](https://github.com/WhitehawkCEC/whitehawk-proto/commit/5b74a927779b4a64b38f50407ea712710d37fcdf))
 
 ### [0.12.26](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.12.25...0.12.26) (2022-07-21)
 
