@@ -40,7 +40,7 @@ message ReadRequest {
 }
 
 message ReadResponse {
-  whitehawk.proto.bundle.v1.BundleSet bundle_set = 1;
+  whitehawk.proto.bundle.v1.BundleSetSummary bundle_set = 1;
 }
 
 message ListRequest {}
