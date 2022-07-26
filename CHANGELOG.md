@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.14.0](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.13.0...0.14.0) (2022-07-26)
+
+
+### ⚠ BREAKING CHANGES
+
+* change delete parameter for bundle template and set
+
+### Features
+
+* change delete parameter for bundle template and set ([7582ee5](https://github.com/WhitehawkCEC/whitehawk-proto/commit/7582ee5d836f53059451e6d93f58f58a34ca2ab9))
+
 ## [0.13.0](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.12.18...0.13.0) (2022-07-25)
 
 ### ⚠ BREAKING CHANGES
