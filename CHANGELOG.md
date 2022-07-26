@@ -4,18 +4,17 @@ All notable changes to this project will be documented in this file. See [standa
 
 ## [0.13.0](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.12.18...0.13.0) (2022-07-25)
 
-
 ### ⚠ BREAKING CHANGES
 
-* return bundle set summary for list function
-* return bundle set summary for list function
+- return bundle set summary for list function
+- return bundle set summary for list function
 
 ### Features
 
-* add `Company` service ([5b74a92](https://github.com/WhitehawkCEC/whitehawk-proto/commit/5b74a927779b4a64b38f50407ea712710d37fcdf))
-* add `Industry` service ([c084782](https://github.com/WhitehawkCEC/whitehawk-proto/commit/c084782574a37e06b7a57b83cf356bcc0e196d00))
-* return bundle set summary for list function ([b21ba88](https://github.com/WhitehawkCEC/whitehawk-proto/commit/b21ba885223d2608ac61c58f3fbb35be3b48ee62))
-* return bundle set summary for list function ([333697c](https://github.com/WhitehawkCEC/whitehawk-proto/commit/333697cee2be7f472ba4b4f700bdb3dc2f1c981c))
+- add `Company` service ([5b74a92](https://github.com/WhitehawkCEC/whitehawk-proto/commit/5b74a927779b4a64b38f50407ea712710d37fcdf))
+- add `Industry` service ([c084782](https://github.com/WhitehawkCEC/whitehawk-proto/commit/c084782574a37e06b7a57b83cf356bcc0e196d00))
+- return bundle set summary for list function ([b21ba88](https://github.com/WhitehawkCEC/whitehawk-proto/commit/b21ba885223d2608ac61c58f3fbb35be3b48ee62))
+- return bundle set summary for list function ([333697c](https://github.com/WhitehawkCEC/whitehawk-proto/commit/333697cee2be7f472ba4b4f700bdb3dc2f1c981c))
 
 ### [0.12.28](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.12.27...0.12.28) (2022-07-23)
 
