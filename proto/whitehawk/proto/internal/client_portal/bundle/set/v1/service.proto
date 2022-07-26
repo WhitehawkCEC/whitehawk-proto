@@ -22,7 +22,7 @@ message CreateResponse {
 }
 
 message DeleteRequest {
-  whitehawk.proto.bundle.v1.BundleSet bundle_set = 1;
+  whitehawk.proto.ulid.v1.Ulid id = 1;
 }
 
 message DeleteResponse {
