@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-package whitehawk.proto.internal.client_portal.cyberone.supply_wisdom.targets.v1;
+package whitehawk.proto.internal.client_portal.cyberone.id.supply_wisdom.targets.v1;
 
 import "whitehawk/proto/supply_wisdom/utils/v1/message.proto";
 import "whitehawk/proto/ulid/v1/message.proto";

@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-package whitehawk.proto.internal.client_portal.cyberone.matched_pairs.white_hawk.v1;
+package whitehawk.proto.internal.client_portal.cyberone.id.matched_pairs.supply_wisdom.v1;
 
 import "whitehawk/proto/cyberone/v1/message.proto";
 import "whitehawk/proto/ulid/v1/message.proto";
@@ -11,7 +11,7 @@ service Service {
 }
 
 message CreateRequest{
-  whitehawk.proto.cyberone.v1.CyberOneWhiteHawkScorecardReportsSyncRequest cyberone_whitehawk_scorecard_reports_sync_request = 1;
+  whitehawk.proto.cyberone.v1.CyberOneSupplyWisdomReportsSyncRequest cyberone_supply_wisdom_reports_sync_request = 1;
 }
 
 message CreateResponse{}
@@ -21,5 +21,5 @@ message ListRequest{
 }
 
 message ListResponse{
-  repeated whitehawk.proto.cyberone.v1.CyberOneWhiteHawkScorecardMatchedPair cyberone_whitehawk_scorecard_matched_pair = 1;
+  repeated whitehawk.proto.cyberone.v1.CyberOneSupplyWisdomMatchedPair cyberone_supply_wisdom_matched_paris = 1;
 }
