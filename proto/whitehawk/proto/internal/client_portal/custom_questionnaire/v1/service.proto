@@ -67,7 +67,7 @@ message GetDisplaySchemaResponse {
 }
 
 message CreateDisplaySchemaRequest {
-  whitehawk.proto.custom_questionnaire.display_schema.v1.CustomQuestionnaireDisplaySchema display_schema = 1;
+  string display_schema = 1;
 }
 
 message CreateDisplaySchemaResponse {}
@@ -79,7 +79,7 @@ message GetDisplayUISchemaResponse {
 }
 
 message CreateDisplayUISchemaRequest {
-  whitehawk.proto.custom_questionnaire.display_uischema.v1.CustomQuestionnaireDisplayUISchema display_uischema = 1;
+  string display_uischema = 1;
 }
 
 message CreateDisplayUISchemaResponse {}
