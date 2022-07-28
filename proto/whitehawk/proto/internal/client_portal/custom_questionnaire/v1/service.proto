@@ -2,8 +2,8 @@ syntax = "proto3";
 
 package whitehawk.proto.internal.client_portal.custom_questionnaire.v1;
 
-import "whitehawk/proto/custom_questionnaire/schema/v1/message.proto";
-import "whitehawk/proto/custom_questionnaire/uischema/v1/message.proto";
+import "whitehawk/proto/custom_questionnaire/display_schema/v1/message.proto";
+import "whitehawk/proto/custom_questionnaire/display_uischema/v1/message.proto";
 import "whitehawk/proto/custom_questionnaire/v1/message.proto";
 import "whitehawk/proto/ulid/v1/message.proto";
 
@@ -11,10 +11,10 @@ service Service {
   rpc Upload(UploadRequest) returns (UploadResponse);
   rpc Show(ShowRequest) returns (ShowResponse);
   rpc List(ListRequest) returns (ListResponse);
-  rpc GetSchema(GetSchemaRequest) returns (GetSchemaResponse);
-  rpc CreateSchema(CreateSchemaRequest) returns (CreateSchemaResponse);
-  rpc GetUISchema(GetUISchemaRequest) returns (GetUISchemaResponse);
-  rpc CreateUISchema(CreateUISchemaRequest) returns (CreateUISchemaResponse);
+  rpc GetDisplaySchema(GetDisplaySchemaRequest) returns (GetDisplaySchemaResponse);
+  rpc CreateDisplaySchema(CreateDisplaySchemaRequest) returns (CreateDisplaySchemaResponse);
+  rpc GetDisplayUISchema(GetDisplayUISchemaRequest) returns (GetDisplayUISchemaResponse);
+  rpc CreateDisplayUISchema(CreateDisplayUISchemaRequest) returns (CreateDisplayUISchemaResponse);
 }
 
 message UploadRequest {
@@ -60,26 +60,26 @@ message ListResponse {
   repeated whitehawk.proto.custom_questionnaire.v1.CustomQuestionnaire questionnaire = 1;
 }
 
-message GetSchemaRequest {}
+message GetDisplaySchemaRequest {}
 
-message GetSchemaResponse {
-  whitehawk.proto.custom_questionnaire.schema.v1.CustomQuestionnaireSchema schema = 1;
+message GetDisplaySchemaResponse {
+  whitehawk.proto.custom_questionnaire.display_schema.v1.CustomQuestionnaireDisplaySchema display_schema = 1;
 }
 
-message CreateSchemaRequest {
-  whitehawk.proto.custom_questionnaire.schema.v1.CustomQuestionnaireSchema schema = 1;
+message CreateDisplaySchemaRequest {
+  whitehawk.proto.custom_questionnaire.display_schema.v1.CustomQuestionnaireDisplaySchema display_schema = 1;
 }
 
-message CreateSchemaResponse {}
+message CreateDisplaySchemaResponse {}
 
-message GetUISchemaRequest {}
+message GetDisplayUISchemaRequest {}
 
-message GetUISchemaResponse {
-  whitehawk.proto.custom_questionnaire.uischema.v1.CustomQuestionnaireUISchema uischema = 1;
+message GetDisplayUISchemaResponse {
+  whitehawk.proto.custom_questionnaire.display_uischema.v1.CustomQuestionnaireDisplayUISchema display_uischema = 1;
 }
 
-message CreateUISchemaRequest {
-  whitehawk.proto.custom_questionnaire.uischema.v1.CustomQuestionnaireUISchema uischema = 1;
+message CreateDisplayUISchemaRequest {
+  whitehawk.proto.custom_questionnaire.display_uischema.v1.CustomQuestionnaireDisplayUISchema display_uischema = 1;
 }
 
-message CreateUISchemaResponse {}
+message CreateDisplayUISchemaResponse {}

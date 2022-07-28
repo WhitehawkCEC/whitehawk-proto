@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package whitehawk.proto.custom_questionnaire.display_uischema.v1;
+
+import "whitehawk/proto/ulid/v1/message.proto";
+
+message CustomQuestionnaireDisplayUISchema {
+  whitehawk.proto.ulid.v1.Ulid id = 1;
+  string display_uischema = 2;
+}
