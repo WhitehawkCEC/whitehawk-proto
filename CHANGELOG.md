@@ -4,10 +4,9 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### [0.14.1](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.14.0...0.14.1) (2022-07-27)
 
-
 ### Features
 
-* proto def for cyberone and supplywisdom ([359dafa](https://github.com/WhitehawkCEC/whitehawk-proto/commit/359dafa46e1be2eed48da75368fac1b8d6956801))
+- proto def for cyberone and supplywisdom ([359dafa](https://github.com/WhitehawkCEC/whitehawk-proto/commit/359dafa46e1be2eed48da75368fac1b8d6956801))
 
 ## [0.14.0](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.13.0...0.14.0) (2022-07-26)
 
