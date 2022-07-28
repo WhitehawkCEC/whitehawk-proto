@@ -10,16 +10,16 @@ service Service {
   rpc List(ListRequest) returns (ListResponse);
 }
 
-message CreateRequest{
+message CreateRequest {
   whitehawk.proto.cyberone.v1.CyberOneWhiteHawkScorecardReportsSyncRequest cyberone_whitehawk_scorecard_reports_sync_request = 1;
 }
 
-message CreateResponse{}
+message CreateResponse {}
 
-message ListRequest{
+message ListRequest {
   whitehawk.proto.slug.v1.Slug id = 1;
 }
 
-message ListResponse{
+message ListResponse {
   repeated whitehawk.proto.cyberone.v1.CyberOneWhiteHawkScorecardMatchedPair cyberone_whitehawk_scorecard_matched_pair = 1;
 }

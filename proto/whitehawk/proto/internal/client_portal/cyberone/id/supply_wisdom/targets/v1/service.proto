@@ -2,8 +2,8 @@ syntax = "proto3";
 
 package whitehawk.proto.internal.client_portal.cyberone.id.supply_wisdom.targets.v1;
 
-import "whitehawk/proto/supply_wisdom/utils/v1/message.proto";
 import "whitehawk/proto/slug/v1/message.proto";
+import "whitehawk/proto/supply_wisdom/utils/v1/message.proto";
 
 service Service {
   rpc Create(CreateRequest) returns (CreateResponse);
@@ -11,24 +11,24 @@ service Service {
   rpc List(ListRequest) returns (ListResponse);
 }
 
-message CreateRequest{
+message CreateRequest {
   whitehawk.proto.supply_wisdom.utils.v1.CompanySupplyWisdomTarget company_supply_wisdom_target = 1;
 }
 
-message CreateResponse{}
+message CreateResponse {}
 
-message ReadRequest{
+message ReadRequest {
   whitehawk.proto.slug.v1.Slug id = 1;
 }
 
-message ReadResponse{
+message ReadResponse {
   whitehawk.proto.supply_wisdom.utils.v1.CompanySupplyWisdomTarget company_supply_wisdom_target = 1;
 }
 
-message ListRequest{
+message ListRequest {
   whitehawk.proto.slug.v1.Slug id = 1;
 }
 
-message ListResponse{
+message ListResponse {
   repeated whitehawk.proto.supply_wisdom.utils.v1.SupplyWisdomTarget supply_wisdom_targets = 1;
 }

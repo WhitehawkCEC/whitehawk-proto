@@ -9,10 +9,10 @@ service Service {
   rpc List(ListRequest) returns (ListResponse);
 }
 
-message ListRequest{
+message ListRequest {
   whitehawk.proto.slug.v1.Slug id = 1;
 }
 
-message ListResponse{
+message ListResponse {
   repeated whitehawk.proto.cyberone.v1.CyberOneAsset cyberone_assets = 1;
 }

@@ -2,24 +2,24 @@ syntax = "proto3";
 
 package whitehawk.proto.internal.client_portal.cyberone.id.supply_wisdom.key.v1;
 
-import "whitehawk/proto/supply_wisdom/utils/v1/message.proto";
 import "whitehawk/proto/slug/v1/message.proto";
+import "whitehawk/proto/supply_wisdom/utils/v1/message.proto";
 
 service Service {
   rpc Create(CreateRequest) returns (CreateResponse);
   rpc Read(ReadRequest) returns (ReadResponse);
 }
 
-message CreateRequest{
+message CreateRequest {
   whitehawk.proto.supply_wisdom.utils.v1.SupplyWisdomKey supply_wisdom_key = 1;
 }
 
-message CreateResponse{}
+message CreateResponse {}
 
-message ReadRequest{
+message ReadRequest {
   whitehawk.proto.slug.v1.Slug id = 1;
 }
 
-message ReadResponse{
+message ReadResponse {
   whitehawk.proto.supply_wisdom.utils.v1.SupplyWisdomKey supply_wisdom_key = 1;
 }

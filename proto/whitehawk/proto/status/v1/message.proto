@@ -2,13 +2,13 @@ syntax = "proto3";
 
 package whitehawk.proto.status.v1;
 
-message Status{
+message Status {
   State state = 1;
   int32 year = 2;
   Quarter quarter = 3;
 }
 
-enum State{
+enum State {
   STATE_UNSPECIFIED = 0;
   STATE_IN_PROGRESS = 1;
   STATE_PRODUCTS_NEEDED = 2;
@@ -17,7 +17,7 @@ enum State{
   STATE_COMPLETE = 5;
 }
 
-enum Quarter{
+enum Quarter {
   QUARTER_UNSPECIFIED = 0;
   QUARTER_Q1 = 1;
   QUARTER_Q2 = 2;
