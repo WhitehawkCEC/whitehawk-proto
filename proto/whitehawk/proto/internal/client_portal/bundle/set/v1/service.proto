@@ -22,7 +22,7 @@ message CreateResponse {
 }
 
 message DeleteRequest {
-  whitehawk.proto.bundle.v1.BundleSet bundle_set = 1;
+  whitehawk.proto.ulid.v1.Ulid id = 1;
 }
 
 message DeleteResponse {
@@ -46,5 +46,5 @@ message ReadResponse {
 message ListRequest {}
 
 message ListResponse {
-  repeated whitehawk.proto.bundle.v1.BundleSet bundle_sets = 1;
+  repeated whitehawk.proto.bundle.v1.BundleSetSummary bundle_sets = 1;
 }

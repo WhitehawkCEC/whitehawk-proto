@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package whitehawk.proto.internal.client_portal.industries.v1;
+
+import "whitehawk/proto/company/v1/message.proto";
+
+service Service {
+  rpc List(ListRequest) returns (ListResponse);
+}
+
+message ListRequest {}
+
+message ListResponse {
+  repeated whitehawk.proto.company.v1.Industry industries = 1;
+}

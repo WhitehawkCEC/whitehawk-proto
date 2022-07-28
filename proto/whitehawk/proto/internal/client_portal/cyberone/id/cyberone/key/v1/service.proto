@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+package whitehawk.proto.internal.client_portal.cyberone.id.cyberone.key.v1;
+
+import "whitehawk/proto/cyberone/v1/message.proto";
+import "whitehawk/proto/slug/v1/message.proto";
+
+service Service {
+  rpc Create(CreateRequest) returns (CreateResponse);
+  rpc Read(ReadRequest) returns (ReadResponse);
+}
+
+message CreateRequest {
+  whitehawk.proto.cyberone.v1.CyberOneWhiteHawkKeyPair cyberone_whitehawk_key_pair = 1;
+}
+
+message CreateResponse {}
+
+message ReadRequest {
+  whitehawk.proto.slug.v1.Slug id = 1;
+}
+
+message ReadResponse {
+  whitehawk.proto.cyberone.v1.CyberOneWhiteHawkKeyPair cyberone_whitehawk_key_pair = 1;
+}

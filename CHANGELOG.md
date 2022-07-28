@@ -2,7 +2,47 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
-### [0.12.27](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.12.26...0.12.27) (2022-07-28)
+### [0.14.1](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.14.0...0.14.1) (2022-07-27)
+
+### Features
+
+- proto def for cyberone and supplywisdom ([359dafa](https://github.com/WhitehawkCEC/whitehawk-proto/commit/359dafa46e1be2eed48da75368fac1b8d6956801))
+
+## [0.14.0](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.13.0...0.14.0) (2022-07-26)
+
+### ⚠ BREAKING CHANGES
+
+- change delete parameter for bundle template and set
+
+### Features
+
+- change delete parameter for bundle template and set ([7582ee5](https://github.com/WhitehawkCEC/whitehawk-proto/commit/7582ee5d836f53059451e6d93f58f58a34ca2ab9))
+
+## [0.13.0](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.12.18...0.13.0) (2022-07-25)
+
+### ⚠ BREAKING CHANGES
+
+- return bundle set summary for list function
+- return bundle set summary for list function
+
+### Features
+
+- add `Company` service ([5b74a92](https://github.com/WhitehawkCEC/whitehawk-proto/commit/5b74a927779b4a64b38f50407ea712710d37fcdf))
+- add `Industry` service ([c084782](https://github.com/WhitehawkCEC/whitehawk-proto/commit/c084782574a37e06b7a57b83cf356bcc0e196d00))
+- return bundle set summary for list function ([b21ba88](https://github.com/WhitehawkCEC/whitehawk-proto/commit/b21ba885223d2608ac61c58f3fbb35be3b48ee62))
+- return bundle set summary for list function ([333697c](https://github.com/WhitehawkCEC/whitehawk-proto/commit/333697cee2be7f472ba4b4f700bdb3dc2f1c981c))
+
+### [0.12.28](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.12.27...0.12.28) (2022-07-23)
+
+### Features
+
+- add `Industry` service ([c084782](https://github.com/WhitehawkCEC/whitehawk-proto/commit/c084782574a37e06b7a57b83cf356bcc0e196d00))
+
+### [0.12.27](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.12.26...0.12.27) (2022-07-22)
+
+### Features
+
+- add `Company` service ([5b74a92](https://github.com/WhitehawkCEC/whitehawk-proto/commit/5b74a927779b4a64b38f50407ea712710d37fcdf))
 
 ### [0.12.26](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.12.25...0.12.26) (2022-07-21)
 

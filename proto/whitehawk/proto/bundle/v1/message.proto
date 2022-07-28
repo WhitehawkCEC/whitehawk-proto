@@ -34,3 +34,13 @@ message BundleSet {
   repeated BundleTemplate bundle_templates = 7;
   whitehawk.proto.meta.v1.Meta meta = 8;
 }
+
+message BundleSetSummary {
+  whitehawk.proto.ulid.v1.Ulid id = 1;
+  string name = 2;
+  string description = 3;
+  whitehawk.proto.company.v1.Company created_by_company = 4;
+  repeated whitehawk.proto.company.v1.Industry industries = 5;
+  repeated whitehawk.proto.company.v1.Company assigned_to_companies = 6;
+  whitehawk.proto.meta.v1.Meta meta = 7;
+}

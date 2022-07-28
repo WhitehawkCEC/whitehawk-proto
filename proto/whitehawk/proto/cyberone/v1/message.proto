@@ -1,0 +1,54 @@
+syntax = "proto3";
+
+package whitehawk.proto.cyberone.v1;
+
+import "whitehawk/proto/status/v1/message.proto";
+import "whitehawk/proto/supply_wisdom/utils/v1/message.proto";
+import "whitehawk/proto/ulid/v1/message.proto";
+
+message CyberOneAsset {
+  whitehawk.proto.ulid.v1.Ulid id = 1;
+  string reference_id = 2;
+  string name = 3;
+  string domain = 4;
+}
+
+message CyberOneWhiteHawkKeyPair {
+  whitehawk.proto.ulid.v1.Ulid id = 1;
+  string api_key = 2;
+}
+
+message CyberOneSupplyWisdomReportsSyncRequest {
+  whitehawk.proto.ulid.v1.Ulid id = 1;
+  repeated CyberOneSupplyWisdomMatchedPair matched_pair = 2;
+  optional whitehawk.proto.status.v1.Status status = 3;
+  optional string file_name = 4;
+}
+
+message CyberOneWhiteHawkScorecardReportsSyncRequest {
+  whitehawk.proto.ulid.v1.Ulid id = 1;
+  WhiteHawkReportRatingServiceType rating_service = 2;
+}
+
+message CyberOneSupplyWisdomMatchedPair {
+  string id = 1;
+  CyberOneAsset cyberone = 2;
+  whitehawk.proto.supply_wisdom.utils.v1.SupplyWisdomAsset supply_wisdom = 3;
+}
+
+message CyberOneWhiteHawkScorecardMatchedPair {
+  string id = 1;
+  CyberOneAsset cyberone = 2;
+  SupplierBasicInfo supplier = 3;
+}
+
+message SupplierBasicInfo {
+  string id = 1;
+  string name = 2;
+}
+
+enum WhiteHawkReportRatingServiceType {
+  WHITE_HAWK_REPORT_RATING_SERVICE_TYPE_UNSPECIFIED = 0;
+  WHITE_HAWK_REPORT_RATING_SERVICE_TYPE_RATING_SERVICE_1 = 1;
+  WHITE_HAWK_REPORT_RATING_SERVICE_TYPE_RATING_SERVICE_2 = 2;
+}
