@@ -6,15 +6,14 @@ import "whitehawk/proto/custom_questionnaire/display_schema/v1/message.proto";
 import "whitehawk/proto/custom_questionnaire/display_uischema/v1/message.proto";
 import "whitehawk/proto/custom_questionnaire/v1/message.proto";
 import "whitehawk/proto/ulid/v1/message.proto";
-import "google/protobuf/empty.proto";
 
 service Service {
   rpc Upload(UploadRequest) returns (UploadResponse);
   rpc Show(ShowRequest) returns (ShowResponse);
-  rpc List(google.protobuf.Empty) returns (ListResponse);
-  rpc GetDisplaySchema(google.protobuf.Empty) returns (GetDisplaySchemaResponse);
+  rpc List(ListRequest) returns (ListResponse);
+  rpc GetDisplaySchema(GetDisplaySchemaRequest) returns (GetDisplaySchemaResponse);
   rpc CreateDisplaySchema(CreateDisplaySchemaRequest) returns (CreateDisplaySchemaResponse);
-  rpc GetDisplayUISchema(google.protobuf.Empty) returns (GetDisplayUISchemaResponse);
+  rpc GetDisplayUISchema(GetDisplayUISchemaRequest) returns (GetDisplayUISchemaResponse);
   rpc CreateDisplayUISchema(CreateDisplayUISchemaRequest) returns (CreateDisplayUISchemaResponse);
 }
 
@@ -55,9 +54,13 @@ message ShowResponse {
   whitehawk.proto.custom_questionnaire.v1.CustomQuestionnaire questionnaire = 1;
 }
 
+message ListRequest {}
+
 message ListResponse {
   repeated whitehawk.proto.custom_questionnaire.v1.CustomQuestionnaire questionnaire = 1;
 }
+
+message GetDisplaySchemaRequest {}
 
 message GetDisplaySchemaResponse {
   whitehawk.proto.custom_questionnaire.display_schema.v1.CustomQuestionnaireDisplaySchema display_schema = 1;
@@ -66,6 +69,10 @@ message GetDisplaySchemaResponse {
 message CreateDisplaySchemaRequest {
   string display_schema = 1;
 }
+
+message CreateDisplaySchemaResponse {}
+
+message GetDisplayUISchemaRequest {}
 
 message GetDisplayUISchemaResponse {
   whitehawk.proto.custom_questionnaire.display_uischema.v1.CustomQuestionnaireDisplayUISchema display_uischema = 1;
@@ -76,5 +83,3 @@ message CreateDisplayUISchemaRequest {
 }
 
 message CreateDisplayUISchemaResponse {}
-
-message CreateDisplaySchemaResponse {}
