@@ -6,7 +6,6 @@ import "whitehawk/proto/custom_questionnaire/display_schema/v1/message.proto";
 import "whitehawk/proto/custom_questionnaire/display_uischema/v1/message.proto";
 import "whitehawk/proto/custom_questionnaire/v1/message.proto";
 import "whitehawk/proto/ulid/v1/message.proto";
-import "google/protobuf/empty.proto";
 
 service Service {
   rpc Upload(UploadRequest) returns (UploadResponse);
@@ -61,7 +60,7 @@ message ListResponse {
   repeated whitehawk.proto.custom_questionnaire.v1.CustomQuestionnaire questionnaire = 1;
 }
 
-message GetDisplaySchemaRequest {google.proto.Empty empty = 1;}
+message GetDisplaySchemaRequest {}
 
 message GetDisplaySchemaResponse {
   whitehawk.proto.custom_questionnaire.display_schema.v1.CustomQuestionnaireDisplaySchema display_schema = 1;
