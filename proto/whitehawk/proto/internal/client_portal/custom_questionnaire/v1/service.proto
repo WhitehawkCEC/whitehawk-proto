@@ -67,8 +67,6 @@ message CreateDisplaySchemaRequest {
   string display_schema = 1;
 }
 
-message CreateDisplaySchemaResponse {}
-
 message GetDisplayUISchemaResponse {
   whitehawk.proto.custom_questionnaire.display_uischema.v1.CustomQuestionnaireDisplayUISchema display_uischema = 1;
 }
@@ -78,3 +76,5 @@ message CreateDisplayUISchemaRequest {
 }
 
 message CreateDisplayUISchemaResponse {}
+
+message CreateDisplaySchemaResponse {}
