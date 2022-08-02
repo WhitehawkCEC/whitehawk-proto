@@ -86,13 +86,9 @@ message CreateDisplayUISchemaRequest {
 
 message CreateDisplayUISchemaResponse {}
 
-message DeleteDisplaySchemaRequest {
-  whitehawk.proto.ulid.v1.Ulid id = 1;
-}
+message DeleteDisplaySchemaRequest {}
 
-message DeleteDisplayUISchemaRequest {
-  whitehawk.proto.ulid.v1.Ulid id = 1;
-}
+message DeleteDisplayUISchemaRequest {}
 
 message DeleteDisplaySchemaResponse {}
 
