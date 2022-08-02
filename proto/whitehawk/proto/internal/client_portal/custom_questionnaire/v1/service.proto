@@ -13,8 +13,10 @@ service Service {
   rpc List(ListRequest) returns (ListResponse);
   rpc GetDisplaySchema(GetDisplaySchemaRequest) returns (GetDisplaySchemaResponse);
   rpc CreateDisplaySchema(CreateDisplaySchemaRequest) returns (CreateDisplaySchemaResponse);
+  rpc DeleteDisplaySchema(DeleteDisplaySchemaRequest) returns (DeleteDisplaySchemaResponse);
   rpc GetDisplayUISchema(GetDisplayUISchemaRequest) returns (GetDisplayUISchemaResponse);
   rpc CreateDisplayUISchema(CreateDisplayUISchemaRequest) returns (CreateDisplayUISchemaResponse);
+  rpc DeleteDisplayUISchema(DeleteDisplayUISchemaRequest) returns (DeleteDisplayUISchemaResponse);
 }
 
 message UploadRequest {
@@ -83,3 +85,15 @@ message CreateDisplayUISchemaRequest {
 }
 
 message CreateDisplayUISchemaResponse {}
+
+message DeleteDisplaySchemaRequest {
+  whitehawk.proto.ulid.v1.Ulid id = 1;
+}
+
+message DeleteDisplayUISchemaRequest {
+  whitehawk.proto.ulid.v1.Ulid id = 1;
+}
+
+message DeleteDisplaySchemaResponse {}
+
+message DeleteDisplayUISchemaResponse {}
