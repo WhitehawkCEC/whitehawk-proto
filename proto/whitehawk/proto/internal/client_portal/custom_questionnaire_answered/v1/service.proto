@@ -8,6 +8,8 @@ import "whitehawk/proto/ulid/v1/message.proto";
 service Service {
   rpc Create(CreateRequest) returns (CreateResponse);
   rpc List(ListRequest) returns (ListResponse);
+  rpc Update(UpdateRequest) returns (UpdateResponse);
+  rpc Delete(DeleteRequest) returns (DeleteResponse);
 }
 
 message CreateRequest {
@@ -23,3 +25,17 @@ message ListRequest {
 message ListResponse {
   repeated whitehawk.proto.custom_questionnaire_answered.v1.CustomQuestionnaireQuestionAnswer question_answers = 1;
 }
+
+message UpdateRequest {
+  whitehawk.proto.custom_questionnaire_answered.v1.CustomQuestionnaireQuestionAnswer question_answer = 1;
+}
+
+message UpdateResponse {
+  whitehawk.proto.custom_questionnaire_answered.v1.CustomQuestionnaireQuestionAnswer question_answer = 1;
+}
+
+message DeleteRequest {
+  whitehawk.proto.ulid.v1.Ulid question_answer_id = 1;
+}
+
+message DeleteResponse {}
