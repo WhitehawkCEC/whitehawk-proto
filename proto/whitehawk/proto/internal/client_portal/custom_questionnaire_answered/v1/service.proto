@@ -18,7 +18,6 @@ message CreateResponse {}
 
 message ListRequest {
   whitehawk.proto.ulid.v1.Ulid response_id = 1;
-  whitehawk.proto.ulid.v1.Ulid questionnaire_id = 2;
 }
 
 message ListResponse {
