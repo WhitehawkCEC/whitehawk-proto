@@ -20,7 +20,7 @@ service Service {
 }
 
 message UploadRequest {
-    File file = 1;
+  File file = 1;
 }
 
 message File {
