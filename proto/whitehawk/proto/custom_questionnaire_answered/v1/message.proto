@@ -12,5 +12,5 @@ message CustomQuestionnaireQuestionAnswer {
   whitehawk.proto.ulid.v1.Ulid question_id = 4;
   whitehawk.proto.ulid.v1.Ulid answer_id = 5;
   string answer_text = 6;
-  int64 riskScore = 7;
+  int64 risk_score = 7;
 }
