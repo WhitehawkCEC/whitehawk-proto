@@ -30,9 +30,7 @@ message UpdateRequest {
   whitehawk.proto.custom_questionnaire_answered.v1.CustomQuestionnaireQuestionAnswer question_answer = 1;
 }
 
-message UpdateResponse {
-  whitehawk.proto.custom_questionnaire_answered.v1.CustomQuestionnaireQuestionAnswer question_answer = 1;
-}
+message UpdateResponse {}
 
 message DeleteRequest {
   whitehawk.proto.ulid.v1.Ulid question_answer_id = 1;
