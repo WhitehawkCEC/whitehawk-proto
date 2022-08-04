@@ -13,7 +13,6 @@ message Subscription {
   SubscriptionType type = 3;
   string name = 4;
   SubscriptionStatus status = 5;
-  repeated SubscriptionProduct products = 6;
 }
 
 enum SubscriptionType {
