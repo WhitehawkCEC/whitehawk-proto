@@ -5,10 +5,9 @@ package whitehawk.proto.custom_questionnaire_taken.v1;
 import "whitehawk/proto/time/v1/message.proto";
 import "whitehawk/proto/ulid/v1/message.proto";
 
-message CustomQuestionnaireTaken{
+message CustomQuestionnaireTaken {
   whitehawk.proto.ulid.v1.Ulid id = 1;
   whitehawk.proto.ulid.v1.Ulid questionnaire_id = 2;
   string user_id = 3;
   whitehawk.proto.time.v1.IsoDateTime created_at = 4;
 }
-
