@@ -4,7 +4,6 @@ package whitehawk.proto.custom_questionnaire_taken.v1;
 
 import "whitehawk/proto/time/v1/message.proto";
 import "whitehawk/proto/ulid/v1/message.proto";
-import "whitehawk/proto/user/v1/message.proto";
 
 message CustomQuestionnaireTaken{
   whitehawk.proto.ulid.v1.Ulid id = 1;
