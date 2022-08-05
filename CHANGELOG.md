@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.17.1](https://github.com/whitehawkcec/whitehawk-proto/compare/0.17.0...0.17.1) (2022-08-05)
+
+
+### Features
+
+* **proto:** add BK `license_type` ([c8fa0f8](https://github.com/whitehawkcec/whitehawk-proto/commit/c8fa0f89bcb682a661612923904d4dfccd2589f6))
+
 ## [0.17.0](https://github.com/whitehawkcec/whitehawk-proto/compare/0.16.0...0.17.0) (2022-08-05)
 
 
