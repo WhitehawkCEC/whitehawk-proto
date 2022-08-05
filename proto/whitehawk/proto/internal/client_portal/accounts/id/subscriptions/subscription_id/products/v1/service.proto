@@ -20,7 +20,9 @@ message CreateRequest {
   whitehawk.proto.subscription.v1.SubscriptionProductConfig config = 5;
 }
 
-message CreateResponse {}
+message CreateResponse {
+  whitehawk.proto.slug.v1.Slug product_id = 1;
+}
 
 message ReadRequest {
   whitehawk.proto.slug.v1.Slug account_id = 1;
