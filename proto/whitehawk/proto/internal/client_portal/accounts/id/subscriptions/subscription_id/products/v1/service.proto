@@ -4,6 +4,7 @@ package whitehawk.proto.internal.client_portal.accounts.id.subscriptions.subscri
 
 import "whitehawk/proto/slug/v1/message.proto";
 import "whitehawk/proto/subscription/v1/message.proto";
+import "whitehawk/proto/time/v1/message.proto";
 
 service Service {
   rpc Create(CreateRequest) returns (CreateResponse);
@@ -14,7 +15,9 @@ service Service {
 message CreateRequest {
   whitehawk.proto.slug.v1.Slug account_id = 1;
   whitehawk.proto.slug.v1.Slug subscription_id = 2;
-  whitehawk.proto.subscription.v1.SubscriptionProduct product = 3;
+  string name = 3;
+  whitehawk.proto.time.v1.DateRange validity = 4;
+  whitehawk.proto.subscription.v1.SubscriptionProductConfig config = 5;
 }
 
 message CreateResponse {}
