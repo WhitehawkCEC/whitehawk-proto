@@ -28,6 +28,7 @@ message CreateResponse {
 message ReadRequest {
   whitehawk.proto.slug.v1.Slug account_id = 1;
   whitehawk.proto.slug.v1.Slug subscription_id = 2;
+  whitehawk.proto.ulid.v1.Ulid product_id = 3;
 }
 
 message ReadResponse {
