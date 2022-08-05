@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.19.2](https://github.com/whitehawkcec/whitehawk-proto/compare/0.19.1...0.19.2) (2022-08-05)
+
+
+### Bug Fixes
+
+* **proto:** properly implement `read` for subscription products ([d39bb47](https://github.com/whitehawkcec/whitehawk-proto/commit/d39bb47f79db032bda628f9049e90931cb531e80))
+
 ### [0.19.1](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.19.0...0.19.1) (2022-08-05)
 
 ### [0.15.23](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.15.22...0.15.23) (2022-08-04)
