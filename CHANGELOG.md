@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.18.0](https://github.com/whitehawkcec/whitehawk-proto/compare/0.17.2...0.18.0) (2022-08-05)
+
+
+### ⚠ BREAKING CHANGES
+
+* **proto:** remove `SubscriptionProduct` `config` field
+
+### Features
+
+* **proto:** remove `SubscriptionProduct` `config` field ([680d6f0](https://github.com/whitehawkcec/whitehawk-proto/commit/680d6f071787c6558fbc59ad67d5c609ea819e33))
+
 ### [0.17.2](https://github.com/whitehawkcec/whitehawk-proto/compare/0.17.1...0.17.2) (2022-08-05)
 
 
