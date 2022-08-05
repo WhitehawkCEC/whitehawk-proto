@@ -1,0 +1,38 @@
+syntax = "proto3";
+
+package whitehawk.proto.internal.client_portal.accounts.id.subscriptions.subscription_id.products.v1;
+
+import "whitehawk/proto/slug/v1/message.proto";
+import "whitehawk/proto/subscription/v1/message.proto";
+
+service Service {
+  rpc Create(CreateRequest) returns (CreateResponse);
+  rpc Read(ReadRequest) returns (ReadResponse);
+  rpc List(ListRequest) returns (ListResponse);
+}
+
+message CreateRequest {
+  whitehawk.proto.slug.v1.Slug account_id = 1;
+  whitehawk.proto.slug.v1.Slug subscription_id = 2;
+  whitehawk.proto.subscription.v1.SubscriptionProduct product = 3;
+}
+
+message CreateResponse {}
+
+message ReadRequest {
+  whitehawk.proto.slug.v1.Slug account_id = 1;
+  whitehawk.proto.slug.v1.Slug subscription_id = 2;
+}
+
+message ReadResponse {
+  whitehawk.proto.subscription.v1.Subscription value = 1;
+}
+
+message ListRequest {
+  whitehawk.proto.slug.v1.Slug account_id = 1;
+  whitehawk.proto.slug.v1.Slug subscription_id = 2;
+}
+
+message ListResponse {
+  repeated whitehawk.proto.subscription.v1.SubscriptionProduct values = 1;
+}
