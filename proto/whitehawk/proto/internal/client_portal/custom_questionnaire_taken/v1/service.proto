@@ -2,8 +2,8 @@ syntax = "proto3";
 
 package whitehawk.proto.internal.client_portal.custom_questionnaire_taken.v1;
 
-import "whitehawk/proto/ulid/v1/message.proto";
 import "whitehawk/proto/custom_questionnaire_taken/v1/message.proto";
+import "whitehawk/proto/ulid/v1/message.proto";
 
 service Service {
   rpc Create(CreateRequest) returns (CreateResponse);
@@ -12,7 +12,7 @@ service Service {
   rpc List(ListRequest) returns (ListResponse);
 }
 
-message CreateRequest{
+message CreateRequest {
   string user_id = 1;
   whitehawk.proto.ulid.v1.Ulid questionnaire_id = 2;
 }
@@ -37,8 +37,8 @@ message ListResponse {
   repeated whitehawk.proto.custom_questionnaire_taken.v1.CustomQuestionnaireTaken taken = 1;
 }
 
-message DeleteRequest{
+message DeleteRequest {
   whitehawk.proto.ulid.v1.Ulid response_id = 1;
 }
 
-message DeleteResponse{}
+message DeleteResponse {}

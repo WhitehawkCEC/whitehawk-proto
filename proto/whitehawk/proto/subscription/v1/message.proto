@@ -2,6 +2,7 @@ syntax = "proto3";
 
 package whitehawk.proto.subscription.v1;
 
+import "whitehawk/proto/integration/black_kite/config/v1/message.proto";
 import "whitehawk/proto/slug/v1/message.proto";
 import "whitehawk/proto/time/v1/message.proto";
 import "whitehawk/proto/ulid/v1/message.proto";
@@ -12,7 +13,6 @@ message Subscription {
   SubscriptionType type = 3;
   string name = 4;
   SubscriptionStatus status = 5;
-  repeated SubscriptionProduct products = 6;
 }
 
 enum SubscriptionType {
@@ -35,31 +35,19 @@ enum SubscriptionState {
 }
 
 message SubscriptionProduct {
-  whitehawk.proto.slug.v1.Slug product_id = 1;
-  string product_name = 2;
-  whitehawk.proto.time.v1.DateRange product_validity = 3;
-  repeated SubscriptionPartner partners = 4;
+  whitehawk.proto.ulid.v1.Ulid id = 1;
+  string name = 2;
+  whitehawk.proto.time.v1.DateRange validity = 3;
 }
 
-message SubscriptionPartner {
-  whitehawk.proto.slug.v1.Slug partner_id = 1;
-  string partner_name = 2;
-  LicenseBatchUsage licenses = 3;
+message SubscriptionProductConfig {
+  oneof value {
+    CyberRiskRating cyber_risk_rating = 1;
+  }
 }
 
-message LicenseBatchUsage {
-  whitehawk.proto.ulid.v1.Ulid batch_id = 1;
-  LicenseTypeMapLicenseUsage counts = 2;
-}
-
-message LicenseTypeMapLicenseUsage {
-  LicenseUsage annual = 1;
-  LicenseUsage one_time = 2;
-}
-
-message LicenseUsage {
-  int32 quantity = 1;
-  int32 available = 2;
-  int32 used = 3;
-  whitehawk.proto.time.v1.DateRange license_validity = 4;
+message CyberRiskRating {
+  oneof value {
+    whitehawk.proto.integration.black_kite.config.v1.BlackKiteConfig black_kite = 1;
+  }
 }

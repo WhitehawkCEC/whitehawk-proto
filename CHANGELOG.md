@@ -2,7 +2,73 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
-### [0.15.23](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.15.22...0.15.23) (2022-08-04)
+## [0.19.0](https://github.com/whitehawkcec/whitehawk-proto/compare/0.18.0...0.19.0) (2022-08-05)
+
+
+### ⚠ BREAKING CHANGES
+
+* **proto:** use correct type
+* **proto:** use correct type
+
+### Features
+
+* **proto:** use correct type ([2fe5f00](https://github.com/whitehawkcec/whitehawk-proto/commit/2fe5f00cf1b6fd0e73ee0ee10c3fe8208264089f))
+* **proto:** use correct type ([dd82a22](https://github.com/whitehawkcec/whitehawk-proto/commit/dd82a224a8105c42c42ff92a20773b62ab11726f))
+
+## [0.18.0](https://github.com/whitehawkcec/whitehawk-proto/compare/0.17.2...0.18.0) (2022-08-05)
+
+
+### ⚠ BREAKING CHANGES
+
+* **proto:** remove `SubscriptionProduct` `config` field
+
+### Features
+
+* **proto:** remove `SubscriptionProduct` `config` field ([680d6f0](https://github.com/whitehawkcec/whitehawk-proto/commit/680d6f071787c6558fbc59ad67d5c609ea819e33))
+
+### [0.17.2](https://github.com/whitehawkcec/whitehawk-proto/compare/0.17.1...0.17.2) (2022-08-05)
+
+
+### Features
+
+* **proto:** return `product_id` in response ([e901599](https://github.com/whitehawkcec/whitehawk-proto/commit/e901599e4e2370fa3048ec5ebba9a46997113c49))
+
+### [0.17.1](https://github.com/whitehawkcec/whitehawk-proto/compare/0.17.0...0.17.1) (2022-08-05)
+
+
+### Features
+
+* **proto:** add BK `license_type` ([c8fa0f8](https://github.com/whitehawkcec/whitehawk-proto/commit/c8fa0f89bcb682a661612923904d4dfccd2589f6))
+
+## [0.17.0](https://github.com/whitehawkcec/whitehawk-proto/compare/0.16.0...0.17.0) (2022-08-05)
+
+
+### ⚠ BREAKING CHANGES
+
+* **proto:** change create request for subscription product
+
+### Features
+
+* **proto:** change create request for subscription product ([a285da3](https://github.com/whitehawkcec/whitehawk-proto/commit/a285da39497436f4105f00f1240f75a7c8c11ea2))
+
+## [0.16.0](https://github.com/whitehawkcec/whitehawk-proto/compare/0.15.22...0.16.0) (2022-08-05)
+
+
+### ⚠ BREAKING CHANGES
+
+* **proto:** remove unnecessary messages for subscriptions
+* **proto:** change shape of `SubscriptionProduct`
+* **proto:** remove `Subscription` `products` field
+
+### Features
+
+* **proto:** add BK config message ([5b529e8](https://github.com/whitehawkcec/whitehawk-proto/commit/5b529e860faf290f786aa53ace0c0d99d24e2ebc))
+* **proto:** add BK domain messages ([4ea5213](https://github.com/whitehawkcec/whitehawk-proto/commit/4ea521396a157c0d7fdbb3578fb745fd13492255))
+* **proto:** add service for subscription products ([e8e1d53](https://github.com/whitehawkcec/whitehawk-proto/commit/e8e1d5360f9e67f4b1225bcee688c8586e6ba5f5))
+* **proto:** add subscription product for BK ([3a71ea0](https://github.com/whitehawkcec/whitehawk-proto/commit/3a71ea0f9817cfc34be2ac2a45add99321f8d7a1))
+* **proto:** change shape of `SubscriptionProduct` ([6d3cbe4](https://github.com/whitehawkcec/whitehawk-proto/commit/6d3cbe43d8b428e4a7e6ea714c84c85e1035a8b5))
+* **proto:** remove `Subscription` `products` field ([16e3707](https://github.com/whitehawkcec/whitehawk-proto/commit/16e37072cd281f86832d88cf15f10f457dd88847))
+* **proto:** remove unnecessary messages for subscriptions ([73d1114](https://github.com/whitehawkcec/whitehawk-proto/commit/73d11147f25de0f58fb96bf62d41dab13850c0e8))
 
 ### [0.15.22](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.15.21...0.15.22) (2022-08-04)
 
