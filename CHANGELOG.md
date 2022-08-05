@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.17.2](https://github.com/whitehawkcec/whitehawk-proto/compare/0.17.1...0.17.2) (2022-08-05)
+
+
+### Features
+
+* **proto:** return `product_id` in response ([e901599](https://github.com/whitehawkcec/whitehawk-proto/commit/e901599e4e2370fa3048ec5ebba9a46997113c49))
+
 ### [0.17.1](https://github.com/whitehawkcec/whitehawk-proto/compare/0.17.0...0.17.1) (2022-08-05)
 
 
