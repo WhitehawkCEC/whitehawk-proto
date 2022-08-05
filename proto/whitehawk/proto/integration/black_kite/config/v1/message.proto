@@ -6,4 +6,5 @@ import "whitehawk/proto/integration/black_kite/domain/v1/message.proto";
 
 message BlackKiteConfig {
   whitehawk.proto.integration.black_kite.domain.v1.ApiKey api_key = 1;
+  whitehawk.proto.integration.black_kite.domain.v1.ScanProfileType license_type = 2;
 }
