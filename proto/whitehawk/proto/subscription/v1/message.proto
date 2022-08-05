@@ -5,7 +5,6 @@ package whitehawk.proto.subscription.v1;
 import "whitehawk/proto/integration/black_kite/config/v1/message.proto";
 import "whitehawk/proto/slug/v1/message.proto";
 import "whitehawk/proto/time/v1/message.proto";
-import "whitehawk/proto/ulid/v1/message.proto";
 
 message Subscription {
   whitehawk.proto.slug.v1.Slug account_id = 1;
@@ -51,27 +50,4 @@ message CyberRiskRating {
   oneof value {
     whitehawk.proto.integration.black_kite.config.v1.BlackKiteConfig black_kite = 1;
   }
-}
-
-message SubscriptionPartner {
-  whitehawk.proto.slug.v1.Slug partner_id = 1;
-  string partner_name = 2;
-  LicenseBatchUsage licenses = 3;
-}
-
-message LicenseBatchUsage {
-  whitehawk.proto.ulid.v1.Ulid batch_id = 1;
-  LicenseTypeMapLicenseUsage counts = 2;
-}
-
-message LicenseTypeMapLicenseUsage {
-  LicenseUsage annual = 1;
-  LicenseUsage one_time = 2;
-}
-
-message LicenseUsage {
-  int32 quantity = 1;
-  int32 available = 2;
-  int32 used = 3;
-  whitehawk.proto.time.v1.DateRange license_validity = 4;
 }
