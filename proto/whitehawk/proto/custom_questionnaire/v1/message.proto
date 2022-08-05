@@ -37,5 +37,5 @@ message CustomAnswers {
   whitehawk.proto.ulid.v1.Ulid id = 1;
   string label = 2;
   string value = 3;
-  int32 risk_score = 4;
+  int64 risk_score = 4;
 }
