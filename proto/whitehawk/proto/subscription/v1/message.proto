@@ -2,6 +2,7 @@ syntax = "proto3";
 
 package whitehawk.proto.subscription.v1;
 
+import "whitehawk/proto/integration/bitsight/config/v1/message.proto";
 import "whitehawk/proto/integration/black_kite/config/v1/message.proto";
 import "whitehawk/proto/slug/v1/message.proto";
 import "whitehawk/proto/time/v1/message.proto";
@@ -49,5 +50,6 @@ message SubscriptionProductConfig {
 message CyberRiskRating {
   oneof value {
     whitehawk.proto.integration.black_kite.config.v1.BlackKiteConfig black_kite = 1;
+    whitehawk.proto.integration.bitsight.config.v1.BitsightConfig bitsight = 2;
   }
 }
