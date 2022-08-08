@@ -15,4 +15,5 @@ message CustomQuestionnaireQuestionAnswer {
   int64 risk_score = 7;
   whitehawk.proto.time.v1.IsoDateTime created_at = 8;
   whitehawk.proto.time.v1.IsoDateTime updated_at = 9;
+
 }
