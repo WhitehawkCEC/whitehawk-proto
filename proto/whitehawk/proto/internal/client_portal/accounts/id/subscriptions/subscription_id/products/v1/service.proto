@@ -32,7 +32,7 @@ message ReadRequest {
 }
 
 message ReadResponse {
-  whitehawk.proto.subscription.v1.Subscription value = 1;
+  whitehawk.proto.subscription.v1.SubscriptionProduct value = 1;
 }
 
 message ListRequest {
