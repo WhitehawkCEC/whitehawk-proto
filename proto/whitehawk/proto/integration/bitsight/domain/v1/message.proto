@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package whitehawk.proto.integration.bitsight.domain.v1;
+
+message ApiToken {
+  // 40 characters (lowercase letters or numbers)
+  // Pattern: [a-z0-9]{40}
+  string value = 1;
+}
