@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.19.3](https://github.com/whitehawkcec/whitehawk-proto/compare/0.19.2...0.19.3) (2022-08-08)
+
+
+### Features
+
+* add BS as subscription product option ([f851f08](https://github.com/whitehawkcec/whitehawk-proto/commit/f851f087245daeee5b88ad684856165b76e67273))
+* add BS config message ([ae17e75](https://github.com/whitehawkcec/whitehawk-proto/commit/ae17e75518dc62763e730f618bea10ac2a5ab204))
+* add BS domain message ([8b7c577](https://github.com/whitehawkcec/whitehawk-proto/commit/8b7c5777058becb43a5ef82ca514a3adafee0f95))
+
 ### [0.19.2](https://github.com/whitehawkcec/whitehawk-proto/compare/0.19.1...0.19.2) (2022-08-05)
 
 
