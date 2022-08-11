@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.20.4](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.20.3...0.20.4) (2022-08-11)
+
+
+### Features
+
+* add description field ([6127841](https://github.com/WhitehawkCEC/whitehawk-proto/commit/612784103b05c5cd9c661aa1aea2cdb0b202e4e9))
+* add meta field ([0a7d74d](https://github.com/WhitehawkCEC/whitehawk-proto/commit/0a7d74d5f526f69257698dd13483f47631e48772))
+* add meta field ([6ba1b89](https://github.com/WhitehawkCEC/whitehawk-proto/commit/6ba1b8988a66af1b8966e27ca35c8358ff42be45))
+* add read service ([e6ec10b](https://github.com/WhitehawkCEC/whitehawk-proto/commit/e6ec10b2c11f4adfd0615ed6542217f9d6b6d4b5))
+* add read service ([6072dd4](https://github.com/WhitehawkCEC/whitehawk-proto/commit/6072dd44108416aedfa9f78ec7042c6881dd7fe2))
+
 ### [0.20.3](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.20.2...0.20.3) (2022-08-11)
 
 ### [0.20.2](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.20.1...0.20.2) (2022-08-08)
