@@ -42,5 +42,5 @@ message ReadRequest {
 }
 
 message ReadResponse {
-  whitehawk.proto.product.v1.ProductCategory category = 1;
+  whitehawk.proto.product.v1.ProductFeature product_features = 1;
 }
