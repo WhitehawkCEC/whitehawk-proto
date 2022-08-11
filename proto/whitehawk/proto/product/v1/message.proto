@@ -35,9 +35,11 @@ message ProductType {
 message ProductFeature {
   whitehawk.proto.slug.v1.Slug id = 1;
   string name = 2;
+  string description = 3;
 }
 
 message ProductCategory {
   whitehawk.proto.slug.v1.Slug id = 1;
   string name = 2;
+  string description = 3;
 }
