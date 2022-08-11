@@ -44,4 +44,5 @@ message ProductCategory {
   whitehawk.proto.slug.v1.Slug id = 1;
   string name = 2;
   string description = 3;
+  whitehawk.proto.meta.v1.Meta meta = 4;
 }
