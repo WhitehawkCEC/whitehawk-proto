@@ -9,6 +9,7 @@ service Service {
   rpc Create(CreateRequest) returns (CreateResponse);
   rpc Show(ShowRequest) returns (ShowResponse);
   rpc Delete(DeleteRequest) returns (DeleteResponse);
+  rpc Update(UpdateRequest) returns (UpdateResponse);
   rpc List(ListRequest) returns (ListResponse);
 }
 
@@ -28,6 +29,12 @@ message ShowRequest {
 message ShowResponse {
   whitehawk.proto.custom_questionnaire_taken.v1.CustomQuestionnaireTaken taken = 1;
 }
+
+message UpdateRequest {
+  whitehawk.proto.custom_questionnaire_taken.v1.CustomQuestionnaireTaken taken = 1;
+}
+
+message UpdateResponse {}
 
 message ListRequest {
   string user_id = 1;
