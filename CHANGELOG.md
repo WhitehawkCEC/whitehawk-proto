@@ -2,6 +2,22 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.21.0](https://github.com/whitehawkcec/whitehawk-proto/compare/0.20.4...0.21.0) (2022-08-12)
+
+
+### ⚠ BREAKING CHANGES
+
+* **proto:** disallow updates to subscription type/validity
+
+### Features
+
+* **proto:** disallow updates to subscription type/validity ([4672cc0](https://github.com/whitehawkcec/whitehawk-proto/commit/4672cc0e3cc687532c233dfad367df3efffa0a40))
+
+
+### Bug Fixes
+
+* cut and paste error ([fd6b372](https://github.com/whitehawkcec/whitehawk-proto/commit/fd6b37270981e13116ed985d784218bd07610c48))
+
 ### [0.20.4](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.20.3...0.20.4) (2022-08-11)
 
 
