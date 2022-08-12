@@ -11,6 +11,7 @@ message CustomQuestionnaire {
   string name = 3;
   repeated CustomQuestionSection sections = 4;
   whitehawk.proto.time.v1.IsoDateTime created_at = 5;
+  whitehawk.proto.time.v1.IsoDateTime updated_at = 6;
 }
 
 message CustomQuestionSection {
