@@ -10,6 +10,7 @@ import "whitehawk/proto/ulid/v1/message.proto";
 service Service {
   rpc Create(CreateRequest) returns (CreateResponse);
   rpc Read(ReadRequest) returns (ReadResponse);
+  rpc Update(UpdateRequest) returns (UpdateResponse);
   rpc List(ListRequest) returns (ListResponse);
 }
 
@@ -34,6 +35,16 @@ message ReadRequest {
 message ReadResponse {
   whitehawk.proto.subscription.v1.SubscriptionProduct value = 1;
 }
+
+message UpdateRequest {
+  whitehawk.proto.slug.v1.Slug account_id = 1;
+  whitehawk.proto.slug.v1.Slug subscription_id = 2;
+  whitehawk.proto.ulid.v1.Ulid product_id = 3;
+  string name = 4;
+  whitehawk.proto.time.v1.DateRange validity = 5;
+}
+
+message UpdateResponse {}
 
 message ListRequest {
   whitehawk.proto.slug.v1.Slug account_id = 1;
