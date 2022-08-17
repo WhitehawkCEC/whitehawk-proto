@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.22.3](https://github.com/whitehawkcec/whitehawk-proto/compare/0.22.2...0.22.3) (2022-08-17)
+
+
+### Features
+
+* **proto:** add rpc to update subscription product info ([1f7ec9b](https://github.com/whitehawkcec/whitehawk-proto/commit/1f7ec9b6d427e513b401ffee0429a5ee78cb245c))
+
 ### [0.22.2](https://github.com/whitehawkcec/whitehawk-proto/compare/0.22.1...0.22.2) (2022-08-17)
 
 
