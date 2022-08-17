@@ -4,14 +4,13 @@ All notable changes to this project will be documented in this file. See [standa
 
 ## [0.22.0](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.21.3...0.22.0) (2022-08-16)
 
-
 ### ⚠ BREAKING CHANGES
 
-* **proto:** return param should be singular
+- **proto:** return param should be singular
 
 ### Features
 
-* **proto:** return param should be singular ([1a135fd](https://github.com/WhitehawkCEC/whitehawk-proto/commit/1a135fdfe35c3942ff5c3527472212b1d7b570c1))
+- **proto:** return param should be singular ([1a135fd](https://github.com/WhitehawkCEC/whitehawk-proto/commit/1a135fdfe35c3942ff5c3527472212b1d7b570c1))
 
 ### [0.21.3](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.21.2...0.21.3) (2022-08-12)
 
