@@ -1,0 +1,28 @@
+syntax = "proto3";
+
+package whitehawk.proto.internal.client_portal.accounts.id.subscriptions.subscription_id.validity.v1;
+
+import "whitehawk/proto/slug/v1/message.proto";
+import "whitehawk/proto/time/v1/message.proto";
+
+service Service {
+  rpc Get(GetRequest) returns (GetResponse);
+  rpc Update(UpdateRequest) returns (UpdateResponse);
+}
+
+message GetRequest {
+  whitehawk.proto.slug.v1.Slug account_id = 1;
+  whitehawk.proto.slug.v1.Slug subscription_id = 2;
+}
+
+message GetResponse {
+  whitehawk.proto.time.v1.DateRange value = 1;
+}
+
+message UpdateRequest {
+  whitehawk.proto.slug.v1.Slug account_id = 1;
+  whitehawk.proto.slug.v1.Slug subscription_id = 2;
+  whitehawk.proto.time.v1.DateRange value = 3;
+}
+
+message UpdateResponse {}
