@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+package whitehawk.proto.internal.client_portal.accounts.id.groups.group_id.summary.v2;
+
+import "whitehawk/proto/scorecard_portfolio/v1/message.proto";
+import "whitehawk/proto/slug/v1/message.proto";
+
+service Service {
+  rpc Get(GetRequest) returns (GetResponse);
+}
+
+message GetRequest {
+  whitehawk.proto.slug.v1.Slug account_id = 1;
+  whitehawk.proto.slug.v1.Slug group_id = 2;
+}
+
+message GetResponse {
+  whitehawk.proto.scorecard_portfolio.v1.GroupSummary value = 1;
+}

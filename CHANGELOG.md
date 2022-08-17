@@ -2,7 +2,38 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
-### [0.21.4](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.21.3...0.21.4) (2022-08-12)
+### [0.22.3](https://github.com/whitehawkcec/whitehawk-proto/compare/0.22.2...0.22.3) (2022-08-17)
+
+
+### Features
+
+* **proto:** add rpc to update subscription product info ([1f7ec9b](https://github.com/whitehawkcec/whitehawk-proto/commit/1f7ec9b6d427e513b401ffee0429a5ee78cb245c))
+
+### [0.22.2](https://github.com/whitehawkcec/whitehawk-proto/compare/0.22.1...0.22.2) (2022-08-17)
+
+
+### Features
+
+* **proto:** add v2 service for account summary ([5c5d1d1](https://github.com/whitehawkcec/whitehawk-proto/commit/5c5d1d1ffaa226a837b55214f6daea904faa7b13))
+* **proto:** add v2 service for group state ([3e0bf10](https://github.com/whitehawkcec/whitehawk-proto/commit/3e0bf10becaf9bbd3a8f4f45e3b9e010bc8d1aea))
+* **proto:** add v2 service for group summary ([7b04c33](https://github.com/whitehawkcec/whitehawk-proto/commit/7b04c33ffdf7ead0875cdf3a57a13f1c2ad9d51c))
+
+### [0.22.1](https://github.com/whitehawkcec/whitehawk-proto/compare/0.22.0...0.22.1) (2022-08-17)
+
+
+### Features
+
+* **proto:** add service to manage subscription validity ([3c10511](https://github.com/whitehawkcec/whitehawk-proto/commit/3c10511d64a51c37992f7d201b9f3cd496405b95))
+
+## [0.22.0](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.21.3...0.22.0) (2022-08-16)
+
+### ⚠ BREAKING CHANGES
+
+- **proto:** return param should be singular
+
+### Features
+
+- **proto:** return param should be singular ([1a135fd](https://github.com/WhitehawkCEC/whitehawk-proto/commit/1a135fdfe35c3942ff5c3527472212b1d7b570c1))
 
 ### [0.21.3](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.21.2...0.21.3) (2022-08-12)
 
@@ -12,30 +43,27 @@ All notable changes to this project will be documented in this file. See [standa
 
 ## [0.21.0](https://github.com/whitehawkcec/whitehawk-proto/compare/0.20.4...0.21.0) (2022-08-12)
 
-
 ### ⚠ BREAKING CHANGES
 
-* **proto:** disallow updates to subscription type/validity
+- **proto:** disallow updates to subscription type/validity
 
 ### Features
 
-* **proto:** disallow updates to subscription type/validity ([4672cc0](https://github.com/whitehawkcec/whitehawk-proto/commit/4672cc0e3cc687532c233dfad367df3efffa0a40))
-
+- **proto:** disallow updates to subscription type/validity ([4672cc0](https://github.com/whitehawkcec/whitehawk-proto/commit/4672cc0e3cc687532c233dfad367df3efffa0a40))
 
 ### Bug Fixes
 
-* cut and paste error ([fd6b372](https://github.com/whitehawkcec/whitehawk-proto/commit/fd6b37270981e13116ed985d784218bd07610c48))
+- cut and paste error ([fd6b372](https://github.com/whitehawkcec/whitehawk-proto/commit/fd6b37270981e13116ed985d784218bd07610c48))
 
 ### [0.20.4](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.20.3...0.20.4) (2022-08-11)
 
-
 ### Features
 
-* add description field ([6127841](https://github.com/WhitehawkCEC/whitehawk-proto/commit/612784103b05c5cd9c661aa1aea2cdb0b202e4e9))
-* add meta field ([0a7d74d](https://github.com/WhitehawkCEC/whitehawk-proto/commit/0a7d74d5f526f69257698dd13483f47631e48772))
-* add meta field ([6ba1b89](https://github.com/WhitehawkCEC/whitehawk-proto/commit/6ba1b8988a66af1b8966e27ca35c8358ff42be45))
-* add read service ([e6ec10b](https://github.com/WhitehawkCEC/whitehawk-proto/commit/e6ec10b2c11f4adfd0615ed6542217f9d6b6d4b5))
-* add read service ([6072dd4](https://github.com/WhitehawkCEC/whitehawk-proto/commit/6072dd44108416aedfa9f78ec7042c6881dd7fe2))
+- add description field ([6127841](https://github.com/WhitehawkCEC/whitehawk-proto/commit/612784103b05c5cd9c661aa1aea2cdb0b202e4e9))
+- add meta field ([0a7d74d](https://github.com/WhitehawkCEC/whitehawk-proto/commit/0a7d74d5f526f69257698dd13483f47631e48772))
+- add meta field ([6ba1b89](https://github.com/WhitehawkCEC/whitehawk-proto/commit/6ba1b8988a66af1b8966e27ca35c8358ff42be45))
+- add read service ([e6ec10b](https://github.com/WhitehawkCEC/whitehawk-proto/commit/e6ec10b2c11f4adfd0615ed6542217f9d6b6d4b5))
+- add read service ([6072dd4](https://github.com/WhitehawkCEC/whitehawk-proto/commit/6072dd44108416aedfa9f78ec7042c6881dd7fe2))
 
 ### [0.20.3](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.20.2...0.20.3) (2022-08-11)
 
