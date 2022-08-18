@@ -35,6 +35,11 @@ enum SubscriptionState {
   SUBSCRIPTION_STATE_ARCHIVED = 3;
 }
 
+message SubscriptionGroup {
+  whitehawk.proto.slug.v1.Slug id = 1;
+  string name = 2;
+}
+
 message SubscriptionProduct {
   whitehawk.proto.ulid.v1.Ulid id = 1;
   string name = 2;
