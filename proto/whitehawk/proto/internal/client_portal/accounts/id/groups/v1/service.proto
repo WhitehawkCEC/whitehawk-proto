@@ -1,0 +1,37 @@
+syntax = "proto3";
+
+package whitehawk.proto.internal.client_portal.accounts.id.groups.v1;
+
+import "whitehawk/proto/scorecard_portfolio/v1/message.proto";
+import "whitehawk/proto/slug/v1/message.proto";
+
+service Service {
+  rpc Create(CreateRequest) returns (CreateResponse);
+  rpc Read(ReadRequest) returns (ReadResponse);
+  rpc Update(UpdateRequest) returns (UpdateResponse);
+}
+
+message CreateRequest {
+  whitehawk.proto.slug.v1.Slug account_id = 1;
+  whitehawk.proto.slug.v1.Slug group_id = 2;
+  string name = 3;
+}
+
+message CreateResponse {}
+
+message ReadRequest {
+  whitehawk.proto.slug.v1.Slug account_id = 1;
+  whitehawk.proto.slug.v1.Slug group_id = 2;
+}
+
+message ReadResponse {
+  whitehawk.proto.scorecard_portfolio.v1.Group value = 1;
+}
+
+message UpdateRequest {
+  whitehawk.proto.slug.v1.Slug account_id = 1;
+  whitehawk.proto.slug.v1.Slug group_id = 2;
+  string name = 3;
+}
+
+message UpdateResponse {}
