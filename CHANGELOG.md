@@ -4,26 +4,23 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### [0.22.3](https://github.com/whitehawkcec/whitehawk-proto/compare/0.22.2...0.22.3) (2022-08-17)
 
-
 ### Features
 
-* **proto:** add rpc to update subscription product info ([1f7ec9b](https://github.com/whitehawkcec/whitehawk-proto/commit/1f7ec9b6d427e513b401ffee0429a5ee78cb245c))
+- **proto:** add rpc to update subscription product info ([1f7ec9b](https://github.com/whitehawkcec/whitehawk-proto/commit/1f7ec9b6d427e513b401ffee0429a5ee78cb245c))
 
 ### [0.22.2](https://github.com/whitehawkcec/whitehawk-proto/compare/0.22.1...0.22.2) (2022-08-17)
 
-
 ### Features
 
-* **proto:** add v2 service for account summary ([5c5d1d1](https://github.com/whitehawkcec/whitehawk-proto/commit/5c5d1d1ffaa226a837b55214f6daea904faa7b13))
-* **proto:** add v2 service for group state ([3e0bf10](https://github.com/whitehawkcec/whitehawk-proto/commit/3e0bf10becaf9bbd3a8f4f45e3b9e010bc8d1aea))
-* **proto:** add v2 service for group summary ([7b04c33](https://github.com/whitehawkcec/whitehawk-proto/commit/7b04c33ffdf7ead0875cdf3a57a13f1c2ad9d51c))
+- **proto:** add v2 service for account summary ([5c5d1d1](https://github.com/whitehawkcec/whitehawk-proto/commit/5c5d1d1ffaa226a837b55214f6daea904faa7b13))
+- **proto:** add v2 service for group state ([3e0bf10](https://github.com/whitehawkcec/whitehawk-proto/commit/3e0bf10becaf9bbd3a8f4f45e3b9e010bc8d1aea))
+- **proto:** add v2 service for group summary ([7b04c33](https://github.com/whitehawkcec/whitehawk-proto/commit/7b04c33ffdf7ead0875cdf3a57a13f1c2ad9d51c))
 
 ### [0.22.1](https://github.com/whitehawkcec/whitehawk-proto/compare/0.22.0...0.22.1) (2022-08-17)
 
-
 ### Features
 
-* **proto:** add service to manage subscription validity ([3c10511](https://github.com/whitehawkcec/whitehawk-proto/commit/3c10511d64a51c37992f7d201b9f3cd496405b95))
+- **proto:** add service to manage subscription validity ([3c10511](https://github.com/whitehawkcec/whitehawk-proto/commit/3c10511d64a51c37992f7d201b9f3cd496405b95))
 
 ## [0.22.0](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.21.3...0.22.0) (2022-08-16)
 
