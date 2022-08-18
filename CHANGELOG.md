@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.23.0](https://github.com/whitehawkcec/whitehawk-proto/compare/0.22.4...0.23.0) (2022-08-18)
+
+
+### ⚠ BREAKING CHANGES
+
+* **proto:** remove accidentally commited account groups service
+
+### Features
+
+* **proto:** add service to manage subscription groups (really) ([59c0359](https://github.com/whitehawkcec/whitehawk-proto/commit/59c0359d984cb3d4a308aeac08d8c82c67356e3b))
+* **proto:** remove accidentally commited account groups service ([50507f0](https://github.com/whitehawkcec/whitehawk-proto/commit/50507f0f3e33ad0cfa0409a9ae6300811960a42b))
+
 ### [0.22.4](https://github.com/whitehawkcec/whitehawk-proto/compare/0.22.3...0.22.4) (2022-08-18)
 
 
