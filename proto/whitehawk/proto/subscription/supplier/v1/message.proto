@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+package whitehawk.proto.subscription.supplier.v1;
+
+message Supplier {
+  SupplierId id = 1;
+  string name = 2;
+}
+
+message SupplierId {
+  oneof type {
+    SupplierIdDomain type_domain = 1;
+  }
+}
+
+message SupplierIdDomain {
+  string domain = 1;
+}
