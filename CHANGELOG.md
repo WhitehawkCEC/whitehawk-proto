@@ -2,28 +2,51 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
-### [0.22.3](https://github.com/whitehawkcec/whitehawk-proto/compare/0.22.2...0.22.3) (2022-08-17)
+### [0.23.1](https://github.com/whitehawkcec/whitehawk-proto/compare/0.23.0...0.23.1) (2022-08-19)
 
 
 ### Features
 
-* **proto:** add rpc to update subscription product info ([1f7ec9b](https://github.com/whitehawkcec/whitehawk-proto/commit/1f7ec9b6d427e513b401ffee0429a5ee78cb245c))
+* **proto:** add messages for subscription supplier ([0952ef0](https://github.com/whitehawkcec/whitehawk-proto/commit/0952ef099b277c67b3b2e8184883300f6a48b58c))
+* **proto:** add service to manage subscription suppliers ([b2181a9](https://github.com/whitehawkcec/whitehawk-proto/commit/b2181a9cba1efae811a01c4dd91d860ceffe4c19))
+
+## [0.23.0](https://github.com/whitehawkcec/whitehawk-proto/compare/0.22.4...0.23.0) (2022-08-18)
+
+### ⚠ BREAKING CHANGES
+
+- **proto:** remove accidentally commited account groups service
+
+### Features
+
+- **proto:** add service to manage subscription groups (really) ([59c0359](https://github.com/whitehawkcec/whitehawk-proto/commit/59c0359d984cb3d4a308aeac08d8c82c67356e3b))
+- **proto:** remove accidentally commited account groups service ([50507f0](https://github.com/whitehawkcec/whitehawk-proto/commit/50507f0f3e33ad0cfa0409a9ae6300811960a42b))
+
+### [0.22.4](https://github.com/whitehawkcec/whitehawk-proto/compare/0.22.3...0.22.4) (2022-08-18)
+
+### Features
+
+- **proto:** add `SubscriptionGroup` ([a92fdf1](https://github.com/whitehawkcec/whitehawk-proto/commit/a92fdf150988ba8e5116c70c0ae92d36987dcdfa))
+- **proto:** add service to manage subscription groups ([b50f3b7](https://github.com/whitehawkcec/whitehawk-proto/commit/b50f3b798695a640bf12c66040f9dee69537f07c))
+
+### [0.22.3](https://github.com/whitehawkcec/whitehawk-proto/compare/0.22.2...0.22.3) (2022-08-17)
+
+### Features
+
+- **proto:** add rpc to update subscription product info ([1f7ec9b](https://github.com/whitehawkcec/whitehawk-proto/commit/1f7ec9b6d427e513b401ffee0429a5ee78cb245c))
 
 ### [0.22.2](https://github.com/whitehawkcec/whitehawk-proto/compare/0.22.1...0.22.2) (2022-08-17)
 
-
 ### Features
 
-* **proto:** add v2 service for account summary ([5c5d1d1](https://github.com/whitehawkcec/whitehawk-proto/commit/5c5d1d1ffaa226a837b55214f6daea904faa7b13))
-* **proto:** add v2 service for group state ([3e0bf10](https://github.com/whitehawkcec/whitehawk-proto/commit/3e0bf10becaf9bbd3a8f4f45e3b9e010bc8d1aea))
-* **proto:** add v2 service for group summary ([7b04c33](https://github.com/whitehawkcec/whitehawk-proto/commit/7b04c33ffdf7ead0875cdf3a57a13f1c2ad9d51c))
+- **proto:** add v2 service for account summary ([5c5d1d1](https://github.com/whitehawkcec/whitehawk-proto/commit/5c5d1d1ffaa226a837b55214f6daea904faa7b13))
+- **proto:** add v2 service for group state ([3e0bf10](https://github.com/whitehawkcec/whitehawk-proto/commit/3e0bf10becaf9bbd3a8f4f45e3b9e010bc8d1aea))
+- **proto:** add v2 service for group summary ([7b04c33](https://github.com/whitehawkcec/whitehawk-proto/commit/7b04c33ffdf7ead0875cdf3a57a13f1c2ad9d51c))
 
 ### [0.22.1](https://github.com/whitehawkcec/whitehawk-proto/compare/0.22.0...0.22.1) (2022-08-17)
 
-
 ### Features
 
-* **proto:** add service to manage subscription validity ([3c10511](https://github.com/whitehawkcec/whitehawk-proto/commit/3c10511d64a51c37992f7d201b9f3cd496405b95))
+- **proto:** add service to manage subscription validity ([3c10511](https://github.com/whitehawkcec/whitehawk-proto/commit/3c10511d64a51c37992f7d201b9f3cd496405b95))
 
 ## [0.22.0](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.21.3...0.22.0) (2022-08-16)
 

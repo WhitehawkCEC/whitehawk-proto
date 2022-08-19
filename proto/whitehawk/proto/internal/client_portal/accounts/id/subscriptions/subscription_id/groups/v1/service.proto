@@ -1,0 +1,48 @@
+syntax = "proto3";
+
+package whitehawk.proto.internal.client_portal.accounts.id.subscriptions.subscription_id.groups.v1;
+
+import "whitehawk/proto/slug/v1/message.proto";
+import "whitehawk/proto/subscription/v1/message.proto";
+
+service Service {
+  rpc Create(CreateRequest) returns (CreateResponse);
+  rpc Read(ReadRequest) returns (ReadResponse);
+  rpc Update(UpdateRequest) returns (UpdateResponse);
+  rpc List(ListRequest) returns (ListResponse);
+}
+
+message CreateRequest {
+  whitehawk.proto.slug.v1.Slug account_id = 1;
+  whitehawk.proto.slug.v1.Slug subscription_id = 2;
+  whitehawk.proto.subscription.v1.SubscriptionGroup group = 3;
+}
+
+message CreateResponse {}
+
+message ReadRequest {
+  whitehawk.proto.slug.v1.Slug account_id = 1;
+  whitehawk.proto.slug.v1.Slug subscription_id = 2;
+  whitehawk.proto.slug.v1.Slug group_id = 3;
+}
+
+message ReadResponse {
+  whitehawk.proto.subscription.v1.SubscriptionGroup value = 1;
+}
+
+message UpdateRequest {
+  whitehawk.proto.slug.v1.Slug account_id = 1;
+  whitehawk.proto.slug.v1.Slug subscription_id = 2;
+  whitehawk.proto.subscription.v1.SubscriptionGroup group = 3;
+}
+
+message UpdateResponse {}
+
+message ListRequest {
+  whitehawk.proto.slug.v1.Slug account_id = 1;
+  whitehawk.proto.slug.v1.Slug subscription_id = 2;
+}
+
+message ListResponse {
+  repeated whitehawk.proto.subscription.v1.SubscriptionGroup values = 1;
+}
