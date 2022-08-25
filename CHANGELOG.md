@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.23.2](https://github.com/whitehawkcec/whitehawk-proto/compare/0.23.1...0.23.2) (2022-08-25)
+
+
+### Features
+
+* **proto:** add service to manage subscription product config ([45d4600](https://github.com/whitehawkcec/whitehawk-proto/commit/45d4600a6250fb9ff9bb942418c392b2873199a3))
+
+### [0.21.4](https://github.com/whitehawkcec/whitehawk-proto/compare/0.21.3...0.21.4) (2022-08-12)
+
 ### [0.23.1](https://github.com/whitehawkcec/whitehawk-proto/compare/0.23.0...0.23.1) (2022-08-19)
 
 ### Features
