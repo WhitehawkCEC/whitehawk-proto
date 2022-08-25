@@ -6,13 +6,23 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### [0.21.4](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.21.3...0.21.4) (2022-08-12)
 
-### [0.23.1](https://github.com/whitehawkcec/whitehawk-proto/compare/0.23.0...0.23.1) (2022-08-19)
+### [0.23.3](https://github.com/whitehawkcec/whitehawk-proto/compare/0.23.2...0.23.3) (2022-08-25)
+
+### [0.23.2](https://github.com/whitehawkcec/whitehawk-proto/compare/0.23.1...0.23.2) (2022-08-25)
 
 
 ### Features
 
-* **proto:** add messages for subscription supplier ([0952ef0](https://github.com/whitehawkcec/whitehawk-proto/commit/0952ef099b277c67b3b2e8184883300f6a48b58c))
-* **proto:** add service to manage subscription suppliers ([b2181a9](https://github.com/whitehawkcec/whitehawk-proto/commit/b2181a9cba1efae811a01c4dd91d860ceffe4c19))
+* **proto:** add service to manage subscription product config ([45d4600](https://github.com/whitehawkcec/whitehawk-proto/commit/45d4600a6250fb9ff9bb942418c392b2873199a3))
+
+### [0.21.4](https://github.com/whitehawkcec/whitehawk-proto/compare/0.21.3...0.21.4) (2022-08-12)
+
+### [0.23.1](https://github.com/whitehawkcec/whitehawk-proto/compare/0.23.0...0.23.1) (2022-08-19)
+
+### Features
+
+- **proto:** add messages for subscription supplier ([0952ef0](https://github.com/whitehawkcec/whitehawk-proto/commit/0952ef099b277c67b3b2e8184883300f6a48b58c))
+- **proto:** add service to manage subscription suppliers ([b2181a9](https://github.com/whitehawkcec/whitehawk-proto/commit/b2181a9cba1efae811a01c4dd91d860ceffe4c19))
 
 ## [0.23.0](https://github.com/whitehawkcec/whitehawk-proto/compare/0.22.4...0.23.0) (2022-08-18)
 
