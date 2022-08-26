@@ -4,10 +4,9 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### [0.23.4](https://github.com/whitehawkcec/whitehawk-proto/compare/0.23.3...0.23.4) (2022-08-25)
 
-
 ### Features
 
-* **proto:** add rpc to get subscription product config ([3bb906e](https://github.com/whitehawkcec/whitehawk-proto/commit/3bb906edf6ca9737837fafd5cb134919912eed94))
+- **proto:** add rpc to get subscription product config ([3bb906e](https://github.com/whitehawkcec/whitehawk-proto/commit/3bb906edf6ca9737837fafd5cb134919912eed94))
 
 ### [0.23.2](https://github.com/whitehawkcec/whitehawk-proto/compare/0.23.1...0.23.2) (2022-08-19)
 
@@ -19,10 +18,9 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### [0.23.2](https://github.com/whitehawkcec/whitehawk-proto/compare/0.23.1...0.23.2) (2022-08-25)
 
-
 ### Features
 
-* **proto:** add service to manage subscription product config ([45d4600](https://github.com/whitehawkcec/whitehawk-proto/commit/45d4600a6250fb9ff9bb942418c392b2873199a3))
+- **proto:** add service to manage subscription product config ([45d4600](https://github.com/whitehawkcec/whitehawk-proto/commit/45d4600a6250fb9ff9bb942418c392b2873199a3))
 
 ### [0.21.4](https://github.com/whitehawkcec/whitehawk-proto/compare/0.21.3...0.21.4) (2022-08-12)
 
