@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.23.8](https://github.com/whitehawkcec/whitehawk-proto/compare/0.23.7...0.23.8) (2022-08-30)
+
+
+### Features
+
+* **proto:** add v3 service for subscriptions product config ([4d77c53](https://github.com/whitehawkcec/whitehawk-proto/commit/4d77c531d119d00e5667ef2862858ede7f710ee2))
+
 ### [0.23.7](https://github.com/whitehawkcec/whitehawk-proto/compare/0.23.6...0.23.7) (2022-08-30)
 
 
