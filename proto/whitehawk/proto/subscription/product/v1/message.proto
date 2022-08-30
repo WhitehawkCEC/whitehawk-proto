@@ -25,6 +25,7 @@ message CyberRiskRatingBlackKiteConfig {
   whitehawk.proto.integration.black_kite.domain.v1.ApiKey api_key = 1;
   whitehawk.proto.integration.black_kite.domain.v1.ScanProfileType license_type = 2;
   optional string mapped_entity_id = 3;
+  optional string domain = 4;
 }
 
 message CyberRiskRatingBitsightConfig {
@@ -32,4 +33,5 @@ message CyberRiskRatingBitsightConfig {
   oneof mapped_entity_id {
     whitehawk.proto.uuid.v1.Uuid value = 2;
   }
+  optional string domain = 4;
 }
