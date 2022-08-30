@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.23.6](https://github.com/whitehawkcec/whitehawk-proto/compare/0.23.5...0.23.6) (2022-08-30)
+
+
+### Features
+
+* **proto:** add new package for subscription product messages ([4980ccd](https://github.com/whitehawkcec/whitehawk-proto/commit/4980ccd0cf3822cb97cad7a48119981d7d2f0c1a))
+* **proto:** add v2 service for subscriptions products ([588454c](https://github.com/whitehawkcec/whitehawk-proto/commit/588454cf3a4b1958eca50a06dec7324cfeee38ca))
+
 ### [0.23.5](https://github.com/whitehawkcec/whitehawk-proto/compare/0.23.4...0.23.5) (2022-08-26)
 
 ### Features
