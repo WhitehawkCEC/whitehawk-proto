@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.23.9](https://github.com/whitehawkcec/whitehawk-proto/compare/0.23.8...0.23.9) (2022-08-30)
+
+
+### Features
+
+* **proto:** add service to get BS performance evaluation ([adafa6a](https://github.com/whitehawkcec/whitehawk-proto/commit/adafa6a2aa377248771322b8c6f0c83148287102))
+
 ### [0.23.8](https://github.com/whitehawkcec/whitehawk-proto/compare/0.23.7...0.23.8) (2022-08-30)
 
 
