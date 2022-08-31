@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.23.10](https://github.com/whitehawkcec/whitehawk-proto/compare/0.23.9...0.23.10) (2022-08-31)
+
+
+### Features
+
+* add optional `domain` fields for subscription product config ([643aff0](https://github.com/whitehawkcec/whitehawk-proto/commit/643aff0cf6439a0ec1c1a2d486764c72600a5d22))
+
 ### [0.23.9](https://github.com/whitehawkcec/whitehawk-proto/compare/0.23.8...0.23.9) (2022-08-30)
 
 ### Features
