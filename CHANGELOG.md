@@ -4,32 +4,28 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### [0.23.9](https://github.com/whitehawkcec/whitehawk-proto/compare/0.23.8...0.23.9) (2022-08-30)
 
-
 ### Features
 
-* **proto:** add service to get BS performance evaluation ([adafa6a](https://github.com/whitehawkcec/whitehawk-proto/commit/adafa6a2aa377248771322b8c6f0c83148287102))
+- **proto:** add service to get BS performance evaluation ([adafa6a](https://github.com/whitehawkcec/whitehawk-proto/commit/adafa6a2aa377248771322b8c6f0c83148287102))
 
 ### [0.23.8](https://github.com/whitehawkcec/whitehawk-proto/compare/0.23.7...0.23.8) (2022-08-30)
 
-
 ### Features
 
-* **proto:** add v3 service for subscriptions product config ([4d77c53](https://github.com/whitehawkcec/whitehawk-proto/commit/4d77c531d119d00e5667ef2862858ede7f710ee2))
+- **proto:** add v3 service for subscriptions product config ([4d77c53](https://github.com/whitehawkcec/whitehawk-proto/commit/4d77c531d119d00e5667ef2862858ede7f710ee2))
 
 ### [0.23.7](https://github.com/whitehawkcec/whitehawk-proto/compare/0.23.6...0.23.7) (2022-08-30)
 
-
 ### Features
 
-* **proto:** add v2 service for subscriptions product config ([2c51598](https://github.com/whitehawkcec/whitehawk-proto/commit/2c51598370a3a3c5263fe8c006144ad54b57834e))
+- **proto:** add v2 service for subscriptions product config ([2c51598](https://github.com/whitehawkcec/whitehawk-proto/commit/2c51598370a3a3c5263fe8c006144ad54b57834e))
 
 ### [0.23.6](https://github.com/whitehawkcec/whitehawk-proto/compare/0.23.5...0.23.6) (2022-08-30)
 
-
 ### Features
 
-* **proto:** add new package for subscription product messages ([4980ccd](https://github.com/whitehawkcec/whitehawk-proto/commit/4980ccd0cf3822cb97cad7a48119981d7d2f0c1a))
-* **proto:** add v2 service for subscriptions products ([588454c](https://github.com/whitehawkcec/whitehawk-proto/commit/588454cf3a4b1958eca50a06dec7324cfeee38ca))
+- **proto:** add new package for subscription product messages ([4980ccd](https://github.com/whitehawkcec/whitehawk-proto/commit/4980ccd0cf3822cb97cad7a48119981d7d2f0c1a))
+- **proto:** add v2 service for subscriptions products ([588454c](https://github.com/whitehawkcec/whitehawk-proto/commit/588454cf3a4b1958eca50a06dec7324cfeee38ca))
 
 ### [0.23.5](https://github.com/whitehawkcec/whitehawk-proto/compare/0.23.4...0.23.5) (2022-08-26)
 
