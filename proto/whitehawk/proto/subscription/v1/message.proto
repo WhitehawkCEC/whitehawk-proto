@@ -14,6 +14,7 @@ message Subscription {
   SubscriptionType type = 3;
   string name = 4;
   SubscriptionStatus status = 5;
+  SubscriptionFeatures features = 6;
 }
 
 enum SubscriptionType {
@@ -21,6 +22,12 @@ enum SubscriptionType {
   SUBSCRIPTION_TYPE_INDIVIDUAL = 1;
   SUBSCRIPTION_TYPE_PORTFOLIO = 2;
   SUBSCRIPTION_TYPE_RESELLER = 3;
+}
+
+message SubscriptionFeatures {
+  bool has_products = 1;
+  bool has_suppliers = 2;
+  bool has_groups = 3;
 }
 
 message SubscriptionStatus {
