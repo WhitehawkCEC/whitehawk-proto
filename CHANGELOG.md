@@ -4,10 +4,9 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### [0.23.11](https://github.com/whitehawkcec/whitehawk-proto/compare/0.23.10...0.23.11) (2022-09-01)
 
-
 ### Features
 
-* **proto:** add `Subscription` `features` field ([6c8da99](https://github.com/whitehawkcec/whitehawk-proto/commit/6c8da9982a820a880430a91a69a0193542071eeb))
+- **proto:** add `Subscription` `features` field ([6c8da99](https://github.com/whitehawkcec/whitehawk-proto/commit/6c8da9982a820a880430a91a69a0193542071eeb))
 
 ### [0.23.10](https://github.com/whitehawkcec/whitehawk-proto/compare/0.23.9...0.23.10) (2022-08-31)
 
