@@ -2,6 +2,7 @@ syntax = "proto3";
 
 package whitehawk.proto.internal.client_portal.products.categories.v1;
 
+import "whitehawk/proto/bundle/v1/message.proto";
 import "whitehawk/proto/product/v1/message.proto";
 import "whitehawk/proto/slug/v1/message.proto";
 
@@ -11,6 +12,7 @@ service Service {
   rpc Delete(DeleteRequest) returns (DeleteResponse);
   rpc List(ListRequest) returns (ListResponse);
   rpc Read(ReadRequest) returns (ReadResponse);
+  rpc ListIsolatedBundlesAndProducts(ListIsolatedBundlesAndProductsRequest) returns (ListIsolatedBundlesAndProductsResponse);
 }
 
 message CreateRequest {
@@ -43,4 +45,13 @@ message ReadRequest {
 
 message ReadResponse {
   whitehawk.proto.product.v1.ProductCategory category = 1;
+}
+
+message ListIsolatedBundlesAndProductsRequest {
+  whitehawk.proto.product.v1.ProductCategory category = 1;
+}
+
+message ListIsolatedBundlesAndProductsResponse {
+  repeated whitehawk.proto.product.v1.Product products = 1;
+  repeated whitehawk.proto.bundle.v1.BundleTemplate bundle_templates = 2;
 }
