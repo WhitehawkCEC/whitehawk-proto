@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.23.13](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.23.12...0.23.13) (2022-09-09)
+
+
+### Features
+
+* add listisolatedBundlesAndProducts ([58f6010](https://github.com/WhitehawkCEC/whitehawk-proto/commit/58f6010ad30ed71bc8caee6d2fcba4b5119a3ca6))
+
 ### [0.23.12](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.23.11...0.23.12) (2022-09-09)
 
 ## [0.23.0](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.22.0...0.23.0) (2022-09-09)
