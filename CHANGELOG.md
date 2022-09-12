@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.24.0](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.23.13...0.24.0) (2022-09-12)
+
+
+### ⚠ BREAKING CHANGES
+
+* **proto:** change input param to slug
+
+### Bug Fixes
+
+* **proto:** change input param to slug ([94b672e](https://github.com/WhitehawkCEC/whitehawk-proto/commit/94b672e4d04daa43e7d4465be025b53dd51728b5))
+
 ### [0.23.13](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.23.12...0.23.13) (2022-09-09)
 
 ### Features
