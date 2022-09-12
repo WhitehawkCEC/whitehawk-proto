@@ -48,7 +48,7 @@ message ReadResponse {
 }
 
 message ListIsolatedBundlesAndProductsRequest {
-  whitehawk.proto.product.v1.ProductCategory category = 1;
+  whitehawk.proto.slug.v1.Slug id = 1;
 }
 
 message ListIsolatedBundlesAndProductsResponse {
