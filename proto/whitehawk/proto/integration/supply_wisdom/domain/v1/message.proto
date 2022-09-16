@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package whitehawk.proto.integration.supply_wisdom.domain.v1;
+
+message ApiKey {
+  // 40 characters (lowercase letters or numbers)
+  // Pattern: [a-z0-9]{40}
+  string value = 1;
+}
