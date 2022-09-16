@@ -1,13 +1,28 @@
 syntax = "proto3";
 
-package whitehawk.proto.internal.client_portal.accounts.id.jobs.v1;
+package whitehawk.proto.jobs.v1;
 
 import "whitehawk/proto/integration/bitsight/domain/v1/message.proto";
 import "whitehawk/proto/integration/black_kite/domain/v1/message.proto";
 import "whitehawk/proto/integration/supply_wisdom/domain/v1/message.proto";
 import "whitehawk/proto/integration/cyber_one/domain/v1/message.proto";
+import "whitehawk/proto/ulid/v1/message.proto";
 
 message Job {
+  whitehawk.proto.ulid.v1.Ulid job_id = 1;
+  JobDetails job_details = 3;
+}
+
+message JobDetails {
+  whitehawk.proto.ulid.v1.Ulid source_id = 1;
+  whitehawk.proto.ulid.v1.Ulid target_id = 2;
+}
+
+message Schedule {
+  int32 interval_in_days = 1;
+}
+
+message JobConfig {
   oneof value {
     SupplyWisdomToCyberOne supply_wisdom_to_cyber_one = 1;
     BlackKiteToCyberOne black_kite_to_cyber_one = 2;
