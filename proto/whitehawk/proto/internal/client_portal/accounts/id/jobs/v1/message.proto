@@ -1,0 +1,31 @@
+syntax = "proto3";
+
+package whitehawk.proto.internal.client_portal.accounts.id.jobs.v1;
+
+import "whitehawk/proto/integration/bitsight/domain/v1/message.proto";
+import "whitehawk/proto/integration/black_kite/domain/v1/message.proto";
+import "whitehawk/proto/integration/supply_wisdom/domain/v1/message.proto";
+import "whitehawk/proto/integration/cyber_one/domain/v1/message.proto";
+
+message Job {
+  oneof value {
+    SupplyWisdomToCyberOne supply_wisdom_to_cyber_one = 1;
+    BlackKiteToCyberOne black_kite_to_cyber_one = 2;
+    BitsightToCyberOne bitsight_to_cyber_one = 3;
+  }
+}
+
+message SupplyWisdomToCyberOne {
+  whitehawk.proto.integration.supply_wisdom.domain.v1.ApiKey supply_wisdom_api_key = 1;
+  whitehawk.proto.integration.cyber_one.domain.v1.ApiKey cyber_one_api_key = 2;
+}
+
+message BlackKiteToCyberOne {
+  whitehawk.proto.integration.black_kite.domain.v1.ApiKey black_kite_api_key = 1;
+  whitehawk.proto.integration.cyber_one.domain.v1.ApiKey cyber_one_api_key = 2;
+}
+
+message BitsightToCyberOne {
+  whitehawk.proto.integration.bitsight.domain.v1.ApiToken bitsight_api_token = 1;
+  whitehawk.proto.integration.cyber_one.domain.v1.ApiKey cyber_one_api_key = 2;
+}
