@@ -1,0 +1,34 @@
+syntax = "proto3";
+
+package whitehawk.proto.scorecard_licensing.v1;
+
+import "whitehawk/proto/time/v1/message.proto";
+import "whitehawk/proto/ulid/v1/message.proto";
+
+message AggregateLicenseUsage {
+  LicenseUsage annual = 1;
+  LicenseUsage one_time = 2;
+  whitehawk.proto.time.v1.DateRange validity = 3;
+}
+
+message LicenseBatchUsage {
+  whitehawk.proto.ulid.v1.Ulid id = 1;
+  whitehawk.proto.time.v1.DateRange validity = 2;
+  LicenseTypeMapLicenseUsage counts = 3;
+}
+
+message LicenseTypeMapQuantities {
+  int32 annual = 1;
+  int32 one_time = 2;
+}
+
+message LicenseTypeMapLicenseUsage {
+  LicenseUsage annual = 1;
+  LicenseUsage one_time = 2;
+}
+
+message LicenseUsage {
+  int32 quantity = 1;
+  int32 available = 2;
+  int32 used = 3;
+}
