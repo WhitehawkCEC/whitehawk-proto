@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.27.1](https://github.com/whitehawkcec/whitehawk-proto/compare/0.27.0...0.27.1) (2022-09-16)
+
+
+### Features
+
+* **proto:** add service to manage subscription product license batch quantities ([c9dd733](https://github.com/whitehawkcec/whitehawk-proto/commit/c9dd733053481ad5a09c8056729f1709ff03e62b))
+* **proto:** add service to manage subscription product license batches ([361e1d0](https://github.com/whitehawkcec/whitehawk-proto/commit/361e1d052e14cce5a31f83a3c01265e4d81659d8))
+
 ## [0.27.0](https://github.com/whitehawkcec/whitehawk-proto/compare/0.26.0...0.27.0) (2022-09-16)
 
 
