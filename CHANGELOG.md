@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.26.0](https://github.com/whitehawkcec/whitehawk-proto/compare/0.25.0...0.26.0) (2022-09-16)
+
+
+### ⚠ BREAKING CHANGES
+
+* **proto:** make field `oneof`
+
+### Features
+
+* **proto:** make field `oneof` ([353e93c](https://github.com/whitehawkcec/whitehawk-proto/commit/353e93cedb5eb0682e8c87f9713fb100d0f033f3))
+
 ## [0.25.0](https://github.com/whitehawkcec/whitehawk-proto/compare/0.24.0...0.25.0) (2022-09-16)
 
 
