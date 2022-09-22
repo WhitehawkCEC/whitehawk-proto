@@ -17,10 +17,9 @@ message CreateRequest {
 message CreateResponse {}
 
 message ListRequest {
-  whitehawk.proto.slug.v1.Slug sourceId = 1;
-  whitehawk.proto.slug.v1.Slug destinationId = 2;
-  whitehawk.proto.cyberone.v1.WhiteHawkReportRatingServiceType ratingType = 3;
-
+  whitehawk.proto.slug.v1.Slug source_id = 1;
+  whitehawk.proto.slug.v1.Slug destination_id = 2;
+  whitehawk.proto.cyberone.v1.WhiteHawkReportRatingServiceType rating_type = 3;
 }
 
 message ListResponse {
