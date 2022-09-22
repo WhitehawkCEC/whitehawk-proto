@@ -2,6 +2,7 @@ syntax = "proto3";
 
 package whitehawk.proto.cyberone.v1;
 
+import "whitehawk/proto/time/v1/message.proto";
 import "whitehawk/proto/slug/v1/message.proto";
 import "whitehawk/proto/status/v1/message.proto";
 import "whitehawk/proto/supply_wisdom/utils/v1/message.proto";
@@ -56,8 +57,42 @@ message SupplierBasicInfo {
   string name = 2;
 }
 
+message ScheduledJob {
+  whitehawk.proto.slug.v1.Slug id = 1;
+  whitehawk.proto.slug.v1.Slug source_id = 2;
+  string target_name = 3;
+  whitehawk.proto.slug.v1.Slug destination_id = 4;
+  Schedule schedule = 5;
+}
+
+message ScheduleJobResult {
+  whitehawk.proto.ulid.v1.Ulid id = 1;
+  ScheduledJob job = 2;
+  Result result = 3;
+}
+
+message Result {
+  string status = 1;
+  Meta meta = 2;
+}
+
+message Meta {
+  whitehawk.proto.time.v1.IsoDateTime created_at = 1;
+  whitehawk.proto.time.v1.IsoDateTime updated_at = 2;
+}
+
+message Schedule{
+  int32 intervalInDays = 1;
+}
+
 enum WhiteHawkReportRatingServiceType {
   WHITE_HAWK_REPORT_RATING_SERVICE_TYPE_UNSPECIFIED = 0;
   WHITE_HAWK_REPORT_RATING_SERVICE_TYPE_RATING_SERVICE_1 = 1;
   WHITE_HAWK_REPORT_RATING_SERVICE_TYPE_RATING_SERVICE_2 = 2;
+}
+
+enum ScheduledJobType{
+  Scheduled_Job_Type_UNSPECIFIED = 0;
+  Scheduled_Job_Type_WHITEHAWK_REPORTS = 1;
+  Scheduled_Job_Type_BUSINESS_REPORTS = 2;
 }
