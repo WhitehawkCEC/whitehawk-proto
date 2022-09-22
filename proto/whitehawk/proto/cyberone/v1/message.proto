@@ -82,7 +82,7 @@ message Meta {
 }
 
 message Schedule{
-  int32 intervalInDays = 1;
+  int32 interval_in_days = 1;
 }
 
 enum WhiteHawkReportRatingServiceType {
@@ -92,7 +92,7 @@ enum WhiteHawkReportRatingServiceType {
 }
 
 enum ScheduledJobType{
-  Scheduled_Job_Type_UNSPECIFIED = 0;
-  Scheduled_Job_Type_WHITEHAWK_REPORTS = 1;
-  Scheduled_Job_Type_BUSINESS_REPORTS = 2;
+  SCHEDULED_JOB_TYPE_UNSPECIFIED = 0;
+  SCHEDULED_JOB_TYPE_WHITEHAWK_REPORTS = 1;
+  SCHEDULED_JOB_TYPE_BUSINESS_REPORTS = 2;
 }
