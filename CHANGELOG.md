@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.30.6](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.30.5...0.30.6) (2022-09-22)
+
+
+### Features
+
+* add read request ([cc2f4d0](https://github.com/WhitehawkCEC/whitehawk-proto/commit/cc2f4d08b75eedf46ec751b2dbbbf7b461215865))
+
 ### [0.30.5](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.30.4...0.30.5) (2022-09-22)
 
 ### [0.30.4](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.30.3...0.30.4) (2022-09-22)
