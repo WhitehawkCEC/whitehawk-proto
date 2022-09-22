@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.30.0](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.29.1...0.30.0) (2022-09-22)
+
+
+### ⚠ BREAKING CHANGES
+
+* sync request now contains source and destionations ids
+
+### Features
+
+* sync request now contains source and destionations ids ([0bd7689](https://github.com/WhitehawkCEC/whitehawk-proto/commit/0bd76891d6bddd5007afa76db8275f63453f7204))
+
 ### [0.29.1](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.29.0...0.29.1) (2022-09-22)
 
 
