@@ -17,7 +17,8 @@ message CreateRequest {
 message CreateResponse {}
 
 message ListRequest {
-  whitehawk.proto.slug.v1.Slug id = 1;
+  whitehawk.proto.cyberone.v1.SupplyWisdomSource source = 1;
+  whitehawk.proto.slug.v1.Slug destination_id = 2;
 }
 
 message ListResponse {

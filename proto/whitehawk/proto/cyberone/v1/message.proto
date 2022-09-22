@@ -20,15 +20,17 @@ message CyberOneWhiteHawkKeyPair {
 }
 
 message CyberOneSupplyWisdomReportsSyncRequest {
-  whitehawk.proto.slug.v1.Slug id = 1;
-  repeated CyberOneSupplyWisdomMatchedPair matched_pair = 2;
-  optional whitehawk.proto.status.v1.Status status = 3;
-  optional string file_name = 4;
+  SupplyWisdomSource source = 1;
+  whitehawk.proto.slug.v1.Slug destination_id = 2;
+  repeated CyberOneSupplyWisdomMatchedPair matched_pair = 3;
+  optional whitehawk.proto.status.v1.Status status = 4;
+  optional string file_name = 5;
 }
 
 message CyberOneWhiteHawkScorecardReportsSyncRequest {
-  whitehawk.proto.slug.v1.Slug id = 1;
-  WhiteHawkReportRatingServiceType rating_service = 2;
+  whitehawk.proto.slug.v1.Slug source_id = 1;
+  whitehawk.proto.slug.v1.Slug destination_id = 2;
+  WhiteHawkReportRatingServiceType rating_service = 3;
 }
 
 message CyberOneSupplyWisdomMatchedPair {
@@ -41,6 +43,11 @@ message CyberOneWhiteHawkScorecardMatchedPair {
   whitehawk.proto.slug.v1.Slug id = 1;
   CyberOneAsset cyberone = 2;
   SupplierBasicInfo supplier = 3;
+}
+
+message SupplyWisdomSource {
+  whitehawk.proto.slug.v1.Slug id = 1;
+  string target_name = 2;
 }
 
 message SupplierBasicInfo {
