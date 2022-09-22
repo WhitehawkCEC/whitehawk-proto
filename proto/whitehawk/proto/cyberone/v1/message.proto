@@ -22,9 +22,10 @@ message CyberOneWhiteHawkKeyPair {
 message CyberOneSupplyWisdomReportsSyncRequest {
   SupplyWisdomSource source = 1;
   whitehawk.proto.slug.v1.Slug destination_id = 2;
-  repeated CyberOneSupplyWisdomMatchedPair matched_pair = 3;
-  optional whitehawk.proto.status.v1.Status status = 4;
-  optional string file_name = 5;
+  WhiteHawkReportRatingServiceType rating_type = 3;
+  repeated CyberOneSupplyWisdomMatchedPair matched_pair = 4;
+  optional whitehawk.proto.status.v1.Status status = 5;
+  optional string file_name = 6;
 }
 
 message CyberOneWhiteHawkScorecardReportsSyncRequest {
