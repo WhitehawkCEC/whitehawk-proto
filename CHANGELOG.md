@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.30.3](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.30.2...0.30.3) (2022-09-22)
+
+
+### Features
+
+* schedule jobs ([424ccbc](https://github.com/WhitehawkCEC/whitehawk-proto/commit/424ccbc2e005ca860cf459ff452a251556015517))
+
 ### [0.30.2](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.30.1...0.30.2) (2022-09-22)
 
 ### [0.30.1](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.30.0...0.30.1) (2022-09-22)
