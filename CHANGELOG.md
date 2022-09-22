@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.30.7](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.30.6...0.30.7) (2022-09-22)
+
+
+### Features
+
+* create result return result instead of job ([4aca5eb](https://github.com/WhitehawkCEC/whitehawk-proto/commit/4aca5eb7f1d85c63fafc60eedad5078244836c60))
+
 ### [0.30.6](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.30.5...0.30.6) (2022-09-22)
 
 
