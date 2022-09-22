@@ -4,14 +4,13 @@ All notable changes to this project will be documented in this file. See [standa
 
 ## [0.28.0](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.27.3...0.28.0) (2022-09-21)
 
-
 ### ⚠ BREAKING CHANGES
 
-* missing import
+- missing import
 
 ### Bug Fixes
 
-* missing import ([63ad39e](https://github.com/WhitehawkCEC/whitehawk-proto/commit/63ad39e7b6f2e38d072b7e8694394a2d99598243))
+- missing import ([63ad39e](https://github.com/WhitehawkCEC/whitehawk-proto/commit/63ad39e7b6f2e38d072b7e8694394a2d99598243))
 
 ### [0.27.3](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.27.2...0.27.3) (2022-09-21)
 
