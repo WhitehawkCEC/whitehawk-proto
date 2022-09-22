@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.30.1](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.30.0...0.30.1) (2022-09-22)
+
+
+### Features
+
+* sync request send rating type as well ([6e6f752](https://github.com/WhitehawkCEC/whitehawk-proto/commit/6e6f75277099e990112d35f46e45f73b9dcb05b0))
+
 ## [0.30.0](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.29.1...0.30.0) (2022-09-22)
 
 
