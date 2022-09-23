@@ -2,10 +2,10 @@ syntax = "proto3";
 
 package whitehawk.proto.cyberone.v1;
 
-import "whitehawk/proto/time/v1/message.proto";
 import "whitehawk/proto/slug/v1/message.proto";
 import "whitehawk/proto/status/v1/message.proto";
 import "whitehawk/proto/supply_wisdom/utils/v1/message.proto";
+import "whitehawk/proto/time/v1/message.proto";
 import "whitehawk/proto/ulid/v1/message.proto";
 
 message CyberOneAsset {
@@ -81,7 +81,7 @@ message Meta {
   whitehawk.proto.time.v1.IsoDateTime updated_at = 2;
 }
 
-message Schedule{
+message Schedule {
   int32 interval_in_days = 1;
 }
 
@@ -91,7 +91,7 @@ enum WhiteHawkReportRatingServiceType {
   WHITE_HAWK_REPORT_RATING_SERVICE_TYPE_RATING_SERVICE_2 = 2;
 }
 
-enum ScheduledJobType{
+enum ScheduledJobType {
   SCHEDULED_JOB_TYPE_UNSPECIFIED = 0;
   SCHEDULED_JOB_TYPE_WHITEHAWK_REPORTS = 1;
   SCHEDULED_JOB_TYPE_BUSINESS_REPORTS = 2;

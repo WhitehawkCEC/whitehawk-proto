@@ -20,11 +20,11 @@ message CreateResponse {
   whitehawk.proto.cyberone.v1.ScheduleJobResult scheduled_job_result = 1;
 }
 
-message ReadRequest{
+message ReadRequest {
   whitehawk.proto.slug.v1.Slug id = 1;
 }
 
-message ReadResponse{
+message ReadResponse {
   whitehawk.proto.cyberone.v1.ScheduleJobResult scheduled_job_result = 1;
 }
 
