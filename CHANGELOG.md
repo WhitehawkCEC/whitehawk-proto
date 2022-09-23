@@ -4,71 +4,63 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### [0.30.7](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.30.6...0.30.7) (2022-09-22)
 
-
 ### Features
 
-* create result return result instead of job ([4aca5eb](https://github.com/WhitehawkCEC/whitehawk-proto/commit/4aca5eb7f1d85c63fafc60eedad5078244836c60))
+- create result return result instead of job ([4aca5eb](https://github.com/WhitehawkCEC/whitehawk-proto/commit/4aca5eb7f1d85c63fafc60eedad5078244836c60))
 
 ### [0.30.6](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.30.5...0.30.6) (2022-09-22)
 
-
 ### Features
 
-* add read request ([cc2f4d0](https://github.com/WhitehawkCEC/whitehawk-proto/commit/cc2f4d08b75eedf46ec751b2dbbbf7b461215865))
+- add read request ([cc2f4d0](https://github.com/WhitehawkCEC/whitehawk-proto/commit/cc2f4d08b75eedf46ec751b2dbbbf7b461215865))
 
 ### [0.30.5](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.30.4...0.30.5) (2022-09-22)
 
 ### [0.30.4](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.30.3...0.30.4) (2022-09-22)
 
-
 ### Bug Fixes
 
-* buf lint ([7c88f7d](https://github.com/WhitehawkCEC/whitehawk-proto/commit/7c88f7dcd2276a49022906933278c8451110b5b6))
+- buf lint ([7c88f7d](https://github.com/WhitehawkCEC/whitehawk-proto/commit/7c88f7dcd2276a49022906933278c8451110b5b6))
 
 ### [0.30.3](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.30.2...0.30.3) (2022-09-22)
 
-
 ### Features
 
-* schedule jobs ([424ccbc](https://github.com/WhitehawkCEC/whitehawk-proto/commit/424ccbc2e005ca860cf459ff452a251556015517))
+- schedule jobs ([424ccbc](https://github.com/WhitehawkCEC/whitehawk-proto/commit/424ccbc2e005ca860cf459ff452a251556015517))
 
 ### [0.30.2](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.30.1...0.30.2) (2022-09-22)
 
 ### [0.30.1](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.30.0...0.30.1) (2022-09-22)
 
-
 ### Features
 
-* sync request send rating type as well ([6e6f752](https://github.com/WhitehawkCEC/whitehawk-proto/commit/6e6f75277099e990112d35f46e45f73b9dcb05b0))
+- sync request send rating type as well ([6e6f752](https://github.com/WhitehawkCEC/whitehawk-proto/commit/6e6f75277099e990112d35f46e45f73b9dcb05b0))
 
 ## [0.30.0](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.29.1...0.30.0) (2022-09-22)
 
-
 ### ⚠ BREAKING CHANGES
 
-* sync request now contains source and destionations ids
+- sync request now contains source and destionations ids
 
 ### Features
 
-* sync request now contains source and destionations ids ([0bd7689](https://github.com/WhitehawkCEC/whitehawk-proto/commit/0bd76891d6bddd5007afa76db8275f63453f7204))
+- sync request now contains source and destionations ids ([0bd7689](https://github.com/WhitehawkCEC/whitehawk-proto/commit/0bd76891d6bddd5007afa76db8275f63453f7204))
 
 ### [0.29.1](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.29.0...0.29.1) (2022-09-22)
 
-
 ### Bug Fixes
 
-* all lower snake case ([22d4d94](https://github.com/WhitehawkCEC/whitehawk-proto/commit/22d4d94e82e8ee8b6f8d56fa0d6355c09e1ac34c))
+- all lower snake case ([22d4d94](https://github.com/WhitehawkCEC/whitehawk-proto/commit/22d4d94e82e8ee8b6f8d56fa0d6355c09e1ac34c))
 
 ## [0.29.0](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.28.0...0.29.0) (2022-09-22)
 
-
 ### ⚠ BREAKING CHANGES
 
-* matched request carry source and destination ids
+- matched request carry source and destination ids
 
 ### Bug Fixes
 
-* matched request carry source and destination ids ([fff6b59](https://github.com/WhitehawkCEC/whitehawk-proto/commit/fff6b59b06bd6fb476caf313053628c50997c359))
+- matched request carry source and destination ids ([fff6b59](https://github.com/WhitehawkCEC/whitehawk-proto/commit/fff6b59b06bd6fb476caf313053628c50997c359))
 
 ## [0.28.0](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.27.3...0.28.0) (2022-09-21)
 
