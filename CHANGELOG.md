@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.30.9](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.30.8...0.30.9) (2022-09-28)
+
+
+### Features
+
+* list isoloted products by feature ([b5a2b09](https://github.com/WhitehawkCEC/whitehawk-proto/commit/b5a2b0979c97c91877504a22d6eaae78cd5f6be8))
+
 ### [0.30.8](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.30.7...0.30.8) (2022-09-28)
 
 ## [0.25.0](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.24.0...0.25.0) (2022-09-28)
