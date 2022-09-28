@@ -2,6 +2,58 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.25.0](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.24.0...0.25.0) (2022-09-28)
+
+
+### ⚠ BREAKING CHANGES
+
+* sync request now contains source and destionations ids
+* matched request carry source and destination ids
+* missing import
+* **proto:** use correct field name/type
+* **proto:** make field `oneof`
+* **proto:** account for signify breaking changes
+
+### Features
+
+* add `Job` messages ([c511509](https://github.com/WhitehawkCEC/whitehawk-proto/commit/c5115090e2636e66b87ebc25cc3cf3f4c47c29c8))
+* add read request ([cc2f4d0](https://github.com/WhitehawkCEC/whitehawk-proto/commit/cc2f4d08b75eedf46ec751b2dbbbf7b461215865))
+* create result return result instead of job ([4aca5eb](https://github.com/WhitehawkCEC/whitehawk-proto/commit/4aca5eb7f1d85c63fafc60eedad5078244836c60))
+* **proto:** account for signify breaking changes ([aabe804](https://github.com/WhitehawkCEC/whitehawk-proto/commit/aabe8048aad0645b4a8df4f9f606482e7751701f))
+* **proto:** add cyber one domain message ([be9a194](https://github.com/WhitehawkCEC/whitehawk-proto/commit/be9a1941346369096405460d48af65c2c59c5c2f))
+* **proto:** add example for `JobDetails` ([7ba00b2](https://github.com/WhitehawkCEC/whitehawk-proto/commit/7ba00b2a99c0bdd5f3abcaa2c19f0585e895f44d))
+* **proto:** add scorecard licensing messages ([bc0b65b](https://github.com/WhitehawkCEC/whitehawk-proto/commit/bc0b65b6e973716b2d9530581a5c2b8ff2c338d8))
+* **proto:** add service to manage subscription group license batch quantities ([a5f2fe8](https://github.com/WhitehawkCEC/whitehawk-proto/commit/a5f2fe8bf056749369ba9d26f15a9344c4edf5b3))
+* **proto:** add service to manage subscription group license batches ([7e3339c](https://github.com/WhitehawkCEC/whitehawk-proto/commit/7e3339c8c5bd9947a024cce49f1a6bd2eb9ab263))
+* **proto:** add service to manage subscription license batch quantities ([4eee581](https://github.com/WhitehawkCEC/whitehawk-proto/commit/4eee581f4f0f90397736ab0c6914d3f6fb153baa))
+* **proto:** add service to manage subscription license batches ([2f668e5](https://github.com/WhitehawkCEC/whitehawk-proto/commit/2f668e5ea97b08c547dc6320877e64fef00449a8))
+* **proto:** add service to manage subscription product group license batch quantities ([70a2a30](https://github.com/WhitehawkCEC/whitehawk-proto/commit/70a2a30072ff8c20ebf41e9c803ca856b28adaf6))
+* **proto:** add service to manage subscription product group license batches ([34879ea](https://github.com/WhitehawkCEC/whitehawk-proto/commit/34879eac709d5b80571516e9ab823ce3d9a0105e))
+* **proto:** add service to manage subscription product license batch quantities ([c9dd733](https://github.com/WhitehawkCEC/whitehawk-proto/commit/c9dd733053481ad5a09c8056729f1709ff03e62b))
+* **proto:** add service to manage subscription product license batches ([361e1d0](https://github.com/WhitehawkCEC/whitehawk-proto/commit/361e1d052e14cce5a31f83a3c01265e4d81659d8))
+* **proto:** add supply wisdom domain message ([c615ab7](https://github.com/WhitehawkCEC/whitehawk-proto/commit/c615ab7f01c410f3fd8a1049063c8d2a13aa95bd))
+* **proto:** add v1 service for creating job ([b882f6f](https://github.com/WhitehawkCEC/whitehawk-proto/commit/b882f6f36a174c53a63551f822a4dbe746b579c1))
+* **proto:** make field `oneof` ([353e93c](https://github.com/WhitehawkCEC/whitehawk-proto/commit/353e93cedb5eb0682e8c87f9713fb100d0f033f3))
+* **proto:** prefer message in `whitehawk.proto` ([6fd6121](https://github.com/WhitehawkCEC/whitehawk-proto/commit/6fd61218028404a671c09359de6b8c606ce9fbcc))
+* **proto:** remove v1 of account group state service ([e875b6b](https://github.com/WhitehawkCEC/whitehawk-proto/commit/e875b6b1affe39a4babedf00ca9b7276bece9a39))
+* **proto:** remove v1 of account group summary service ([7f9cb4d](https://github.com/WhitehawkCEC/whitehawk-proto/commit/7f9cb4d2cf56129f14bc138a77da2534d5f007e1))
+* **proto:** remove v1 of account summary service ([5fbf550](https://github.com/WhitehawkCEC/whitehawk-proto/commit/5fbf5509a6416b940e087078c98f2e876ddf257a))
+* **proto:** remove v1 of subscription product config service ([058a39a](https://github.com/WhitehawkCEC/whitehawk-proto/commit/058a39a12244d7267f31da10b2df497e922f4258))
+* **proto:** remove v1 of subscription product service ([8a5c101](https://github.com/WhitehawkCEC/whitehawk-proto/commit/8a5c101aa430b801043db87bca2e90d8f434be7b))
+* **proto:** remove v2 of subscription product config service ([eb21918](https://github.com/WhitehawkCEC/whitehawk-proto/commit/eb21918669abf2d4271e5e558b873d48cae3fecb))
+* schedule jobs ([424ccbc](https://github.com/WhitehawkCEC/whitehawk-proto/commit/424ccbc2e005ca860cf459ff452a251556015517))
+* sync request now contains source and destionations ids ([0bd7689](https://github.com/WhitehawkCEC/whitehawk-proto/commit/0bd76891d6bddd5007afa76db8275f63453f7204))
+* sync request send rating type as well ([6e6f752](https://github.com/WhitehawkCEC/whitehawk-proto/commit/6e6f75277099e990112d35f46e45f73b9dcb05b0))
+
+
+### Bug Fixes
+
+* all lower snake case ([22d4d94](https://github.com/WhitehawkCEC/whitehawk-proto/commit/22d4d94e82e8ee8b6f8d56fa0d6355c09e1ac34c))
+* buf lint ([7c88f7d](https://github.com/WhitehawkCEC/whitehawk-proto/commit/7c88f7dcd2276a49022906933278c8451110b5b6))
+* matched request carry source and destination ids ([fff6b59](https://github.com/WhitehawkCEC/whitehawk-proto/commit/fff6b59b06bd6fb476caf313053628c50997c359))
+* missing import ([63ad39e](https://github.com/WhitehawkCEC/whitehawk-proto/commit/63ad39e7b6f2e38d072b7e8694394a2d99598243))
+* **proto:** use correct field name/type ([9efd655](https://github.com/WhitehawkCEC/whitehawk-proto/commit/9efd65593053a7e28d4ef13f9f788d143d457cd9))
+
 ### [0.30.7](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.30.6...0.30.7) (2022-09-22)
 
 ### Features
