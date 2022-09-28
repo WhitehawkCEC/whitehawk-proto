@@ -11,6 +11,7 @@ service Service {
   rpc Delete(DeleteRequest) returns (DeleteResponse);
   rpc List(ListRequest) returns (ListResponse);
   rpc Read(ReadRequest) returns (ReadResponse);
+  rpc ListIsolatedProducts(ListIsolatedProductsRequest) returns (ListIsolatedProductsResponse);
 }
 
 message CreateRequest {
@@ -43,4 +44,12 @@ message ReadRequest {
 
 message ReadResponse {
   whitehawk.proto.product.v1.ProductFeature product_feature = 1;
+}
+
+message ListIsolatedProductsRequest {
+  whitehawk.proto.slug.v1.Slug id = 1;
+}
+
+message ListIsolatedProductsResponse {
+  repeated whitehawk.proto.product.v1.Product products = 1;
 }
