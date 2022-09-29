@@ -10,16 +10,16 @@ service Service {
   rpc List(ListRequest) returns (ListResponse);
 }
 
-message ListRequest {}
-
-message ListResponse {
-  repeated whitehawk.proto.company.v1.Company companies = 1;
-}
-
 message ReadRequest {
   whitehawk.proto.slug.v1.Slug company_id = 1;
 }
 
 message ReadResponse {
   whitehawk.proto.company.v1.Company data = 1;
+}
+
+message ListRequest {}
+
+message ListResponse {
+  repeated whitehawk.proto.company.v1.Company companies = 1;
 }
