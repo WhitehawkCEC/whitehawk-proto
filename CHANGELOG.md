@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.30.11](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.30.10...0.30.11) (2022-09-29)
+
+
+### Features
+
+* **proto:** correctly add service to read company ([34227da](https://github.com/WhitehawkCEC/whitehawk-proto/commit/34227dae1c743ef5a01fbf14aee6223638e3d1d0))
+
 ### [0.30.10](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.30.9...0.30.10) (2022-09-29)
 
 
