@@ -1,18 +1,18 @@
 syntax = "proto3";
 
-package whitehawk.proto.internal.client_portal.accounts.id.integrations.black_kite.entities.v1;
+package whitehawk.proto.internal.client_portal.accounts.id.subscriptions.subscription_id.integrations.black_kite.entities.v1;
 
 import "whitehawk/proto/slug/v1/message.proto";
 import "whitehawk/proto/integration/black_kite/domain/v1/message.proto";
 
 service Service {
-  rpc Get(GetRequest) returns (GetResponse);
+  rpc List(ListRequest) returns (ListResponse);
 }
 
-message GetRequest {
+message ListRequest {
   whitehawk.proto.slug.v1.Slug id = 1;
 }
 
-message GetResponse {
+message ListResponse {
   repeated whitehawk.proto.integration.black_kite.domain.v1.BlackKiteEntity entities = 1;
 }
