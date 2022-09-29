@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.32.0](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.31.0...0.32.0) (2022-09-29)
+
+
+### ⚠ BREAKING CHANGES
+
+* **proto:** nest under `subscriptions`
+
+### Features
+
+* **proto:** nest under `subscriptions` ([49f70d4](https://github.com/WhitehawkCEC/whitehawk-proto/commit/49f70d46963d6584debf2e1f4bcc0be625d63c78))
+
 ## [0.31.0](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.30.12...0.31.0) (2022-09-29)
 
 
