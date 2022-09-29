@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.30.12](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.30.11...0.30.12) (2022-09-29)
+
+
+### Features
+
+* add message for black kite entity ([5aa2041](https://github.com/WhitehawkCEC/whitehawk-proto/commit/5aa2041e0edb10cbe1720676f891b8e72a5c9378))
+* add service to get black kite entities ([b4c26c7](https://github.com/WhitehawkCEC/whitehawk-proto/commit/b4c26c75d00c620592ee39763ba26f612093f6fb))
+
 ### [0.30.11](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.30.10...0.30.11) (2022-09-29)
 
 
