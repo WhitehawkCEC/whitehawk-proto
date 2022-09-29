@@ -3,6 +3,7 @@ syntax = "proto3";
 package whitehawk.proto.internal.client_portal.companies.v1;
 
 import "whitehawk/proto/company/v1/message.proto";
+import "whitehawk/proto/slug/v1/message.proto";
 
 service Service {
   rpc List(ListRequest) returns (ListResponse);
@@ -12,4 +13,12 @@ message ListRequest {}
 
 message ListResponse {
   repeated whitehawk.proto.company.v1.Company companies = 1;
+}
+
+message ReadRequest {
+  whitehawk.proto.slug.v1.Slug company_id = 1;
+}
+
+message ReadResponse {
+  whitehawk.proto.company.v1.Company data = 1;
 }
