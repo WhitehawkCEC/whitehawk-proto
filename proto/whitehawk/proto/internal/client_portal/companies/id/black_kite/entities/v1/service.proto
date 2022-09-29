@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+package whitehawk.proto.internal.client_portal.companies.id.black_kite.entities.v1;
+
+import "whitehawk/proto/slug/v1/message.proto";
+import "whitehawk/proto/integration/black_kite/entity/v1/message.proto";
+
+service Service {
+  rpc Get(GetRequest) returns (GetResponse);
+}
+
+message GetRequest {
+  whitehawk.proto.slug.v1.Slug id = 1;
+}
+
+message GetResponse {
+  whitehawk.proto.integration.black_kite.entity.v1.BlackKiteEntity entities = 1;
+}
