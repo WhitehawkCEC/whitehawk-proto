@@ -13,3 +13,9 @@ enum ScanProfileType {
   SCAN_PROFILE_TYPE_CONTINUOUS_60_DAY = 1;
   SCAN_PROFILE_TYPE_CONTINUOUS_ANNUAL = 2;
 }
+
+message BlackKiteEntity {
+  int32 id = 1;
+  string name = 2;
+  string domain = 3;
+}
