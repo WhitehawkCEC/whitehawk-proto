@@ -2,6 +2,21 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.31.0](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.30.12...0.31.0) (2022-09-29)
+
+
+### ⚠ BREAKING CHANGES
+
+* **proto:** remove bk entity service
+* **proto:** remove bk entity message
+
+### Features
+
+* **proto:** add black kite entity to domain message ([f441ac2](https://github.com/WhitehawkCEC/whitehawk-proto/commit/f441ac2a6dce7fb4ee8cc09bb99d099d4f46fc56))
+* **proto:** add service to get black kite entities ([19500ea](https://github.com/WhitehawkCEC/whitehawk-proto/commit/19500ea8b38e501f8ba48f04a481a4197e8a738e))
+* **proto:** remove bk entity message ([a84ad49](https://github.com/WhitehawkCEC/whitehawk-proto/commit/a84ad4958634e610e9b0e31ebb0f83617a6870e6))
+* **proto:** remove bk entity service ([613cf68](https://github.com/WhitehawkCEC/whitehawk-proto/commit/613cf68539d49daf3ee9b46f26eca6ea3ec639f6))
+
 ### [0.30.12](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.30.11...0.30.12) (2022-09-29)
 
 
