@@ -4,78 +4,70 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### [0.33.1](https://github.com/whitehawkcec/whitehawk-proto/compare/0.33.0...0.33.1) (2022-09-30)
 
-
 ### Bug Fixes
 
-* **proto:** remove unused import ([21e233d](https://github.com/whitehawkcec/whitehawk-proto/commit/21e233d18799086790d5aa7e56ac47fa231ba88c))
+- **proto:** remove unused import ([21e233d](https://github.com/whitehawkcec/whitehawk-proto/commit/21e233d18799086790d5aa7e56ac47fa231ba88c))
 
 ## [0.33.0](https://github.com/whitehawkcec/whitehawk-proto/compare/0.32.1...0.33.0) (2022-09-30)
 
-
 ### ⚠ BREAKING CHANGES
 
-* **proto:** use snake case
+- **proto:** use snake case
 
 ### Features
 
-* **proto:** use snake case ([a226c5e](https://github.com/whitehawkcec/whitehawk-proto/commit/a226c5eb9f5aafea975d52cf92c2c8a83bc4fed8))
+- **proto:** use snake case ([a226c5e](https://github.com/whitehawkcec/whitehawk-proto/commit/a226c5eb9f5aafea975d52cf92c2c8a83bc4fed8))
 
 ### [0.32.1](https://github.com/whitehawkcec/whitehawk-proto/compare/0.32.0...0.32.1) (2022-09-30)
 
-
 ### Features
 
-* **proto:** add BK v2 config messages ([298a528](https://github.com/whitehawkcec/whitehawk-proto/commit/298a5288a2114e655c54ec73b7767cc4d6db469a))
-* **proto:** add resource messages ([daa9624](https://github.com/whitehawkcec/whitehawk-proto/commit/daa96246d9b130778a18e17d8a78eef9e2a22657))
-* **proto:** add service for account subscription BK config ([e550809](https://github.com/whitehawkcec/whitehawk-proto/commit/e55080997819e83216fdee96d053b0346a329612))
+- **proto:** add BK v2 config messages ([298a528](https://github.com/whitehawkcec/whitehawk-proto/commit/298a5288a2114e655c54ec73b7767cc4d6db469a))
+- **proto:** add resource messages ([daa9624](https://github.com/whitehawkcec/whitehawk-proto/commit/daa96246d9b130778a18e17d8a78eef9e2a22657))
+- **proto:** add service for account subscription BK config ([e550809](https://github.com/whitehawkcec/whitehawk-proto/commit/e55080997819e83216fdee96d053b0346a329612))
 
 ## [0.32.0](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.31.0...0.32.0) (2022-09-29)
 
-
 ### ⚠ BREAKING CHANGES
 
-* **proto:** nest under `subscriptions`
+- **proto:** nest under `subscriptions`
 
 ### Features
 
-* **proto:** nest under `subscriptions` ([49f70d4](https://github.com/WhitehawkCEC/whitehawk-proto/commit/49f70d46963d6584debf2e1f4bcc0be625d63c78))
+- **proto:** nest under `subscriptions` ([49f70d4](https://github.com/WhitehawkCEC/whitehawk-proto/commit/49f70d46963d6584debf2e1f4bcc0be625d63c78))
 
 ## [0.31.0](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.30.12...0.31.0) (2022-09-29)
 
-
 ### ⚠ BREAKING CHANGES
 
-* **proto:** remove bk entity service
-* **proto:** remove bk entity message
+- **proto:** remove bk entity service
+- **proto:** remove bk entity message
 
 ### Features
 
-* **proto:** add black kite entity to domain message ([f441ac2](https://github.com/WhitehawkCEC/whitehawk-proto/commit/f441ac2a6dce7fb4ee8cc09bb99d099d4f46fc56))
-* **proto:** add service to get black kite entities ([19500ea](https://github.com/WhitehawkCEC/whitehawk-proto/commit/19500ea8b38e501f8ba48f04a481a4197e8a738e))
-* **proto:** remove bk entity message ([a84ad49](https://github.com/WhitehawkCEC/whitehawk-proto/commit/a84ad4958634e610e9b0e31ebb0f83617a6870e6))
-* **proto:** remove bk entity service ([613cf68](https://github.com/WhitehawkCEC/whitehawk-proto/commit/613cf68539d49daf3ee9b46f26eca6ea3ec639f6))
+- **proto:** add black kite entity to domain message ([f441ac2](https://github.com/WhitehawkCEC/whitehawk-proto/commit/f441ac2a6dce7fb4ee8cc09bb99d099d4f46fc56))
+- **proto:** add service to get black kite entities ([19500ea](https://github.com/WhitehawkCEC/whitehawk-proto/commit/19500ea8b38e501f8ba48f04a481a4197e8a738e))
+- **proto:** remove bk entity message ([a84ad49](https://github.com/WhitehawkCEC/whitehawk-proto/commit/a84ad4958634e610e9b0e31ebb0f83617a6870e6))
+- **proto:** remove bk entity service ([613cf68](https://github.com/WhitehawkCEC/whitehawk-proto/commit/613cf68539d49daf3ee9b46f26eca6ea3ec639f6))
 
 ### [0.30.12](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.30.11...0.30.12) (2022-09-29)
 
-
 ### Features
 
-* add message for black kite entity ([5aa2041](https://github.com/WhitehawkCEC/whitehawk-proto/commit/5aa2041e0edb10cbe1720676f891b8e72a5c9378))
-* add service to get black kite entities ([b4c26c7](https://github.com/WhitehawkCEC/whitehawk-proto/commit/b4c26c75d00c620592ee39763ba26f612093f6fb))
+- add message for black kite entity ([5aa2041](https://github.com/WhitehawkCEC/whitehawk-proto/commit/5aa2041e0edb10cbe1720676f891b8e72a5c9378))
+- add service to get black kite entities ([b4c26c7](https://github.com/WhitehawkCEC/whitehawk-proto/commit/b4c26c75d00c620592ee39763ba26f612093f6fb))
 
 ### [0.30.11](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.30.10...0.30.11) (2022-09-29)
 
-
 ### Features
 
-* **proto:** correctly add service to read company ([34227da](https://github.com/WhitehawkCEC/whitehawk-proto/commit/34227dae1c743ef5a01fbf14aee6223638e3d1d0))
+- **proto:** correctly add service to read company ([34227da](https://github.com/WhitehawkCEC/whitehawk-proto/commit/34227dae1c743ef5a01fbf14aee6223638e3d1d0))
 
 ### [0.30.10](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.30.9...0.30.10) (2022-09-29)
 
-
 ### Features
 
-* **proto:** add service to read company ([4e32049](https://github.com/WhitehawkCEC/whitehawk-proto/commit/4e320495593a11b35f679714209ae73e046de305))
+- **proto:** add service to read company ([4e32049](https://github.com/WhitehawkCEC/whitehawk-proto/commit/4e320495593a11b35f679714209ae73e046de305))
 
 ### [0.30.9](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.30.8...0.30.9) (2022-09-28)
 
