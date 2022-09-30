@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.32.1](https://github.com/whitehawkcec/whitehawk-proto/compare/0.32.0...0.32.1) (2022-09-30)
+
+
+### Features
+
+* **proto:** add BK v2 config messages ([298a528](https://github.com/whitehawkcec/whitehawk-proto/commit/298a5288a2114e655c54ec73b7767cc4d6db469a))
+* **proto:** add resource messages ([daa9624](https://github.com/whitehawkcec/whitehawk-proto/commit/daa96246d9b130778a18e17d8a78eef9e2a22657))
+* **proto:** add service for account subscription BK config ([e550809](https://github.com/whitehawkcec/whitehawk-proto/commit/e55080997819e83216fdee96d053b0346a329612))
+
 ## [0.32.0](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.31.0...0.32.0) (2022-09-29)
 
 
