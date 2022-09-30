@@ -3,7 +3,6 @@ syntax = "proto3";
 package whitehawk.proto.resource.v1;
 
 import "whitehawk/proto/slug/v1/message.proto";
-import "whitehawk/proto/ulid/v1/message.proto";
 
 message AccountSubscriptionId {
   whitehawk.proto.slug.v1.Slug account_id = 1;
