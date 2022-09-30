@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.33.0](https://github.com/whitehawkcec/whitehawk-proto/compare/0.32.1...0.33.0) (2022-09-30)
+
+
+### ⚠ BREAKING CHANGES
+
+* **proto:** use snake case
+
+### Features
+
+* **proto:** use snake case ([a226c5e](https://github.com/whitehawkcec/whitehawk-proto/commit/a226c5eb9f5aafea975d52cf92c2c8a83bc4fed8))
+
 ### [0.32.1](https://github.com/whitehawkcec/whitehawk-proto/compare/0.32.0...0.32.1) (2022-09-30)
 
 
