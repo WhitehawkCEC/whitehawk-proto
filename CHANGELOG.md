@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.33.3](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.33.2...0.33.3) (2022-10-03)
+
+
+### Features
+
+* **proto:** add service to list all products for manufacturers ([7ab4dfe](https://github.com/WhitehawkCEC/whitehawk-proto/commit/7ab4dfecb7938d49619595fdf409f69fca5917c0))
+* **proto:** service to return manufacturer if it has only one product ([f777494](https://github.com/WhitehawkCEC/whitehawk-proto/commit/f777494c9cb0d0f32b18845ae974c2a00420caaa))
+
 ### [0.33.2](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.33.1...0.33.2) (2022-09-30)
 
 ### Features
