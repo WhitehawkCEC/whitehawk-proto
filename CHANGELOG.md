@@ -4,15 +4,13 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### [0.33.2](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.33.1...0.33.2) (2022-09-30)
 
-
 ### Features
 
-* **proto:** create, update, delete services for industries ([86c6b1e](https://github.com/WhitehawkCEC/whitehawk-proto/commit/86c6b1e20680152227f892aea5bb9a07a0a6c6b7))
-
+- **proto:** create, update, delete services for industries ([86c6b1e](https://github.com/WhitehawkCEC/whitehawk-proto/commit/86c6b1e20680152227f892aea5bb9a07a0a6c6b7))
 
 ### Bug Fixes
 
-* **proto:** actually include `product_id` ([70c0aff](https://github.com/WhitehawkCEC/whitehawk-proto/commit/70c0affeab0b7819192a3cbc30c03e5999ba65f8))
+- **proto:** actually include `product_id` ([70c0aff](https://github.com/WhitehawkCEC/whitehawk-proto/commit/70c0affeab0b7819192a3cbc30c03e5999ba65f8))
 
 ### [0.33.1](https://github.com/whitehawkcec/whitehawk-proto/compare/0.33.0...0.33.1) (2022-09-30)
 
