@@ -11,7 +11,6 @@ service Service {
   rpc Update(UpdateRequest) returns (UpdateResponse);
   rpc Read(ReadRequest) returns (ReadResponse);
   rpc List(ListRequest) returns (ListResponse);
-  rpc ListIsolatedManufacturers(ListIsolatedManufacturersRequest) returns (ListIsolatedManufacturersResponse);
 }
 
 message CreateRequest {
@@ -48,12 +47,4 @@ message ListRequest {}
 
 message ListResponse {
   repeated whitehawk.proto.product.v1.Product products = 1;
-}
-
-message ListIsolatedManufacturersRequest {
-  whitehawk.proto.ulid.v1.Ulid id = 1;
-}
-
-message ListIsolatedManufacturersResponse {
-  repeated whitehawk.proto.product.v1.Manufacturer manufacturers = 1;
 }
