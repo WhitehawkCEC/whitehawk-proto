@@ -2,15 +2,14 @@ syntax = "proto3";
 
 package whitehawk.proto.internal.client_portal.manufacturers.products.count.v1;
 
-import "whitehawk/proto/slug/v1/message.proto";
 import "whitehawk/proto/ulid/v1/message.proto";
 
 service Service {
-  rpc get(GetRequest) returns (GetResponse);
+  rpc Get(GetRequest) returns (GetResponse);
 }
 
 message GetRequest {
-  whitehawk.proto.ulid.v1.Ulid productId = 1;
+  whitehawk.proto.ulid.v1.Ulid product_id = 1;
 }
 
 message GetResponse {

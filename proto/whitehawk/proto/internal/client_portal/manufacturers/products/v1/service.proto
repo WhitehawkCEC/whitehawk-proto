@@ -10,7 +10,7 @@ service Service {
 }
 
 message ListRequest {
-  whitehawk.proto.slug.v1.Slug manufacturerId = 1;
+  whitehawk.proto.slug.v1.Slug manufacturer_id = 1;
 }
 
 message ListResponse {
