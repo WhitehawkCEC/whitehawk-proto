@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+package whitehawk.proto.internal.client_portal.manufacturers.products.v1;
+
+import "whitehawk/proto/product/v1/message.proto";
+import "whitehawk/proto/slug/v1/message.proto";
+
+service Service {
+  rpc List(ListRequest) returns (ListResponse);
+}
+
+message ListRequest {
+  whitehawk.proto.slug.v1.Slug manufacturerId = 1;
+}
+
+message ListResponse {
+  repeated whitehawk.proto.product.v1.Product products = 1;
+}
