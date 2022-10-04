@@ -7,6 +7,7 @@ import "whitehawk/proto/integration/black_kite/domain/v1/message.proto";
 import "whitehawk/proto/integration/cyber_one/domain/v1/message.proto";
 import "whitehawk/proto/integration/supply_wisdom/domain/v1/message.proto";
 import "whitehawk/proto/ulid/v1/message.proto";
+import "whitehawk/proto/slug/v1/message.proto";
 
 message Job {
   whitehawk.proto.ulid.v1.Ulid job_id = 1;
@@ -16,9 +17,9 @@ message Job {
 message JobDetails {
   // (ex.) this would be the supply wisdom target name OR the black kite entity id OR the bitsight
   // company id
-  optional whitehawk.proto.ulid.v1.Ulid source_id = 1;
+  optional string source_id = 1;
   // (ex.) this would be the cyber one target company
-  whitehawk.proto.ulid.v1.Ulid target_id = 2;
+  whitehawk.proto.slug.v1.Slug target_id = 2;
   // Only contains type. No data.
   JobConfig config_only_type = 3;
 }
