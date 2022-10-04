@@ -13,26 +13,25 @@ service Service {
 }
 
 message CreateRequest {
-  whitehawk.proto.cyberone.v1.ScheduledJob scheduled_job = 1;
+  whitehawk.proto.jobs.v1 scheduled_job = 1;
 }
 
 message CreateResponse {
-  whitehawk.proto.cyberone.v1.ScheduleJobResult scheduled_job_result = 1;
+  whitehawk.proto.jobs.v1 scheduled_job_result = 1;
 }
 
 message ReadRequest{
-  whitehawk.proto.slug.v1.Slug id = 1;
+  whitehawk.proto.ulid.v1.Ulid id = 1;
 }
 
 message ReadResponse{
-  whitehawk.proto.cyberone.v1.ScheduleJobResult scheduled_job_result = 1;
+  whitehawk.proto.jobs.v1 scheduled_job_result = 1;
 }
 
 message ListRequest {
   whitehawk.proto.slug.v1.Slug id = 1;
-  whitehawk.proto.ulid.v1.Ulid job_id = 2;
 }
 
 message ListResponse {
-  repeated whitehawk.proto.cyberone.v1.ScheduleJobResult scheduled_job_results = 1;
+  repeated whitehawk.proto.jobs.v1 scheduled_job_results = 1;
 }
