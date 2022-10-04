@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.35.2](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.35.1...0.35.2) (2022-10-04)
+
+
+### Bug Fixes
+
+* def error ([033f6cc](https://github.com/WhitehawkCEC/whitehawk-proto/commit/033f6cc4b5440255b339908fa496aa5332e6eaf0))
+
 ### [0.35.1](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.35.0...0.35.1) (2022-10-04)
 
 
