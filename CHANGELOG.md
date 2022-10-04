@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.35.1](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.35.0...0.35.1) (2022-10-04)
+
+
+### Features
+
+* use slug instead of ulid for read ([4b9969b](https://github.com/WhitehawkCEC/whitehawk-proto/commit/4b9969b5d9d845cd26f648b2e79c37e1ffe11d1d))
+
 ## [0.35.0](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.34.2...0.35.0) (2022-10-04)
 
 
