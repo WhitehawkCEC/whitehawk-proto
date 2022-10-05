@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.36.9](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.36.8...0.36.9) (2022-10-05)
+
+
+### Features
+
+* **proto:** rename `CyberRiskScorecardToCyberOne` ([1cf76f3](https://github.com/WhitehawkCEC/whitehawk-proto/commit/1cf76f37c493bc41a9be0577cff5fcf3ca3508ca))
+
 ### [0.36.8](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.36.7...0.36.8) (2022-10-05)
 
 
