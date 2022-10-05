@@ -13,5 +13,5 @@ message ShowRequest {
 }
 
 message ShowResponse {
-  whitehawk.proto.heatmap.v1.heatmap heatmap = 1;
+  whitehawk.proto.heatmap.v1.Heatmap heatmap = 1;
 }
