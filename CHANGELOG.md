@@ -4,51 +4,45 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### [0.35.2](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.35.1...0.35.2) (2022-10-04)
 
-
 ### Bug Fixes
 
-* def error ([033f6cc](https://github.com/WhitehawkCEC/whitehawk-proto/commit/033f6cc4b5440255b339908fa496aa5332e6eaf0))
+- def error ([033f6cc](https://github.com/WhitehawkCEC/whitehawk-proto/commit/033f6cc4b5440255b339908fa496aa5332e6eaf0))
 
 ### [0.35.1](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.35.0...0.35.1) (2022-10-04)
 
-
 ### Features
 
-* use slug instead of ulid for read ([4b9969b](https://github.com/WhitehawkCEC/whitehawk-proto/commit/4b9969b5d9d845cd26f648b2e79c37e1ffe11d1d))
+- use slug instead of ulid for read ([4b9969b](https://github.com/WhitehawkCEC/whitehawk-proto/commit/4b9969b5d9d845cd26f648b2e79c37e1ffe11d1d))
 
 ## [0.35.0](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.34.2...0.35.0) (2022-10-04)
 
-
 ### ⚠ BREAKING CHANGES
 
-* target id as slug
+- target id as slug
 
 ### Features
 
-* target id as slug ([6612c76](https://github.com/WhitehawkCEC/whitehawk-proto/commit/6612c765868003f16816344376f19d7fe04822e5))
+- target id as slug ([6612c76](https://github.com/WhitehawkCEC/whitehawk-proto/commit/6612c765868003f16816344376f19d7fe04822e5))
 
 ### [0.34.2](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.34.1...0.34.2) (2022-10-04)
 
 ### [0.34.1](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.34.0...0.34.1) (2022-10-04)
 
-
 ### Bug Fixes
 
-* **proto:** build errors ([d0486fd](https://github.com/WhitehawkCEC/whitehawk-proto/commit/d0486fd39e9f1a3b0882f6be099fd00c1ac36a18))
+- **proto:** build errors ([d0486fd](https://github.com/WhitehawkCEC/whitehawk-proto/commit/d0486fd39e9f1a3b0882f6be099fd00c1ac36a18))
 
 ## [0.34.0](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.33.3...0.34.0) (2022-10-04)
 
-
 ### ⚠ BREAKING CHANGES
 
-* **proto:** move service to return list of products for manufacturer
+- **proto:** move service to return list of products for manufacturer
 
 ### Features
 
-* **proto:** add service to return count of products ([95ea5cd](https://github.com/WhitehawkCEC/whitehawk-proto/commit/95ea5cd8d84143f4402fd7119ac3f69297b20e2a))
+- **proto:** add service to return count of products ([95ea5cd](https://github.com/WhitehawkCEC/whitehawk-proto/commit/95ea5cd8d84143f4402fd7119ac3f69297b20e2a))
 
-
-* **proto:** move service to return list of products for manufacturer ([5877779](https://github.com/WhitehawkCEC/whitehawk-proto/commit/5877779f8243cad01cfac1339aa3586311c30c5d))
+- **proto:** move service to return list of products for manufacturer ([5877779](https://github.com/WhitehawkCEC/whitehawk-proto/commit/5877779f8243cad01cfac1339aa3586311c30c5d))
 
 ### [0.33.3](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.33.2...0.33.3) (2022-10-03)
 
