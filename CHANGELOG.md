@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.36.8](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.36.7...0.36.8) (2022-10-05)
+
+
+### Features
+
+* no errors on buf lint ([40ee0bb](https://github.com/WhitehawkCEC/whitehawk-proto/commit/40ee0bb3c9a1737702ebd7de8d843ff36a2e5389))
+
 ### [0.36.7](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.36.6...0.36.7) (2022-10-05)
 
 
