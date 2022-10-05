@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.36.10](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.36.9...0.36.10) (2022-10-05)
+
+
+### Features
+
+* **proto:** consistent variable name ([12cf100](https://github.com/WhitehawkCEC/whitehawk-proto/commit/12cf10095a02008dd056aac3a4f9cd74618256df))
+
 ### [0.36.9](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.36.8...0.36.9) (2022-10-05)
 
 
