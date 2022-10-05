@@ -7,3 +7,10 @@ message ApiKey {
   // Pattern: [a-z0-9]{40}
   string value = 1;
 }
+
+message SupplyWisdomAsset {
+  string id = 1;
+  string name = 2;
+  SupplyWisdomTarget target = 3;
+  string web_site_url = 4;
+}
