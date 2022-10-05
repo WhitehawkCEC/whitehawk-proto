@@ -1,0 +1,40 @@
+syntax = "proto3";
+
+package whitehawk.proto.job.v1;
+
+import "whitehawk/proto/uuid/v1/message.proto";
+import "whitehawk/proto/ulid/v1/message.proto";
+
+message Job {
+  whitehawk.proto.ulid.v1.Ulid job_id = 1;
+  JobConfig job_config = 2;
+  JobSchedule schedule = 3;
+}
+
+message JobSchedule {
+  int32 interval_in_days = 1;
+  int32 duration_in_days = 2;
+}
+
+message JobConfig {
+  oneof value {
+    SupplyWisdomToCyberOne supply_wisdom_to_cyber_one = 1;
+    BlackKiteToCyberOne black_kite_to_cyber_one = 2;
+    BitsightToCyberOne bitsight_to_cyber_one = 3;
+  }
+}
+
+message SupplyWisdomToCyberOne {
+  string target_id = 1;
+  whitehawk.proto.ulid.v1.Ulid source_id = 2;
+}
+
+message BlackKiteToCyberOne {
+  int32 target_id = 1;
+  whitehawk.proto.ulid.v1.Ulid source_id = 2;
+}
+
+message BitsightToCyberOne {
+  whitehawk.proto.uuid.v1.Uuid target_id = 1;
+  whitehawk.proto.ulid.v1.Ulid source_id = 2;
+}
