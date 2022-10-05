@@ -2,8 +2,17 @@ syntax = "proto3";
 
 package whitehawk.proto.integration.cyber_one.domain.v1;
 
+import "whitehawk/proto/ulid/v1/message.proto";
+
 message ApiKey {
   // 40 characters (lowercase letters or numbers)
   // Pattern: [a-z0-9]{40}
   string value = 1;
+}
+
+message CyberOneAsset {
+  whitehawk.proto.ulid.v1.Ulid id = 1;
+  string reference_id = 2;
+  string name = 3;
+  string domain = 4;
 }
