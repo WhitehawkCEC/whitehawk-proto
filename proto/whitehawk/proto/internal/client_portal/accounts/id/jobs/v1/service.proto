@@ -13,8 +13,9 @@ service Service {
 }
 
 message CreateRequest {
-  whitehawk.proto.job.v1.JobConfig config = 1;
-  whitehawk.proto.job.v1.JobSchedule schedule = 2;
+  whitehawk.proto.slug.v1.Slug account_id = 1;
+  whitehawk.proto.job.v1.JobConfig config = 2;
+  whitehawk.proto.job.v1.JobSchedule schedule = 3;
 }
 
 message CreateResponse {
