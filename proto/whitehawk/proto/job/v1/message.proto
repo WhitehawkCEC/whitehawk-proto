@@ -5,6 +5,8 @@ package whitehawk.proto.job.v1;
 import "whitehawk/proto/uuid/v1/message.proto";
 import "whitehawk/proto/ulid/v1/message.proto";
 import "whitehawk/proto/time/v1/message.proto";
+import "whitehawk/proto/slug/v1/message.proto";
+
 
 message Job {
   whitehawk.proto.ulid.v1.Ulid job_id = 1;
@@ -35,16 +37,18 @@ message JobConfig {
 }
 
 message SupplyWisdomToCyberOne {
-  string source_id = 1;
-  whitehawk.proto.ulid.v1.Ulid target_id = 2;
+  whitehawk.proto.slug.v1.Slug source_id = 1;
+  whitehawk.proto.slug.v1.Slug target_id = 2;
 }
 
-message BlackKiteToCyberOne {
-  int32 source_id = 1;
-  whitehawk.proto.ulid.v1.Ulid target_id = 2;
+message RiskRatingServiceToCyberOne {
+  whitehawk.proto.slug.v1.Slug source_id = 1;
+  whitehawk.proto.slug.v1.Slug target_id = 2;
+  RatingProviderType rating_provider_type = 3;
 }
 
-message BitsightToCyberOne {
-  whitehawk.proto.uuid.v1.Uuid source_id = 1;
-  whitehawk.proto.ulid.v1.Ulid target_id = 2;
+enum RatingProviderType{
+  Rating_Provider_Type_UNSPECIFIED = 0;
+  Rating_Provider_Type_BITSIGHT = 1;
+  Rating_Provider_Type_BLACK_KITE = 2;
 }
