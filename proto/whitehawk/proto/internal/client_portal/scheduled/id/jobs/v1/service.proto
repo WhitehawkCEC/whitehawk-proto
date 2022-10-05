@@ -2,9 +2,9 @@ syntax = "proto3";
 
 package whitehawk.proto.internal.client_portal.scheduled.id.jobs.v1;
 
+import "whitehawk/proto/jobs/v1/message.proto";
 import "whitehawk/proto/slug/v1/message.proto";
 import "whitehawk/proto/ulid/v1/message.proto";
-import "whitehawk/proto/jobs/v1/message.proto";
 
 service Service {
   rpc Create(CreateRequest) returns (CreateResponse);
@@ -20,11 +20,11 @@ message CreateResponse {
   whitehawk.proto.jobs.v1.Job scheduled_job_result = 1;
 }
 
-message ReadRequest{
+message ReadRequest {
   whitehawk.proto.ulid.v1.Ulid id = 1;
 }
 
-message ReadResponse{
+message ReadResponse {
   whitehawk.proto.jobs.v1.Job scheduled_job_result = 1;
 }
 
