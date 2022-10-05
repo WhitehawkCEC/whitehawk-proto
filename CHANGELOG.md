@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.36.7](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.36.6...0.36.7) (2022-10-05)
+
+
+### Features
+
+* add accounts id for job request ([d45dfc9](https://github.com/WhitehawkCEC/whitehawk-proto/commit/d45dfc9735130c71fd7c7d16f0bc9342e6700ce3))
+* **proto:** add `job_id` to `CreateRequest` ([f9c29f4](https://github.com/WhitehawkCEC/whitehawk-proto/commit/f9c29f46788584f9e3d5fe43de025609295f3e1d))
+* use slug instead of string ([a15e2f4](https://github.com/WhitehawkCEC/whitehawk-proto/commit/a15e2f433e78d585947f103cfaf0f8164c56468b))
+
 ### [0.36.6](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.36.5...0.36.6) (2022-10-05)
 
 ### [0.36.5](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.36.4...0.36.5) (2022-10-05)
