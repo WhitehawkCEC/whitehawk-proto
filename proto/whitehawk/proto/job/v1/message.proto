@@ -2,7 +2,6 @@ syntax = "proto3";
 
 package whitehawk.proto.job.v1;
 
-import "whitehawk/proto/uuid/v1/message.proto";
 import "whitehawk/proto/ulid/v1/message.proto";
 import "whitehawk/proto/time/v1/message.proto";
 import "whitehawk/proto/slug/v1/message.proto";
@@ -31,8 +30,7 @@ enum FrequencyType {
 message JobConfig {
   oneof value {
     SupplyWisdomToCyberOne supply_wisdom_to_cyber_one = 1;
-    BlackKiteToCyberOne black_kite_to_cyber_one = 2;
-    BitsightToCyberOne bitsight_to_cyber_one = 3;
+    RiskRatingServiceToCyberOne risk_rating_service_to_cyber_one = 2;
   }
 }
 
@@ -48,7 +46,7 @@ message RiskRatingServiceToCyberOne {
 }
 
 enum RatingProviderType{
-  Rating_Provider_Type_UNSPECIFIED = 0;
-  Rating_Provider_Type_BITSIGHT = 1;
-  Rating_Provider_Type_BLACK_KITE = 2;
+  RATING_PROVIDER_TYPE_UNSPECIFIED = 0;
+  RATING_PROVIDER_TYPE_BITSIGHT = 1;
+  RATING_PROVIDER_TYPE_BLACK_KITE = 2;
 }
