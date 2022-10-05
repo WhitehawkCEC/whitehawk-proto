@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.36.2](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.36.1...0.36.2) (2022-10-05)
+
+
+### Features
+
+* shcedule use range and frequency ([bb1cb0e](https://github.com/WhitehawkCEC/whitehawk-proto/commit/bb1cb0eb9c3e907b0b240deefc9f167afa86fea9))
+
 ### [0.36.1](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.36.0...0.36.1) (2022-10-05)
 
 
