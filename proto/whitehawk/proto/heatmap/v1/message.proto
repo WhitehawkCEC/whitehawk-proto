@@ -4,7 +4,7 @@ package whitehawk.proto.heatmap.v1;
 
 import "whitehawk/proto/time/v1/message.proto";
 
-message heatmap {
+message Heatmap {
   int32 failed_critical = 1;
   int32 failed_high = 2;
   int32 failed_medium = 3;
