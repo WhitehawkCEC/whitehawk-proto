@@ -14,3 +14,8 @@ message SupplyWisdomAsset {
   SupplyWisdomTarget target = 3;
   string web_site_url = 4;
 }
+
+message SupplyWisdomTarget {
+  string target_type = 1;
+  string target_name = 2;
+}
