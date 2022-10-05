@@ -4,6 +4,7 @@ package whitehawk.proto.job.v1;
 
 import "whitehawk/proto/uuid/v1/message.proto";
 import "whitehawk/proto/ulid/v1/message.proto";
+import "whitehawk/proto/time/v1/message.proto";
 
 message Job {
   whitehawk.proto.ulid.v1.Ulid job_id = 1;
@@ -12,8 +13,17 @@ message Job {
 }
 
 message JobSchedule {
-  int32 interval_in_days = 1;
-  int32 duration_in_days = 2;
+  whitehawk.proto.time.v1.DateRange range = 1;
+  FrequencyType frequency = 2;
+}
+
+enum FrequencyType {
+  FREQUENCY_TYPE_UNSPECIFIED = 0;
+  FREQUENCY_TYPE_DAILY = 1;
+  FREQUENCY_TYPE_MONTHLY = 2;
+  FREQUENCY_TYPE_QUARTERLY = 3;
+  FREQUENCY_TYPE_YEARLY = 4;
+
 }
 
 message JobConfig {
