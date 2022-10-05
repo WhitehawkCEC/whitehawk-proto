@@ -2,6 +2,25 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.36.0](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.35.2...0.36.0) (2022-10-05)
+
+
+### ⚠ BREAKING CHANGES
+
+* **proto:** add services for `Read` and `List`
+* **proto:** create request uses new `Job`
+
+### Features
+
+* **proto:** add message for `AccountInfo` ([f58303b](https://github.com/WhitehawkCEC/whitehawk-proto/commit/f58303b5d1c2a23dae1d87845971a1b6987fa09c))
+* **proto:** add message for `BitsightCompanyInfo` ([828c978](https://github.com/WhitehawkCEC/whitehawk-proto/commit/828c978ab501704b89ec18c1b52c9dfd663cfd85))
+* **proto:** add message for `CyberOneAsset` ([9e9b69d](https://github.com/WhitehawkCEC/whitehawk-proto/commit/9e9b69d5e39e3e8b9dbbc170a73d315a2641b2b6))
+* **proto:** add message for `SupplyWisdomAsset` ([719451b](https://github.com/WhitehawkCEC/whitehawk-proto/commit/719451b1de8163a85fb6353c0824b7b5bd78be9b))
+* **proto:** add message for `SupplyWisdomTarget` ([44e35f5](https://github.com/WhitehawkCEC/whitehawk-proto/commit/44e35f57470ff37dc1462fdd18869d544d5c865c))
+* **proto:** add messages for `Job` ([e1edecf](https://github.com/WhitehawkCEC/whitehawk-proto/commit/e1edecf82427bd924008422015833b218b9b839c))
+* **proto:** add services for `Read` and `List` ([8a0bee2](https://github.com/WhitehawkCEC/whitehawk-proto/commit/8a0bee28aa1d1f9d017e29e3785618746be503dc))
+* **proto:** create request uses new `Job` ([4dc790e](https://github.com/WhitehawkCEC/whitehawk-proto/commit/4dc790ec89a2e1e7306fd17a896e55bfcdff9fc4))
+
 ### [0.35.2](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.35.1...0.35.2) (2022-10-04)
 
 ### Bug Fixes
