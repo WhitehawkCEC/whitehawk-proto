@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+package whitehawk.proto.internal.client_portal.custom_questionnaire_taken.v1;
+
+import "whitehawk/proto/heatmap/v1/message.proto";
+
+service Service {
+  rpc Show(ShowRequest) returns (ShowResponse);
+}
+
+message ShowRequest {
+  string domain_name = 1;
+}
+
+message ShowResponse {
+  whitehawk.proto.heatmap.v1.heatmap heatmap = 1;
+}

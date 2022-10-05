@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+package whitehawk.proto.heatmap.v1;
+
+import "whitehawk/proto/time/v1/message.proto";
+
+message heatmap {
+  int32 failed_critical = 1;
+  int32 failed_high = 2;
+  int32 failed_medium = 3;
+  int32 failed_low = 4;
+  int32 warning_critical = 5;
+  int32 warning_high = 6;
+  int32 warning_medium = 7;
+  int32 warning_low = 8;
+  int32 passed_critical = 9;
+  int32 passed_high = 10;
+  int32 passed_medium = 11;
+  int32 passed_low = 12;
+  whitehawk.proto.time.v1.IsoDateTime created_at = 13;
+  whitehawk.proto.time.v1.IsoDateTime updated_at = 14;
+}
