@@ -6,7 +6,6 @@ import "whitehawk/proto/ulid/v1/message.proto";
 import "whitehawk/proto/time/v1/message.proto";
 import "whitehawk/proto/slug/v1/message.proto";
 
-
 message Job {
   whitehawk.proto.ulid.v1.Ulid job_id = 1;
   JobConfig job_config = 2;
@@ -24,13 +23,12 @@ enum FrequencyType {
   FREQUENCY_TYPE_MONTHLY = 2;
   FREQUENCY_TYPE_QUARTERLY = 3;
   FREQUENCY_TYPE_YEARLY = 4;
-
 }
 
 message JobConfig {
   oneof value {
     SupplyWisdomToCyberOne supply_wisdom_to_cyber_one = 1;
-    RiskRatingServiceToCyberOne risk_rating_service_to_cyber_one = 2;
+    CyberRiskScorecardToCyberOne risk_rating_service_to_cyber_one = 2;
   }
 }
 
@@ -39,13 +37,13 @@ message SupplyWisdomToCyberOne {
   whitehawk.proto.slug.v1.Slug target_id = 2;
 }
 
-message RiskRatingServiceToCyberOne {
+message CyberRiskScorecardToCyberOne {
   whitehawk.proto.slug.v1.Slug source_id = 1;
   whitehawk.proto.slug.v1.Slug target_id = 2;
   RatingProviderType rating_provider_type = 3;
 }
 
-enum RatingProviderType{
+enum RatingProviderType {
   RATING_PROVIDER_TYPE_UNSPECIFIED = 0;
   RATING_PROVIDER_TYPE_BITSIGHT = 1;
   RATING_PROVIDER_TYPE_BLACK_KITE = 2;
