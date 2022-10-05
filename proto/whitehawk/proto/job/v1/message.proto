@@ -28,7 +28,7 @@ enum FrequencyType {
 message JobConfig {
   oneof value {
     SupplyWisdomToCyberOne supply_wisdom_to_cyber_one = 1;
-    CyberRiskScorecardToCyberOne risk_rating_service_to_cyber_one = 2;
+    CyberRiskScorecardToCyberOne cyber_risk_scorecard_to_cyber_one = 2;
   }
 }
 
