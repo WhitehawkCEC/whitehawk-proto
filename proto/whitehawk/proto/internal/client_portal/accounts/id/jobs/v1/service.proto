@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package whitehawk.proto.internal.client_portal.accounts.id.jobs.v1;
 
-import "whitehawk/proto/jobs/v1/message.proto";
+import "whitehawk/proto/job/v1/message.proto";
 import "whitehawk/proto/ulid/v1/message.proto";
 
 service Service {
@@ -10,8 +10,8 @@ service Service {
 }
 
 message CreateRequest {
-  whitehawk.proto.jobs.v1.Job job = 1;
-  whitehawk.proto.jobs.v1.Schedule schedule = 2;
+  whitehawk.proto.job.v1.JobConfig config = 1;
+  whitehawk.proto.job.v1.JobSchedule schedule = 2;
 }
 
 message CreateResponse {
