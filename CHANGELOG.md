@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.36.1](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.36.0...0.36.1) (2022-10-05)
+
+
+### Bug Fixes
+
+* **proto:** reverse `source_id` and `target_id` ([271ba4d](https://github.com/WhitehawkCEC/whitehawk-proto/commit/271ba4d5cc209790dc2a086cec5675eace752ba4))
+
 ## [0.36.0](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.35.2...0.36.0) (2022-10-05)
 
 
