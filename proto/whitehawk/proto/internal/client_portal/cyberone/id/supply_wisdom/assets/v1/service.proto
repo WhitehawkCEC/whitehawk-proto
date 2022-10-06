@@ -11,7 +11,7 @@ service Service {
 }
 
 message ReadRequest {
-  whitehawk.proto.slug.v1.Slug accountId = 1;
+  whitehawk.proto.slug.v1.Slug account_id = 1;
   string target_name = 2;
 }
 
