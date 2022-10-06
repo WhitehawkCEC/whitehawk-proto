@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.37.2](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.37.1...0.37.2) (2022-10-06)
+
+
+### Features
+
+* add weekly to frequecy enum ([9c9cd24](https://github.com/WhitehawkCEC/whitehawk-proto/commit/9c9cd2496121e019cccd8994ce5b46af0402880e))
+
 ### [0.37.1](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.37.0...0.37.1) (2022-10-06)
 
 
