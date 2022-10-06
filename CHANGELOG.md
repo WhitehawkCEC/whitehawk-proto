@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.37.5](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.37.4...0.37.5) (2022-10-06)
+
+
+### Features
+
+* **proto:** add `AccountId` message ([46185ea](https://github.com/WhitehawkCEC/whitehawk-proto/commit/46185ea0fa80d5efd0cc5b6bdc23aeff4eedb23a))
+* **proto:** add `CyberOneConfig` message ([be024ed](https://github.com/WhitehawkCEC/whitehawk-proto/commit/be024ed85dcf4eace2190fc7083e66393773d568))
+* **proto:** add service for account BK config ([786eb59](https://github.com/WhitehawkCEC/whitehawk-proto/commit/786eb59c5a6fb433583c631aee5457833b8efe27))
+* **proto:** add service for account C1 config ([4035585](https://github.com/WhitehawkCEC/whitehawk-proto/commit/4035585f4badbb8aa6c1be2c8cac292ef3714d45))
+
 ### [0.37.4](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.37.3...0.37.4) (2022-10-06)
 
 
