@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.37.1](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.37.0...0.37.1) (2022-10-06)
+
+
+### Features
+
+* add sixty day as freqeuncy ([59ecacc](https://github.com/WhitehawkCEC/whitehawk-proto/commit/59ecacc2a62d60784837303eb0d91dd203cbc50c))
+
 ## [0.37.0](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.36.10...0.37.0) (2022-10-06)
 
 
