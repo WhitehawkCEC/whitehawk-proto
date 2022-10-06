@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.37.7](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.37.6...0.37.7) (2022-10-06)
+
+
+### Features
+
+* add `SupplyWisdomConfig` message ([8bfdfa9](https://github.com/WhitehawkCEC/whitehawk-proto/commit/8bfdfa9535439f9cfa56acdaaa52c47e8267ed13))
+* **proto:** add bitsight config v2 message ([342fc85](https://github.com/WhitehawkCEC/whitehawk-proto/commit/342fc85f475381db3e15088880ddd0b46d2b56cd))
+* **proto:** add service for account BS config ([57ef4df](https://github.com/WhitehawkCEC/whitehawk-proto/commit/57ef4dfab37584ee82e5fa6fea9feb92a8254e3a))
+* **proto:** add service for account SW config ([7f1c1f4](https://github.com/WhitehawkCEC/whitehawk-proto/commit/7f1c1f413a67f0f303516eeefff6522262102e53))
+
 ### [0.37.6](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.37.5...0.37.6) (2022-10-06)
 
 
