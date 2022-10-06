@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.36.11](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.36.10...0.36.11) (2022-10-06)
+
+
+### Features
+
+* **proto:** add read service ([da3aea1](https://github.com/WhitehawkCEC/whitehawk-proto/commit/da3aea188584094a51a6cf03f2a1fe2c62ee9716))
+
 ### [0.36.10](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.36.9...0.36.10) (2022-10-05)
 
 ### Features
