@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.37.4](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.37.3...0.37.4) (2022-10-06)
+
+
+### Features
+
+* read assets by targetname and accountId ([555b8a9](https://github.com/WhitehawkCEC/whitehawk-proto/commit/555b8a9e11a463e9f077570329ec6b075ec5cbfb))
+* read assets by targetname and accountId ([595b8b4](https://github.com/WhitehawkCEC/whitehawk-proto/commit/595b8b4a76630d9192859b8696121879760176cb))
+
 ### [0.37.3](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.37.2...0.37.3) (2022-10-06)
 
 
