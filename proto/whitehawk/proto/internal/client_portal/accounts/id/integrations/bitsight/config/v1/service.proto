@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+package whitehawk.proto.internal.client_portal.accounts.id.integrations.bitsight.config.v1;
+
+import "whitehawk/proto/integration/bitsight/config/v2/message.proto";
+import "whitehawk/proto/resource/v1/message.proto";
+
+service Service {
+  rpc Get(GetRequest) returns (GetResponse);
+  rpc Set(SetRequest) returns (SetResponse);
+}
+
+message GetRequest {
+  whitehawk.proto.resource.v1.AccountId id = 1;
+}
+
+message GetResponse {
+  whitehawk.proto.integration.bitsight.config.v2.BitsightConfig data = 1;
+}
+
+message SetRequest {
+  whitehawk.proto.resource.v1.AccountId id = 1;
+  whitehawk.proto.integration.bitsight.config.v2.BitsightConfig data = 2;
+}
+
+message SetResponse {}
