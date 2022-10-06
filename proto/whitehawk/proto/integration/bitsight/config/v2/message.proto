@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package whitehawk.proto.integration.bitsight.config.v2;
+
+import "whitehawk/proto/integration/bitsight/domain/v1/message.proto";
+
+message BitsightConfig {
+  oneof api_key_maybe {
+    whitehawk.proto.integration.bitsight.domain.v1.ApiToken api_key = 1;
+  }
+}
