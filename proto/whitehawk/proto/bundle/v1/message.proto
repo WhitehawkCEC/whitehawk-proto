@@ -14,14 +14,23 @@ enum BundleType {
   BUNDLE_TYPE_ADVANCED = 3;
 }
 
+enum BundleTemplateType {
+  BUNDLE_TEMPLATE_TYPE_UNSPECIFIED = 0;
+  BUNDLE_TEMPLATE_TYPE_CANNED = 1;
+  BUNDLE_TEMPLATE_TYPE_CUSTOM = 2;
+  BUNDLE_TEMPLATE_TYPE_OTHER = 3;
+}
+
 message BundleTemplate {
   whitehawk.proto.ulid.v1.Ulid id = 1;
   BundleType bundle_type = 2;
-  string name = 3;
-  string description = 4;
-  whitehawk.proto.company.v1.Company created_by_company = 5;
-  repeated whitehawk.proto.product.v1.ProductCategory product_categories = 6;
-  whitehawk.proto.meta.v1.Meta meta = 7;
+  BundleTemplateType bundle_template_type = 3;
+  string name = 4;
+  string description = 5;
+  whitehawk.proto.company.v1.Company created_by_company = 6;
+  repeated whitehawk.proto.product.v1.ProductCategory product_categories = 7;
+  repeated whitehawk.proto.company.v1.Industry industries = 8;
+  whitehawk.proto.meta.v1.Meta meta = 9;
 }
 
 message BundleSet {
