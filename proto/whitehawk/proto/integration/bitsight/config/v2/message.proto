@@ -5,7 +5,7 @@ package whitehawk.proto.integration.bitsight.config.v2;
 import "whitehawk/proto/integration/bitsight/domain/v1/message.proto";
 
 message BitsightConfig {
-  oneof api_key_maybe {
-    whitehawk.proto.integration.bitsight.domain.v1.ApiToken api_key = 1;
+  oneof api_token_maybe {
+    whitehawk.proto.integration.bitsight.domain.v1.ApiToken api_token = 1;
   }
 }
