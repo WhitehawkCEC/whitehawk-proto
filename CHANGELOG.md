@@ -4,103 +4,92 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### [0.37.7](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.37.6...0.37.7) (2022-10-06)
 
-
 ### Features
 
-* add `SupplyWisdomConfig` message ([8bfdfa9](https://github.com/WhitehawkCEC/whitehawk-proto/commit/8bfdfa9535439f9cfa56acdaaa52c47e8267ed13))
-* **proto:** add bitsight config v2 message ([342fc85](https://github.com/WhitehawkCEC/whitehawk-proto/commit/342fc85f475381db3e15088880ddd0b46d2b56cd))
-* **proto:** add service for account BS config ([57ef4df](https://github.com/WhitehawkCEC/whitehawk-proto/commit/57ef4dfab37584ee82e5fa6fea9feb92a8254e3a))
-* **proto:** add service for account SW config ([7f1c1f4](https://github.com/WhitehawkCEC/whitehawk-proto/commit/7f1c1f413a67f0f303516eeefff6522262102e53))
+- add `SupplyWisdomConfig` message ([8bfdfa9](https://github.com/WhitehawkCEC/whitehawk-proto/commit/8bfdfa9535439f9cfa56acdaaa52c47e8267ed13))
+- **proto:** add bitsight config v2 message ([342fc85](https://github.com/WhitehawkCEC/whitehawk-proto/commit/342fc85f475381db3e15088880ddd0b46d2b56cd))
+- **proto:** add service for account BS config ([57ef4df](https://github.com/WhitehawkCEC/whitehawk-proto/commit/57ef4dfab37584ee82e5fa6fea9feb92a8254e3a))
+- **proto:** add service for account SW config ([7f1c1f4](https://github.com/WhitehawkCEC/whitehawk-proto/commit/7f1c1f413a67f0f303516eeefff6522262102e53))
 
 ### [0.37.6](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.37.5...0.37.6) (2022-10-06)
 
-
 ### Bug Fixes
 
-* **proto:** change input parameter ([8fda035](https://github.com/WhitehawkCEC/whitehawk-proto/commit/8fda035596bc8c3d75e4b702599b021f5dcd73ba))
+- **proto:** change input parameter ([8fda035](https://github.com/WhitehawkCEC/whitehawk-proto/commit/8fda035596bc8c3d75e4b702599b021f5dcd73ba))
 
 ## [0.37.0](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.36.11...0.37.0) (2022-10-06)
 
-
 ### ⚠ BREAKING CHANGES
 
-* use rating service type 1 and 2 instead of name
+- use rating service type 1 and 2 instead of name
 
 ### Features
 
-* add one time as frequency enum value ([f822730](https://github.com/WhitehawkCEC/whitehawk-proto/commit/f8227301c459afa560b0c9cf5e310de41de92661))
-* add sixty day as freqeuncy ([59ecacc](https://github.com/WhitehawkCEC/whitehawk-proto/commit/59ecacc2a62d60784837303eb0d91dd203cbc50c))
-* add weekly to frequecy enum ([9c9cd24](https://github.com/WhitehawkCEC/whitehawk-proto/commit/9c9cd2496121e019cccd8994ce5b46af0402880e))
-* **proto:** add `AccountId` message ([46185ea](https://github.com/WhitehawkCEC/whitehawk-proto/commit/46185ea0fa80d5efd0cc5b6bdc23aeff4eedb23a))
-* **proto:** add `CyberOneConfig` message ([be024ed](https://github.com/WhitehawkCEC/whitehawk-proto/commit/be024ed85dcf4eace2190fc7083e66393773d568))
-* **proto:** add service for account BK config ([786eb59](https://github.com/WhitehawkCEC/whitehawk-proto/commit/786eb59c5a6fb433583c631aee5457833b8efe27))
-* **proto:** add service for account C1 config ([4035585](https://github.com/WhitehawkCEC/whitehawk-proto/commit/4035585f4badbb8aa6c1be2c8cac292ef3714d45))
-* read assets by targetname and accountId ([555b8a9](https://github.com/WhitehawkCEC/whitehawk-proto/commit/555b8a9e11a463e9f077570329ec6b075ec5cbfb))
-* read assets by targetname and accountId ([595b8b4](https://github.com/WhitehawkCEC/whitehawk-proto/commit/595b8b4a76630d9192859b8696121879760176cb))
-* use rating service type 1 and 2 instead of name ([399528f](https://github.com/WhitehawkCEC/whitehawk-proto/commit/399528f81a16f8aa37e577812147dc730cdba624))
-
+- add one time as frequency enum value ([f822730](https://github.com/WhitehawkCEC/whitehawk-proto/commit/f8227301c459afa560b0c9cf5e310de41de92661))
+- add sixty day as freqeuncy ([59ecacc](https://github.com/WhitehawkCEC/whitehawk-proto/commit/59ecacc2a62d60784837303eb0d91dd203cbc50c))
+- add weekly to frequecy enum ([9c9cd24](https://github.com/WhitehawkCEC/whitehawk-proto/commit/9c9cd2496121e019cccd8994ce5b46af0402880e))
+- **proto:** add `AccountId` message ([46185ea](https://github.com/WhitehawkCEC/whitehawk-proto/commit/46185ea0fa80d5efd0cc5b6bdc23aeff4eedb23a))
+- **proto:** add `CyberOneConfig` message ([be024ed](https://github.com/WhitehawkCEC/whitehawk-proto/commit/be024ed85dcf4eace2190fc7083e66393773d568))
+- **proto:** add service for account BK config ([786eb59](https://github.com/WhitehawkCEC/whitehawk-proto/commit/786eb59c5a6fb433583c631aee5457833b8efe27))
+- **proto:** add service for account C1 config ([4035585](https://github.com/WhitehawkCEC/whitehawk-proto/commit/4035585f4badbb8aa6c1be2c8cac292ef3714d45))
+- read assets by targetname and accountId ([555b8a9](https://github.com/WhitehawkCEC/whitehawk-proto/commit/555b8a9e11a463e9f077570329ec6b075ec5cbfb))
+- read assets by targetname and accountId ([595b8b4](https://github.com/WhitehawkCEC/whitehawk-proto/commit/595b8b4a76630d9192859b8696121879760176cb))
+- use rating service type 1 and 2 instead of name ([399528f](https://github.com/WhitehawkCEC/whitehawk-proto/commit/399528f81a16f8aa37e577812147dc730cdba624))
 
 ### Bug Fixes
 
-* **proto:** change input parameter ([8fda035](https://github.com/WhitehawkCEC/whitehawk-proto/commit/8fda035596bc8c3d75e4b702599b021f5dcd73ba))
+- **proto:** change input parameter ([8fda035](https://github.com/WhitehawkCEC/whitehawk-proto/commit/8fda035596bc8c3d75e4b702599b021f5dcd73ba))
 
 ### [0.37.5](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.37.4...0.37.5) (2022-10-06)
 
-
 ### Features
 
-* **proto:** add `AccountId` message ([46185ea](https://github.com/WhitehawkCEC/whitehawk-proto/commit/46185ea0fa80d5efd0cc5b6bdc23aeff4eedb23a))
-* **proto:** add `CyberOneConfig` message ([be024ed](https://github.com/WhitehawkCEC/whitehawk-proto/commit/be024ed85dcf4eace2190fc7083e66393773d568))
-* **proto:** add service for account BK config ([786eb59](https://github.com/WhitehawkCEC/whitehawk-proto/commit/786eb59c5a6fb433583c631aee5457833b8efe27))
-* **proto:** add service for account C1 config ([4035585](https://github.com/WhitehawkCEC/whitehawk-proto/commit/4035585f4badbb8aa6c1be2c8cac292ef3714d45))
+- **proto:** add `AccountId` message ([46185ea](https://github.com/WhitehawkCEC/whitehawk-proto/commit/46185ea0fa80d5efd0cc5b6bdc23aeff4eedb23a))
+- **proto:** add `CyberOneConfig` message ([be024ed](https://github.com/WhitehawkCEC/whitehawk-proto/commit/be024ed85dcf4eace2190fc7083e66393773d568))
+- **proto:** add service for account BK config ([786eb59](https://github.com/WhitehawkCEC/whitehawk-proto/commit/786eb59c5a6fb433583c631aee5457833b8efe27))
+- **proto:** add service for account C1 config ([4035585](https://github.com/WhitehawkCEC/whitehawk-proto/commit/4035585f4badbb8aa6c1be2c8cac292ef3714d45))
 
 ### [0.37.4](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.37.3...0.37.4) (2022-10-06)
 
-
 ### Features
 
-* read assets by targetname and accountId ([555b8a9](https://github.com/WhitehawkCEC/whitehawk-proto/commit/555b8a9e11a463e9f077570329ec6b075ec5cbfb))
-* read assets by targetname and accountId ([595b8b4](https://github.com/WhitehawkCEC/whitehawk-proto/commit/595b8b4a76630d9192859b8696121879760176cb))
+- read assets by targetname and accountId ([555b8a9](https://github.com/WhitehawkCEC/whitehawk-proto/commit/555b8a9e11a463e9f077570329ec6b075ec5cbfb))
+- read assets by targetname and accountId ([595b8b4](https://github.com/WhitehawkCEC/whitehawk-proto/commit/595b8b4a76630d9192859b8696121879760176cb))
 
 ### [0.37.3](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.37.2...0.37.3) (2022-10-06)
 
-
 ### Features
 
-* add one time as frequency enum value ([f822730](https://github.com/WhitehawkCEC/whitehawk-proto/commit/f8227301c459afa560b0c9cf5e310de41de92661))
+- add one time as frequency enum value ([f822730](https://github.com/WhitehawkCEC/whitehawk-proto/commit/f8227301c459afa560b0c9cf5e310de41de92661))
 
 ### [0.37.2](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.37.1...0.37.2) (2022-10-06)
 
-
 ### Features
 
-* add weekly to frequecy enum ([9c9cd24](https://github.com/WhitehawkCEC/whitehawk-proto/commit/9c9cd2496121e019cccd8994ce5b46af0402880e))
+- add weekly to frequecy enum ([9c9cd24](https://github.com/WhitehawkCEC/whitehawk-proto/commit/9c9cd2496121e019cccd8994ce5b46af0402880e))
 
 ### [0.37.1](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.37.0...0.37.1) (2022-10-06)
 
-
 ### Features
 
-* add sixty day as freqeuncy ([59ecacc](https://github.com/WhitehawkCEC/whitehawk-proto/commit/59ecacc2a62d60784837303eb0d91dd203cbc50c))
+- add sixty day as freqeuncy ([59ecacc](https://github.com/WhitehawkCEC/whitehawk-proto/commit/59ecacc2a62d60784837303eb0d91dd203cbc50c))
 
 ## [0.37.0](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.36.10...0.37.0) (2022-10-06)
 
-
 ### ⚠ BREAKING CHANGES
 
-* use rating service type 1 and 2 instead of name
+- use rating service type 1 and 2 instead of name
 
 ### Features
 
-* **proto:** add read service ([da3aea1](https://github.com/WhitehawkCEC/whitehawk-proto/commit/da3aea188584094a51a6cf03f2a1fe2c62ee9716))
-* use rating service type 1 and 2 instead of name ([399528f](https://github.com/WhitehawkCEC/whitehawk-proto/commit/399528f81a16f8aa37e577812147dc730cdba624))
+- **proto:** add read service ([da3aea1](https://github.com/WhitehawkCEC/whitehawk-proto/commit/da3aea188584094a51a6cf03f2a1fe2c62ee9716))
+- use rating service type 1 and 2 instead of name ([399528f](https://github.com/WhitehawkCEC/whitehawk-proto/commit/399528f81a16f8aa37e577812147dc730cdba624))
 
 ### [0.36.11](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.36.10...0.36.11) (2022-10-06)
 
-
 ### Features
 
-* **proto:** add read service ([da3aea1](https://github.com/WhitehawkCEC/whitehawk-proto/commit/da3aea188584094a51a6cf03f2a1fe2c62ee9716))
+- **proto:** add read service ([da3aea1](https://github.com/WhitehawkCEC/whitehawk-proto/commit/da3aea188584094a51a6cf03f2a1fe2c62ee9716))
 
 ### [0.36.10](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.36.9...0.36.10) (2022-10-05)
 
