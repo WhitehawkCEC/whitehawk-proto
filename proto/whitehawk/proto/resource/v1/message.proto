@@ -5,10 +5,6 @@ package whitehawk.proto.resource.v1;
 import "whitehawk/proto/slug/v1/message.proto";
 import "whitehawk/proto/ulid/v1/message.proto";
 
-message AccountId {
-  whitehawk.proto.slug.v1.Slug account_id = 1;
-}
-
 message AccountSubscriptionId {
   whitehawk.proto.slug.v1.Slug account_id = 1;
   whitehawk.proto.slug.v1.Slug subscription_id = 2;
