@@ -4,38 +4,35 @@ All notable changes to this project will be documented in this file. See [standa
 
 ## [0.38.0](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.37.7...0.38.0) (2022-10-07)
 
-
 ### ⚠ BREAKING CHANGES
 
-* **proto:** add industries and bundle template type
+- **proto:** add industries and bundle template type
 
 ### Features
 
-* **proto:** add industries and bundle template type ([d88bb4c](https://github.com/WhitehawkCEC/whitehawk-proto/commit/d88bb4cc04585609d46bf97fded109b8e7b5a10d))
-* **proto:** prefer to use `slug` ([c3837a4](https://github.com/WhitehawkCEC/whitehawk-proto/commit/c3837a468ca206586fe0af6e23a83ff776022f8d))
-* **proto:** prefer to use `slug` ([cbf19d3](https://github.com/WhitehawkCEC/whitehawk-proto/commit/cbf19d37c9f41e96feee8b4e017619da9b6d8c8a))
-* **proto:** prefer to use `slug` ([68d10b1](https://github.com/WhitehawkCEC/whitehawk-proto/commit/68d10b109a96ed7bafdfbab4f0c63fd99cdc5af4))
-* **proto:** prefer to use `slug` ([b511c9e](https://github.com/WhitehawkCEC/whitehawk-proto/commit/b511c9e33648cabb1ccf88c4961226466c88e59c))
-* **proto:** remove unused resource `AccountId` ([c7ddca5](https://github.com/WhitehawkCEC/whitehawk-proto/commit/c7ddca54c15c33fd48adbc2fb6fdc4edcc830beb))
-* **proto:** use correct terminology ([721b0b0](https://github.com/WhitehawkCEC/whitehawk-proto/commit/721b0b078b8e87c17e457a1a28ba0b3166010a4c))
+- **proto:** add industries and bundle template type ([d88bb4c](https://github.com/WhitehawkCEC/whitehawk-proto/commit/d88bb4cc04585609d46bf97fded109b8e7b5a10d))
+- **proto:** prefer to use `slug` ([c3837a4](https://github.com/WhitehawkCEC/whitehawk-proto/commit/c3837a468ca206586fe0af6e23a83ff776022f8d))
+- **proto:** prefer to use `slug` ([cbf19d3](https://github.com/WhitehawkCEC/whitehawk-proto/commit/cbf19d37c9f41e96feee8b4e017619da9b6d8c8a))
+- **proto:** prefer to use `slug` ([68d10b1](https://github.com/WhitehawkCEC/whitehawk-proto/commit/68d10b109a96ed7bafdfbab4f0c63fd99cdc5af4))
+- **proto:** prefer to use `slug` ([b511c9e](https://github.com/WhitehawkCEC/whitehawk-proto/commit/b511c9e33648cabb1ccf88c4961226466c88e59c))
+- **proto:** remove unused resource `AccountId` ([c7ddca5](https://github.com/WhitehawkCEC/whitehawk-proto/commit/c7ddca54c15c33fd48adbc2fb6fdc4edcc830beb))
+- **proto:** use correct terminology ([721b0b0](https://github.com/WhitehawkCEC/whitehawk-proto/commit/721b0b078b8e87c17e457a1a28ba0b3166010a4c))
 
 ### [0.37.9](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.37.8...0.37.9) (2022-10-07)
 
-
 ### Features
 
-* **proto:** use correct terminology ([721b0b0](https://github.com/WhitehawkCEC/whitehawk-proto/commit/721b0b078b8e87c17e457a1a28ba0b3166010a4c))
+- **proto:** use correct terminology ([721b0b0](https://github.com/WhitehawkCEC/whitehawk-proto/commit/721b0b078b8e87c17e457a1a28ba0b3166010a4c))
 
 ### [0.37.8](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.37.7...0.37.8) (2022-10-07)
 
-
 ### Features
 
-* **proto:** prefer to use `slug` ([c3837a4](https://github.com/WhitehawkCEC/whitehawk-proto/commit/c3837a468ca206586fe0af6e23a83ff776022f8d))
-* **proto:** prefer to use `slug` ([cbf19d3](https://github.com/WhitehawkCEC/whitehawk-proto/commit/cbf19d37c9f41e96feee8b4e017619da9b6d8c8a))
-* **proto:** prefer to use `slug` ([68d10b1](https://github.com/WhitehawkCEC/whitehawk-proto/commit/68d10b109a96ed7bafdfbab4f0c63fd99cdc5af4))
-* **proto:** prefer to use `slug` ([b511c9e](https://github.com/WhitehawkCEC/whitehawk-proto/commit/b511c9e33648cabb1ccf88c4961226466c88e59c))
-* **proto:** remove unused resource `AccountId` ([c7ddca5](https://github.com/WhitehawkCEC/whitehawk-proto/commit/c7ddca54c15c33fd48adbc2fb6fdc4edcc830beb))
+- **proto:** prefer to use `slug` ([c3837a4](https://github.com/WhitehawkCEC/whitehawk-proto/commit/c3837a468ca206586fe0af6e23a83ff776022f8d))
+- **proto:** prefer to use `slug` ([cbf19d3](https://github.com/WhitehawkCEC/whitehawk-proto/commit/cbf19d37c9f41e96feee8b4e017619da9b6d8c8a))
+- **proto:** prefer to use `slug` ([68d10b1](https://github.com/WhitehawkCEC/whitehawk-proto/commit/68d10b109a96ed7bafdfbab4f0c63fd99cdc5af4))
+- **proto:** prefer to use `slug` ([b511c9e](https://github.com/WhitehawkCEC/whitehawk-proto/commit/b511c9e33648cabb1ccf88c4961226466c88e59c))
+- **proto:** remove unused resource `AccountId` ([c7ddca5](https://github.com/WhitehawkCEC/whitehawk-proto/commit/c7ddca54c15c33fd48adbc2fb6fdc4edcc830beb))
 
 ### [0.37.7](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.37.6...0.37.7) (2022-10-06)
 
