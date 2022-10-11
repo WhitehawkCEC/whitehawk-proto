@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.38.1](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.38.0...0.38.1) (2022-10-11)
+
+
+### Features
+
+* **proto:** add `BlackKiteEntity` message ([4128b0c](https://github.com/WhitehawkCEC/whitehawk-proto/commit/4128b0c99864ef70f1355db0b293d8be4a149040))
+* **proto:** add list service for BK entities ([1c0139d](https://github.com/WhitehawkCEC/whitehawk-proto/commit/1c0139dd61ca647d0a607c60ae8fdcf8254c757b))
+
 ## [0.38.0](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.37.7...0.38.0) (2022-10-07)
 
 ### ⚠ BREAKING CHANGES
