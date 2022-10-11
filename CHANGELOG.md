@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.38.2](https://github.com/whitehawkcec/whitehawk-proto/compare/0.38.1...0.38.2) (2022-10-11)
+
+
+### Features
+
+* **proto:** add `LicensePack` ([bee9ebf](https://github.com/whitehawkcec/whitehawk-proto/commit/bee9ebf55bbc2bd6d2d8151940dc39015a20f0f2))
+* **proto:** add service to get account subscription's scorecard licensing id ([8030b58](https://github.com/whitehawkcec/whitehawk-proto/commit/8030b586267e16c59054058952b224e2b1a997a4))
+* **proto:** add service to manage scorecard licensing pack quantity changes ([892b75f](https://github.com/whitehawkcec/whitehawk-proto/commit/892b75fac732029073e64f277c094888445f8472))
+* **proto:** add service to manage scorecard licensing packs ([2b6baea](https://github.com/whitehawkcec/whitehawk-proto/commit/2b6baea280629bf471d304f799d7b2279e6d326c))
+
 ### [0.38.1](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.38.0...0.38.1) (2022-10-11)
 
 
