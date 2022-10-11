@@ -1,48 +1,37 @@
-lockfileVersion: 5.3
+lockfileVersion: 5.4
 
 specifiers:
-  '@protobuf-ts/runtime': ^2.7.0
-  '@protobuf-ts/runtime-rpc': ^2.7.0
-  google-protobuf: ^3.20.1
-  typescript: ^4.7.4
+  '@protobuf-ts/runtime': ^2.8.1
+  '@protobuf-ts/runtime-rpc': ^2.8.1
+  google-protobuf: ^3.21.2
+  typescript: ^4.8.4
 
 dependencies:
-  '@protobuf-ts/runtime': 2.7.0
-  '@protobuf-ts/runtime-rpc': 2.7.0
-  google-protobuf: 3.20.1
+  '@protobuf-ts/runtime': 2.8.1
+  '@protobuf-ts/runtime-rpc': 2.8.1
+  google-protobuf: 3.21.2
 
 devDependencies:
-  typescript: 4.7.4
+  typescript: 4.8.4
 
 packages:
-  /@protobuf-ts/runtime-rpc/2.7.0:
-    resolution:
-      {
-        integrity: sha512-ha2HFJYLam1Zv04roq4MgYgdivoXv3s5uDQpr6jOAflAduNRWpB5IFegvPvtdc89j4xs7vuNPIGyZtP/MgYAXA==,
-      }
+
+  /@protobuf-ts/runtime-rpc/2.8.1:
+    resolution: {integrity: sha512-hc+HJpoAu50by8aBS55UygcrzD8jAvRKWZMCRJ9XY3h9Gl2tciYysfzSH1SWtF6XOT/4b5CKnnmdMR3ad7uU5g==}
     dependencies:
-      '@protobuf-ts/runtime': 2.7.0
+      '@protobuf-ts/runtime': 2.8.1
     dev: false
 
-  /@protobuf-ts/runtime/2.7.0:
-    resolution:
-      {
-        integrity: sha512-CzunTplg81oMkF9MnSYiX2WOdHnAyHKnokZncgOHm5bt8iEfFNnUsMSbsWUus/ulRNIZ9VAVMjutd96vmySQaw==,
-      }
+  /@protobuf-ts/runtime/2.8.1:
+    resolution: {integrity: sha512-D9M5hSumYCovIfNllt7N6ODh4q+LrjiMWtNETvooaf+a2XheZJ7kgjFlsFghti0CFWwtA//of4JXQfw9hU+cCw==}
     dev: false
 
-  /google-protobuf/3.20.1:
-    resolution:
-      {
-        integrity: sha512-XMf1+O32FjYIV3CYu6Tuh5PNbfNEU5Xu22X+Xkdb/DUexFlCzhvv7d5Iirm4AOwn8lv4al1YvIhzGrg2j9Zfzw==,
-      }
+  /google-protobuf/3.21.2:
+    resolution: {integrity: sha512-3MSOYFO5U9mPGikIYCzK0SaThypfGgS6bHqrUGXG3DPHCrb+txNqeEcns1W0lkGfk0rCyNXm7xB9rMxnCiZOoA==}
     dev: false
 
-  /typescript/4.7.4:
-    resolution:
-      {
-        integrity: sha512-C0WQT0gezHuw6AdY1M2jxUO83Rjf0HP7Sk1DtXj6j1EwkQNZrHAg2XPWlq62oqEhYvONq5pkC2Y9oPljWToLmQ==,
-      }
-    engines: { node: '>=4.2.0' }
+  /typescript/4.8.4:
+    resolution: {integrity: sha512-QCh+85mCy+h0IGff8r5XWzOVSbBO+KfeYrMQh7NJ58QujwcE22u+NUSmUxqF+un70P9GXKxa2HCNiTTMJknyjQ==}
+    engines: {node: '>=4.2.0'}
     hasBin: true
     dev: true
