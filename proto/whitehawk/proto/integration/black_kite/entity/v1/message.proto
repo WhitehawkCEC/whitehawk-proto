@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package whitehawk.proto.integration.black_kite.entity.v1;
+
+message BlackKiteEntity {
+  int32 id = 1;
+  string name = 2;
+  string domain = 3;
+}
