@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.38.5](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.38.4...0.38.5) (2022-10-12)
+
+
+### Features
+
+* remove read request from job to job_id ([fd968c5](https://github.com/WhitehawkCEC/whitehawk-proto/commit/fd968c5654542642ac071ce2f9879bfd567851ee))
+
 ### [0.38.4](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.38.3...0.38.4) (2022-10-12)
 
 
