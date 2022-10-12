@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.38.6](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.38.5...0.38.6) (2022-10-12)
+
+
+### Features
+
+* remove rpc read from jobs v1 ([bbeabc5](https://github.com/WhitehawkCEC/whitehawk-proto/commit/bbeabc50bbceef07a39eb1ec1f1bfc57ebd6e026))
+
 ### [0.38.5](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.38.4...0.38.5) (2022-10-12)
 
 
