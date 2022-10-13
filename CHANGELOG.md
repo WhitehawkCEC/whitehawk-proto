@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.39.1](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.39.0...0.39.1) (2022-10-13)
+
+
+### Features
+
+* **proto:** add `BlackKiteEcosystem` message ([0447f2e](https://github.com/WhitehawkCEC/whitehawk-proto/commit/0447f2eb3498176162c25df5b35e8095be174c81))
+* **proto:** add list service for BK ecosystem ([0336ea9](https://github.com/WhitehawkCEC/whitehawk-proto/commit/0336ea91e880974d6c0761a51b900bf544195d61))
+* **proto:** add necessary `id` to C1 config ([328f1a0](https://github.com/WhitehawkCEC/whitehawk-proto/commit/328f1a0e5b334c9391e13d96547c24dc5d4eea8c))
+* **proto:** add necessary `id`s to BK config ([3305912](https://github.com/WhitehawkCEC/whitehawk-proto/commit/3305912fc827c11e3c18165dd7f3ce6cbcd52ef3))
+
 ## [0.39.0](https://github.com/whitehawkcec/whitehawk-proto/compare/0.38.6...0.39.0) (2022-10-13)
 
 
