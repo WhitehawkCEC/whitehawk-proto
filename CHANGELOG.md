@@ -4,24 +4,21 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### [0.38.6](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.38.5...0.38.6) (2022-10-12)
 
-
 ### Features
 
-* remove rpc read from jobs v1 ([bbeabc5](https://github.com/WhitehawkCEC/whitehawk-proto/commit/bbeabc50bbceef07a39eb1ec1f1bfc57ebd6e026))
+- remove rpc read from jobs v1 ([bbeabc5](https://github.com/WhitehawkCEC/whitehawk-proto/commit/bbeabc50bbceef07a39eb1ec1f1bfc57ebd6e026))
 
 ### [0.38.5](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.38.4...0.38.5) (2022-10-12)
 
-
 ### Features
 
-* remove read request from job to job_id ([fd968c5](https://github.com/WhitehawkCEC/whitehawk-proto/commit/fd968c5654542642ac071ce2f9879bfd567851ee))
+- remove read request from job to job_id ([fd968c5](https://github.com/WhitehawkCEC/whitehawk-proto/commit/fd968c5654542642ac071ce2f9879bfd567851ee))
 
 ### [0.38.4](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.38.3...0.38.4) (2022-10-12)
 
-
 ### Features
 
-* job read as separate service ([dbad06f](https://github.com/WhitehawkCEC/whitehawk-proto/commit/dbad06f58489f29b98747aa235d6d8aabb3ea24b))
+- job read as separate service ([dbad06f](https://github.com/WhitehawkCEC/whitehawk-proto/commit/dbad06f58489f29b98747aa235d6d8aabb3ea24b))
 
 ### [0.38.3](https://github.com/whitehawkcec/whitehawk-proto/compare/0.38.2...0.38.3) (2022-10-11)
 
