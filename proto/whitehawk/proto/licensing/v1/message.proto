@@ -1,0 +1,31 @@
+syntax = "proto3";
+
+package whitehawk.proto.licensing.v1;
+
+import "whitehawk/proto/time/v1/message.proto";
+
+message AggregateLicenseUsage {
+  LicenseUsage annual = 1;
+  LicenseUsage one_time = 2;
+  oneof validity_maybe {
+    whitehawk.proto.time.v1.DateRange validity = 3;
+  }
+}
+
+message LicensePackUsage {
+  whitehawk.proto.time.v1.DateRange validity = 1;
+  LicenseType type = 2;
+  LicenseUsage usage = 3;
+}
+
+enum LicenseType {
+  LICENSE_TYPE_UNSPECIFIED = 0;
+  LICENSE_TYPE_ANNUAL = 1;
+  LICENSE_TYPE_ONE_TIME = 2;
+}
+
+message LicenseUsage {
+  int32 quantity = 1;
+  int32 available = 2;
+  int32 used = 3;
+}
