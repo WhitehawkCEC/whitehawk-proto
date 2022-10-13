@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+package whitehawk.proto.internal.client_portal.accounts.id.integrations.black_kite.ecosystems.v1;
+
+import "whitehawk/proto/integration/black_kite/domain/v1/message.proto";
+import "whitehawk/proto/slug/v1/message.proto";
+
+service Service {
+  rpc List(ListRequest) returns (ListResponse);
+}
+
+message ListRequest {
+  whitehawk.proto.slug.v1.Slug id = 1;
+}
+
+message ListResponse {
+  repeated whitehawk.proto.integration.black_kite.domain.v1.BlackKiteEcosystem ecosystems = 1;
+}
