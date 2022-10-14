@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.40.0](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.39.1...0.40.0) (2022-10-14)
+
+
+### ⚠ BREAKING CHANGES
+
+* **proto:** remove unused `BlackKiteEntity` message
+
+### Features
+
+* **proto:** prefer to use `domain` message ([04c0515](https://github.com/WhitehawkCEC/whitehawk-proto/commit/04c0515c8c5f2ad8506af28c4ac62d8a217b4b78))
+* **proto:** remove unused `BlackKiteEntity` message ([186609b](https://github.com/WhitehawkCEC/whitehawk-proto/commit/186609b5faab8f9ca56aca0de107cdb1e2039464))
+
 ### [0.39.1](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.39.0...0.39.1) (2022-10-13)
 
 ### Features
