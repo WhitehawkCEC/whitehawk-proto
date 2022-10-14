@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package whitehawk.proto.internal.client_portal.accounts.id.integrations.black_kite.entities.v1;
 
-import "whitehawk/proto/integration/black_kite/entity/v1/message.proto";
+import "whitehawk/proto/integration/black_kite/domain/v1/message.proto";
 import "whitehawk/proto/slug/v1/message.proto";
 
 service Service {
@@ -14,5 +14,5 @@ message ListRequest {
 }
 
 message ListResponse {
-  repeated whitehawk.proto.integration.black_kite.entity.v1.BlackKiteEntity entities = 1;
+  repeated whitehawk.proto.integration.black_kite.domain.v1.BlackKiteEntity entities = 1;
 }
