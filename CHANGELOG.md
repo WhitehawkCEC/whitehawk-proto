@@ -4,32 +4,30 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### [0.39.1](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.39.0...0.39.1) (2022-10-13)
 
-
 ### Features
 
-* **proto:** add `BlackKiteEcosystem` message ([0447f2e](https://github.com/WhitehawkCEC/whitehawk-proto/commit/0447f2eb3498176162c25df5b35e8095be174c81))
-* **proto:** add list service for BK ecosystem ([0336ea9](https://github.com/WhitehawkCEC/whitehawk-proto/commit/0336ea91e880974d6c0761a51b900bf544195d61))
-* **proto:** add necessary `id` to C1 config ([328f1a0](https://github.com/WhitehawkCEC/whitehawk-proto/commit/328f1a0e5b334c9391e13d96547c24dc5d4eea8c))
-* **proto:** add necessary `id`s to BK config ([3305912](https://github.com/WhitehawkCEC/whitehawk-proto/commit/3305912fc827c11e3c18165dd7f3ce6cbcd52ef3))
+- **proto:** add `BlackKiteEcosystem` message ([0447f2e](https://github.com/WhitehawkCEC/whitehawk-proto/commit/0447f2eb3498176162c25df5b35e8095be174c81))
+- **proto:** add list service for BK ecosystem ([0336ea9](https://github.com/WhitehawkCEC/whitehawk-proto/commit/0336ea91e880974d6c0761a51b900bf544195d61))
+- **proto:** add necessary `id` to C1 config ([328f1a0](https://github.com/WhitehawkCEC/whitehawk-proto/commit/328f1a0e5b334c9391e13d96547c24dc5d4eea8c))
+- **proto:** add necessary `id`s to BK config ([3305912](https://github.com/WhitehawkCEC/whitehawk-proto/commit/3305912fc827c11e3c18165dd7f3ce6cbcd52ef3))
 
 ## [0.39.0](https://github.com/whitehawkcec/whitehawk-proto/compare/0.38.6...0.39.0) (2022-10-13)
 
-
 ### ⚠ BREAKING CHANGES
 
-* **proto:** remove service to manage scorecard licensing packs
-* **proto:** remove service to manage scorecard licensing quantity changes
-* **proto:** remove service to get account subscription scorecard licensing id
+- **proto:** remove service to manage scorecard licensing packs
+- **proto:** remove service to manage scorecard licensing quantity changes
+- **proto:** remove service to get account subscription scorecard licensing id
 
 ### Features
 
-* **proto:** add licensing messages ([f5193c1](https://github.com/whitehawkcec/whitehawk-proto/commit/f5193c1b1596fb8a1259c1024a991ff16e6101c3))
-* **proto:** add service to get account subscription licensing id ([fdee83b](https://github.com/whitehawkcec/whitehawk-proto/commit/fdee83b48a1c880ba9a7d6d2411755a31c11efef))
-* **proto:** add service to manage licensing pack quantity ([062237c](https://github.com/whitehawkcec/whitehawk-proto/commit/062237cf0ec17092a4afdcf9f7e21c3d85a85c55))
-* **proto:** add service to manage licensing packs ([c1c80b7](https://github.com/whitehawkcec/whitehawk-proto/commit/c1c80b74ca58d376f81c7a5852228f2fef3cab76))
-* **proto:** remove service to get account subscription scorecard licensing id ([8944bf0](https://github.com/whitehawkcec/whitehawk-proto/commit/8944bf0c60507261ec08934c1b4191a51b251795))
-* **proto:** remove service to manage scorecard licensing packs ([3e79037](https://github.com/whitehawkcec/whitehawk-proto/commit/3e7903733a68b13f8db884ebfc4ea0dfe6fb0d84))
-* **proto:** remove service to manage scorecard licensing quantity changes ([3056451](https://github.com/whitehawkcec/whitehawk-proto/commit/305645183593ab594452fa44b86d921f4b58d21c))
+- **proto:** add licensing messages ([f5193c1](https://github.com/whitehawkcec/whitehawk-proto/commit/f5193c1b1596fb8a1259c1024a991ff16e6101c3))
+- **proto:** add service to get account subscription licensing id ([fdee83b](https://github.com/whitehawkcec/whitehawk-proto/commit/fdee83b48a1c880ba9a7d6d2411755a31c11efef))
+- **proto:** add service to manage licensing pack quantity ([062237c](https://github.com/whitehawkcec/whitehawk-proto/commit/062237cf0ec17092a4afdcf9f7e21c3d85a85c55))
+- **proto:** add service to manage licensing packs ([c1c80b7](https://github.com/whitehawkcec/whitehawk-proto/commit/c1c80b74ca58d376f81c7a5852228f2fef3cab76))
+- **proto:** remove service to get account subscription scorecard licensing id ([8944bf0](https://github.com/whitehawkcec/whitehawk-proto/commit/8944bf0c60507261ec08934c1b4191a51b251795))
+- **proto:** remove service to manage scorecard licensing packs ([3e79037](https://github.com/whitehawkcec/whitehawk-proto/commit/3e7903733a68b13f8db884ebfc4ea0dfe6fb0d84))
+- **proto:** remove service to manage scorecard licensing quantity changes ([3056451](https://github.com/whitehawkcec/whitehawk-proto/commit/305645183593ab594452fa44b86d921f4b58d21c))
 
 ### [0.38.6](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.38.5...0.38.6) (2022-10-12)
 
