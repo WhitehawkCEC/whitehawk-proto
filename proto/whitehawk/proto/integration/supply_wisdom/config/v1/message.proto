@@ -8,4 +8,5 @@ message SupplyWisdomConfig {
   oneof api_key_maybe {
     whitehawk.proto.integration.supply_wisdom.domain.v1.ApiKey api_key = 1;
   }
+  string target_name = 2;
 }
