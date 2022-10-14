@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.40.2](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.40.1...0.40.2) (2022-10-14)
+
+
+### Features
+
+* add list service for cyber one assets ([0f2e4de](https://github.com/WhitehawkCEC/whitehawk-proto/commit/0f2e4de6e977b52ac1315fc084f2a5f924e0dde2))
+* add list service for supply wisdom assets ([32467fd](https://github.com/WhitehawkCEC/whitehawk-proto/commit/32467fd905342d3622acdf5e018be6ca32965353))
+
 ### [0.40.1](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.40.0...0.40.1) (2022-10-14)
 
 
