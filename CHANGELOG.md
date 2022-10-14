@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.40.1](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.40.0...0.40.1) (2022-10-14)
+
+
+### Features
+
+* **proto:** add target name to SW config ([00d7b52](https://github.com/WhitehawkCEC/whitehawk-proto/commit/00d7b526946659796c7ce87a8a4060409a361955))
+
 ## [0.40.0](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.39.1...0.40.0) (2022-10-14)
 
 
