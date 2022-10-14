@@ -1,6 +1,7 @@
 syntax = "proto3";
 
 package whitehawk.proto.integration.black_kite.domain.v1;
+
 import "whitehawk/proto/time/v1/message.proto";
 
 message ApiKey {
