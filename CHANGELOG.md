@@ -4,30 +4,27 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### [0.40.2](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.40.1...0.40.2) (2022-10-14)
 
-
 ### Features
 
-* add list service for cyber one assets ([0f2e4de](https://github.com/WhitehawkCEC/whitehawk-proto/commit/0f2e4de6e977b52ac1315fc084f2a5f924e0dde2))
-* add list service for supply wisdom assets ([32467fd](https://github.com/WhitehawkCEC/whitehawk-proto/commit/32467fd905342d3622acdf5e018be6ca32965353))
+- add list service for cyber one assets ([0f2e4de](https://github.com/WhitehawkCEC/whitehawk-proto/commit/0f2e4de6e977b52ac1315fc084f2a5f924e0dde2))
+- add list service for supply wisdom assets ([32467fd](https://github.com/WhitehawkCEC/whitehawk-proto/commit/32467fd905342d3622acdf5e018be6ca32965353))
 
 ### [0.40.1](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.40.0...0.40.1) (2022-10-14)
 
-
 ### Features
 
-* **proto:** add target name to SW config ([00d7b52](https://github.com/WhitehawkCEC/whitehawk-proto/commit/00d7b526946659796c7ce87a8a4060409a361955))
+- **proto:** add target name to SW config ([00d7b52](https://github.com/WhitehawkCEC/whitehawk-proto/commit/00d7b526946659796c7ce87a8a4060409a361955))
 
 ## [0.40.0](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.39.1...0.40.0) (2022-10-14)
 
-
 ### ⚠ BREAKING CHANGES
 
-* **proto:** remove unused `BlackKiteEntity` message
+- **proto:** remove unused `BlackKiteEntity` message
 
 ### Features
 
-* **proto:** prefer to use `domain` message ([04c0515](https://github.com/WhitehawkCEC/whitehawk-proto/commit/04c0515c8c5f2ad8506af28c4ac62d8a217b4b78))
-* **proto:** remove unused `BlackKiteEntity` message ([186609b](https://github.com/WhitehawkCEC/whitehawk-proto/commit/186609b5faab8f9ca56aca0de107cdb1e2039464))
+- **proto:** prefer to use `domain` message ([04c0515](https://github.com/WhitehawkCEC/whitehawk-proto/commit/04c0515c8c5f2ad8506af28c4ac62d8a217b4b78))
+- **proto:** remove unused `BlackKiteEntity` message ([186609b](https://github.com/WhitehawkCEC/whitehawk-proto/commit/186609b5faab8f9ca56aca0de107cdb1e2039464))
 
 ### [0.39.1](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.39.0...0.39.1) (2022-10-13)
 
