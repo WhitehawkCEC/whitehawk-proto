@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package whitehawk.proto.integration.cyber_one.config.v1;
+
+import "whitehawk/proto/integration/cyber_one/domain/v1/message.proto";
+
+message CyberOneConfig {
+  oneof api_key_maybe {
+    whitehawk.proto.integration.cyber_one.domain.v1.ApiKey api_key = 1;
+  }
+  int32 account_id = 2;
+}

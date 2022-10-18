@@ -2,9 +2,9 @@ syntax = "proto3";
 
 package whitehawk.proto.job.v1;
 
-import "whitehawk/proto/uuid/v1/message.proto";
-import "whitehawk/proto/ulid/v1/message.proto";
+import "whitehawk/proto/slug/v1/message.proto";
 import "whitehawk/proto/time/v1/message.proto";
+import "whitehawk/proto/ulid/v1/message.proto";
 
 message Job {
   whitehawk.proto.ulid.v1.Ulid job_id = 1;
@@ -19,32 +19,35 @@ message JobSchedule {
 
 enum FrequencyType {
   FREQUENCY_TYPE_UNSPECIFIED = 0;
-  FREQUENCY_TYPE_DAILY = 1;
-  FREQUENCY_TYPE_MONTHLY = 2;
-  FREQUENCY_TYPE_QUARTERLY = 3;
-  FREQUENCY_TYPE_YEARLY = 4;
-
+  FREQUENCY_TYPE_ONE_TIME = 1;
+  FREQUENCY_TYPE_DAILY = 2;
+  FREQUENCY_TYPE_WEEKLY = 3;
+  FREQUENCY_TYPE_SIXTY_DAY = 4;
+  FREQUENCY_TYPE_MONTHLY = 5;
+  FREQUENCY_TYPE_QUARTERLY = 6;
+  FREQUENCY_TYPE_YEARLY = 7;
 }
 
 message JobConfig {
   oneof value {
     SupplyWisdomToCyberOne supply_wisdom_to_cyber_one = 1;
-    BlackKiteToCyberOne black_kite_to_cyber_one = 2;
-    BitsightToCyberOne bitsight_to_cyber_one = 3;
+    CyberRiskScorecardToCyberOne cyber_risk_scorecard_to_cyber_one = 2;
   }
 }
 
 message SupplyWisdomToCyberOne {
-  string source_id = 1;
-  whitehawk.proto.ulid.v1.Ulid target_id = 2;
+  whitehawk.proto.slug.v1.Slug source_id = 1;
+  whitehawk.proto.slug.v1.Slug target_id = 2;
 }
 
-message BlackKiteToCyberOne {
-  int32 source_id = 1;
-  whitehawk.proto.ulid.v1.Ulid target_id = 2;
+message CyberRiskScorecardToCyberOne {
+  whitehawk.proto.slug.v1.Slug source_id = 1;
+  whitehawk.proto.slug.v1.Slug target_id = 2;
+  RatingProviderType rating_provider_type = 3;
 }
 
-message BitsightToCyberOne {
-  whitehawk.proto.uuid.v1.Uuid source_id = 1;
-  whitehawk.proto.ulid.v1.Ulid target_id = 2;
+enum RatingProviderType {
+  RATING_PROVIDER_TYPE_UNSPECIFIED = 0;
+  RATING_PROVIDER_TYPE_RATING_SERVICE_1 = 1;
+  RATING_PROVIDER_TYPE_RATING_SERVICE_2 = 2;
 }

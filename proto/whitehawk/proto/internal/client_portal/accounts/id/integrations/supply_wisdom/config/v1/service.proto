@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+package whitehawk.proto.internal.client_portal.accounts.id.integrations.supply_wisdom.config.v1;
+
+import "whitehawk/proto/integration/supply_wisdom/config/v1/message.proto";
+import "whitehawk/proto/slug/v1/message.proto";
+
+service Service {
+  rpc Get(GetRequest) returns (GetResponse);
+  rpc Set(SetRequest) returns (SetResponse);
+}
+
+message GetRequest {
+  whitehawk.proto.slug.v1.Slug id = 1;
+}
+
+message GetResponse {
+  whitehawk.proto.integration.supply_wisdom.config.v1.SupplyWisdomConfig data = 1;
+}
+
+message SetRequest {
+  whitehawk.proto.slug.v1.Slug id = 1;
+  whitehawk.proto.integration.supply_wisdom.config.v1.SupplyWisdomConfig data = 2;
+}
+
+message SetResponse {}

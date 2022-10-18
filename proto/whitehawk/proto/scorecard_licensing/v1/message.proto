@@ -34,3 +34,11 @@ message LicenseUsage {
   int32 available = 2;
   int32 used = 3;
 }
+
+message LicensePack {
+  whitehawk.proto.time.v1.DateRange validity = 1;
+  oneof usage {
+    LicenseUsage annual = 2;
+    LicenseUsage one_time = 3;
+  }
+}

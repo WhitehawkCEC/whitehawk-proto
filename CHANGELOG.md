@@ -2,6 +2,240 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.40.2](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.40.1...0.40.2) (2022-10-14)
+
+### Features
+
+- add list service for cyber one assets ([0f2e4de](https://github.com/WhitehawkCEC/whitehawk-proto/commit/0f2e4de6e977b52ac1315fc084f2a5f924e0dde2))
+- add list service for supply wisdom assets ([32467fd](https://github.com/WhitehawkCEC/whitehawk-proto/commit/32467fd905342d3622acdf5e018be6ca32965353))
+
+### [0.40.1](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.40.0...0.40.1) (2022-10-14)
+
+### Features
+
+- **proto:** add target name to SW config ([00d7b52](https://github.com/WhitehawkCEC/whitehawk-proto/commit/00d7b526946659796c7ce87a8a4060409a361955))
+
+## [0.40.0](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.39.1...0.40.0) (2022-10-14)
+
+### ⚠ BREAKING CHANGES
+
+- **proto:** remove unused `BlackKiteEntity` message
+
+### Features
+
+- **proto:** prefer to use `domain` message ([04c0515](https://github.com/WhitehawkCEC/whitehawk-proto/commit/04c0515c8c5f2ad8506af28c4ac62d8a217b4b78))
+- **proto:** remove unused `BlackKiteEntity` message ([186609b](https://github.com/WhitehawkCEC/whitehawk-proto/commit/186609b5faab8f9ca56aca0de107cdb1e2039464))
+
+### [0.39.1](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.39.0...0.39.1) (2022-10-13)
+
+### Features
+
+- **proto:** add `BlackKiteEcosystem` message ([0447f2e](https://github.com/WhitehawkCEC/whitehawk-proto/commit/0447f2eb3498176162c25df5b35e8095be174c81))
+- **proto:** add list service for BK ecosystem ([0336ea9](https://github.com/WhitehawkCEC/whitehawk-proto/commit/0336ea91e880974d6c0761a51b900bf544195d61))
+- **proto:** add necessary `id` to C1 config ([328f1a0](https://github.com/WhitehawkCEC/whitehawk-proto/commit/328f1a0e5b334c9391e13d96547c24dc5d4eea8c))
+- **proto:** add necessary `id`s to BK config ([3305912](https://github.com/WhitehawkCEC/whitehawk-proto/commit/3305912fc827c11e3c18165dd7f3ce6cbcd52ef3))
+
+## [0.39.0](https://github.com/whitehawkcec/whitehawk-proto/compare/0.38.6...0.39.0) (2022-10-13)
+
+### ⚠ BREAKING CHANGES
+
+- **proto:** remove service to manage scorecard licensing packs
+- **proto:** remove service to manage scorecard licensing quantity changes
+- **proto:** remove service to get account subscription scorecard licensing id
+
+### Features
+
+- **proto:** add licensing messages ([f5193c1](https://github.com/whitehawkcec/whitehawk-proto/commit/f5193c1b1596fb8a1259c1024a991ff16e6101c3))
+- **proto:** add service to get account subscription licensing id ([fdee83b](https://github.com/whitehawkcec/whitehawk-proto/commit/fdee83b48a1c880ba9a7d6d2411755a31c11efef))
+- **proto:** add service to manage licensing pack quantity ([062237c](https://github.com/whitehawkcec/whitehawk-proto/commit/062237cf0ec17092a4afdcf9f7e21c3d85a85c55))
+- **proto:** add service to manage licensing packs ([c1c80b7](https://github.com/whitehawkcec/whitehawk-proto/commit/c1c80b74ca58d376f81c7a5852228f2fef3cab76))
+- **proto:** remove service to get account subscription scorecard licensing id ([8944bf0](https://github.com/whitehawkcec/whitehawk-proto/commit/8944bf0c60507261ec08934c1b4191a51b251795))
+- **proto:** remove service to manage scorecard licensing packs ([3e79037](https://github.com/whitehawkcec/whitehawk-proto/commit/3e7903733a68b13f8db884ebfc4ea0dfe6fb0d84))
+- **proto:** remove service to manage scorecard licensing quantity changes ([3056451](https://github.com/whitehawkcec/whitehawk-proto/commit/305645183593ab594452fa44b86d921f4b58d21c))
+
+### [0.38.6](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.38.5...0.38.6) (2022-10-12)
+
+### Features
+
+- remove rpc read from jobs v1 ([bbeabc5](https://github.com/WhitehawkCEC/whitehawk-proto/commit/bbeabc50bbceef07a39eb1ec1f1bfc57ebd6e026))
+
+### [0.38.5](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.38.4...0.38.5) (2022-10-12)
+
+### Features
+
+- remove read request from job to job_id ([fd968c5](https://github.com/WhitehawkCEC/whitehawk-proto/commit/fd968c5654542642ac071ce2f9879bfd567851ee))
+
+### [0.38.4](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.38.3...0.38.4) (2022-10-12)
+
+### Features
+
+- job read as separate service ([dbad06f](https://github.com/WhitehawkCEC/whitehawk-proto/commit/dbad06f58489f29b98747aa235d6d8aabb3ea24b))
+
+### [0.38.3](https://github.com/whitehawkcec/whitehawk-proto/compare/0.38.2...0.38.3) (2022-10-11)
+
+### [0.38.2](https://github.com/whitehawkcec/whitehawk-proto/compare/0.38.1...0.38.2) (2022-10-11)
+
+### Features
+
+- **proto:** add `LicensePack` ([bee9ebf](https://github.com/whitehawkcec/whitehawk-proto/commit/bee9ebf55bbc2bd6d2d8151940dc39015a20f0f2))
+- **proto:** add service to get account subscription's scorecard licensing id ([8030b58](https://github.com/whitehawkcec/whitehawk-proto/commit/8030b586267e16c59054058952b224e2b1a997a4))
+- **proto:** add service to manage scorecard licensing pack quantity changes ([892b75f](https://github.com/whitehawkcec/whitehawk-proto/commit/892b75fac732029073e64f277c094888445f8472))
+- **proto:** add service to manage scorecard licensing packs ([2b6baea](https://github.com/whitehawkcec/whitehawk-proto/commit/2b6baea280629bf471d304f799d7b2279e6d326c))
+
+### [0.38.1](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.38.0...0.38.1) (2022-10-11)
+
+### Features
+
+- **proto:** add `BlackKiteEntity` message ([4128b0c](https://github.com/WhitehawkCEC/whitehawk-proto/commit/4128b0c99864ef70f1355db0b293d8be4a149040))
+- **proto:** add list service for BK entities ([1c0139d](https://github.com/WhitehawkCEC/whitehawk-proto/commit/1c0139dd61ca647d0a607c60ae8fdcf8254c757b))
+
+## [0.38.0](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.37.7...0.38.0) (2022-10-07)
+
+### ⚠ BREAKING CHANGES
+
+- **proto:** add industries and bundle template type
+
+### Features
+
+- **proto:** add industries and bundle template type ([d88bb4c](https://github.com/WhitehawkCEC/whitehawk-proto/commit/d88bb4cc04585609d46bf97fded109b8e7b5a10d))
+- **proto:** prefer to use `slug` ([c3837a4](https://github.com/WhitehawkCEC/whitehawk-proto/commit/c3837a468ca206586fe0af6e23a83ff776022f8d))
+- **proto:** prefer to use `slug` ([cbf19d3](https://github.com/WhitehawkCEC/whitehawk-proto/commit/cbf19d37c9f41e96feee8b4e017619da9b6d8c8a))
+- **proto:** prefer to use `slug` ([68d10b1](https://github.com/WhitehawkCEC/whitehawk-proto/commit/68d10b109a96ed7bafdfbab4f0c63fd99cdc5af4))
+- **proto:** prefer to use `slug` ([b511c9e](https://github.com/WhitehawkCEC/whitehawk-proto/commit/b511c9e33648cabb1ccf88c4961226466c88e59c))
+- **proto:** remove unused resource `AccountId` ([c7ddca5](https://github.com/WhitehawkCEC/whitehawk-proto/commit/c7ddca54c15c33fd48adbc2fb6fdc4edcc830beb))
+- **proto:** use correct terminology ([721b0b0](https://github.com/WhitehawkCEC/whitehawk-proto/commit/721b0b078b8e87c17e457a1a28ba0b3166010a4c))
+
+### [0.37.9](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.37.8...0.37.9) (2022-10-07)
+
+### Features
+
+- **proto:** use correct terminology ([721b0b0](https://github.com/WhitehawkCEC/whitehawk-proto/commit/721b0b078b8e87c17e457a1a28ba0b3166010a4c))
+
+### [0.37.8](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.37.7...0.37.8) (2022-10-07)
+
+### Features
+
+- **proto:** prefer to use `slug` ([c3837a4](https://github.com/WhitehawkCEC/whitehawk-proto/commit/c3837a468ca206586fe0af6e23a83ff776022f8d))
+- **proto:** prefer to use `slug` ([cbf19d3](https://github.com/WhitehawkCEC/whitehawk-proto/commit/cbf19d37c9f41e96feee8b4e017619da9b6d8c8a))
+- **proto:** prefer to use `slug` ([68d10b1](https://github.com/WhitehawkCEC/whitehawk-proto/commit/68d10b109a96ed7bafdfbab4f0c63fd99cdc5af4))
+- **proto:** prefer to use `slug` ([b511c9e](https://github.com/WhitehawkCEC/whitehawk-proto/commit/b511c9e33648cabb1ccf88c4961226466c88e59c))
+- **proto:** remove unused resource `AccountId` ([c7ddca5](https://github.com/WhitehawkCEC/whitehawk-proto/commit/c7ddca54c15c33fd48adbc2fb6fdc4edcc830beb))
+
+### [0.37.7](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.37.6...0.37.7) (2022-10-06)
+
+### Features
+
+- add `SupplyWisdomConfig` message ([8bfdfa9](https://github.com/WhitehawkCEC/whitehawk-proto/commit/8bfdfa9535439f9cfa56acdaaa52c47e8267ed13))
+- **proto:** add bitsight config v2 message ([342fc85](https://github.com/WhitehawkCEC/whitehawk-proto/commit/342fc85f475381db3e15088880ddd0b46d2b56cd))
+- **proto:** add service for account BS config ([57ef4df](https://github.com/WhitehawkCEC/whitehawk-proto/commit/57ef4dfab37584ee82e5fa6fea9feb92a8254e3a))
+- **proto:** add service for account SW config ([7f1c1f4](https://github.com/WhitehawkCEC/whitehawk-proto/commit/7f1c1f413a67f0f303516eeefff6522262102e53))
+
+### [0.37.6](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.37.5...0.37.6) (2022-10-06)
+
+### Bug Fixes
+
+- **proto:** change input parameter ([8fda035](https://github.com/WhitehawkCEC/whitehawk-proto/commit/8fda035596bc8c3d75e4b702599b021f5dcd73ba))
+
+## [0.37.0](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.36.11...0.37.0) (2022-10-06)
+
+### ⚠ BREAKING CHANGES
+
+- use rating service type 1 and 2 instead of name
+
+### Features
+
+- add one time as frequency enum value ([f822730](https://github.com/WhitehawkCEC/whitehawk-proto/commit/f8227301c459afa560b0c9cf5e310de41de92661))
+- add sixty day as freqeuncy ([59ecacc](https://github.com/WhitehawkCEC/whitehawk-proto/commit/59ecacc2a62d60784837303eb0d91dd203cbc50c))
+- add weekly to frequecy enum ([9c9cd24](https://github.com/WhitehawkCEC/whitehawk-proto/commit/9c9cd2496121e019cccd8994ce5b46af0402880e))
+- **proto:** add `AccountId` message ([46185ea](https://github.com/WhitehawkCEC/whitehawk-proto/commit/46185ea0fa80d5efd0cc5b6bdc23aeff4eedb23a))
+- **proto:** add `CyberOneConfig` message ([be024ed](https://github.com/WhitehawkCEC/whitehawk-proto/commit/be024ed85dcf4eace2190fc7083e66393773d568))
+- **proto:** add service for account BK config ([786eb59](https://github.com/WhitehawkCEC/whitehawk-proto/commit/786eb59c5a6fb433583c631aee5457833b8efe27))
+- **proto:** add service for account C1 config ([4035585](https://github.com/WhitehawkCEC/whitehawk-proto/commit/4035585f4badbb8aa6c1be2c8cac292ef3714d45))
+- read assets by targetname and accountId ([555b8a9](https://github.com/WhitehawkCEC/whitehawk-proto/commit/555b8a9e11a463e9f077570329ec6b075ec5cbfb))
+- read assets by targetname and accountId ([595b8b4](https://github.com/WhitehawkCEC/whitehawk-proto/commit/595b8b4a76630d9192859b8696121879760176cb))
+- use rating service type 1 and 2 instead of name ([399528f](https://github.com/WhitehawkCEC/whitehawk-proto/commit/399528f81a16f8aa37e577812147dc730cdba624))
+
+### Bug Fixes
+
+- **proto:** change input parameter ([8fda035](https://github.com/WhitehawkCEC/whitehawk-proto/commit/8fda035596bc8c3d75e4b702599b021f5dcd73ba))
+
+### [0.37.5](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.37.4...0.37.5) (2022-10-06)
+
+### Features
+
+- **proto:** add `AccountId` message ([46185ea](https://github.com/WhitehawkCEC/whitehawk-proto/commit/46185ea0fa80d5efd0cc5b6bdc23aeff4eedb23a))
+- **proto:** add `CyberOneConfig` message ([be024ed](https://github.com/WhitehawkCEC/whitehawk-proto/commit/be024ed85dcf4eace2190fc7083e66393773d568))
+- **proto:** add service for account BK config ([786eb59](https://github.com/WhitehawkCEC/whitehawk-proto/commit/786eb59c5a6fb433583c631aee5457833b8efe27))
+- **proto:** add service for account C1 config ([4035585](https://github.com/WhitehawkCEC/whitehawk-proto/commit/4035585f4badbb8aa6c1be2c8cac292ef3714d45))
+
+### [0.37.4](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.37.3...0.37.4) (2022-10-06)
+
+### Features
+
+- read assets by targetname and accountId ([555b8a9](https://github.com/WhitehawkCEC/whitehawk-proto/commit/555b8a9e11a463e9f077570329ec6b075ec5cbfb))
+- read assets by targetname and accountId ([595b8b4](https://github.com/WhitehawkCEC/whitehawk-proto/commit/595b8b4a76630d9192859b8696121879760176cb))
+
+### [0.37.3](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.37.2...0.37.3) (2022-10-06)
+
+### Features
+
+- add one time as frequency enum value ([f822730](https://github.com/WhitehawkCEC/whitehawk-proto/commit/f8227301c459afa560b0c9cf5e310de41de92661))
+
+### [0.37.2](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.37.1...0.37.2) (2022-10-06)
+
+### Features
+
+- add weekly to frequecy enum ([9c9cd24](https://github.com/WhitehawkCEC/whitehawk-proto/commit/9c9cd2496121e019cccd8994ce5b46af0402880e))
+
+### [0.37.1](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.37.0...0.37.1) (2022-10-06)
+
+### Features
+
+- add sixty day as freqeuncy ([59ecacc](https://github.com/WhitehawkCEC/whitehawk-proto/commit/59ecacc2a62d60784837303eb0d91dd203cbc50c))
+
+## [0.37.0](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.36.10...0.37.0) (2022-10-06)
+
+### ⚠ BREAKING CHANGES
+
+- use rating service type 1 and 2 instead of name
+
+### Features
+
+- **proto:** add read service ([da3aea1](https://github.com/WhitehawkCEC/whitehawk-proto/commit/da3aea188584094a51a6cf03f2a1fe2c62ee9716))
+- use rating service type 1 and 2 instead of name ([399528f](https://github.com/WhitehawkCEC/whitehawk-proto/commit/399528f81a16f8aa37e577812147dc730cdba624))
+
+### [0.36.11](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.36.10...0.36.11) (2022-10-06)
+
+### Features
+
+- **proto:** add read service ([da3aea1](https://github.com/WhitehawkCEC/whitehawk-proto/commit/da3aea188584094a51a6cf03f2a1fe2c62ee9716))
+
+### [0.36.10](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.36.9...0.36.10) (2022-10-05)
+
+### Features
+
+- **proto:** consistent variable name ([12cf100](https://github.com/WhitehawkCEC/whitehawk-proto/commit/12cf10095a02008dd056aac3a4f9cd74618256df))
+
+### [0.36.9](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.36.8...0.36.9) (2022-10-05)
+
+### Features
+
+- **proto:** rename `CyberRiskScorecardToCyberOne` ([1cf76f3](https://github.com/WhitehawkCEC/whitehawk-proto/commit/1cf76f37c493bc41a9be0577cff5fcf3ca3508ca))
+
+### [0.36.8](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.36.7...0.36.8) (2022-10-05)
+
+### Features
+
+- no errors on buf lint ([40ee0bb](https://github.com/WhitehawkCEC/whitehawk-proto/commit/40ee0bb3c9a1737702ebd7de8d843ff36a2e5389))
+
+### [0.36.7](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.36.6...0.36.7) (2022-10-05)
+
+### Features
+
+- add accounts id for job request ([d45dfc9](https://github.com/WhitehawkCEC/whitehawk-proto/commit/d45dfc9735130c71fd7c7d16f0bc9342e6700ce3))
+- **proto:** add `job_id` to `CreateRequest` ([f9c29f4](https://github.com/WhitehawkCEC/whitehawk-proto/commit/f9c29f46788584f9e3d5fe43de025609295f3e1d))
+- use slug instead of string ([a15e2f4](https://github.com/WhitehawkCEC/whitehawk-proto/commit/a15e2f433e78d585947f103cfaf0f8164c56468b))
+
 ### [0.36.6](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.36.5...0.36.6) (2022-10-05)
 
 ### [0.36.5](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.36.4...0.36.5) (2022-10-05)
@@ -12,36 +246,33 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### [0.36.2](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.36.1...0.36.2) (2022-10-05)
 
-
 ### Features
 
-* shcedule use range and frequency ([bb1cb0e](https://github.com/WhitehawkCEC/whitehawk-proto/commit/bb1cb0eb9c3e907b0b240deefc9f167afa86fea9))
+- shcedule use range and frequency ([bb1cb0e](https://github.com/WhitehawkCEC/whitehawk-proto/commit/bb1cb0eb9c3e907b0b240deefc9f167afa86fea9))
 
 ### [0.36.1](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.36.0...0.36.1) (2022-10-05)
 
-
 ### Bug Fixes
 
-* **proto:** reverse `source_id` and `target_id` ([271ba4d](https://github.com/WhitehawkCEC/whitehawk-proto/commit/271ba4d5cc209790dc2a086cec5675eace752ba4))
+- **proto:** reverse `source_id` and `target_id` ([271ba4d](https://github.com/WhitehawkCEC/whitehawk-proto/commit/271ba4d5cc209790dc2a086cec5675eace752ba4))
 
 ## [0.36.0](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.35.2...0.36.0) (2022-10-05)
 
-
 ### ⚠ BREAKING CHANGES
 
-* **proto:** add services for `Read` and `List`
-* **proto:** create request uses new `Job`
+- **proto:** add services for `Read` and `List`
+- **proto:** create request uses new `Job`
 
 ### Features
 
-* **proto:** add message for `AccountInfo` ([f58303b](https://github.com/WhitehawkCEC/whitehawk-proto/commit/f58303b5d1c2a23dae1d87845971a1b6987fa09c))
-* **proto:** add message for `BitsightCompanyInfo` ([828c978](https://github.com/WhitehawkCEC/whitehawk-proto/commit/828c978ab501704b89ec18c1b52c9dfd663cfd85))
-* **proto:** add message for `CyberOneAsset` ([9e9b69d](https://github.com/WhitehawkCEC/whitehawk-proto/commit/9e9b69d5e39e3e8b9dbbc170a73d315a2641b2b6))
-* **proto:** add message for `SupplyWisdomAsset` ([719451b](https://github.com/WhitehawkCEC/whitehawk-proto/commit/719451b1de8163a85fb6353c0824b7b5bd78be9b))
-* **proto:** add message for `SupplyWisdomTarget` ([44e35f5](https://github.com/WhitehawkCEC/whitehawk-proto/commit/44e35f57470ff37dc1462fdd18869d544d5c865c))
-* **proto:** add messages for `Job` ([e1edecf](https://github.com/WhitehawkCEC/whitehawk-proto/commit/e1edecf82427bd924008422015833b218b9b839c))
-* **proto:** add services for `Read` and `List` ([8a0bee2](https://github.com/WhitehawkCEC/whitehawk-proto/commit/8a0bee28aa1d1f9d017e29e3785618746be503dc))
-* **proto:** create request uses new `Job` ([4dc790e](https://github.com/WhitehawkCEC/whitehawk-proto/commit/4dc790ec89a2e1e7306fd17a896e55bfcdff9fc4))
+- **proto:** add message for `AccountInfo` ([f58303b](https://github.com/WhitehawkCEC/whitehawk-proto/commit/f58303b5d1c2a23dae1d87845971a1b6987fa09c))
+- **proto:** add message for `BitsightCompanyInfo` ([828c978](https://github.com/WhitehawkCEC/whitehawk-proto/commit/828c978ab501704b89ec18c1b52c9dfd663cfd85))
+- **proto:** add message for `CyberOneAsset` ([9e9b69d](https://github.com/WhitehawkCEC/whitehawk-proto/commit/9e9b69d5e39e3e8b9dbbc170a73d315a2641b2b6))
+- **proto:** add message for `SupplyWisdomAsset` ([719451b](https://github.com/WhitehawkCEC/whitehawk-proto/commit/719451b1de8163a85fb6353c0824b7b5bd78be9b))
+- **proto:** add message for `SupplyWisdomTarget` ([44e35f5](https://github.com/WhitehawkCEC/whitehawk-proto/commit/44e35f57470ff37dc1462fdd18869d544d5c865c))
+- **proto:** add messages for `Job` ([e1edecf](https://github.com/WhitehawkCEC/whitehawk-proto/commit/e1edecf82427bd924008422015833b218b9b839c))
+- **proto:** add services for `Read` and `List` ([8a0bee2](https://github.com/WhitehawkCEC/whitehawk-proto/commit/8a0bee28aa1d1f9d017e29e3785618746be503dc))
+- **proto:** create request uses new `Job` ([4dc790e](https://github.com/WhitehawkCEC/whitehawk-proto/commit/4dc790ec89a2e1e7306fd17a896e55bfcdff9fc4))
 
 ### [0.35.2](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.35.1...0.35.2) (2022-10-04)
 

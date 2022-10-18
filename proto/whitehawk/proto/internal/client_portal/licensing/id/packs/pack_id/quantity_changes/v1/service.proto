@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+package whitehawk.proto.internal.client_portal.licensing.id.packs.pack_id.quantity_changes.v1;
+
+import "whitehawk/proto/slug/v1/message.proto";
+
+service Service {
+  rpc Create(CreateRequest) returns (CreateResponse);
+}
+
+message CreateRequest {
+  whitehawk.proto.slug.v1.Slug license_id = 1;
+  int32 quantity_diff = 2;
+}
+
+message CreateResponse {}
