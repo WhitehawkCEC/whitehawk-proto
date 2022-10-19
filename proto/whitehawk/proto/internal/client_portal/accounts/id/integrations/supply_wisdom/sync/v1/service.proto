@@ -1,0 +1,38 @@
+syntax = "proto3";
+
+package whitehawk.proto.internal.client_portal.accounts.id.integrations.supply_wisdom.sync.v1;
+
+import "whitehawk/proto/integration/supply_wisdom/sync/v1/message.proto";
+import "whitehawk/proto/slug/v1/message.proto";
+import "whitehawk/proto/ulid/v1/message.proto";
+
+service Service {
+  rpc Create(CreateRequest) returns (CreateResponse);
+  rpc Get(GetRequest) returns (GetResponse);
+  rpc List(ListRequest) returns (ListResponse);
+}
+
+message CreateRequest {
+  whitehawk.proto.slug.v1.Slug id = 1;
+}
+
+message CreateResponse {
+  whitehawk.proto.integration.supply_wisdom.sync.v1.BusinnessReportSyncRequest data = 1;
+}
+
+message GetRequest {
+  whitehawk.proto.ulid.v1.Ulid id = 1;
+  whitehawk.proto.slug.v1.Slug account_id = 2;
+}
+
+message GetResponse {
+  whitehawk.proto.integration.supply_wisdom.sync.v1.BusinnessReportSyncResponse data = 1;
+}
+
+message ListRequest {
+  whitehawk.proto.slug.v1.Slug account_id = 1;
+}
+
+message ListResponse {
+ repeated whitehawk.proto.integration.supply_wisdom.sync.v1.BusinnessReportSyncResponse data = 1;
+}
