@@ -4,10 +4,9 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### [0.40.4](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.40.3...0.40.4) (2022-10-18)
 
-
 ### Features
 
-* **proto:** add list service for SW targets ([a28ce9d](https://github.com/WhitehawkCEC/whitehawk-proto/commit/a28ce9d5592f7f2123e6b8480afd8d51114f4846))
+- **proto:** add list service for SW targets ([a28ce9d](https://github.com/WhitehawkCEC/whitehawk-proto/commit/a28ce9d5592f7f2123e6b8480afd8d51114f4846))
 
 ### [0.40.3](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.40.2...0.40.3) (2022-10-18)
 
