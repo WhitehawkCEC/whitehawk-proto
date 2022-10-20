@@ -13,7 +13,7 @@ service Service {
 }
 
 message CreateRequest {
-  whitehawk.proto.slug.v1.Slug id = 1;
+  whitehawk.proto.integration.cyber_one.sync.v1.CyberReportSyncRequest data = 1;
 }
 
 message CreateResponse {

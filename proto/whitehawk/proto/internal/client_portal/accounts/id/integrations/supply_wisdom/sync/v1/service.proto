@@ -13,11 +13,12 @@ service Service {
 }
 
 message CreateRequest {
-  whitehawk.proto.slug.v1.Slug id = 1;
+  whitehawk.proto.slug.v1.Slug accountId = 1;
+  whitehawk.proto.integration.supply_wisdom.sync.v1.BusinnessReportSyncRequest data = 2;
 }
 
 message CreateResponse {
-  whitehawk.proto.integration.supply_wisdom.sync.v1.BusinnessReportSyncRequest data = 1;
+  whitehawk.proto.integration.supply_wisdom.sync.v1.BusinnessReportSyncResponse data = 1;
 }
 
 message GetRequest {
