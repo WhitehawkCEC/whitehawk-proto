@@ -2,6 +2,22 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.41.3](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.41.2...0.41.3) (2022-10-20)
+
+
+### Features
+
+* add `mapped_asset_id` ([b9ecec5](https://github.com/WhitehawkCEC/whitehawk-proto/commit/b9ecec510dc098f44bbfb85483a64f26014da6f3))
+* add `mapped_target_name` ([5c76407](https://github.com/WhitehawkCEC/whitehawk-proto/commit/5c764078fc011f806947e3b59f9e9d603750a1cd))
+* add service for BK syncs ([03f92ac](https://github.com/WhitehawkCEC/whitehawk-proto/commit/03f92ac3fcd7d66ba191883fa70a07637050d82a))
+* add service for C1 syncs ([4ebb739](https://github.com/WhitehawkCEC/whitehawk-proto/commit/4ebb739aa9730531246cd7f6ae52a07092be5f0e))
+* add service for cross data syncs ([dc60517](https://github.com/WhitehawkCEC/whitehawk-proto/commit/dc6051789d116d5cc95974874e4122aedc9b3c6d))
+* add service for SW syncs ([45a3b3c](https://github.com/WhitehawkCEC/whitehawk-proto/commit/45a3b3c2ea97d0df09586ba8bf7f2c7dc10ff1ac))
+* add single resource for BK latest sync ([2e35a02](https://github.com/WhitehawkCEC/whitehawk-proto/commit/2e35a02a2b55f449d73538856ac83e415eff1bcf))
+* add single resource for C1 latest sync ([ff7cccd](https://github.com/WhitehawkCEC/whitehawk-proto/commit/ff7cccd86cb706c911aad820f4d8ac9e1ef3b9bd))
+* add single resource for SW latest sync ([340cfec](https://github.com/WhitehawkCEC/whitehawk-proto/commit/340cfec60c96e575115835749bc5f822dd7a0948))
+* **proto:** add service to manage account black kite ecosystem companies ([c38403b](https://github.com/WhitehawkCEC/whitehawk-proto/commit/c38403b020e1e08f319c22c411738540175f68b2))
+
 ### [0.41.2](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.41.1...0.41.2) (2022-10-20)
 
 
