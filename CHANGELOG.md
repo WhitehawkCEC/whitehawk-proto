@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.41.0](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.40.5...0.41.0) (2022-10-20)
+
+
+### ⚠ BREAKING CHANGES
+
+* remove `created_at` and `created_by` fields
+
+### Bug Fixes
+
+* remove `created_at` and `created_by` fields ([b47df84](https://github.com/WhitehawkCEC/whitehawk-proto/commit/b47df843963b8ad02d00067ffb3364202e867c6c))
+
 ### [0.40.5](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.40.4...0.40.5) (2022-10-19)
 
 ### Features
