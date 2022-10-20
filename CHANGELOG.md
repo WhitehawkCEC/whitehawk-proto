@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.41.2](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.41.1...0.41.2) (2022-10-20)
+
+
+### Features
+
+* include account id on c1 create request as well ([0948f34](https://github.com/WhitehawkCEC/whitehawk-proto/commit/0948f3430a48c2420f845db25ebeb749258ffb96))
+
 ### [0.41.1](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.41.0...0.41.1) (2022-10-20)
 
 ## [0.41.0](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.40.5...0.41.0) (2022-10-20)
