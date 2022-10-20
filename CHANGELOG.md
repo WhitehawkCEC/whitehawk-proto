@@ -4,10 +4,9 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### [0.40.5](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.40.4...0.40.5) (2022-10-19)
 
-
 ### Features
 
-* add grpc support for busineess reports ([8fd984f](https://github.com/WhitehawkCEC/whitehawk-proto/commit/8fd984f8937185068200f16cc1a3ef32958c5241))
+- add grpc support for busineess reports ([8fd984f](https://github.com/WhitehawkCEC/whitehawk-proto/commit/8fd984f8937185068200f16cc1a3ef32958c5241))
 
 ### [0.40.4](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.40.3...0.40.4) (2022-10-18)
 
