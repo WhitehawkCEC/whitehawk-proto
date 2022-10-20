@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-package whitehawk.proto.internal.client_portal.accounts.id.integrations.black_kite.ecosystems.v1;
+package whitehawk.proto.internal.client_portal.accounts.id.integrations.black_kite.mapped_ecosystem.companies.v1;
 
 import "whitehawk/proto/integration/black_kite/domain/v1/message.proto";
 import "whitehawk/proto/slug/v1/message.proto";
