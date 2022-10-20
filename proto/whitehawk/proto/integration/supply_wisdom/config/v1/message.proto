@@ -9,4 +9,5 @@ message SupplyWisdomConfig {
     whitehawk.proto.integration.supply_wisdom.domain.v1.ApiKey api_key = 1;
   }
   string target_name = 2;
+  string mapped_target_name = 3;
 }
