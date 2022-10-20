@@ -20,7 +20,7 @@ message SupplyWisdomTarget {
   string target_name = 2;
 }
 
-message FileResponse{
+message FileResponse {
   MetaData meta_data = 1;
   File file = 2;
 }

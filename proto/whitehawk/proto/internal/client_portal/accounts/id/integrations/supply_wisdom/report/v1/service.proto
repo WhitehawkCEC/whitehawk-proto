@@ -1,6 +1,7 @@
 syntax = "proto3";
 
 package whitehawk.proto.internal.client_portal.accounts.id.integrations.supply_wisdom.report.v1;
+
 import "whitehawk/proto/integration/supply_wisdom/domain/v1/message.proto";
 import "whitehawk/proto/slug/v1/message.proto";
 
@@ -13,6 +14,6 @@ message GetRequest {
   int32 asset_id = 2;
 }
 
-message GetResponse{
+message GetResponse {
   whitehawk.proto.integration.supply_wisdom.domain.v1.FileResponse response = 1;
 }
