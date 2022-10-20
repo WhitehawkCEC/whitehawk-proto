@@ -9,4 +9,5 @@ message CyberOneConfig {
     whitehawk.proto.integration.cyber_one.domain.v1.ApiKey api_key = 1;
   }
   int32 account_id = 2;
+  string mapped_asset_id = 3;
 }
