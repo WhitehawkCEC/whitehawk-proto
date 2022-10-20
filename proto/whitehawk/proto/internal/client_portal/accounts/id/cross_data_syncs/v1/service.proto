@@ -1,0 +1,53 @@
+syntax = "proto3";
+
+package whitehawk.proto.internal.client_portal.accounts.id.cross_data_syncs.v1;
+
+import "whitehawk/proto/time/v1/message.proto";
+import "whitehawk/proto/slug/v1/message.proto";
+import "whitehawk/proto/ulid/v1/message.proto";
+
+service Service {
+  rpc Create(CreateRequest) returns (CreateResponse);
+  rpc Read(ReadRequest) returns (ReadResponse);
+  rpc List(ListRequest) returns (ListResponse);
+}
+
+message Mapping {
+  oneof target {
+    string cyber_one_asset_id = 1;
+  }
+
+  oneof source {
+    string supply_wisdom_asset_id = 2;
+    int32 black_kite_entity_id = 3;
+  }
+}
+
+message SyncJob {
+  whitehawk.proto.time.v1.IsoDateTime last_synced = 1;
+  int32 num_synced = 2;
+}
+
+message CreateRequest {
+  whitehawk.proto.slug.v1.Slug id = 1;
+  repeated Mapping entries = 2;
+}
+
+message CreateResponse {}
+
+message ReadRequest {
+  whitehawk.proto.slug.v1.Slug id = 1;
+  whitehawk.proto.ulid.v1.Ulid sync_id = 2;
+}
+
+message ReadResponse {
+  SyncJob sync_job = 1;
+}
+
+message ListRequest {
+  whitehawk.proto.slug.v1.Slug id = 1;
+}
+
+message ListResponse {
+  repeated SyncJob sync_jobs = 1;
+}
