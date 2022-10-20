@@ -23,17 +23,27 @@ message Mapping {
   }
 }
 
+enum SyncType {
+  SYNC_TYPE_UNSPECIFIED = 0;
+  SYNC_TYPE_BLACK_KITE_TO_CYBER_ONE = 1;
+  SYNC_TYPE_SUPPLY_WISDOM_TO_CYBER_ONE = 2;
+}
+
 message SyncJob {
   whitehawk.proto.time.v1.IsoDateTime last_synced = 1;
   int32 num_synced = 2;
+  SyncType sync_type = 3;
 }
 
 message CreateRequest {
   whitehawk.proto.slug.v1.Slug id = 1;
   repeated Mapping entries = 2;
+  SyncType sync_type = 3;
 }
 
-message CreateResponse {}
+message CreateResponse {
+  whitehawk.proto.ulid.v1.Ulid sync_id = 2;
+}
 
 message ReadRequest {
   whitehawk.proto.slug.v1.Slug id = 1;
