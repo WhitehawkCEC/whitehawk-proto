@@ -2,8 +2,6 @@ syntax = "proto3";
 
 package whitehawk.proto.integration.black_kite.domain.v1;
 
-import "whitehawk/proto/time/v1/message.proto";
-
 message ApiKey {
   // 50 characters (letters or numbers)
   // Pattern: [A-Za-z0-9]{50}
@@ -19,8 +17,6 @@ enum ScanProfileType {
 message BlackKiteEcosystem {
   int32 id = 1;
   string name = 2;
-  whitehawk.proto.time.v1.IsoDateTime created_at = 3;
-  string created_by = 4;
 }
 
 message BlackKiteEntity {
