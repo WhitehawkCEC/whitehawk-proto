@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.42.1](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.42.0...0.42.1) (2022-10-20)
+
+
+### Features
+
+* **proto:** add `SyncType` ([6337ee1](https://github.com/WhitehawkCEC/whitehawk-proto/commit/6337ee155fcec8777deee4c696149bc2f4561a96))
+
 ## [0.42.0](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.41.3...0.42.0) (2022-10-20)
 
 
