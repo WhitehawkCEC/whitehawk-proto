@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.43.0](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.42.2...0.43.0) (2022-10-24)
+
+
+### ⚠ BREAKING CHANGES
+
+* c1 asset id is auto increment int
+
+### Bug Fixes
+
+* c1 asset id is auto increment int ([c7c32d9](https://github.com/WhitehawkCEC/whitehawk-proto/commit/c7c32d9cfb33dc4a1799ffbdf61b60a990c9ab47))
+
 ### [0.42.2](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.42.1...0.42.2) (2022-10-24)
 
 ### [0.42.1](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.42.0...0.42.1) (2022-10-20)
