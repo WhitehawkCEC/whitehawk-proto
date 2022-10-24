@@ -1,9 +1,0 @@
-syntax = "proto3";
-
-package whitehawk.proto.integration.bitsight.config.v1;
-
-import "whitehawk/proto/integration/bitsight/domain/v1/message.proto";
-
-message BitsightConfig {
-  whitehawk.proto.integration.bitsight.domain.v1.ApiToken api_token = 1;
-}
