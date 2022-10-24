@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.43.1](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.43.0...0.43.1) (2022-10-24)
+
+
+### Bug Fixes
+
+* c1 asset domain could be null ([06d35ee](https://github.com/WhitehawkCEC/whitehawk-proto/commit/06d35eedb3bd17f304b1bc68ace3e42866685d6f))
+
 ## [0.43.0](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.42.2...0.43.0) (2022-10-24)
 
 
