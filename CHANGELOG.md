@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.44.0](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.43.1...0.44.0) (2022-10-24)
+
+
+### ⚠ BREAKING CHANGES
+
+* **proto:** move categories to bundle set
+
+### Features
+
+* **proto:** move categories to bundle set ([bc64790](https://github.com/WhitehawkCEC/whitehawk-proto/commit/bc64790ef67de512d04a4c7df2345f65a51832a8))
+
 ### [0.43.1](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.43.0...0.43.1) (2022-10-24)
 
 
