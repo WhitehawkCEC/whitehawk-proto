@@ -12,5 +12,5 @@ message CyberOneAsset {
   int32 id = 1;
   string reference_id = 2;
   string name = 3;
-  string domain = 4;
+  optional string domain = 4;
 }
