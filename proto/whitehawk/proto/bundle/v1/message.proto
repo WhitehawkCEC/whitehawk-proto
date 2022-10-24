@@ -14,23 +14,28 @@ enum BundleType {
   BUNDLE_TYPE_ADVANCED = 3;
 }
 
-enum BundleTemplateType {
-  BUNDLE_TEMPLATE_TYPE_UNSPECIFIED = 0;
-  BUNDLE_TEMPLATE_TYPE_CANNED = 1;
-  BUNDLE_TEMPLATE_TYPE_CUSTOM = 2;
-  BUNDLE_TEMPLATE_TYPE_OTHER = 3;
+enum BundleSource {
+  BUNDLE_SOURCE_UNSPECIFIED = 0;
+  BUNDLE_SOURCE_CANNED = 1;
+  BUNDLE_SOURCE_CUSTOM = 2;
+  BUNDLE_SOURCE_OTHER = 3;
 }
 
 message BundleTemplate {
   whitehawk.proto.ulid.v1.Ulid id = 1;
   BundleType bundle_type = 2;
-  BundleTemplateType bundle_template_type = 3;
+  BundleSource bundle_source = 3;
   string name = 4;
   string description = 5;
   whitehawk.proto.company.v1.Company created_by_company = 6;
   repeated whitehawk.proto.product.v1.ProductCategory product_categories = 7;
   repeated whitehawk.proto.company.v1.Industry industries = 8;
   whitehawk.proto.meta.v1.Meta meta = 9;
+}
+
+message BundleTier {
+  BundleType bundle_type = 1;
+  repeated whitehawk.proto.product.v1.ProductCategory product_categories = 2;
 }
 
 message BundleSet {
@@ -40,8 +45,9 @@ message BundleSet {
   whitehawk.proto.company.v1.Company created_by_company = 4;
   repeated whitehawk.proto.company.v1.Industry industries = 5;
   repeated whitehawk.proto.company.v1.Company assigned_to_companies = 6;
-  repeated BundleTemplate bundle_templates = 7;
-  whitehawk.proto.meta.v1.Meta meta = 8;
+  repeated BundleTier bundle_tiers = 7;
+  BundleSource bundle_source = 8;
+  whitehawk.proto.meta.v1.Meta meta = 9;
 }
 
 message BundleSetSummary {
