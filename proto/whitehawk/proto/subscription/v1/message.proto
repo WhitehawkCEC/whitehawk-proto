@@ -2,11 +2,8 @@ syntax = "proto3";
 
 package whitehawk.proto.subscription.v1;
 
-import "whitehawk/proto/integration/bitsight/config/v1/message.proto";
-import "whitehawk/proto/integration/black_kite/config/v1/message.proto";
 import "whitehawk/proto/slug/v1/message.proto";
 import "whitehawk/proto/time/v1/message.proto";
-import "whitehawk/proto/ulid/v1/message.proto";
 
 message Subscription {
   whitehawk.proto.slug.v1.Slug account_id = 1;
@@ -45,23 +42,4 @@ enum SubscriptionState {
 message SubscriptionGroup {
   whitehawk.proto.slug.v1.Slug id = 1;
   string name = 2;
-}
-
-message SubscriptionProduct {
-  whitehawk.proto.ulid.v1.Ulid id = 1;
-  string name = 2;
-  whitehawk.proto.time.v1.DateRange validity = 3;
-}
-
-message SubscriptionProductConfig {
-  oneof value {
-    CyberRiskRating cyber_risk_rating = 1;
-  }
-}
-
-message CyberRiskRating {
-  oneof value {
-    whitehawk.proto.integration.black_kite.config.v1.BlackKiteConfig black_kite = 1;
-    whitehawk.proto.integration.bitsight.config.v1.BitsightConfig bitsight = 2;
-  }
 }
