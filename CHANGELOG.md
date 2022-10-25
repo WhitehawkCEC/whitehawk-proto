@@ -4,32 +4,29 @@ All notable changes to this project will be documented in this file. See [standa
 
 ## [0.44.0](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.43.1...0.44.0) (2022-10-24)
 
-
 ### ⚠ BREAKING CHANGES
 
-* **proto:** move categories to bundle set
+- **proto:** move categories to bundle set
 
 ### Features
 
-* **proto:** move categories to bundle set ([bc64790](https://github.com/WhitehawkCEC/whitehawk-proto/commit/bc64790ef67de512d04a4c7df2345f65a51832a8))
+- **proto:** move categories to bundle set ([bc64790](https://github.com/WhitehawkCEC/whitehawk-proto/commit/bc64790ef67de512d04a4c7df2345f65a51832a8))
 
 ### [0.43.1](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.43.0...0.43.1) (2022-10-24)
 
-
 ### Bug Fixes
 
-* c1 asset domain could be null ([06d35ee](https://github.com/WhitehawkCEC/whitehawk-proto/commit/06d35eedb3bd17f304b1bc68ace3e42866685d6f))
+- c1 asset domain could be null ([06d35ee](https://github.com/WhitehawkCEC/whitehawk-proto/commit/06d35eedb3bd17f304b1bc68ace3e42866685d6f))
 
 ## [0.43.0](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.42.2...0.43.0) (2022-10-24)
 
-
 ### ⚠ BREAKING CHANGES
 
-* c1 asset id is auto increment int
+- c1 asset id is auto increment int
 
 ### Bug Fixes
 
-* c1 asset id is auto increment int ([c7c32d9](https://github.com/WhitehawkCEC/whitehawk-proto/commit/c7c32d9cfb33dc4a1799ffbdf61b60a990c9ab47))
+- c1 asset id is auto increment int ([c7c32d9](https://github.com/WhitehawkCEC/whitehawk-proto/commit/c7c32d9cfb33dc4a1799ffbdf61b60a990c9ab47))
 
 ### [0.42.2](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.42.1...0.42.2) (2022-10-24)
 
