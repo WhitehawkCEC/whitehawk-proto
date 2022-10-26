@@ -2,6 +2,23 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.45.0](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.44.0...0.45.0) (2022-10-26)
+
+
+### ⚠ BREAKING CHANGES
+
+* **proto:** remove deprecated/unused messages from subscription v1
+* **proto:** remove BS config v1 messages
+* **proto:** remove BK config v1 messages
+
+### Features
+
+* **proto:** add singleton resource for getting account heatmap ([8f42306](https://github.com/WhitehawkCEC/whitehawk-proto/commit/8f42306f53a99a97adb5f78fc35293ba971a0f3b))
+* **proto:** add v2 `Heatmap` message ([8687152](https://github.com/WhitehawkCEC/whitehawk-proto/commit/86871527d5b4b83e3f5ba9dac65481e09d421357))
+* **proto:** remove BK config v1 messages ([869d686](https://github.com/WhitehawkCEC/whitehawk-proto/commit/869d6860a05a521b1bd42e98be1e56cf8aca7a7f))
+* **proto:** remove BS config v1 messages ([d19ecbb](https://github.com/WhitehawkCEC/whitehawk-proto/commit/d19ecbb951a3408c117d2b4ce20b65e6247690b8))
+* **proto:** remove deprecated/unused messages from subscription v1 ([ac8aa59](https://github.com/WhitehawkCEC/whitehawk-proto/commit/ac8aa59af7afffa4a48c87730a3f6a17ddf27403))
+
 ## [0.44.0](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.43.1...0.44.0) (2022-10-24)
 
 ### ⚠ BREAKING CHANGES
