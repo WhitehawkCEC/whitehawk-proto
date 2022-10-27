@@ -2,8 +2,8 @@ syntax = "proto3";
 
 package whitehawk.proto.internal.client_portal.accounts.id.heatmap.v1;
 
-import "whitehawk/proto/slug/v1/message.proto";
 import "whitehawk/proto/heatmap/v2/message.proto";
+import "whitehawk/proto/slug/v1/message.proto";
 
 service Service {
   rpc Get(GetRequest) returns (GetResponse);
