@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.46.0](https://github.com/whitehawkcec/whitehawk-proto/compare/0.45.0...0.46.0) (2022-10-28)
+
+
+### ⚠ BREAKING CHANGES
+
+* **java:** remove `grpc-netty-shaded` dependency
+
+### Features
+
+* **java:** remove `grpc-netty-shaded` dependency ([cd47d60](https://github.com/whitehawkcec/whitehawk-proto/commit/cd47d602b523f759327d3753bb40d002020112fc))
+
 ## [0.45.0](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.44.0...0.45.0) (2022-10-26)
 
 ### ⚠ BREAKING CHANGES
