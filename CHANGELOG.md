@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.48.0](https://github.com/whitehawkcec/whitehawk-proto/compare/0.47.0...0.48.0) (2022-11-01)
+
+
+### ⚠ BREAKING CHANGES
+
+* **proto:** properly define `SupplierBasicInfo`
+
+### Features
+
+* **proto:** properly define `SupplierBasicInfo` ([1f86aee](https://github.com/whitehawkcec/whitehawk-proto/commit/1f86aee9482422d6ec9329aaa331f4b9232b478d))
+
 ## [0.47.0](https://github.com/whitehawkcec/whitehawk-proto/compare/0.46.0...0.47.0) (2022-11-01)
 
 
