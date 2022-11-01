@@ -29,6 +29,6 @@ message ProductBasicInfo {
 }
 
 message SupplierBasicInfo {
-  whitehawk.proto.ulid.v1.Ulid id = 1;
-  string name = 2;
+  string name = 1;
+  string domain = 2;
 }
