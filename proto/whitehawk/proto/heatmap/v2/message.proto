@@ -3,7 +3,6 @@ syntax = "proto3";
 package whitehawk.proto.heatmap.v2;
 
 import "whitehawk/proto/meta/v1/message.proto";
-import "whitehawk/proto/slug/v1/message.proto";
 
 message Heatmap {
   int32 company_id = 1;
