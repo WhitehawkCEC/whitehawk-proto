@@ -2,16 +2,16 @@ syntax = "proto3";
 
 package whitehawk.proto.internal.client_portal.heatmap.v1;
 
-import "whitehawk/proto/heatmap/v1/message.proto";
+import "whitehawk/proto/heatmap/v2/message.proto";
 
 service Service {
   rpc Show(ShowRequest) returns (ShowResponse);
 }
 
 message ShowRequest {
-  string domain_name = 1;
+  string company_id = 1;
 }
 
 message ShowResponse {
-  whitehawk.proto.heatmap.v1.Heatmap heatmap = 1;
+  whitehawk.proto.heatmap.v2.Heatmap heatmap = 1;
 }
