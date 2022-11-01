@@ -2,6 +2,24 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.47.0](https://github.com/whitehawkcec/whitehawk-proto/compare/0.46.0...0.47.0) (2022-11-01)
+
+
+### ⚠ BREAKING CHANGES
+
+* **proto:** remove service `client_portal/accounts/id/subscriptions/subscription_id/integrations/black_kite/config/v1`
+* **proto:** remove unused service `client_portal/accounts/id/subscriptions/subscription_id/license_batches/batch_id/quantity_changes/v1`
+* **proto:** remove unused service `client_portal/accounts/id/subscriptions/subscription_id/license_batches/v1`
+* **proto:** remove unused service `client_portal/accounts/id/subscriptions/subscription_id/licensing_id/v1`
+
+### Features
+
+* **proto:** add service `client_portal.accounts.id.subscriptions.subscription_id.supplier_overviews.v1` ([c9a2bba](https://github.com/whitehawkcec/whitehawk-proto/commit/c9a2bba7dff514dd595cbd691c8bbc797dfe6476))
+* **proto:** remove service `client_portal/accounts/id/subscriptions/subscription_id/integrations/black_kite/config/v1` ([899de28](https://github.com/whitehawkcec/whitehawk-proto/commit/899de28fcffb25c1c505fb8598516f7b15a2a926))
+* **proto:** remove unused service `client_portal/accounts/id/subscriptions/subscription_id/license_batches/batch_id/quantity_changes/v1` ([600adfd](https://github.com/whitehawkcec/whitehawk-proto/commit/600adfdf53ce05d1f762606ab8f295efc66eb113))
+* **proto:** remove unused service `client_portal/accounts/id/subscriptions/subscription_id/license_batches/v1` ([7ee2df0](https://github.com/whitehawkcec/whitehawk-proto/commit/7ee2df0bf60931ded0dcd9097dbd31e69a57a25d))
+* **proto:** remove unused service `client_portal/accounts/id/subscriptions/subscription_id/licensing_id/v1` ([4320dc6](https://github.com/whitehawkcec/whitehawk-proto/commit/4320dc61a97216b266754580eecdd0a41fd3aab2))
+
 ## [0.46.0](https://github.com/whitehawkcec/whitehawk-proto/compare/0.45.0...0.46.0) (2022-10-28)
 
 ### ⚠ BREAKING CHANGES
