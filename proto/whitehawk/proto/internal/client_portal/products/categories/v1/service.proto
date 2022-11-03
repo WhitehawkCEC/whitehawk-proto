@@ -53,5 +53,5 @@ message ListIsolatedBundlesAndProductsRequest {
 
 message ListIsolatedBundlesAndProductsResponse {
   repeated whitehawk.proto.product.v1.Product products = 1;
-  repeated whitehawk.proto.bundle.v1.BundleTemplate bundle_templates = 2;
+  repeated whitehawk.proto.bundle.v1.BundleSet bundle_sets = 2;
 }
