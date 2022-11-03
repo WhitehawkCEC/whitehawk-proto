@@ -44,10 +44,9 @@ message BundleSet {
   string description = 3;
   whitehawk.proto.company.v1.Company created_by_company = 4;
   repeated whitehawk.proto.company.v1.Industry industries = 5;
-  repeated whitehawk.proto.company.v1.Company assigned_to_companies = 6;
-  repeated BundleTier bundle_tiers = 7;
-  BundleSource bundle_source = 8;
-  whitehawk.proto.meta.v1.Meta meta = 9;
+  repeated BundleTier bundle_tiers = 6;
+  BundleSource bundle_source = 7;
+  whitehawk.proto.meta.v1.Meta meta = 8;
 }
 
 message BundleSetSummary {
@@ -56,6 +55,5 @@ message BundleSetSummary {
   string description = 3;
   whitehawk.proto.company.v1.Company created_by_company = 4;
   repeated whitehawk.proto.company.v1.Industry industries = 5;
-  repeated whitehawk.proto.company.v1.Company assigned_to_companies = 6;
-  whitehawk.proto.meta.v1.Meta meta = 7;
+  whitehawk.proto.meta.v1.Meta meta = 6;
 }
