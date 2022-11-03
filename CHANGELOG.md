@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.49.0](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.48.4...0.49.0) (2022-11-03)
+
+
+### ⚠ BREAKING CHANGES
+
+* **proto:** remove assigned_to_companies
+* **proto:** return bundle sets instead of bundle templates
+
+### Features
+
+* **proto:** remove assigned_to_companies ([16ced8f](https://github.com/WhitehawkCEC/whitehawk-proto/commit/16ced8f49f75c71b242338544cb584c02c35abef))
+* **proto:** return bundle sets instead of bundle templates ([5066cd8](https://github.com/WhitehawkCEC/whitehawk-proto/commit/5066cd871c80b18bb227e7253debe05c92dfb995))
+
 ### [0.48.4](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.48.3...0.48.4) (2022-11-01)
 
 ### [0.48.3](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.48.2...0.48.3) (2022-11-01)
