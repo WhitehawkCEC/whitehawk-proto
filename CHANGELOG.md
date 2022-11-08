@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.49.4](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.49.3...0.49.4) (2022-11-08)
+
+
+### Features
+
+* questionnaire preference ([2c01bc0](https://github.com/WhitehawkCEC/whitehawk-proto/commit/2c01bc0d8af9d7631a0094a1d047e82876157111))
+
 ### [0.49.3](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.49.2...0.49.3) (2022-11-07)
 
 ### [0.49.2](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.49.1...0.49.2) (2022-11-07)
