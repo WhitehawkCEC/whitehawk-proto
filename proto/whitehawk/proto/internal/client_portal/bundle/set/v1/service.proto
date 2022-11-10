@@ -3,6 +3,7 @@ syntax = "proto3";
 package whitehawk.proto.internal.client_portal.bundle.set.v1;
 
 import "whitehawk/proto/bundle/v1/message.proto";
+import "whitehawk/proto/questionnaire_preference/v1/message.proto";
 import "whitehawk/proto/ulid/v1/message.proto";
 
 service Service {
@@ -11,6 +12,7 @@ service Service {
   rpc Update(UpdateRequest) returns (UpdateResponse);
   rpc Read(ReadRequest) returns (ReadResponse);
   rpc List(ListRequest) returns (ListResponse);
+  rpc ListInUse(ListInUseRequest) returns (ListInUseResponse);
 }
 
 message CreateRequest {
@@ -47,4 +49,12 @@ message ListRequest {}
 
 message ListResponse {
   repeated whitehawk.proto.bundle.v1.BundleSet bundle_sets = 1;
+}
+
+message ListInUseRequest {
+  whitehawk.proto.ulid.v1.Ulid id = 1;
+}
+
+message ListInUseResponse {
+  repeated whitehawk.proto.questionnaire_preference.v1.QuestionnairePreference questionnaire_preference = 1;
 }
