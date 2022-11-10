@@ -5,6 +5,7 @@ package whitehawk.proto.internal.client_portal.custom_questionnaire.v1;
 import "whitehawk/proto/custom_questionnaire/display_schema/v1/message.proto";
 import "whitehawk/proto/custom_questionnaire/display_uischema/v1/message.proto";
 import "whitehawk/proto/custom_questionnaire/v1/message.proto";
+import "whitehawk/proto/questionnaire_preference/v1/message.proto";
 import "whitehawk/proto/ulid/v1/message.proto";
 
 service Service {
@@ -14,6 +15,7 @@ service Service {
   rpc Delete(DeleteRequest) returns (DeleteResponse);
   rpc Show(ShowRequest) returns (ShowResponse);
   rpc List(ListRequest) returns (ListResponse);
+  rpc ListInUse(ListInUseRequest) returns (ListInUseResponse);
   rpc GetDisplaySchema(GetDisplaySchemaRequest) returns (GetDisplaySchemaResponse);
   rpc CreateDisplaySchema(CreateDisplaySchemaRequest) returns (CreateDisplaySchemaResponse);
   rpc DeleteDisplaySchema(DeleteDisplaySchemaRequest) returns (DeleteDisplaySchemaResponse);
@@ -55,6 +57,14 @@ message ListRequest {}
 
 message ListResponse {
   repeated whitehawk.proto.custom_questionnaire.v1.CustomQuestionnaire questionnaire = 1;
+}
+
+message ListInUseRequest {
+  whitehawk.proto.ulid.v1.Ulid id = 1;
+}
+
+message ListInUseResponse {
+  repeated whitehawk.proto.questionnaire_preference.v1.QuestionnairePreference questionnaire_preference = 1;
 }
 
 message CreateRequest {
