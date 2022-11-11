@@ -4,11 +4,10 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### [0.50.1](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.50.0...0.50.1) (2022-11-10)
 
-
 ### Features
 
-* **proto:** service to determine if a bundle set is in use by a preference ([54fc27f](https://github.com/WhitehawkCEC/whitehawk-proto/commit/54fc27f5ea80a7316412f9e1be21bbb2605a42e7))
-* **proto:** service to determine if a questinonaire is in use by a preference ([3bb14e1](https://github.com/WhitehawkCEC/whitehawk-proto/commit/3bb14e1f5299799b83ad58a462f9eda396218777))
+- **proto:** service to determine if a bundle set is in use by a preference ([54fc27f](https://github.com/WhitehawkCEC/whitehawk-proto/commit/54fc27f5ea80a7316412f9e1be21bbb2605a42e7))
+- **proto:** service to determine if a questinonaire is in use by a preference ([3bb14e1](https://github.com/WhitehawkCEC/whitehawk-proto/commit/3bb14e1f5299799b83ad58a462f9eda396218777))
 
 ## [0.50.0](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.49.4...0.50.0) (2022-11-08)
 
