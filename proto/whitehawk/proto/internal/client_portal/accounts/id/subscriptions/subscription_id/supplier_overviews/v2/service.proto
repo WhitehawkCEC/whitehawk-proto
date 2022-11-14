@@ -28,10 +28,12 @@ message SupplierBasicInfo {
 }
 
 message ProductAvailability {
-  repeated IntegrationId cyber_risk = 1;
-  repeated IntegrationId business_risk = 2;
+  repeated Integration cyber_risk = 1;
+  repeated Integration business_risk = 2;
 }
 
-message IntegrationId {
-  int32 value = 1;
+enum Integration {
+  INTEGRATION_UNSPECIFIED = 0;
+  INTEGRATION_BITSIGHT = 1;
+  INTEGRATION_BLACK_KITE = 2;
 }
