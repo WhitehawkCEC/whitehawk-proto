@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.51.1](https://github.com/whitehawkcec/whitehawk-proto/compare/0.51.0...0.51.1) (2022-11-14)
+
+
+### Features
+
+* **proto:** add service `client_portal.accounts.id.integrations.black_kite.cyber_risk.v1` ([7ef7416](https://github.com/whitehawkcec/whitehawk-proto/commit/7ef74164ccf705e0d696afe551da90672368d2fc))
+
 ## [0.51.0](https://github.com/whitehawkcec/whitehawk-proto/compare/0.50.2...0.51.0) (2022-11-14)
 
 
