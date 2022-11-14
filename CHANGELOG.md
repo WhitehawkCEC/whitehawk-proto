@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.50.2](https://github.com/whitehawkcec/whitehawk-proto/compare/0.50.1...0.50.2) (2022-11-14)
+
+
+### Features
+
+* **proto:** add service `client_portal.accounts.id.subscriptions.subscription_id.supplier_overviews.v2` ([533b9bc](https://github.com/whitehawkcec/whitehawk-proto/commit/533b9bc1f4f8329a74dfc9c4d3f7e4255d0a1db9))
+
 ### [0.50.1](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.50.0...0.50.1) (2022-11-10)
 
 ### Features
