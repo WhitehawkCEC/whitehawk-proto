@@ -1,0 +1,37 @@
+syntax = "proto3";
+
+package whitehawk.proto.internal.client_portal.accounts.id.subscriptions.subscription_id.supplier_overviews.v2;
+
+import "whitehawk/proto/slug/v1/message.proto";
+
+service Service {
+  rpc List(ListRequest) returns (ListResponse);
+}
+
+message ListRequest {
+  whitehawk.proto.slug.v1.Slug account_id = 1;
+  whitehawk.proto.slug.v1.Slug subscription_id = 2;
+}
+
+message ListResponse {
+  repeated SupplierOverview values = 1;
+}
+
+message SupplierOverview {
+  SupplierBasicInfo supplier = 1;
+  ProductAvailability product_overview = 2;
+}
+
+message SupplierBasicInfo {
+  string id = 1;
+  string name = 2;
+}
+
+message ProductAvailability {
+  repeated IntegrationId cyber_risk = 1;
+  repeated IntegrationId business_risk = 2;
+}
+
+message IntegrationId {
+  int32 value = 1;
+}
