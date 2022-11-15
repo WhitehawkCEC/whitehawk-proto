@@ -1,0 +1,46 @@
+syntax = "proto3";
+
+package whitehawk.proto.internal.client_portal.frameworks.v1;
+
+import "whitehawk/proto/framework/v1/message.proto";
+import "whitehawk/proto/ulid/v1/message.proto";
+
+service Service {
+  rpc Create(CreateRequest) returns (CreateResponse);
+  rpc Delete(DeleteRequest) returns (DeleteResponse);
+  rpc Update(UpdateRequest) returns (UpdateResponse);
+  rpc Read(ReadRequest) returns (ReadResponse);
+  rpc List(ListRequest) returns (ListResponse);
+}
+
+message CreateRequest {
+  whitehawk.proto.framework.v1.Framework framework = 1;
+}
+
+message CreateResponse {}
+
+message DeleteRequest {
+  whitehawk.proto.ulid.v1.Ulid id = 1;
+}
+
+message DeleteResponse {}
+
+message UpdateRequest {
+  whitehawk.proto.framework.v1.Framework framework = 1;
+}
+
+message UpdateResponse {}
+
+message ReadRequest {
+  whitehawk.proto.ulid.v1.Ulid id = 1;
+}
+
+message ReadResponse {
+  whitehawk.proto.framework.v1.Framework framework = 1;
+}
+
+message ListRequest {}
+
+message ListResponse {
+  repeated whitehawk.proto.framework.v1.Framework frameworks = 1;
+}

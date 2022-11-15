@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+package whitehawk.proto.internal.client_portal.accounts.id.frameworks.v1;
+
+import "whitehawk/proto/framework/v1/message.proto";
+import "whitehawk/proto/slug/v1/message.proto";
+
+service Service {
+  rpc Set(SetRequest) returns (SetResponse);
+  rpc Get(GetRequest) returns (GetResponse);
+}
+
+message SetRequest {
+  whitehawk.proto.slug.v1.Slug account_id = 1;
+  repeated whitehawk.proto.framework.v1.Framework frameworks = 2;
+}
+
+message SetResponse {}
+
+message GetRequest {
+  whitehawk.proto.slug.v1.Slug account_id = 1;
+}
+
+message GetResponse {
+  repeated whitehawk.proto.framework.v1.Framework frameworks = 1;
+}
