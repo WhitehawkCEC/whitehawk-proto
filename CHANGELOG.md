@@ -6,28 +6,25 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### [0.51.1](https://github.com/whitehawkcec/whitehawk-proto/compare/0.51.0...0.51.1) (2022-11-14)
 
-
 ### Features
 
-* **proto:** add service `client_portal.accounts.id.integrations.black_kite.cyber_risk.v1` ([7ef7416](https://github.com/whitehawkcec/whitehawk-proto/commit/7ef74164ccf705e0d696afe551da90672368d2fc))
+- **proto:** add service `client_portal.accounts.id.integrations.black_kite.cyber_risk.v1` ([7ef7416](https://github.com/whitehawkcec/whitehawk-proto/commit/7ef74164ccf705e0d696afe551da90672368d2fc))
 
 ## [0.51.0](https://github.com/whitehawkcec/whitehawk-proto/compare/0.50.2...0.51.0) (2022-11-14)
 
-
 ### ⚠ BREAKING CHANGES
 
-* **proto:** change response for `client_portal.accounts.id.subscriptions.subscription_id.supplier_overviews.v2`
+- **proto:** change response for `client_portal.accounts.id.subscriptions.subscription_id.supplier_overviews.v2`
 
 ### Features
 
-* **proto:** change response for `client_portal.accounts.id.subscriptions.subscription_id.supplier_overviews.v2` ([7317b94](https://github.com/whitehawkcec/whitehawk-proto/commit/7317b94d69a8fd161182942ab6b5ecca22bca929))
+- **proto:** change response for `client_portal.accounts.id.subscriptions.subscription_id.supplier_overviews.v2` ([7317b94](https://github.com/whitehawkcec/whitehawk-proto/commit/7317b94d69a8fd161182942ab6b5ecca22bca929))
 
 ### [0.50.2](https://github.com/whitehawkcec/whitehawk-proto/compare/0.50.1...0.50.2) (2022-11-14)
 
-
 ### Features
 
-* **proto:** add service `client_portal.accounts.id.subscriptions.subscription_id.supplier_overviews.v2` ([533b9bc](https://github.com/whitehawkcec/whitehawk-proto/commit/533b9bc1f4f8329a74dfc9c4d3f7e4255d0a1db9))
+- **proto:** add service `client_portal.accounts.id.subscriptions.subscription_id.supplier_overviews.v2` ([533b9bc](https://github.com/whitehawkcec/whitehawk-proto/commit/533b9bc1f4f8329a74dfc9c4d3f7e4255d0a1db9))
 
 ### [0.50.1](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.50.0...0.50.1) (2022-11-10)
 
