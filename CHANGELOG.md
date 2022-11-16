@@ -4,10 +4,9 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### [0.51.3](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.51.2...0.51.3) (2022-11-15)
 
-
 ### Features
 
-* **proto:** add frameworks ([06fd026](https://github.com/WhitehawkCEC/whitehawk-proto/commit/06fd0267ca805f7c5968b876dd828ac5420705c8))
+- **proto:** add frameworks ([06fd026](https://github.com/WhitehawkCEC/whitehawk-proto/commit/06fd0267ca805f7c5968b876dd828ac5420705c8))
 
 ### [0.51.2](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.51.1...0.51.2) (2022-11-14)
 
