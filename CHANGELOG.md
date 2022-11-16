@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.51.4](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.51.3...0.51.4) (2022-11-16)
+
+
+### Features
+
+* add `CustomQuestionnaire` v2 message ([5ea34bb](https://github.com/WhitehawkCEC/whitehawk-proto/commit/5ea34bb39b8e2a30a67afc06d2615aeafb0658c7))
+* add `CustomQuestionnaireTaken` message ([0b27159](https://github.com/WhitehawkCEC/whitehawk-proto/commit/0b271597fd7cd0e750a8a61d7db282d7a67ee78b))
+* add `QuestionAnswer` message ([14cbb82](https://github.com/WhitehawkCEC/whitehawk-proto/commit/14cbb82006d1d166692b999e33eacc572029e3a4))
+
 ### [0.51.3](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.51.2...0.51.3) (2022-11-15)
 
 ### Features
