@@ -1,0 +1,50 @@
+syntax = "proto3";
+
+package whitehawk.proto.custom_questionnaire.v2;
+
+import "whitehawk/proto/meta/v1/message.proto";
+import "whitehawk/proto/ulid/v1/message.proto";
+
+message CustomQuestionnaire {
+  whitehawk.proto.ulid.v1.Ulid id = 1;
+  string name = 2;
+  optional string description = 3;
+  string industry = 4;
+  QuestionnaireType type = 5;
+  repeated CustomQuestionSection sections = 6;
+  string file_url = 7;
+  whitehawk.proto.meta.v1.Meta meta = 8;
+}
+
+enum QuestionnaireType {
+  QUESTIONNAIRE_TYPE_UNSPECIFIED = 0;
+  QUESTIONNAIRE_TYPE_CUSTOM = 1;
+  QUESTIONNAIRE_TYPE_CANNED = 2;
+}
+
+message CustomQuestionSection {
+  whitehawk.proto.ulid.v1.Ulid id = 1;
+  string name = 2;
+  repeated CustomQuestion questions = 3;
+}
+
+message CustomQuestion {
+  whitehawk.proto.ulid.v1.Ulid id = 1;
+  string text = 2;
+  bool required = 3;
+  string question_type = 4;
+  CustomAnswerSet answer_set = 5;
+}
+
+message CustomAnswerSet {
+  whitehawk.proto.ulid.v1.Ulid id = 1;
+  string name = 2;
+  repeated CustomAnswers answers = 3;
+}
+
+message CustomAnswers {
+  whitehawk.proto.ulid.v1.Ulid id = 1;
+  string label = 2;
+  string value = 3;
+  int32 risk_score = 4;
+}
