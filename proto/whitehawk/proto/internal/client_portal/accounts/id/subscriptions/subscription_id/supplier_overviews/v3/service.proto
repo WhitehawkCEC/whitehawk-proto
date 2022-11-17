@@ -1,0 +1,49 @@
+syntax = "proto3";
+
+package whitehawk.proto.internal.client_portal.accounts.id.subscriptions.subscription_id.supplier_overviews.v3;
+
+import "whitehawk/proto/slug/v1/message.proto";
+
+service Service {
+  rpc List(ListRequest) returns (ListResponse);
+}
+
+message ListRequest {
+  whitehawk.proto.slug.v1.Slug account_id = 1;
+  whitehawk.proto.slug.v1.Slug subscription_id = 2;
+}
+
+message ListResponse {
+  repeated SupplierOverview values = 1;
+}
+
+message SupplierOverview {
+  SupplierBasicInfo supplier = 1;
+  repeated ProductInfo products = 2;
+}
+
+message SupplierBasicInfo {
+  string name = 1;
+}
+
+message ProductInfo {
+  ProductType type = 1;
+  Integration integration = 2;
+}
+
+enum ProductType {
+  PRODUCT_TYPE_UNSPECIFIED = 0;
+  PRODUCT_TYPE_CYBER_RISK = 1;
+  PRODUCT_TYPE_BUSINESS_RISK = 2;
+}
+
+message Integration {
+  IntegrationType type = 1;
+  string id = 2;
+}
+
+enum IntegrationType {
+  INTEGRATION_TYPE_UNSPECIFIED = 0;
+  INTEGRATION_TYPE_BITSIGHT = 1;
+  INTEGRATION_TYPE_BLACK_KITE = 2;
+}
