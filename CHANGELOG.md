@@ -4,22 +4,20 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### [0.52.1](https://github.com/whitehawkcec/whitehawk-proto/compare/0.52.0...0.52.1) (2022-11-17)
 
-
 ### Features
 
-* **proto:** add service `client_portal.accounts.id.subscriptions.subscription_id.supplier_overviews.v3` ([c1d20ee](https://github.com/whitehawkcec/whitehawk-proto/commit/c1d20eec8635a2ce1ee157e6cb104c3178cd9fb0))
+- **proto:** add service `client_portal.accounts.id.subscriptions.subscription_id.supplier_overviews.v3` ([c1d20ee](https://github.com/whitehawkcec/whitehawk-proto/commit/c1d20eec8635a2ce1ee157e6cb104c3178cd9fb0))
 
 ## [0.52.0](https://github.com/whitehawkcec/whitehawk-proto/compare/0.51.4...0.52.0) (2022-11-17)
 
-
 ### ⚠ BREAKING CHANGES
 
-* **proto:** remove service `client_portal.accounts.id.integrations.black_kite.cyber_risk.v1`
+- **proto:** remove service `client_portal.accounts.id.integrations.black_kite.cyber_risk.v1`
 
 ### Features
 
-* **proto:** add service `client_portal.accounts.id.integrations.black_kite.entities.entity_id.cyber_risk.v1` ([3dac721](https://github.com/whitehawkcec/whitehawk-proto/commit/3dac721ae9c04e61562846d7a108883262d8d90e))
-* **proto:** remove service `client_portal.accounts.id.integrations.black_kite.cyber_risk.v1` ([6e0fc2c](https://github.com/whitehawkcec/whitehawk-proto/commit/6e0fc2c958014231cbce60902b0755c24e297375))
+- **proto:** add service `client_portal.accounts.id.integrations.black_kite.entities.entity_id.cyber_risk.v1` ([3dac721](https://github.com/whitehawkcec/whitehawk-proto/commit/3dac721ae9c04e61562846d7a108883262d8d90e))
+- **proto:** remove service `client_portal.accounts.id.integrations.black_kite.cyber_risk.v1` ([6e0fc2c](https://github.com/whitehawkcec/whitehawk-proto/commit/6e0fc2c958014231cbce60902b0755c24e297375))
 
 ### [0.51.4](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.51.3...0.51.4) (2022-11-16)
 
