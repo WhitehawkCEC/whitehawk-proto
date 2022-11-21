@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+package whitehawk.proto.internal.client_portal.custom_questionnaires.display_schemas.v1;
+
+import "whitehawk/proto/custom_questionnaire/display_schema/v1/message.proto";
+
+service Service {
+  rpc Get(GetRequest) returns (GetResponse);
+  rpc Set(SetRequest) returns (SetResponse);
+}
+
+message GetRequest {}
+
+message GetResponse {
+  whitehawk.proto.custom_questionnaire.display_schema.v1.CustomQuestionnaireDisplaySchema
+      display_schema = 1;
+}
+
+message SetRequest {
+  string display_schema = 1;
+}
+
+message SetResponse {}
