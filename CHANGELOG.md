@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.52.3](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.52.2...0.52.3) (2022-11-21)
+
+
+### Features
+
+* add `answered` service custom questionnaires ([3d979ee](https://github.com/WhitehawkCEC/whitehawk-proto/commit/3d979ee06bbe26e7224e0e4a0d74a1cd92009204))
+* add `CRUDL` custom questionnaires service ([8f5921d](https://github.com/WhitehawkCEC/whitehawk-proto/commit/8f5921dde451263e2fe1eba5ad401f81042ec892))
+* add `display_schemas` as singleton resource ([6e47518](https://github.com/WhitehawkCEC/whitehawk-proto/commit/6e47518eddbc887e728e4480a76d0c995df2e732))
+* add `display_ui_schemas` as singleton resource ([a6264a0](https://github.com/WhitehawkCEC/whitehawk-proto/commit/a6264a07efad5f3dd7f401067749ee6967235f7d))
+* add `taken` service custom questionnaires ([156f9b3](https://github.com/WhitehawkCEC/whitehawk-proto/commit/156f9b30d53906933a2a423a0d6bd565c3a3889a))
+
 ### [0.52.2](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.52.1...0.52.2) (2022-11-18)
 
 ### Features
