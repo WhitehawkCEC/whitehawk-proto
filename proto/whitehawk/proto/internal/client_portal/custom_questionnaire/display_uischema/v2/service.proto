@@ -1,0 +1,27 @@
+syntax = "proto3";
+
+package whitehawk.proto.internal.client_portal.custom_questionnaire.display_uischema.v2;
+
+import "whitehawk/proto/custom_questionnaire/display_uischema/v1/message.proto";
+
+service Service {
+  rpc GetDisplayUISchema(GetDisplayUISchemaRequest) returns (GetDisplayUISchemaResponse);
+  rpc CreateDisplayUISchema(CreateDisplayUISchemaRequest) returns (CreateDisplayUISchemaResponse);
+  rpc DeleteDisplayUISchema(DeleteDisplayUISchemaRequest) returns (DeleteDisplayUISchemaResponse);
+}
+
+message GetDisplayUISchemaRequest {}
+
+message GetDisplayUISchemaResponse {
+  whitehawk.proto.custom_questionnaire.display_uischema.v1.CustomQuestionnaireDisplayUISchema display_uischema = 1;
+}
+
+message CreateDisplayUISchemaRequest {
+  string display_uischema = 1;
+}
+
+message CreateDisplayUISchemaResponse {}
+
+message DeleteDisplayUISchemaRequest {}
+
+message DeleteDisplayUISchemaResponse {}

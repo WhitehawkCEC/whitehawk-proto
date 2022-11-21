@@ -1,0 +1,39 @@
+syntax = "proto3";
+
+package whitehawk.proto.internal.client_portal.custom_questionnaire.answered.v2;
+
+import "whitehawk/proto/custom_questionnaire/answered/v1/message.proto";
+import "whitehawk/proto/ulid/v1/message.proto";
+
+service Service {
+  rpc Create(CreateRequest) returns (CreateResponse);
+  rpc List(ListRequest) returns (ListResponse);
+  rpc Update(UpdateRequest) returns (UpdateResponse);
+  rpc Delete(DeleteRequest) returns (DeleteResponse);
+}
+
+message CreateRequest {
+  whitehawk.proto.custom_questionnaire.answered.v1.QuestionAnswer question_answer = 1;
+}
+
+message CreateResponse {}
+
+message ListRequest {
+  whitehawk.proto.ulid.v1.Ulid response_id = 1;
+}
+
+message ListResponse {
+  repeated whitehawk.proto.custom_questionnaire.answered.v1.QuestionAnswer question_answers = 1;
+}
+
+message UpdateRequest {
+  whitehawk.proto.custom_questionnaire.answered.v1.QuestionAnswer question_answer = 1;
+}
+
+message UpdateResponse {}
+
+message DeleteRequest {
+  whitehawk.proto.ulid.v1.Ulid question_answer_id = 1;
+}
+
+message DeleteResponse {}

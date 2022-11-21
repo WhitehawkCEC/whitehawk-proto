@@ -1,0 +1,78 @@
+syntax = "proto3";
+
+package whitehawk.proto.internal.client_portal.custom_questionnaire.v2;
+
+import "whitehawk/proto/custom_questionnaire/v2/message.proto";
+import "whitehawk/proto/questionnaire_preference/v1/message.proto";
+import "whitehawk/proto/ulid/v1/message.proto";
+
+service Service {
+  rpc Upload(UploadRequest) returns (UploadResponse);
+  rpc Create(CreateRequest) returns (CreateResponse);
+  rpc Update(UpdateRequest) returns (UpdateResponse);
+  rpc Delete(DeleteRequest) returns (DeleteResponse);
+  rpc Show(ShowRequest) returns (ShowResponse);
+  rpc List(ListRequest) returns (ListResponse);
+  rpc ListInUse(ListInUseRequest) returns (ListInUseResponse);
+}
+
+message UploadRequest {
+  File file = 1;
+}
+
+message File {
+  bytes content = 1;
+}
+
+enum Status {
+  STATUS_UNSPECIFIED = 0;
+  STATUS_PENDING = 1;
+  STATUS_IN_PROGRESS = 2;
+  STATUS_SUCCESS = 3;
+  STATUS_FAILED = 4;
+}
+
+message UploadResponse {
+  string name = 1;
+  Status status = 2;
+}
+
+message ShowRequest {
+  whitehawk.proto.ulid.v1.Ulid id = 1;
+}
+
+message ShowResponse {
+  whitehawk.proto.custom_questionnaire.v2.CustomQuestionnaire questionnaire = 1;
+}
+
+message ListRequest {}
+
+message ListResponse {
+  repeated whitehawk.proto.custom_questionnaire.v2.CustomQuestionnaire questionnaire = 1;
+}
+
+message ListInUseRequest {
+  whitehawk.proto.ulid.v1.Ulid id = 1;
+}
+
+message ListInUseResponse {
+  repeated whitehawk.proto.questionnaire_preference.v1.QuestionnairePreference questionnaire_preference = 1;
+}
+
+message CreateRequest {
+  whitehawk.proto.custom_questionnaire.v2.CustomQuestionnaire questionnaire = 1;
+}
+
+message CreateResponse {}
+
+message UpdateRequest {
+  whitehawk.proto.custom_questionnaire.v2.CustomQuestionnaire questionnaire = 1;
+}
+
+message UpdateResponse {}
+
+message DeleteRequest {
+  whitehawk.proto.ulid.v1.Ulid questionnaire_id = 1;
+}
+
+message DeleteResponse {}
