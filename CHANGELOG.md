@@ -4,10 +4,9 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### [0.52.2](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.52.1...0.52.2) (2022-11-18)
 
-
 ### Features
 
-* add singleton resource for `/integrations/bitsight/companies/_/cyber_risk/v1` ([6e6447f](https://github.com/WhitehawkCEC/whitehawk-proto/commit/6e6447fc2890ff983bed694efe9e94d3e1d5658f))
+- add singleton resource for `/integrations/bitsight/companies/_/cyber_risk/v1` ([6e6447f](https://github.com/WhitehawkCEC/whitehawk-proto/commit/6e6447fc2890ff983bed694efe9e94d3e1d5658f))
 
 ### [0.52.1](https://github.com/whitehawkcec/whitehawk-proto/compare/0.52.0...0.52.1) (2022-11-17)
 
