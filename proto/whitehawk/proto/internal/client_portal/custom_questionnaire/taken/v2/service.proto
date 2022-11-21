@@ -4,6 +4,7 @@ package whitehawk.proto.internal.client_portal.custom_questionnaire.taken.v2;
 
 import "whitehawk/proto/custom_questionnaire/taken/v1/message.proto";
 import "whitehawk/proto/ulid/v1/message.proto";
+import "whitehawk/proto/slug/v1/message.proto";
 
 service Service {
   rpc Create(CreateRequest) returns (CreateResponse);
@@ -14,7 +15,7 @@ service Service {
 }
 
 message CreateRequest {
-  string user_id = 1;
+  whitehawk.proto.slug.v1.Slug account_id = 1;
   whitehawk.proto.ulid.v1.Ulid questionnaire_id = 2;
 }
 
@@ -37,7 +38,7 @@ message UpdateRequest {
 message UpdateResponse {}
 
 message ListRequest {
-  string user_id = 1;
+  whitehawk.proto.slug.v1.Slug account_id = 1;
 }
 
 message ListResponse {
