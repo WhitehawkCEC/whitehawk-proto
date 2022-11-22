@@ -2,8 +2,8 @@ syntax = "proto3";
 
 package whitehawk.proto.internal.client_portal.custom_questionnaires.v1;
 
-import "whitehawk/proto/ulid/v1/message.proto";
 import "whitehawk/proto/custom_questionnaire/v2/message.proto";
+import "whitehawk/proto/ulid/v1/message.proto";
 
 service Service {
   rpc Create(CreateRequest) returns (CreateResponse);

@@ -12,13 +12,11 @@ service Service {
 message GetRequest {}
 
 message GetResponse {
-  whitehawk.proto.custom_questionnaire.display_uischema.v1.CustomQuestionnaireDisplayUISchema
-      display_ui_schema = 1;
+  whitehawk.proto.custom_questionnaire.display_uischema.v1.CustomQuestionnaireDisplayUISchema display_ui_schema = 1;
 }
 
 message SetRequest {
-  whitehawk.proto.custom_questionnaire.display_uischema.v1.CustomQuestionnaireDisplayUISchema
-      display_ui_schema = 1;
+  whitehawk.proto.custom_questionnaire.display_uischema.v1.CustomQuestionnaireDisplayUISchema display_ui_schema = 1;
 }
 
 message SetResponse {}
