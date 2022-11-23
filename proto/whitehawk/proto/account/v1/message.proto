@@ -2,9 +2,37 @@ syntax = "proto3";
 
 package whitehawk.proto.account.v1;
 
+import "whitehawk/proto/company/v1/message.proto";
+import "whitehawk/proto/openid/v1/message.proto";
 import "whitehawk/proto/slug/v1/message.proto";
+import "whitehawk/proto/user/v1/message.proto";
+import "whitehawk/proto/uuid/v1/message.proto";
+
+enum AccountStatus {
+  ACCOUNT_STATUS_UNSPECIFIED = 0;
+  ACCOUNT_STATUS_ACTIVE = 1;
+  ACCOUNT_STATUS_INACTIVE = 2;
+}
 
 message AccountInfo {
   whitehawk.proto.slug.v1.Slug id = 1;
   string name = 2;
+}
+
+message Account {
+  whitehawk.proto.slug.v1.Slug id = 1;
+  string name = 2;
+  whitehawk.proto.openid.v1.AddressClaim address = 3;
+  string domain = 4;
+  whitehawk.proto.company.v1.Industry industry = 5;
+  whitehawk.proto.user.v1.UserInfo creator = 6;
+  AccountStatus status= 7;
+  optional PointOfContact point_of_contact = 8;
+}
+
+message PointOfContact {
+  whitehawk.proto.uuid.v1.Uuid id = 1;
+  optional string full_name = 2;
+  string email = 3;
+  optional string phone = 4;
 }
