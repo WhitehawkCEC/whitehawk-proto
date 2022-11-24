@@ -4,10 +4,9 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### [0.52.6](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.52.5...0.52.6) (2022-11-23)
 
-
 ### Features
 
-* add CRUDL services for accounts ([166b132](https://github.com/WhitehawkCEC/whitehawk-proto/commit/166b132d080edf775a1aaa4b675172c28164b0ee))
+- add CRUDL services for accounts ([166b132](https://github.com/WhitehawkCEC/whitehawk-proto/commit/166b132d080edf775a1aaa4b675172c28164b0ee))
 
 ### [0.52.5](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.52.4...0.52.5) (2022-11-21)
 
