@@ -26,7 +26,7 @@ message Account {
   string domain = 4;
   whitehawk.proto.company.v1.Industry industry = 5;
   whitehawk.proto.user.v1.UserInfo creator = 6;
-  AccountStatus status= 7;
+  AccountStatus status = 7;
   optional PointOfContact point_of_contact = 8;
 }
 
