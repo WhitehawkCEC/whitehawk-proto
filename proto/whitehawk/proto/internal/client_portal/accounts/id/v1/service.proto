@@ -1,0 +1,46 @@
+syntax = "proto3";
+
+package whitehawk.proto.internal.client_portal.accounts.id.v1;
+
+import "whitehawk/proto/account/v1/message.proto";
+import "whitehawk/proto/slug/v1/message.proto";
+
+service Service {
+  rpc Create(CreateRequest) returns (CreateResponse);
+  rpc Read(ReadRequest) returns (ReadResponse);
+  rpc List(ListRequest) returns (ListResponse);
+  rpc Update(UpdateRequest) returns (UpdateResponse);
+  rpc Delete(DeleteRequest) returns (DeleteResponse);
+}
+
+message CreateRequest {
+  whitehawk.proto.account.v1.Account account = 1;
+}
+
+message CreateResponse {}
+
+message DeleteRequest {
+  whitehawk.proto.slug.v1.Slug id = 1;
+}
+
+message DeleteResponse {}
+
+message UpdateRequest {
+  whitehawk.proto.account.v1.Account account = 1;
+}
+
+message UpdateResponse {}
+
+message ReadRequest {
+  whitehawk.proto.slug.v1.Slug id = 1;
+}
+
+message ReadResponse {
+  whitehawk.proto.account.v1.Account account = 1;
+}
+
+message ListRequest {}
+
+message ListResponse {
+  repeated whitehawk.proto.account.v1.Account accounts = 1;
+}
