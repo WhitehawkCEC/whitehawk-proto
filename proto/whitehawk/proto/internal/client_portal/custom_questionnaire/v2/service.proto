@@ -10,7 +10,7 @@ service Service {
   rpc Upload(UploadRequest) returns (UploadResponse);
   rpc Create(CreateRequest) returns (CreateResponse);
   rpc Update(UpdateRequest) returns (UpdateResponse);
-  rpc UpdateMetaData(UpdateRequest) returns (UpdateResponse);
+  rpc UpdateMetaData(UpdateMetaDataRequest) returns (UpdateMetaDataResponse);
   rpc Delete(DeleteRequest) returns (DeleteResponse);
   rpc Show(ShowRequest) returns (ShowResponse);
   rpc List(ListRequest) returns (ListResponse);
@@ -71,6 +71,12 @@ message UpdateRequest {
 }
 
 message UpdateResponse {}
+
+message UpdateMetaDataRequest {
+  whitehawk.proto.custom_questionnaire.v2.CustomQuestionnaire questionnaire = 1;
+}
+
+message UpdateMetaDataResponse {}
 
 message DeleteRequest {
   whitehawk.proto.ulid.v1.Ulid questionnaire_id = 1;
