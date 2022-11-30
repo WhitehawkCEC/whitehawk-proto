@@ -11,4 +11,12 @@ message CustomQuestionnaireTaken {
   whitehawk.proto.ulid.v1.Ulid questionnaire_id = 2;
   whitehawk.proto.slug.v1.Slug account_id = 3;
   whitehawk.proto.meta.v1.Meta meta = 4;
+  Status status = 5;
+}
+
+enum Status {
+  STATUS_UNSPECIFIED = 0;
+  STATUS_NOT_STARTED = 1;
+  STATUS_IN_PROGRESS = 2;
+  STATUS_COMPLETED = 3;
 }
