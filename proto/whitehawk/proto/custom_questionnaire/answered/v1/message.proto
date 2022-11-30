@@ -14,4 +14,11 @@ message QuestionAnswer {
   string answer_text = 6;
   int32 risk_score = 7;
   whitehawk.proto.meta.v1.Meta meta = 8;
+  Status status = 9;
+}
+
+enum Status {
+  STATUS_NOT_STARTED = 0;
+  STATUS_IN_PROGRESS = 1;
+  STATUS_COMPLETED = 2;
 }
