@@ -10,6 +10,7 @@ service Service {
   rpc Upload(UploadRequest) returns (UploadResponse);
   rpc Create(CreateRequest) returns (CreateResponse);
   rpc Update(UpdateRequest) returns (UpdateResponse);
+  rpc UpdateMetaData(UpdateRequest) returns (UpdateResponse);
   rpc Delete(DeleteRequest) returns (DeleteResponse);
   rpc Show(ShowRequest) returns (ShowResponse);
   rpc List(ListRequest) returns (ListResponse);
