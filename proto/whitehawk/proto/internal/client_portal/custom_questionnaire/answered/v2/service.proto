@@ -17,7 +17,9 @@ message CreateRequest {
   whitehawk.proto.custom_questionnaire.answered.v1.QuestionAnswer question_answer = 1;
 }
 
-message CreateResponse {}
+message CreateResponse {
+  whitehawk.proto.ulid.v1.Ulid question_answer_id = 1;
+}
 
 message ListRequest {
   whitehawk.proto.ulid.v1.Ulid response_id = 1;
@@ -39,7 +41,9 @@ message UpdateRequest {
   whitehawk.proto.custom_questionnaire.answered.v1.QuestionAnswer question_answer = 1;
 }
 
-message UpdateResponse {}
+message UpdateResponse {
+  whitehawk.proto.ulid.v1.Ulid question_answer_id = 1;
+}
 
 message DeleteRequest {
   whitehawk.proto.ulid.v1.Ulid question_answer_id = 1;
