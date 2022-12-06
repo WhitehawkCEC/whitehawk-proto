@@ -17,3 +17,4 @@ message QuestionAnswer {
   int32 risk_score = 7;
   whitehawk.proto.meta.v1.Meta meta = 8;
 }
+
