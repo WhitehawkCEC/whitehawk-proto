@@ -10,11 +10,10 @@ message QuestionAnswer {
   whitehawk.proto.ulid.v1.Ulid response_id = 2;
   whitehawk.proto.ulid.v1.Ulid questionnaire_id = 3;
   whitehawk.proto.ulid.v1.Ulid question_id = 4;
-  oneof answer{
+  oneof answer {
     whitehawk.proto.ulid.v1.Ulid answer_id = 5;
     string answer_text = 6;
   }
   int32 risk_score = 7;
   whitehawk.proto.meta.v1.Meta meta = 8;
 }
-
