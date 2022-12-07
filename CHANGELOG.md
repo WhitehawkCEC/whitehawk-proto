@@ -4,14 +4,13 @@ All notable changes to this project will be documented in this file. See [standa
 
 ## [0.53.0](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.52.16...0.53.0) (2022-12-06)
 
-
 ### ⚠ BREAKING CHANGES
 
-* **proto:** Added oneof for answerId and answerText
+- **proto:** Added oneof for answerId and answerText
 
 ### Features
 
-* **proto:** Added oneof for answerId and answerText ([6a93f7d](https://github.com/WhitehawkCEC/whitehawk-proto/commit/6a93f7db70dbff015e42ae0db40ee10378f0a946))
+- **proto:** Added oneof for answerId and answerText ([6a93f7d](https://github.com/WhitehawkCEC/whitehawk-proto/commit/6a93f7db70dbff015e42ae0db40ee10378f0a946))
 
 ### [0.52.16](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.52.15...0.52.16) (2022-12-06)
 
