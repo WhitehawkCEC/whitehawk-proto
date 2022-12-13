@@ -3,6 +3,7 @@ syntax = "proto3";
 package whitehawk.proto.scorecard.v3.indepthblackkitecmmv2.v1;
 
 import "whitehawk/proto/integration/black_kite/domain/v1/message.proto";
+import "whitehawk/proto/slug/v1/message.proto";
 import "whitehawk/proto/ulid/v1/message.proto";
 import "whitehawk/proto/uuid/v1/message.proto";
 
@@ -83,7 +84,11 @@ message FocusAreaOrder {
   repeated string values = 1;
 }
 
-message BundleSolution {}
+message BundleSolution {
+  BundleSolutionEntry essential = 1;
+  BundleSolutionEntry balanced = 2;
+  BundleSolutionEntry premier = 3;
+}
 
 message BundleSolutionEntry {
   string title = 1;
@@ -97,9 +102,23 @@ message BundleGroup {
   ProductShortInfo option = 3;
 }
 
-message ProductCategoryInfo {}
+message ProductCategoryInfo {
+  whitehawk.proto.slug.v1.Slug id = 1;
+  string name = 2;
+}
 
-message ProductShortInfo {}
+message ProductShortInfo {
+  whitehawk.proto.uuid.v1.Uuid id = 1;
+  string name = 2;
+  optional string description = 3;
+  ManufacturerInfo manufacturer = 4;
+  repeated ProductCategoryInfo categories = 5;
+}
+
+message ManufacturerInfo {
+  whitehawk.proto.slug.v1.Slug id = 1;
+  string name = 2;
+}
 
 message CmmcDomainV2AnalysisOverview {
   // key = Domain (2 characters)
