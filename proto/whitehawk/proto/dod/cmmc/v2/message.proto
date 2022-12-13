@@ -1,0 +1,28 @@
+syntax = "proto3";
+
+package whitehawk.proto.dod.cmmc.v2;
+
+enum Domain {
+  DOMAIN_UNSPECIFIED = 0;
+  DOMAIN_AC = 1;
+  DOMAIN_AT = 2;
+  DOMAIN_AU = 3;
+  DOMAIN_CM = 4;
+  DOMAIN_IA = 5;
+  DOMAIN_IR = 6;
+  DOMAIN_MA = 7;
+  DOMAIN_MP = 8;
+  DOMAIN_PS = 9;
+  DOMAIN_PE = 10;
+  DOMAIN_RA = 11;
+  DOMAIN_CA = 12;
+  DOMAIN_SC = 13;
+  DOMAIN_SI = 14;
+}
+
+enum Level {
+  LEVEL_UNSPECIFIED = 0;
+  LEVEL_1 = 1;
+  LEVEL_2 = 2;
+  LEVEL_3 = 3;
+}
