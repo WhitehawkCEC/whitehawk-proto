@@ -2,6 +2,7 @@ syntax = "proto3";
 
 package whitehawk.proto.scorecard.v3.indepthblackkitecmmv2.v1;
 
+import "whitehawk/proto/analysis/v1/message.proto";
 import "whitehawk/proto/dod/cmmc/v2/message.proto";
 import "whitehawk/proto/integration/black_kite/domain/v1/message.proto";
 import "whitehawk/proto/slug/v1/message.proto";
@@ -62,8 +63,12 @@ message ReportsV2 {
 }
 
 message RiskVectorAnalysisOverview {
-  // key = WHRiskVector display value
-  map<string, RiskVectorAnalysis> value = 1;
+  repeated RiskVectorAnalysis values = 1;
+}
+
+message RiskVectorAnalysisEntry {
+  whitehawk.proto.analysis.v1.RiskVector risk_vector = 1;
+  RiskVectorAnalysis analysis = 2;
 }
 
 message RiskVectorAnalysis {
@@ -73,16 +78,14 @@ message RiskVectorAnalysis {
   string standard_note = 4;
 }
 
-// WHRiskVector display values
 message FocusAreas {
-  string first = 1;
-  string second = 2;
-  string third = 3;
+  whitehawk.proto.analysis.v1.RiskVector first = 1;
+  whitehawk.proto.analysis.v1.RiskVector second = 2;
+  whitehawk.proto.analysis.v1.RiskVector third = 3;
 }
 
 message FocusAreaOrder {
-  // WHRiskVector display values
-  repeated string values = 1;
+  repeated whitehawk.proto.analysis.v1.RiskVector values = 1;
 }
 
 message BundleSolution {
