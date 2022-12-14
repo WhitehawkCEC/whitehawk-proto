@@ -4,25 +4,24 @@ All notable changes to this project will be documented in this file. See [standa
 
 ## [0.54.0](https://github.com/whitehawkcec/whitehawk-proto/compare/0.53.0...0.54.0) (2022-12-13)
 
-
 ### ⚠ BREAKING CHANGES
 
-* **proto:** restructure scorecard v3 to use analysis v1
-* **proto:** restructure scorecard v3 to use cmmc v2
-* **proto:** remove service `client_portal.accounts.id.subscriptions.subscription_id.supplier_overviews.v2`
-* **proto:** remove service `client_portal.accounts.id.subscriptions.subscription_id.supplier_overviews.v1`
+- **proto:** restructure scorecard v3 to use analysis v1
+- **proto:** restructure scorecard v3 to use cmmc v2
+- **proto:** remove service `client_portal.accounts.id.subscriptions.subscription_id.supplier_overviews.v2`
+- **proto:** remove service `client_portal.accounts.id.subscriptions.subscription_id.supplier_overviews.v1`
 
 ### Features
 
-* **proto:** add messages for analysis v1 ([237a4e9](https://github.com/whitehawkcec/whitehawk-proto/commit/237a4e91653758d25eca84389d8adcbfe4aeec9a))
-* **proto:** add messages for BK reports ([fedf0f9](https://github.com/whitehawkcec/whitehawk-proto/commit/fedf0f96a766939afa956baedf0b0308b3a1c974))
-* **proto:** add messages for cmmc v2 ([3443569](https://github.com/whitehawkcec/whitehawk-proto/commit/34435693c7399bace89530e9e8cdc86cb2903721))
-* **proto:** add messages for scorecard v3 ([7a64df9](https://github.com/whitehawkcec/whitehawk-proto/commit/7a64df9ee0a44c8679bcf1041de0ade91197f917))
-* **proto:** fill in bundles for scorecard v3 ([69b842d](https://github.com/whitehawkcec/whitehawk-proto/commit/69b842d7162e79a6ab6715961e1b6b0dfc68cb97))
-* **proto:** remove service `client_portal.accounts.id.subscriptions.subscription_id.supplier_overviews.v1` ([9c8d66c](https://github.com/whitehawkcec/whitehawk-proto/commit/9c8d66c29994249f06c0fd25898f1ab4929dde97))
-* **proto:** remove service `client_portal.accounts.id.subscriptions.subscription_id.supplier_overviews.v2` ([0e81149](https://github.com/whitehawkcec/whitehawk-proto/commit/0e81149147dc80beb03168cddb21213f3b5ac629))
-* **proto:** restructure scorecard v3 to use analysis v1 ([2824724](https://github.com/whitehawkcec/whitehawk-proto/commit/282472405547084d866cfa0e067a5c456d65dc9b))
-* **proto:** restructure scorecard v3 to use cmmc v2 ([41ef6b2](https://github.com/whitehawkcec/whitehawk-proto/commit/41ef6b2ca79f48d8ec3a5c04bf02794221846b26))
+- **proto:** add messages for analysis v1 ([237a4e9](https://github.com/whitehawkcec/whitehawk-proto/commit/237a4e91653758d25eca84389d8adcbfe4aeec9a))
+- **proto:** add messages for BK reports ([fedf0f9](https://github.com/whitehawkcec/whitehawk-proto/commit/fedf0f96a766939afa956baedf0b0308b3a1c974))
+- **proto:** add messages for cmmc v2 ([3443569](https://github.com/whitehawkcec/whitehawk-proto/commit/34435693c7399bace89530e9e8cdc86cb2903721))
+- **proto:** add messages for scorecard v3 ([7a64df9](https://github.com/whitehawkcec/whitehawk-proto/commit/7a64df9ee0a44c8679bcf1041de0ade91197f917))
+- **proto:** fill in bundles for scorecard v3 ([69b842d](https://github.com/whitehawkcec/whitehawk-proto/commit/69b842d7162e79a6ab6715961e1b6b0dfc68cb97))
+- **proto:** remove service `client_portal.accounts.id.subscriptions.subscription_id.supplier_overviews.v1` ([9c8d66c](https://github.com/whitehawkcec/whitehawk-proto/commit/9c8d66c29994249f06c0fd25898f1ab4929dde97))
+- **proto:** remove service `client_portal.accounts.id.subscriptions.subscription_id.supplier_overviews.v2` ([0e81149](https://github.com/whitehawkcec/whitehawk-proto/commit/0e81149147dc80beb03168cddb21213f3b5ac629))
+- **proto:** restructure scorecard v3 to use analysis v1 ([2824724](https://github.com/whitehawkcec/whitehawk-proto/commit/282472405547084d866cfa0e067a5c456d65dc9b))
+- **proto:** restructure scorecard v3 to use cmmc v2 ([41ef6b2](https://github.com/whitehawkcec/whitehawk-proto/commit/41ef6b2ca79f48d8ec3a5c04bf02794221846b26))
 
 ## [0.53.0](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.52.16...0.53.0) (2022-12-06)
 
