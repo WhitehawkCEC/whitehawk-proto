@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-package whitehawk.proto.scorecard.v3.indepthblackkitecmmv2.v1;
+package whitehawk.proto.scorecard_v3.indepthblackkitecmmcv2.v1;
 
 import "whitehawk/proto/analysis/v1/message.proto";
 import "whitehawk/proto/dod/cmmc/v2/message.proto";
