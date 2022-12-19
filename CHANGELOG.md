@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.55.0](https://github.com/whitehawkcec/whitehawk-proto/compare/0.54.1...0.55.0) (2022-12-19)
+
+
+### ⚠ BREAKING CHANGES
+
+* rename scorecard v3 package
+
+### Features
+
+* **proto:** add service `client_portal.accounts.id.subscriptions.subscription_id.products.product_id.cyber_risk_rating.black_kite.performance.v2` ([afc0ea1](https://github.com/whitehawkcec/whitehawk-proto/commit/afc0ea1186c539d69f9a864805328c6b2b4f96cc))
+* rename scorecard v3 package ([7b86d92](https://github.com/whitehawkcec/whitehawk-proto/commit/7b86d9299b6feeabf1ef2861f072529d9d241dd3))
+
 ### [0.54.1](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.54.0...0.54.1) (2022-12-16)
 
 ### Features
