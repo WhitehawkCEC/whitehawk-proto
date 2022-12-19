@@ -4,10 +4,9 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### [0.54.1](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.54.0...0.54.1) (2022-12-16)
 
-
 ### Features
 
-* add integration/product types ([a3a302d](https://github.com/WhitehawkCEC/whitehawk-proto/commit/a3a302dd944f87878e71fc8cf5b6337ab00c9787))
+- add integration/product types ([a3a302d](https://github.com/WhitehawkCEC/whitehawk-proto/commit/a3a302dd944f87878e71fc8cf5b6337ab00c9787))
 
 ## [0.54.0](https://github.com/whitehawkcec/whitehawk-proto/compare/0.53.0...0.54.0) (2022-12-13)
 
