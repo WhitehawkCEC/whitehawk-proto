@@ -5,6 +5,7 @@ package whitehawk.proto.scorecard_v3.indepthblackkitecmmcv2.v1;
 import "whitehawk/proto/analysis/v1/message.proto";
 import "whitehawk/proto/dod/cmmc/v2/message.proto";
 import "whitehawk/proto/integration/black_kite/domain/v1/message.proto";
+import "whitehawk/proto/scorecard_v3/v1/message.proto";
 import "whitehawk/proto/slug/v1/message.proto";
 import "whitehawk/proto/ulid/v1/message.proto";
 import "whitehawk/proto/uuid/v1/message.proto";
@@ -12,12 +13,12 @@ import "whitehawk/proto/uuid/v1/message.proto";
 message ScorecardInDepthBlackKiteCmmcV2 {
   whitehawk.proto.ulid.v1.Ulid id = 1;
   DataBkCmmcV2 data = 2;
-  TemplateId template = 3;
+  whitehawk.proto.scorecard_v3.v1.TemplateId template = 3;
 }
 
 message DataBkCmmcV2 {
-  BuyerInfo buyer = 1;
-  SupplierBasicInfo supplier = 2;
+  whitehawk.proto.scorecard_v3.v1.BuyerInfo buyer = 1;
+  whitehawk.proto.scorecard_v3.v1.SupplierBasicInfo supplier = 2;
   UserMoreInfo analyst = 3;
   RatingScoreDetails rating_score = 4;
   ReportsV2 reports = 5;
@@ -28,20 +29,6 @@ message DataBkCmmcV2 {
   CmmcDomainV2AnalysisOverview cmmc_analysis = 10;
   ComplianceSummaryV2 compliance = 11;
   Status status = 12;
-}
-
-message BuyerInfo {
-  CompanyInfo company = 1;
-}
-
-message CompanyInfo {
-  whitehawk.proto.ulid.v1.Ulid id = 1;
-  string name = 2;
-}
-
-message SupplierBasicInfo {
-  string id = 1;
-  string name = 2;
 }
 
 message UserMoreInfo {
@@ -147,29 +134,7 @@ message ComplianceSummaryV2 {
 }
 
 message Status {
-  State state = 1;
+  whitehawk.proto.scorecard_v3.v1.State state = 1;
   int32 year = 2;
-  Quarter quarter = 3;
-}
-
-enum State {
-  STATE_UNSPECIFIED = 0;
-  STATE_IN_PROGRESS = 1;
-  STATE_PRODUCTS_NEEDED = 2;
-  STATE_READY_FOR_QA = 3;
-  STATE_DELIVERED = 4;
-  STATE_COMPLETE = 5;
-}
-
-enum Quarter {
-  QUARTER_UNSPECIFIED = 0;
-  QUARTER_Q1 = 1;
-  QUARTER_Q2 = 2;
-  QUARTER_Q3 = 3;
-  QUARTER_Q4 = 4;
-  QUARTER_OTHER = 5;
-}
-
-message TemplateId {
-  string value = 1;
+  whitehawk.proto.scorecard_v3.v1.Quarter quarter = 3;
 }
