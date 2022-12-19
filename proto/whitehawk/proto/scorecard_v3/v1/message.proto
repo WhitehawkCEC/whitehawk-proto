@@ -1,0 +1,46 @@
+syntax = "proto3";
+
+package whitehawk.proto.scorecard_v3.v1;
+
+import "whitehawk/proto/ulid/v1/message.proto";
+
+message BuyerInfo {
+  CompanyInfo company = 1;
+}
+
+message CompanyInfo {
+  whitehawk.proto.ulid.v1.Ulid id = 1;
+  string name = 2;
+}
+
+message SupplierBasicInfo {
+  string id = 1;
+  string name = 2;
+}
+
+enum State {
+  STATE_UNSPECIFIED = 0;
+  STATE_IN_PROGRESS = 1;
+  STATE_PRODUCTS_NEEDED = 2;
+  STATE_READY_FOR_QA = 3;
+  STATE_DELIVERED = 4;
+  STATE_COMPLETE = 5;
+}
+
+message DeliveryDate {
+  int32 year = 1;
+  Quarter quarter = 2;
+}
+
+enum Quarter {
+  QUARTER_UNSPECIFIED = 0;
+  QUARTER_Q1 = 1;
+  QUARTER_Q2 = 2;
+  QUARTER_Q3 = 3;
+  QUARTER_Q4 = 4;
+  QUARTER_OTHER = 5;
+}
+
+message TemplateId {
+  string value = 1;
+}
