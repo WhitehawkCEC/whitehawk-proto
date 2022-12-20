@@ -2,14 +2,14 @@ syntax = "proto3";
 
 package whitehawk.proto.scorecard_v3.v1;
 
-import "whitehawk/proto/ulid/v1/message.proto";
+import "whitehawk/proto/slug/v1/message.proto";
 
 message BuyerInfo {
   CompanyInfo company = 1;
 }
 
 message CompanyInfo {
-  whitehawk.proto.ulid.v1.Ulid id = 1;
+  whitehawk.proto.slug.v1.Slug id = 1;
   string name = 2;
 }
 
