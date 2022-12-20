@@ -4,31 +4,29 @@ All notable changes to this project will be documented in this file. See [standa
 
 ## [0.56.0](https://github.com/whitehawkcec/whitehawk-proto/compare/0.55.0...0.56.0) (2022-12-19)
 
-
 ### ⚠ BREAKING CHANGES
 
-* **proto:** restructure scorecard v3 BK to use scorecard v3 messages
-* **proto:** remove service `client_portal.accounts.id.subscriptions.subscription_id.products.product_id.cyber_risk_rating.black_kite.performance.v2`
+- **proto:** restructure scorecard v3 BK to use scorecard v3 messages
+- **proto:** remove service `client_portal.accounts.id.subscriptions.subscription_id.products.product_id.cyber_risk_rating.black_kite.performance.v2`
 
 ### Features
 
-* **proto:** add messages for base scorecard v3 ([d747965](https://github.com/whitehawkcec/whitehawk-proto/commit/d7479653a71c075ec64e42e97d01b6fc4e0b2ee7))
-* **proto:** add service `client_portal.accounts.id.subscriptions.subscription_id.scorecard_summaries_v3.v1` ([e3033f1](https://github.com/whitehawkcec/whitehawk-proto/commit/e3033f13ec1e87a4f3dbf512dace356608edc5d4))
-* **proto:** add service `client_portal.accounts.id.subscriptions.subscription_id.scorecards_v3.v1` ([ba48d72](https://github.com/whitehawkcec/whitehawk-proto/commit/ba48d72d86d815279b1c553dd9c488b536c8dc18))
-* **proto:** remove service `client_portal.accounts.id.subscriptions.subscription_id.products.product_id.cyber_risk_rating.black_kite.performance.v2` ([7da2c49](https://github.com/whitehawkcec/whitehawk-proto/commit/7da2c495f61a1e2135673d9284fd02255fc21ddb))
-* **proto:** restructure scorecard v3 BK to use scorecard v3 messages ([1ff5f4b](https://github.com/whitehawkcec/whitehawk-proto/commit/1ff5f4bbe9e53ca7096adbe57df98afa66b2ffdb))
+- **proto:** add messages for base scorecard v3 ([d747965](https://github.com/whitehawkcec/whitehawk-proto/commit/d7479653a71c075ec64e42e97d01b6fc4e0b2ee7))
+- **proto:** add service `client_portal.accounts.id.subscriptions.subscription_id.scorecard_summaries_v3.v1` ([e3033f1](https://github.com/whitehawkcec/whitehawk-proto/commit/e3033f13ec1e87a4f3dbf512dace356608edc5d4))
+- **proto:** add service `client_portal.accounts.id.subscriptions.subscription_id.scorecards_v3.v1` ([ba48d72](https://github.com/whitehawkcec/whitehawk-proto/commit/ba48d72d86d815279b1c553dd9c488b536c8dc18))
+- **proto:** remove service `client_portal.accounts.id.subscriptions.subscription_id.products.product_id.cyber_risk_rating.black_kite.performance.v2` ([7da2c49](https://github.com/whitehawkcec/whitehawk-proto/commit/7da2c495f61a1e2135673d9284fd02255fc21ddb))
+- **proto:** restructure scorecard v3 BK to use scorecard v3 messages ([1ff5f4b](https://github.com/whitehawkcec/whitehawk-proto/commit/1ff5f4bbe9e53ca7096adbe57df98afa66b2ffdb))
 
 ## [0.55.0](https://github.com/whitehawkcec/whitehawk-proto/compare/0.54.1...0.55.0) (2022-12-19)
 
-
 ### ⚠ BREAKING CHANGES
 
-* rename scorecard v3 package
+- rename scorecard v3 package
 
 ### Features
 
-* **proto:** add service `client_portal.accounts.id.subscriptions.subscription_id.products.product_id.cyber_risk_rating.black_kite.performance.v2` ([afc0ea1](https://github.com/whitehawkcec/whitehawk-proto/commit/afc0ea1186c539d69f9a864805328c6b2b4f96cc))
-* rename scorecard v3 package ([7b86d92](https://github.com/whitehawkcec/whitehawk-proto/commit/7b86d9299b6feeabf1ef2861f072529d9d241dd3))
+- **proto:** add service `client_portal.accounts.id.subscriptions.subscription_id.products.product_id.cyber_risk_rating.black_kite.performance.v2` ([afc0ea1](https://github.com/whitehawkcec/whitehawk-proto/commit/afc0ea1186c539d69f9a864805328c6b2b4f96cc))
+- rename scorecard v3 package ([7b86d92](https://github.com/whitehawkcec/whitehawk-proto/commit/7b86d9299b6feeabf1ef2861f072529d9d241dd3))
 
 ### [0.54.1](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.54.0...0.54.1) (2022-12-16)
 
