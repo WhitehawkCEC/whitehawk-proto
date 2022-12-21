@@ -4,14 +4,13 @@ All notable changes to this project will be documented in this file. See [standa
 
 ## [0.57.0](https://github.com/whitehawkcec/whitehawk-proto/compare/0.56.0...0.57.0) (2022-12-20)
 
-
 ### ⚠ BREAKING CHANGES
 
-* **proto:** use correct field type
+- **proto:** use correct field type
 
 ### Bug Fixes
 
-* **proto:** use correct field type ([29865c1](https://github.com/whitehawkcec/whitehawk-proto/commit/29865c139c96d2e22a03b134a4fb440e931549fb))
+- **proto:** use correct field type ([29865c1](https://github.com/whitehawkcec/whitehawk-proto/commit/29865c139c96d2e22a03b134a4fb440e931549fb))
 
 ## [0.56.0](https://github.com/whitehawkcec/whitehawk-proto/compare/0.55.0...0.56.0) (2022-12-19)
 
