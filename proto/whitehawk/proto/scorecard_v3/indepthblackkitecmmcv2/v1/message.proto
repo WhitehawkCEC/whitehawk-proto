@@ -50,7 +50,7 @@ message ReportsV2 {
 }
 
 message RiskVectorAnalysisOverview {
-  repeated RiskVectorAnalysis values = 1;
+  repeated RiskVectorAnalysisEntry values = 1;
 }
 
 message RiskVectorAnalysisEntry {
