@@ -99,7 +99,7 @@ message ProductCategoryInfo {
 }
 
 message ProductShortInfo {
-  whitehawk.proto.uuid.v1.Uuid id = 1;
+  whitehawk.proto.ulid.v1.Ulid id = 1;
   string name = 2;
   optional string description = 3;
   ManufacturerInfo manufacturer = 4;
