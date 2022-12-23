@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.59.1](https://github.com/whitehawkcec/whitehawk-proto/compare/0.59.0...0.59.1) (2022-12-23)
+
+
+### Features
+
+* **proto:** add v2 messages for BK domain ([288a39a](https://github.com/whitehawkcec/whitehawk-proto/commit/288a39a4b235260f1d551231a5644a8886b0b051))
+* **proto:** add v2 messages for scorecard BK CMMC v2 ([8fc62e7](https://github.com/whitehawkcec/whitehawk-proto/commit/8fc62e7f5a7b321cef2065d28a8f398675401d9b))
+
 ## [0.59.0](https://github.com/whitehawkcec/whitehawk-proto/compare/0.58.0...0.59.0) (2022-12-23)
 
 
