@@ -1,0 +1,44 @@
+syntax = "proto3";
+
+package whitehawk.proto.integration.black_kite.domain.v2;
+
+import "google/protobuf/struct.proto";
+
+message ApiKey {
+  // 50 characters (letters or numbers)
+  // Pattern: [A-Za-z0-9]{50}
+  string value = 1;
+}
+
+enum ScanProfileType {
+  SCAN_PROFILE_TYPE_UNSPECIFIED = 0;
+  SCAN_PROFILE_TYPE_CONTINUOUS_60_DAY = 1;
+  SCAN_PROFILE_TYPE_CONTINUOUS_ANNUAL = 2;
+}
+
+message BlackKiteEcosystem {
+  int32 id = 1;
+  string name = 2;
+}
+
+message BlackKiteEntity {
+  int32 id = 1;
+  string name = 2;
+  string domain = 3;
+}
+
+message SummaryReport {
+  google.protobuf.Struct json = 1;
+}
+
+message SummaryRiskReport {
+  google.protobuf.Struct json = 1;
+}
+
+message SummaryComplianceReport {
+  repeated google.protobuf.Struct entries = 1;
+}
+
+message ComplianceSummaryEntry {
+  google.protobuf.Struct json = 1;
+}
