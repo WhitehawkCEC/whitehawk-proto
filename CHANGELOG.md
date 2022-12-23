@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.58.0](https://github.com/whitehawkcec/whitehawk-proto/compare/0.57.0...0.58.0) (2022-12-23)
+
+
+### ⚠ BREAKING CHANGES
+
+* **proto:** use correct message type
+
+### Bug Fixes
+
+* **proto:** use correct message type ([24b720a](https://github.com/whitehawkcec/whitehawk-proto/commit/24b720affc0ea118370695fb0e061dbd1a37155e))
+
 ## [0.57.0](https://github.com/whitehawkcec/whitehawk-proto/compare/0.56.0...0.57.0) (2022-12-20)
 
 ### ⚠ BREAKING CHANGES
