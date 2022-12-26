@@ -4,40 +4,36 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### [0.59.2](https://github.com/whitehawkcec/whitehawk-proto/compare/0.59.1...0.59.2) (2022-12-23)
 
-
 ### Features
 
-* **proto:** add service `client_portal.accounts.id.subscriptions.subscription_id.scorecards_v3.v2` ([f4e5e48](https://github.com/whitehawkcec/whitehawk-proto/commit/f4e5e4873e47c32934038cb05dc7fe9ece296f20))
+- **proto:** add service `client_portal.accounts.id.subscriptions.subscription_id.scorecards_v3.v2` ([f4e5e48](https://github.com/whitehawkcec/whitehawk-proto/commit/f4e5e4873e47c32934038cb05dc7fe9ece296f20))
 
 ### [0.59.1](https://github.com/whitehawkcec/whitehawk-proto/compare/0.59.0...0.59.1) (2022-12-23)
 
-
 ### Features
 
-* **proto:** add v2 messages for BK domain ([288a39a](https://github.com/whitehawkcec/whitehawk-proto/commit/288a39a4b235260f1d551231a5644a8886b0b051))
-* **proto:** add v2 messages for scorecard BK CMMC v2 ([8fc62e7](https://github.com/whitehawkcec/whitehawk-proto/commit/8fc62e7f5a7b321cef2065d28a8f398675401d9b))
+- **proto:** add v2 messages for BK domain ([288a39a](https://github.com/whitehawkcec/whitehawk-proto/commit/288a39a4b235260f1d551231a5644a8886b0b051))
+- **proto:** add v2 messages for scorecard BK CMMC v2 ([8fc62e7](https://github.com/whitehawkcec/whitehawk-proto/commit/8fc62e7f5a7b321cef2065d28a8f398675401d9b))
 
 ## [0.59.0](https://github.com/whitehawkcec/whitehawk-proto/compare/0.58.0...0.59.0) (2022-12-23)
 
-
 ### ⚠ BREAKING CHANGES
 
-* **proto:** use correct message type
+- **proto:** use correct message type
 
 ### Bug Fixes
 
-* **proto:** use correct message type ([d4d2395](https://github.com/whitehawkcec/whitehawk-proto/commit/d4d2395bc7d7f6fb77011bdf31e9676dfe037e10))
+- **proto:** use correct message type ([d4d2395](https://github.com/whitehawkcec/whitehawk-proto/commit/d4d2395bc7d7f6fb77011bdf31e9676dfe037e10))
 
 ## [0.58.0](https://github.com/whitehawkcec/whitehawk-proto/compare/0.57.0...0.58.0) (2022-12-23)
 
-
 ### ⚠ BREAKING CHANGES
 
-* **proto:** use correct message type
+- **proto:** use correct message type
 
 ### Bug Fixes
 
-* **proto:** use correct message type ([24b720a](https://github.com/whitehawkcec/whitehawk-proto/commit/24b720affc0ea118370695fb0e061dbd1a37155e))
+- **proto:** use correct message type ([24b720a](https://github.com/whitehawkcec/whitehawk-proto/commit/24b720affc0ea118370695fb0e061dbd1a37155e))
 
 ## [0.57.0](https://github.com/whitehawkcec/whitehawk-proto/compare/0.56.0...0.57.0) (2022-12-20)
 
