@@ -4,10 +4,9 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### [0.59.3](https://github.com/whitehawkcec/whitehawk-proto/compare/0.59.2...0.59.3) (2022-12-28)
 
-
 ### Features
 
-* **proto:** add service `client_portal.scorecards_v3.v1` ([f42d63c](https://github.com/whitehawkcec/whitehawk-proto/commit/f42d63cb080eedc7768eea800fa9470513fb9b50))
+- **proto:** add service `client_portal.scorecards_v3.v1` ([f42d63c](https://github.com/whitehawkcec/whitehawk-proto/commit/f42d63cb080eedc7768eea800fa9470513fb9b50))
 
 ### [0.59.2](https://github.com/whitehawkcec/whitehawk-proto/compare/0.59.1...0.59.2) (2022-12-23)
 
