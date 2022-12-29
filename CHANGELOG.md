@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.59.7](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.59.6...0.59.7) (2022-12-29)
+
+
+### Bug Fixes
+
+* remove year and quarter as status already has it ([3439eac](https://github.com/WhitehawkCEC/whitehawk-proto/commit/3439eac27d52e7f473e1449e6641df598a6cbf5c))
+
 ### [0.59.6](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.59.5...0.59.6) (2022-12-29)
 
 
