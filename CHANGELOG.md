@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.59.6](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.59.5...0.59.6) (2022-12-29)
+
+
+### Bug Fixes
+
+* add companyinfo on batch request ([1973844](https://github.com/WhitehawkCEC/whitehawk-proto/commit/19738443299fe422e243192e718ac17aa85cfaa7))
+
 ### [0.59.5](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.59.4...0.59.5) (2022-12-29)
 
 
