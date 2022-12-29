@@ -14,19 +14,20 @@ service Service {
 }
 
 message CreateRequest {
-  whitehawk.proto.slug.v1.Slug account_id = 1;
-  whitehawk.proto.slug.v1.Slug subscription_id = 2;
-  CreateBatchRequestBKV3 request = 3;
+  whitehawk.proto.slug.v1.Slug id = 1;
+  CreateBatchRequestBKV3 request = 2;
 }
 
 message CreateBatchRequestBKV3 {
-  whitehawk.proto.scorecard_v3.indepthblackkitecmmcv2.v2.UserMoreInfo analyst = 1;
-  int32 year = 2;
-  whitehawk.proto.scorecard_v3.v1.Quarter quarter = 3;
-  whitehawk.proto.scorecard_v3.indepthblackkitecmmcv2.v2.Status status = 4;
-  repeated whitehawk.proto.integration.black_kite.domain.v1.BlackKiteEntity entities = 5;
-  bool include_cmmc= 6;
-  string template = 7;
+  whitehawk.proto.slug.v1.Slug account_id = 1;
+  whitehawk.proto.slug.v1.Slug subscription_id = 2;
+  whitehawk.proto.scorecard_v3.indepthblackkitecmmcv2.v2.UserMoreInfo analyst = 3;
+  int32 year = 4;
+  whitehawk.proto.scorecard_v3.v1.Quarter quarter = 5;
+  whitehawk.proto.scorecard_v3.indepthblackkitecmmcv2.v2.Status status = 6;
+  repeated whitehawk.proto.integration.black_kite.domain.v1.BlackKiteEntity entities = 7;
+  bool include_cmmc= 8;
+  string template = 9;
 }
 
 message CreateResponse {
