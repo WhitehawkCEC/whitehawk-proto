@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.59.5](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.59.4...0.59.5) (2022-12-29)
+
+
+### Features
+
+* use account id in request object itself ([9225e18](https://github.com/WhitehawkCEC/whitehawk-proto/commit/9225e18a7059f5ab6bcdbd29471eb5ed6f49c1c0))
+
 ### [0.59.4](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.59.3...0.59.4) (2022-12-29)
 
 
