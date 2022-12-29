@@ -1,0 +1,34 @@
+syntax = "proto3";
+
+package whitehawk.proto.internal.client_portal.accounts.id.subscriptions.subscription_id.batch.scorecards_v3.v2;
+
+import "whitehawk/proto/scorecard_v3/indepthblackkitecmmcv2/v2/message.proto";
+import "whitehawk/proto/scorecard_v3/v1/message.proto";
+import "whitehawk/proto/slug/v1/message.proto";
+import "whitehawk/proto/ulid/v1/message.proto";
+import "whitehawk/proto/integration/black_kite/domain/v1/message.proto";
+
+
+service Service {
+  rpc Create(CreateRequest) returns (CreateResponse);
+}
+
+message CreateRequest {
+  whitehawk.proto.slug.v1.Slug account_id = 1;
+  whitehawk.proto.slug.v1.Slug subscription_id = 2;
+  CreateBatchRequestBKV3 request = 3;
+}
+
+message CreateBatchRequestBKV3 {
+  whitehawk.proto.scorecard_v3.indepthblackkitecmmcv2.v2.UserMoreInfo analyst = 1;
+  int32 year = 2;
+  whitehawk.proto.scorecard_v3.v1.Quarter quarter = 3;
+  whitehawk.proto.scorecard_v3.indepthblackkitecmmcv2.v2.Status status = 4;
+  repeated whitehawk.proto.integration.black_kite.domain.v1.BlackKiteEntity entities = 5;
+  bool include_cmmc= 6;
+  string template = 7;
+}
+
+message CreateResponse {
+  whitehawk.proto.ulid.v1.Ulid batch_id = 1;
+}
