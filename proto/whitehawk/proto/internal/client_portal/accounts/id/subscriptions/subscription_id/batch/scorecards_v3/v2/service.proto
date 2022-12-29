@@ -23,12 +23,10 @@ message CreateBatchRequestBKV3 {
   whitehawk.proto.scorecard_v3.v1.CompanyInfo company = 2;
   whitehawk.proto.slug.v1.Slug subscription_id = 3;
   whitehawk.proto.scorecard_v3.indepthblackkitecmmcv2.v2.UserMoreInfo analyst = 4;
-  int32 year = 5;
-  whitehawk.proto.scorecard_v3.v1.Quarter quarter = 6;
-  whitehawk.proto.scorecard_v3.indepthblackkitecmmcv2.v2.Status status = 7;
-  repeated whitehawk.proto.integration.black_kite.domain.v1.BlackKiteEntity entities = 8;
-  bool include_cmmc= 9;
-  string template = 10;
+  whitehawk.proto.scorecard_v3.indepthblackkitecmmcv2.v2.Status status = 5;
+  repeated whitehawk.proto.integration.black_kite.domain.v1.BlackKiteEntity entities = 6;
+  bool include_cmmc= 7;
+  string template = 8;
 }
 
 message CreateResponse {
