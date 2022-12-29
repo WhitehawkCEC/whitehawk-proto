@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.59.4](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.59.3...0.59.4) (2022-12-29)
+
+
+### Features
+
+* batch bk v3 proto def ([0460fce](https://github.com/WhitehawkCEC/whitehawk-proto/commit/0460fcef99826be99dd4a63f3483a1a9cb8a366a))
+
 ### [0.59.3](https://github.com/whitehawkcec/whitehawk-proto/compare/0.59.2...0.59.3) (2022-12-28)
 
 ### Features
