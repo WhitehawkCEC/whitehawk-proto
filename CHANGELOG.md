@@ -4,31 +4,27 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### [0.59.7](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.59.6...0.59.7) (2022-12-29)
 
-
 ### Bug Fixes
 
-* remove year and quarter as status already has it ([3439eac](https://github.com/WhitehawkCEC/whitehawk-proto/commit/3439eac27d52e7f473e1449e6641df598a6cbf5c))
+- remove year and quarter as status already has it ([3439eac](https://github.com/WhitehawkCEC/whitehawk-proto/commit/3439eac27d52e7f473e1449e6641df598a6cbf5c))
 
 ### [0.59.6](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.59.5...0.59.6) (2022-12-29)
 
-
 ### Bug Fixes
 
-* add companyinfo on batch request ([1973844](https://github.com/WhitehawkCEC/whitehawk-proto/commit/19738443299fe422e243192e718ac17aa85cfaa7))
+- add companyinfo on batch request ([1973844](https://github.com/WhitehawkCEC/whitehawk-proto/commit/19738443299fe422e243192e718ac17aa85cfaa7))
 
 ### [0.59.5](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.59.4...0.59.5) (2022-12-29)
 
-
 ### Features
 
-* use account id in request object itself ([9225e18](https://github.com/WhitehawkCEC/whitehawk-proto/commit/9225e18a7059f5ab6bcdbd29471eb5ed6f49c1c0))
+- use account id in request object itself ([9225e18](https://github.com/WhitehawkCEC/whitehawk-proto/commit/9225e18a7059f5ab6bcdbd29471eb5ed6f49c1c0))
 
 ### [0.59.4](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.59.3...0.59.4) (2022-12-29)
 
-
 ### Features
 
-* batch bk v3 proto def ([0460fce](https://github.com/WhitehawkCEC/whitehawk-proto/commit/0460fcef99826be99dd4a63f3483a1a9cb8a366a))
+- batch bk v3 proto def ([0460fce](https://github.com/WhitehawkCEC/whitehawk-proto/commit/0460fcef99826be99dd4a63f3483a1a9cb8a366a))
 
 ### [0.59.3](https://github.com/whitehawkcec/whitehawk-proto/compare/0.59.2...0.59.3) (2022-12-28)
 
