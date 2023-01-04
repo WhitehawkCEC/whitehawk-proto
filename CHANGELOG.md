@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.59.8](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.59.7...0.59.8) (2023-01-04)
+
+
+### Features
+
+* subscription on request itself ([4383c7d](https://github.com/WhitehawkCEC/whitehawk-proto/commit/4383c7d1c0b4eed922e1b4fdd93e67c3f04a0bf2))
+
 ### [0.59.7](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.59.6...0.59.7) (2022-12-29)
 
 ### Bug Fixes
