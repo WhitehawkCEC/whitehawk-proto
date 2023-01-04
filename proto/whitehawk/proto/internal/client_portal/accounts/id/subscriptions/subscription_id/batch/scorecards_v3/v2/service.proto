@@ -14,7 +14,8 @@ service Service {
 
 message CreateRequest {
   whitehawk.proto.slug.v1.Slug id = 1;
-  CreateBatchRequestBKV3 request = 2;
+  whitehawk.proto.slug.v1.Slug subscription_id = 2;
+  CreateBatchRequestBKV3 request = 3;
 }
 
 message CreateBatchRequestBKV3 {
