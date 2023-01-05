@@ -10,3 +10,22 @@ message Framework {
   string name = 3;
   optional string description = 4;
 }
+
+message FrameworkMoreInfo {
+  whitehawk.proto.ulid.v1.Ulid id = 1;
+  string code = 2;
+  string name = 3;
+  optional string description = 4;
+  repeated Finding findings = 5;
+}
+
+message Finding {
+  int32 control_id = 1;
+  optional string area = 2;
+  optional string item_id = 3;
+  optional string description = 4;
+  string comment = 5;
+  int32 confidence = 6;
+  string result = 7;
+  int32 percentatge = 8;
+}
