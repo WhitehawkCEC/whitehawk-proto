@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.60.1](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.60.0...0.60.1) (2023-01-05)
+
+
+### Features
+
+* add grpc list request for batch v3 as well ([6fe55c8](https://github.com/WhitehawkCEC/whitehawk-proto/commit/6fe55c8a283e8408108d6e5d93da353b2897d4b4))
+
 ## [0.60.0](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.59.9...0.60.0) (2023-01-05)
 
 
