@@ -2,6 +2,22 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.60.0](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.59.9...0.60.0) (2023-01-05)
+
+
+### ⚠ BREAKING CHANGES
+
+* rename for consistency
+
+### Features
+
+* add `ComplianceFramework` message ([4ade4d4](https://github.com/WhitehawkCEC/whitehawk-proto/commit/4ade4d40edcaea747def4015c8d1fc54d0f1d425))
+* add `FrameworkMoreInfo` + friends message ([b84ad33](https://github.com/WhitehawkCEC/whitehawk-proto/commit/b84ad3392559fdd53a8c441009a032d0dad1d799))
+* add field for average star level ([f82e109](https://github.com/WhitehawkCEC/whitehawk-proto/commit/f82e109bff3c0e22ce14fe08f358d18742884adf))
+* add service to read `FrameworkMoreInfo` ([720e7f8](https://github.com/WhitehawkCEC/whitehawk-proto/commit/720e7f8ffa64533bbd95df10fac0d37e720cbdc1))
+* add service to set `result_override` field ([17a3af2](https://github.com/WhitehawkCEC/whitehawk-proto/commit/17a3af28be8f4638040209287daa50c7f8167d3f))
+* rename for consistency ([b158604](https://github.com/WhitehawkCEC/whitehawk-proto/commit/b15860466abc7eb06762fa4af3cbfefbe0bba5c5))
+
 ### [0.59.9](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.59.8...0.59.9) (2023-01-05)
 
 ### [0.59.8](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.59.7...0.59.8) (2023-01-04)
