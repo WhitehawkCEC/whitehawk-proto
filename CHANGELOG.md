@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.61.0](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.60.6...0.61.0) (2023-01-05)
+
+
+### ⚠ BREAKING CHANGES
+
+* move unused `framework_details/v1` service
+* move unused `framework_details/v1` service
+
+### Features
+
+* move unused `framework_details/v1` service ([b3b90e0](https://github.com/WhitehawkCEC/whitehawk-proto/commit/b3b90e09b593f3ae6f06669de731923bbc0a3a45))
+* move unused `framework_details/v1` service ([a562e72](https://github.com/WhitehawkCEC/whitehawk-proto/commit/a562e724f916e472295bfb42b7c9fe04465bc565))
+
 ### [0.60.6](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.60.5...0.60.6) (2023-01-05)
 
 ### [0.60.5](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.60.4...0.60.5) (2023-01-05)
