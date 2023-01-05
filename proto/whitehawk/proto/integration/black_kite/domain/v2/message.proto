@@ -42,3 +42,7 @@ message SummaryComplianceReport {
 message ComplianceSummaryEntry {
   google.protobuf.Struct json = 1;
 }
+
+message ComplianceFramework {
+  repeated google.protobuf.Struct controls = 1;
+}
