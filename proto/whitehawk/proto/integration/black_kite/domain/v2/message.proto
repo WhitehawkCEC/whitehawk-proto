@@ -44,5 +44,5 @@ message ComplianceSummaryEntry {
 }
 
 message ComplianceFramework {
-  repeated google.protobuf.Struct controls = 1;
+  repeated google.protobuf.Struct findings = 1;
 }
