@@ -39,7 +39,7 @@ message ListRequest {
 }
 
 message ListResponse {
-  BatchAccountSubscriptionResultViewOnly result = 1;
+  repeated BatchAccountSubscriptionResultViewOnly result = 1;
 }
 
 message BatchAccountSubscriptionResultViewOnly {
