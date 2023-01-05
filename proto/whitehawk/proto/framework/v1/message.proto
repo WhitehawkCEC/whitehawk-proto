@@ -16,16 +16,17 @@ message FrameworkMoreInfo {
   string code = 2;
   string name = 3;
   optional string description = 4;
-  repeated Finding findings = 5;
+  int32 average_star_level = 5;
+  repeated Finding findings = 6;
 }
 
 message Finding {
-  int32 control_id = 1;
-  optional string area = 2;
-  optional string item_id = 3;
-  optional string description = 4;
-  string comment = 5;
-  int32 confidence = 6;
-  string result = 7;
-  int32 percentatge = 8;
+  string item_id = 1;
+  string area = 2;
+  string description = 3;
+  string comment = 4;
+  int32 confidence = 5;
+  string result = 6;
+  int32 percentage = 7;
+  optional string result_override = 8;
 }
