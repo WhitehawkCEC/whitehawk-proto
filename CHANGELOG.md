@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.61.5](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.61.4...0.61.5) (2023-01-06)
+
+
+### Bug Fixes
+
+* refactor convert zip to include supplie name as well ([e8a8f85](https://github.com/WhitehawkCEC/whitehawk-proto/commit/e8a8f85086f159e9af1ab919eea6ae16ed018abd))
+
 ### [0.61.4](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.61.3...0.61.4) (2023-01-06)
 
 
