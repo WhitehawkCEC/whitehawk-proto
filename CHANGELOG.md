@@ -4,32 +4,29 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### [0.61.3](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.61.2...0.61.3) (2023-01-06)
 
-
 ### Features
 
-* added zip grpc ([847038a](https://github.com/WhitehawkCEC/whitehawk-proto/commit/847038ad57f133aeb7d692eb362176595d6c042a))
+- added zip grpc ([847038a](https://github.com/WhitehawkCEC/whitehawk-proto/commit/847038ad57f133aeb7d692eb362176595d6c042a))
 
 ### [0.61.2](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.61.1...0.61.2) (2023-01-06)
 
 ### [0.61.1](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.61.0...0.61.1) (2023-01-06)
 
-
 ### Features
 
-* batch grpc read function ([b1c7a24](https://github.com/WhitehawkCEC/whitehawk-proto/commit/b1c7a24e9d5a2f2aaf35e4517e96676f941373b7))
+- batch grpc read function ([b1c7a24](https://github.com/WhitehawkCEC/whitehawk-proto/commit/b1c7a24e9d5a2f2aaf35e4517e96676f941373b7))
 
 ## [0.61.0](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.60.6...0.61.0) (2023-01-05)
 
-
 ### ⚠ BREAKING CHANGES
 
-* move unused `framework_details/v1` service
-* move unused `framework_details/v1` service
+- move unused `framework_details/v1` service
+- move unused `framework_details/v1` service
 
 ### Features
 
-* move unused `framework_details/v1` service ([b3b90e0](https://github.com/WhitehawkCEC/whitehawk-proto/commit/b3b90e09b593f3ae6f06669de731923bbc0a3a45))
-* move unused `framework_details/v1` service ([a562e72](https://github.com/WhitehawkCEC/whitehawk-proto/commit/a562e724f916e472295bfb42b7c9fe04465bc565))
+- move unused `framework_details/v1` service ([b3b90e0](https://github.com/WhitehawkCEC/whitehawk-proto/commit/b3b90e09b593f3ae6f06669de731923bbc0a3a45))
+- move unused `framework_details/v1` service ([a562e72](https://github.com/WhitehawkCEC/whitehawk-proto/commit/a562e724f916e472295bfb42b7c9fe04465bc565))
 
 ### [0.60.6](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.60.5...0.60.6) (2023-01-05)
 
@@ -37,42 +34,38 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### [0.60.4](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.60.3...0.60.4) (2023-01-05)
 
-
 ### Bug Fixes
 
-* missing repeated for list ([ec08e41](https://github.com/WhitehawkCEC/whitehawk-proto/commit/ec08e41d79ba5a521462d2c1100b0f4847b49bce))
+- missing repeated for list ([ec08e41](https://github.com/WhitehawkCEC/whitehawk-proto/commit/ec08e41d79ba5a521462d2c1100b0f4847b49bce))
 
 ### [0.60.3](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.60.2...0.60.3) (2023-01-05)
 
-
 ### Features
 
-* add rpc list for batch v3 ([219a595](https://github.com/WhitehawkCEC/whitehawk-proto/commit/219a595aac416633d86bbc95efb4f128e044361d))
+- add rpc list for batch v3 ([219a595](https://github.com/WhitehawkCEC/whitehawk-proto/commit/219a595aac416633d86bbc95efb4f128e044361d))
 
 ### [0.60.2](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.60.1...0.60.2) (2023-01-05)
 
 ### [0.60.1](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.60.0...0.60.1) (2023-01-05)
 
-
 ### Features
 
-* add grpc list request for batch v3 as well ([6fe55c8](https://github.com/WhitehawkCEC/whitehawk-proto/commit/6fe55c8a283e8408108d6e5d93da353b2897d4b4))
+- add grpc list request for batch v3 as well ([6fe55c8](https://github.com/WhitehawkCEC/whitehawk-proto/commit/6fe55c8a283e8408108d6e5d93da353b2897d4b4))
 
 ## [0.60.0](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.59.9...0.60.0) (2023-01-05)
 
-
 ### ⚠ BREAKING CHANGES
 
-* rename for consistency
+- rename for consistency
 
 ### Features
 
-* add `ComplianceFramework` message ([4ade4d4](https://github.com/WhitehawkCEC/whitehawk-proto/commit/4ade4d40edcaea747def4015c8d1fc54d0f1d425))
-* add `FrameworkMoreInfo` + friends message ([b84ad33](https://github.com/WhitehawkCEC/whitehawk-proto/commit/b84ad3392559fdd53a8c441009a032d0dad1d799))
-* add field for average star level ([f82e109](https://github.com/WhitehawkCEC/whitehawk-proto/commit/f82e109bff3c0e22ce14fe08f358d18742884adf))
-* add service to read `FrameworkMoreInfo` ([720e7f8](https://github.com/WhitehawkCEC/whitehawk-proto/commit/720e7f8ffa64533bbd95df10fac0d37e720cbdc1))
-* add service to set `result_override` field ([17a3af2](https://github.com/WhitehawkCEC/whitehawk-proto/commit/17a3af28be8f4638040209287daa50c7f8167d3f))
-* rename for consistency ([b158604](https://github.com/WhitehawkCEC/whitehawk-proto/commit/b15860466abc7eb06762fa4af3cbfefbe0bba5c5))
+- add `ComplianceFramework` message ([4ade4d4](https://github.com/WhitehawkCEC/whitehawk-proto/commit/4ade4d40edcaea747def4015c8d1fc54d0f1d425))
+- add `FrameworkMoreInfo` + friends message ([b84ad33](https://github.com/WhitehawkCEC/whitehawk-proto/commit/b84ad3392559fdd53a8c441009a032d0dad1d799))
+- add field for average star level ([f82e109](https://github.com/WhitehawkCEC/whitehawk-proto/commit/f82e109bff3c0e22ce14fe08f358d18742884adf))
+- add service to read `FrameworkMoreInfo` ([720e7f8](https://github.com/WhitehawkCEC/whitehawk-proto/commit/720e7f8ffa64533bbd95df10fac0d37e720cbdc1))
+- add service to set `result_override` field ([17a3af2](https://github.com/WhitehawkCEC/whitehawk-proto/commit/17a3af28be8f4638040209287daa50c7f8167d3f))
+- rename for consistency ([b158604](https://github.com/WhitehawkCEC/whitehawk-proto/commit/b15860466abc7eb06762fa4af3cbfefbe0bba5c5))
 
 ### [0.59.9](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.59.8...0.59.9) (2023-01-05)
 
