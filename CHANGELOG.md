@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.61.3](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.61.2...0.61.3) (2023-01-06)
+
+
+### Features
+
+* added zip grpc ([847038a](https://github.com/WhitehawkCEC/whitehawk-proto/commit/847038ad57f133aeb7d692eb362176595d6c042a))
+
 ### [0.61.2](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.61.1...0.61.2) (2023-01-06)
 
 ### [0.61.1](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.61.0...0.61.1) (2023-01-06)
