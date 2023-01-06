@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.61.1](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.61.0...0.61.1) (2023-01-06)
+
+
+### Features
+
+* batch grpc read function ([b1c7a24](https://github.com/WhitehawkCEC/whitehawk-proto/commit/b1c7a24e9d5a2f2aaf35e4517e96676f941373b7))
+
 ## [0.61.0](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.60.6...0.61.0) (2023-01-05)
 
 
