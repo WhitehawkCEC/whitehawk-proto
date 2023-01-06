@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.61.6](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.61.5...0.61.6) (2023-01-06)
+
+
+### Features
+
+* add `completeness` + `compliance` fields ([fbe03be](https://github.com/WhitehawkCEC/whitehawk-proto/commit/fbe03be2fb797ccccab963be392e3a8c72eb5024))
+
 ### [0.61.5](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.61.4...0.61.5) (2023-01-06)
 
 
