@@ -20,6 +20,7 @@ message FrameworkMoreInfo {
   repeated Finding findings = 6;
   int32 completeness = 7;
   int32 compliance = 8;
+  int32 confidence = 9;
 }
 
 message Finding {
