@@ -19,6 +19,8 @@ jobs:
 
       - name: Set up buf
         uses: bufbuild/buf-setup-action@v1.3.1
+        with:
+          github_token: ${{ github.token }}
 
       - name: Set up java
         uses: actions/setup-java@v2
