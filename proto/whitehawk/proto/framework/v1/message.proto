@@ -18,6 +18,8 @@ message FrameworkMoreInfo {
   optional string description = 4;
   int32 average_star_level = 5;
   repeated Finding findings = 6;
+  int32 completeness = 7;
+  int32 compliance = 8;
 }
 
 message Finding {
