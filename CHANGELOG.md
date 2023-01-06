@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.61.9](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.61.8...0.61.9) (2023-01-06)
+
+
+### Features
+
+* add `confidence` field ([e796501](https://github.com/WhitehawkCEC/whitehawk-proto/commit/e796501785bbcd06be921afa4baea66f747e7885))
+
 ### [0.61.8](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.61.7...0.61.8) (2023-01-06)
 
 
