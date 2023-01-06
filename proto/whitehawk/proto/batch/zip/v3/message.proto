@@ -7,5 +7,10 @@ import "whitehawk/proto/ulid/v1/message.proto";
 message ConvertToZip {
   whitehawk.proto.ulid.v1.Ulid batch_id = 1;
   string file_name = 2;
-  repeated whitehawk.proto.ulid.v1.Ulid scorecard_ids = 3;
+  repeated ScorecardSupplierInfo scorecard_ids = 3;
+}
+
+message ScorecardSupplierInfo {
+  whitehawk.proto.ulid.v1.Ulid scorecard_id = 1;
+  string supplier_name = 2;
 }
