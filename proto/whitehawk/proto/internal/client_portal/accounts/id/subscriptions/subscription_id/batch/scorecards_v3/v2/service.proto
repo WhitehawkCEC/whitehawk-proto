@@ -11,6 +11,7 @@ import "whitehawk/proto/batch/scorecards/v3/message.proto";
 
 service Service {
   rpc Create(CreateRequest) returns (CreateResponse);
+  rpc Read(ReadRequest) returns (ReadResponse);
   rpc List(ListRequest) returns (ListResponse);
 }
 
@@ -31,6 +32,15 @@ message CreateBatchRequestBKV3 {
 
 message CreateResponse {
   whitehawk.proto.ulid.v1.Ulid batch_id = 1;
+}
+
+message ReadRequest {
+  whitehawk.proto.slug.v1.Slug account_id = 1;
+  whitehawk.proto.ulid.v1.Ulid batch_id = 2;
+}
+
+message ReadResponse {
+  whitehawk.proto.batch.scorecards.v3.BatchAccountSubscriptionResultIndepthViewOnly result = 1;
 }
 
 message ListRequest {
