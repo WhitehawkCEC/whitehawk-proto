@@ -29,6 +29,10 @@ message ScorecardMeta {
   Status status = 4;
 }
 
+message PendingScorecard {
+  whitehawk.proto.ulid.v1.Ulid id = 1;
+}
+
 enum Status {
   STATUS_UNSPECIFIED = 0;
   STATUS_SUCCESS = 1;

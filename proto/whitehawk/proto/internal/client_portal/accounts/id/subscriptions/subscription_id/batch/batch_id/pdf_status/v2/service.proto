@@ -2,6 +2,7 @@ syntax = "proto3";
 
 package whitehawk.proto.internal.client_portal.accounts.id.subscriptions.subscription_id.batch.batch_id.pdf_status.v2;
 
+import "whitehawk/proto/batch/scorecards/v3/message.proto";
 import "whitehawk/proto/ulid/v1/message.proto";
 
 service Service {
@@ -13,5 +14,5 @@ message ReadRequest {
 }
 
 message ReadResponse {
-  repeated whitehawk.proto.ulid.v1.Ulid scorecard_id = 1;
+  repeated whitehawk.proto.batch.scorecards.v3.PendingScorecard pending = 1;
 }
