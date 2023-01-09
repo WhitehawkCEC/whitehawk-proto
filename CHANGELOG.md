@@ -4,40 +4,35 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### [0.61.9](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.61.8...0.61.9) (2023-01-06)
 
-
 ### Features
 
-* add `confidence` field ([e796501](https://github.com/WhitehawkCEC/whitehawk-proto/commit/e796501785bbcd06be921afa4baea66f747e7885))
+- add `confidence` field ([e796501](https://github.com/WhitehawkCEC/whitehawk-proto/commit/e796501785bbcd06be921afa4baea66f747e7885))
 
 ### [0.61.8](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.61.7...0.61.8) (2023-01-06)
 
-
 ### Features
 
-* response with meta ([de3c4ca](https://github.com/WhitehawkCEC/whitehawk-proto/commit/de3c4ca9e50859ffc925db1a9bdeee9eb318f0ee))
+- response with meta ([de3c4ca](https://github.com/WhitehawkCEC/whitehawk-proto/commit/de3c4ca9e50859ffc925db1a9bdeee9eb318f0ee))
 
 ### [0.61.7](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.61.6...0.61.7) (2023-01-06)
 
 ### [0.61.6](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.61.5...0.61.6) (2023-01-06)
 
-
 ### Features
 
-* add `completeness` + `compliance` fields ([fbe03be](https://github.com/WhitehawkCEC/whitehawk-proto/commit/fbe03be2fb797ccccab963be392e3a8c72eb5024))
+- add `completeness` + `compliance` fields ([fbe03be](https://github.com/WhitehawkCEC/whitehawk-proto/commit/fbe03be2fb797ccccab963be392e3a8c72eb5024))
 
 ### [0.61.5](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.61.4...0.61.5) (2023-01-06)
 
-
 ### Bug Fixes
 
-* refactor convert zip to include supplie name as well ([e8a8f85](https://github.com/WhitehawkCEC/whitehawk-proto/commit/e8a8f85086f159e9af1ab919eea6ae16ed018abd))
+- refactor convert zip to include supplie name as well ([e8a8f85](https://github.com/WhitehawkCEC/whitehawk-proto/commit/e8a8f85086f159e9af1ab919eea6ae16ed018abd))
 
 ### [0.61.4](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.61.3...0.61.4) (2023-01-06)
 
-
 ### Bug Fixes
 
-* undo unwanted move ([022a65c](https://github.com/WhitehawkCEC/whitehawk-proto/commit/022a65c7fb082da54f773980f3dbfa8cc016b401))
+- undo unwanted move ([022a65c](https://github.com/WhitehawkCEC/whitehawk-proto/commit/022a65c7fb082da54f773980f3dbfa8cc016b401))
 
 ### [0.61.3](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.61.2...0.61.3) (2023-01-06)
 
