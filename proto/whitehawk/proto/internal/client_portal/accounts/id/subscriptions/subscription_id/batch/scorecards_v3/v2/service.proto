@@ -2,12 +2,12 @@ syntax = "proto3";
 
 package whitehawk.proto.internal.client_portal.accounts.id.subscriptions.subscription_id.batch.scorecards_v3.v2;
 
+import "whitehawk/proto/batch/scorecards/v3/message.proto";
 import "whitehawk/proto/integration/black_kite/domain/v1/message.proto";
 import "whitehawk/proto/scorecard_v3/indepthblackkitecmmcv2/v2/message.proto";
 import "whitehawk/proto/scorecard_v3/v1/message.proto";
 import "whitehawk/proto/slug/v1/message.proto";
 import "whitehawk/proto/ulid/v1/message.proto";
-import "whitehawk/proto/batch/scorecards/v3/message.proto";
 
 service Service {
   rpc Create(CreateRequest) returns (CreateResponse);
