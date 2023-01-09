@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.63.0](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.62.3...0.63.0) (2023-01-09)
+
+
+### ⚠ BREAKING CHANGES
+
+* add v2 message for framework
+
+### Features
+
+* add v2 message for framework ([f4b2523](https://github.com/WhitehawkCEC/whitehawk-proto/commit/f4b252384451093d77a08ed679f86c80709cdedc))
+* add v2 service for `result_override` ([eb89ef0](https://github.com/WhitehawkCEC/whitehawk-proto/commit/eb89ef0c596e8ffbca497a514791cd1654f469e9))
+
 ### [0.62.3](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.62.2...0.62.3) (2023-01-09)
 
 ### [0.62.2](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.62.1...0.62.2) (2023-01-09)
