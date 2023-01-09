@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.62.1](https://github.com/whitehawkcec/whitehawk-proto/compare/0.62.0...0.62.1) (2023-01-09)
+
+
+### Features
+
+* **proto:** add service `client_portal.accounts__0__subscriptions__0__integrations__black_kite__entities__0__latest_scorecard.v1` ([97106b2](https://github.com/whitehawkcec/whitehawk-proto/commit/97106b21bd7d16d7b5761ac55763b991b30cc761))
+
 ## [0.62.0](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.61.9...0.62.0) (2023-01-09)
 
 
