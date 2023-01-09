@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+package whitehawk.proto.internal.client_portal.accounts.id.framework_details.framework_id.findings.finding_id.result_override.v2;
+
+import "whitehawk/proto/slug/v1/message.proto";
+import "whitehawk/proto/ulid/v1/message.proto";
+
+service Service {
+  rpc Set(SetRequest) returns (SetResponse);
+}
+
+message SetRequest {
+  whitehawk.proto.slug.v1.Slug account_id = 1;
+  whitehawk.proto.ulid.v1.Ulid framework_id = 2;
+  string item_id = 3;
+  optional int32 result_override = 4;
+}
+
+message SetResponse {}
