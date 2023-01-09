@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.62.2](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.62.1...0.62.2) (2023-01-09)
+
+
+### Features
+
+* add `priority` field ([7e0f7fe](https://github.com/WhitehawkCEC/whitehawk-proto/commit/7e0f7fe045668b9cc902a129a8ae37e27b4814ec))
+* add `set` service for priority ([ae303b9](https://github.com/WhitehawkCEC/whitehawk-proto/commit/ae303b936807d361fe65801cadad71ae2ab1f0ae))
+
 ### [0.62.1](https://github.com/whitehawkcec/whitehawk-proto/compare/0.62.0...0.62.1) (2023-01-09)
 
 
