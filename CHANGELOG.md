@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.63.3](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.63.2...0.63.3) (2023-01-09)
+
+
+### Bug Fixes
+
+* docx scorecard use pending object ([b59128e](https://github.com/WhitehawkCEC/whitehawk-proto/commit/b59128e2ee6293b13377ad82ac2640b5470072e3))
+
 ### [0.63.2](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.63.1...0.63.2) (2023-01-09)
 
 
