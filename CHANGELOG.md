@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.63.1](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.63.0...0.63.1) (2023-01-09)
+
+
+### Features
+
+* use framework v2 message ([a23baa0](https://github.com/WhitehawkCEC/whitehawk-proto/commit/a23baa0aa611500302fe51812f3060e75bdaa252))
+
 ## [0.63.0](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.62.3...0.63.0) (2023-01-09)
 
 
