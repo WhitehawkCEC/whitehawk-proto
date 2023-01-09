@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.62.0](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.61.9...0.62.0) (2023-01-09)
+
+
+### ⚠ BREAKING CHANGES
+
+* **proto:** remove service `client_portal.accounts.id.subscriptions.subscription_id.integrations.black_kite.entities.v1
+
+### Features
+
+* **proto:** remove service `client_portal.accounts.id.subscriptions.subscription_id.integrations.black_kite.entities.v1 ([9c3899c](https://github.com/WhitehawkCEC/whitehawk-proto/commit/9c3899c728d95cdf3d47a26f4fd4aee12df23dc4))
+* zip create response include id ([0148cd3](https://github.com/WhitehawkCEC/whitehawk-proto/commit/0148cd3f15fc7856772b41d579646b7db8518333))
+
 ### [0.61.9](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.61.8...0.61.9) (2023-01-06)
 
 ### Features
