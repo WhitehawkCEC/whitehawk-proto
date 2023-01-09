@@ -32,4 +32,12 @@ message Finding {
   string result = 6;
   int32 percentage = 7;
   optional string result_override = 8;
+  Priority priority = 9;
+}
+
+enum Priority {
+  PRIORITY_UNSPECIFIED = 0;
+  PRIORITY_HIGH = 1;
+  PRIORITY_MEDIUM = 2;
+  PRIORITY_LOW = 3;
 }
