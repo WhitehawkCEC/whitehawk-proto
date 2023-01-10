@@ -2,9 +2,9 @@ syntax = "proto3";
 
 package whitehawk.proto.internal.client_portal.accounts.id.framework_details.framework_id.findings.finding_id.priority.v1;
 
+import "whitehawk/proto/framework/v2/message.proto";
 import "whitehawk/proto/slug/v1/message.proto";
 import "whitehawk/proto/ulid/v1/message.proto";
-import "whitehawk/proto/framework/v2/message.proto";
 
 service Service {
   rpc Set(SetRequest) returns (SetResponse);
