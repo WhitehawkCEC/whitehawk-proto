@@ -4,65 +4,58 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### [0.63.3](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.63.2...0.63.3) (2023-01-09)
 
-
 ### Bug Fixes
 
-* docx scorecard use pending object ([b59128e](https://github.com/WhitehawkCEC/whitehawk-proto/commit/b59128e2ee6293b13377ad82ac2640b5470072e3))
+- docx scorecard use pending object ([b59128e](https://github.com/WhitehawkCEC/whitehawk-proto/commit/b59128e2ee6293b13377ad82ac2640b5470072e3))
 
 ### [0.63.2](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.63.1...0.63.2) (2023-01-09)
 
-
 ### Features
 
-* use framework v2 message ([31f7e49](https://github.com/WhitehawkCEC/whitehawk-proto/commit/31f7e49aa535ba97fc7f432e7f00020bdca78e9a))
+- use framework v2 message ([31f7e49](https://github.com/WhitehawkCEC/whitehawk-proto/commit/31f7e49aa535ba97fc7f432e7f00020bdca78e9a))
 
 ### [0.63.1](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.63.0...0.63.1) (2023-01-09)
 
-
 ### Features
 
-* use framework v2 message ([a23baa0](https://github.com/WhitehawkCEC/whitehawk-proto/commit/a23baa0aa611500302fe51812f3060e75bdaa252))
+- use framework v2 message ([a23baa0](https://github.com/WhitehawkCEC/whitehawk-proto/commit/a23baa0aa611500302fe51812f3060e75bdaa252))
 
 ## [0.63.0](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.62.3...0.63.0) (2023-01-09)
 
-
 ### ⚠ BREAKING CHANGES
 
-* add v2 message for framework
+- add v2 message for framework
 
 ### Features
 
-* add v2 message for framework ([f4b2523](https://github.com/WhitehawkCEC/whitehawk-proto/commit/f4b252384451093d77a08ed679f86c80709cdedc))
-* add v2 service for `result_override` ([eb89ef0](https://github.com/WhitehawkCEC/whitehawk-proto/commit/eb89ef0c596e8ffbca497a514791cd1654f469e9))
+- add v2 message for framework ([f4b2523](https://github.com/WhitehawkCEC/whitehawk-proto/commit/f4b252384451093d77a08ed679f86c80709cdedc))
+- add v2 service for `result_override` ([eb89ef0](https://github.com/WhitehawkCEC/whitehawk-proto/commit/eb89ef0c596e8ffbca497a514791cd1654f469e9))
 
 ### [0.62.3](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.62.2...0.62.3) (2023-01-09)
 
 ### [0.62.2](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.62.1...0.62.2) (2023-01-09)
 
-
 ### Features
 
-* add `priority` field ([7e0f7fe](https://github.com/WhitehawkCEC/whitehawk-proto/commit/7e0f7fe045668b9cc902a129a8ae37e27b4814ec))
-* add `set` service for priority ([ae303b9](https://github.com/WhitehawkCEC/whitehawk-proto/commit/ae303b936807d361fe65801cadad71ae2ab1f0ae))
+- add `priority` field ([7e0f7fe](https://github.com/WhitehawkCEC/whitehawk-proto/commit/7e0f7fe045668b9cc902a129a8ae37e27b4814ec))
+- add `set` service for priority ([ae303b9](https://github.com/WhitehawkCEC/whitehawk-proto/commit/ae303b936807d361fe65801cadad71ae2ab1f0ae))
 
 ### [0.62.1](https://github.com/whitehawkcec/whitehawk-proto/compare/0.62.0...0.62.1) (2023-01-09)
 
-
 ### Features
 
-* **proto:** add service `client_portal.accounts__0__subscriptions__0__integrations__black_kite__entities__0__latest_scorecard.v1` ([97106b2](https://github.com/whitehawkcec/whitehawk-proto/commit/97106b21bd7d16d7b5761ac55763b991b30cc761))
+- **proto:** add service `client_portal.accounts__0__subscriptions__0__integrations__black_kite__entities__0__latest_scorecard.v1` ([97106b2](https://github.com/whitehawkcec/whitehawk-proto/commit/97106b21bd7d16d7b5761ac55763b991b30cc761))
 
 ## [0.62.0](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.61.9...0.62.0) (2023-01-09)
 
-
 ### ⚠ BREAKING CHANGES
 
-* **proto:** remove service `client_portal.accounts.id.subscriptions.subscription_id.integrations.black_kite.entities.v1
+- **proto:** remove service `client_portal.accounts.id.subscriptions.subscription_id.integrations.black_kite.entities.v1
 
 ### Features
 
-* **proto:** remove service `client_portal.accounts.id.subscriptions.subscription_id.integrations.black_kite.entities.v1 ([9c3899c](https://github.com/WhitehawkCEC/whitehawk-proto/commit/9c3899c728d95cdf3d47a26f4fd4aee12df23dc4))
-* zip create response include id ([0148cd3](https://github.com/WhitehawkCEC/whitehawk-proto/commit/0148cd3f15fc7856772b41d579646b7db8518333))
+- **proto:** remove service `client_portal.accounts.id.subscriptions.subscription_id.integrations.black_kite.entities.v1 ([9c3899c](https://github.com/WhitehawkCEC/whitehawk-proto/commit/9c3899c728d95cdf3d47a26f4fd4aee12df23dc4))
+- zip create response include id ([0148cd3](https://github.com/WhitehawkCEC/whitehawk-proto/commit/0148cd3f15fc7856772b41d579646b7db8518333))
 
 ### [0.61.9](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.61.8...0.61.9) (2023-01-06)
 
