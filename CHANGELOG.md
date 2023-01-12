@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.63.4](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.63.3...0.63.4) (2023-01-12)
+
+
+### Features
+
+* account reports ([cddc8b9](https://github.com/WhitehawkCEC/whitehawk-proto/commit/cddc8b977cc88d8c2c052e222214d876be1f1109))
+* report service to retrieve all accounts ([7257b33](https://github.com/WhitehawkCEC/whitehawk-proto/commit/7257b333b6d7956520bf2521e7f7cc8bdab52de3))
+* report service to retrieve all subscriptions for an account ([8f0db74](https://github.com/WhitehawkCEC/whitehawk-proto/commit/8f0db7469329965451c04dbf9b0b5e6d3579f3d0))
+
 ### [0.63.3](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.63.2...0.63.3) (2023-01-09)
 
 ### Bug Fixes
