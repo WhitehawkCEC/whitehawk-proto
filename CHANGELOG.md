@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.63.5](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.63.4...0.63.5) (2023-01-12)
+
+
+### Bug Fixes
+
+* remove unused import ([19c1b5e](https://github.com/WhitehawkCEC/whitehawk-proto/commit/19c1b5ee98e1007674fdaf3c06a1db95fa6a6c0d))
+
 ### [0.63.4](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.63.3...0.63.4) (2023-01-12)
 
 
