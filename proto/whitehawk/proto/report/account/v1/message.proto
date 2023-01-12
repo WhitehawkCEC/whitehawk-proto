@@ -5,7 +5,6 @@ package whitehawk.proto.report.account.v1;
 import "whitehawk/proto/account/v1/message.proto";
 import "whitehawk/proto/slug/v1/message.proto";
 import "whitehawk/proto/subscription/v1/message.proto";
-import "whitehawk/proto/time/v1/message.proto";
 
 message ReportAccount {
   whitehawk.proto.slug.v1.Slug id = 1;
