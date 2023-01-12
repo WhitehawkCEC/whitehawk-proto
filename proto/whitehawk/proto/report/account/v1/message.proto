@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+package whitehawk.proto.report.account.v1;
+
+import "whitehawk/proto/account/v1/message.proto";
+import "whitehawk/proto/slug/v1/message.proto";
+import "whitehawk/proto/subscription/v1/message.proto";
+import "whitehawk/proto/time/v1/message.proto";
+
+message ReportAccount {
+  whitehawk.proto.slug.v1.Slug id = 1;
+  string name = 2;
+  whitehawk.proto.account.v1.AccountStatus status = 3;
+  int32 number_subscriptions = 4;
+}
+
+message ReportAccountSubscription {
+  string name = 1;
+  whitehawk.proto.subscription.v1.SubscriptionType type = 2;
+  whitehawk.proto.subscription.v1.SubscriptionStatus status = 3;
+  int32 number_products = 4;
+}
