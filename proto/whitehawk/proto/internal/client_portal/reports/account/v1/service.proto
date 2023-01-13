@@ -8,8 +8,7 @@ service Service {
   rpc List(ListRequest) returns (ListResponse);
 }
 
-message ListRequest {
-}
+message ListRequest {}
 
 message ListResponse {
   repeated whitehawk.proto.report.account.v1.ReportAccount accounts = 1;
