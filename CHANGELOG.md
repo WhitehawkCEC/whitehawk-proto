@@ -4,19 +4,17 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### [0.63.5](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.63.4...0.63.5) (2023-01-12)
 
-
 ### Bug Fixes
 
-* remove unused import ([19c1b5e](https://github.com/WhitehawkCEC/whitehawk-proto/commit/19c1b5ee98e1007674fdaf3c06a1db95fa6a6c0d))
+- remove unused import ([19c1b5e](https://github.com/WhitehawkCEC/whitehawk-proto/commit/19c1b5ee98e1007674fdaf3c06a1db95fa6a6c0d))
 
 ### [0.63.4](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.63.3...0.63.4) (2023-01-12)
 
-
 ### Features
 
-* account reports ([cddc8b9](https://github.com/WhitehawkCEC/whitehawk-proto/commit/cddc8b977cc88d8c2c052e222214d876be1f1109))
-* report service to retrieve all accounts ([7257b33](https://github.com/WhitehawkCEC/whitehawk-proto/commit/7257b333b6d7956520bf2521e7f7cc8bdab52de3))
-* report service to retrieve all subscriptions for an account ([8f0db74](https://github.com/WhitehawkCEC/whitehawk-proto/commit/8f0db7469329965451c04dbf9b0b5e6d3579f3d0))
+- account reports ([cddc8b9](https://github.com/WhitehawkCEC/whitehawk-proto/commit/cddc8b977cc88d8c2c052e222214d876be1f1109))
+- report service to retrieve all accounts ([7257b33](https://github.com/WhitehawkCEC/whitehawk-proto/commit/7257b333b6d7956520bf2521e7f7cc8bdab52de3))
+- report service to retrieve all subscriptions for an account ([8f0db74](https://github.com/WhitehawkCEC/whitehawk-proto/commit/8f0db7469329965451c04dbf9b0b5e6d3579f3d0))
 
 ### [0.63.3](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.63.2...0.63.3) (2023-01-09)
 
