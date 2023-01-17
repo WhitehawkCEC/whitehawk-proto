@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.63.7](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.63.6...0.63.7) (2023-01-17)
+
+
+### Features
+
+* batch scheduled proto def ([c3087a2](https://github.com/WhitehawkCEC/whitehawk-proto/commit/c3087a221478061190723adc211aff5b06719688))
+
 ### [0.63.6](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.63.5...0.63.6) (2023-01-17)
 
 
