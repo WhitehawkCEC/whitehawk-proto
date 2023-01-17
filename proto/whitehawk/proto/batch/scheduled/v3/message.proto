@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+package whitehawk.proto.batch.scheduled.v3;
+
+import "whitehawk/proto/scorecard_v3/v1/message.proto";
+import "whitehawk/proto/job/v1/message.proto";
+
+message CreateScheudledRequest {
+  whitehawk.proto.job.v1.FrequencyType frequency = 1;
+  optional whitehawk.proto.scorecard_v3.v1.Quarter quarter = 2;
+  IntegrationType type = 3;
+}
+
+enum IntegrationType {
+  INTEGRATION_TYPE_UNSPECIFIED = 0;
+  INTEGRATION_TYPE_BITSIGHT = 1;
+  INTEGRATION_TYPE_BLACK_KITE = 2;
+  INTEGRATION_TYPE_CYBER_ONE = 3;
+  INTEGRATION_TYPE_SUPPLY_WISDOM = 4;
+  INTEGRATION_TYPE_PERATON = 5;
+}
