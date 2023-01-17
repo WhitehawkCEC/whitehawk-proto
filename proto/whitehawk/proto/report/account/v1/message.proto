@@ -4,6 +4,7 @@ package whitehawk.proto.report.account.v1;
 
 import "whitehawk/proto/account/v1/message.proto";
 import "whitehawk/proto/slug/v1/message.proto";
+import "whitehawk/proto/subscription/product/v1/message.proto";
 import "whitehawk/proto/subscription/v1/message.proto";
 
 message ReportAccount {
@@ -14,8 +15,11 @@ message ReportAccount {
 }
 
 message ReportAccountSubscription {
-  string name = 1;
-  whitehawk.proto.subscription.v1.SubscriptionType type = 2;
-  whitehawk.proto.subscription.v1.SubscriptionStatus status = 3;
-  int32 number_products = 4;
+  whitehawk.proto.subscription.v1.Subscription subscription = 1;
+  int32 number_products = 2;
+}
+
+message ReportAccountSubscriptionProduct {
+  whitehawk.proto.subscription.product.v1.SubscriptionProduct product = 1;
+  whitehawk.proto.subscription.product.v1.SubscriptionProductConfig type = 2;;
 }
