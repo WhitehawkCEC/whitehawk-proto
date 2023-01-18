@@ -8,6 +8,8 @@ import "whitehawk/proto/ulid/v1/message.proto";
 
 service Service {
   rpc Create(CreateRequest) returns (CreateResponse);
+  rpc Read(ReadRequest) returns (ReadResponse);
+  rpc List(ListRequest) returns (ListResponse);
 }
 
 message CreateRequest {
@@ -19,3 +21,23 @@ message CreateRequest {
 message CreateResponse {
   whitehawk.proto.ulid.v1.Ulid id = 1;
 }
+
+message ReadRequest {
+  whitehawk.proto.slug.v1.Slug account_id = 1;
+  whitehawk.proto.slug.v1.Slug subscription_id = 2;
+  whitehawk.proto.ulid.v1.Ulid job_id = 3;
+}
+
+message ReadResponse {
+  whitehawk.proto.batch.scheduled.v3.BatchScheduledJob job = 1;
+}
+
+message ListRequest {
+  whitehawk.proto.slug.v1.Slug account_id = 1;
+  whitehawk.proto.slug.v1.Slug subscription_id = 2;
+}
+
+message ListResponse {
+  repeated whitehawk.proto.batch.scheduled.v3.BatchScheduledJob job = 1;
+}
+
