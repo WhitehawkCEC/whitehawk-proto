@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package whitehawk.proto.report.product.category.v1;
+
+import "whitehawk/proto/product/v1/message.proto";
+
+message ReportProductCategory {
+  whitehawk.proto.product.v1.ProductCategory category = 1;
+  int32 number_products = 2;
+  int32 number_bundles = 3;
+}
