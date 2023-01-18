@@ -4,18 +4,16 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### [0.63.7](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.63.6...0.63.7) (2023-01-17)
 
-
 ### Features
 
-* batch scheduled proto def ([c3087a2](https://github.com/WhitehawkCEC/whitehawk-proto/commit/c3087a221478061190723adc211aff5b06719688))
+- batch scheduled proto def ([c3087a2](https://github.com/WhitehawkCEC/whitehawk-proto/commit/c3087a221478061190723adc211aff5b06719688))
 
 ### [0.63.6](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.63.5...0.63.6) (2023-01-17)
 
-
 ### Features
 
-* report for subscription products ([7a3faa6](https://github.com/WhitehawkCEC/whitehawk-proto/commit/7a3faa690dab9873cfd4b0a1b2a590a76dbfccb1))
-* service for subscription product report ([120d9e9](https://github.com/WhitehawkCEC/whitehawk-proto/commit/120d9e959216d59aeac3c8284c6ac58252862533))
+- report for subscription products ([7a3faa6](https://github.com/WhitehawkCEC/whitehawk-proto/commit/7a3faa690dab9873cfd4b0a1b2a590a76dbfccb1))
+- service for subscription product report ([120d9e9](https://github.com/WhitehawkCEC/whitehawk-proto/commit/120d9e959216d59aeac3c8284c6ac58252862533))
 
 ### [0.63.5](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.63.4...0.63.5) (2023-01-12)
 
