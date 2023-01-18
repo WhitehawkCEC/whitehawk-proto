@@ -19,5 +19,3 @@ message CreateRequest {
 message CreateResponse {
   whitehawk.proto.ulid.v1.Ulid id = 1;
 }
-
-

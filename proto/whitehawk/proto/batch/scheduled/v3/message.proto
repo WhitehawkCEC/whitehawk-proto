@@ -2,8 +2,8 @@ syntax = "proto3";
 
 package whitehawk.proto.batch.scheduled.v3;
 
-import "whitehawk/proto/scorecard_v3/v1/message.proto";
 import "whitehawk/proto/job/v1/message.proto";
+import "whitehawk/proto/scorecard_v3/v1/message.proto";
 
 message CreateScheudledRequest {
   whitehawk.proto.job.v1.FrequencyType frequency = 1;

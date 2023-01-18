@@ -21,5 +21,6 @@ message ReportAccountSubscription {
 
 message ReportAccountSubscriptionProduct {
   whitehawk.proto.subscription.product.v1.SubscriptionProduct product = 1;
-  whitehawk.proto.subscription.product.v1.SubscriptionProductConfig type = 2;;
+  whitehawk.proto.subscription.product.v1.SubscriptionProductConfig type = 2;
+
 }
