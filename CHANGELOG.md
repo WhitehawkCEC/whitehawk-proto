@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.63.8](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.63.7...0.63.8) (2023-01-18)
+
+
+### Features
+
+* report for product categories ([88a3167](https://github.com/WhitehawkCEC/whitehawk-proto/commit/88a316775c86e245163f7bd76a4ebfe9a0220aed))
+* service for product category report ([33504f3](https://github.com/WhitehawkCEC/whitehawk-proto/commit/33504f347b2ff354c0264e08fe80042ad7656ded))
+
 ### [0.63.7](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.63.6...0.63.7) (2023-01-17)
 
 ### Features
