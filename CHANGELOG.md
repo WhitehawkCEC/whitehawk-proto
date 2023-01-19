@@ -4,18 +4,16 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### [0.63.9](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.63.8...0.63.9) (2023-01-18)
 
-
 ### Bug Fixes
 
-* merge conflicts ([5f4b843](https://github.com/WhitehawkCEC/whitehawk-proto/commit/5f4b84335e9fa507807cec96eea47820d1df4c39))
+- merge conflicts ([5f4b843](https://github.com/WhitehawkCEC/whitehawk-proto/commit/5f4b84335e9fa507807cec96eea47820d1df4c39))
 
 ### [0.63.8](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.63.7...0.63.8) (2023-01-18)
 
-
 ### Features
 
-* report for product categories ([88a3167](https://github.com/WhitehawkCEC/whitehawk-proto/commit/88a316775c86e245163f7bd76a4ebfe9a0220aed))
-* service for product category report ([33504f3](https://github.com/WhitehawkCEC/whitehawk-proto/commit/33504f347b2ff354c0264e08fe80042ad7656ded))
+- report for product categories ([88a3167](https://github.com/WhitehawkCEC/whitehawk-proto/commit/88a316775c86e245163f7bd76a4ebfe9a0220aed))
+- service for product category report ([33504f3](https://github.com/WhitehawkCEC/whitehawk-proto/commit/33504f347b2ff354c0264e08fe80042ad7656ded))
 
 ### [0.63.7](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.63.6...0.63.7) (2023-01-17)
 
