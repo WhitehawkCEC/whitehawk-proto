@@ -40,4 +40,3 @@ message ListRequest {
 message ListResponse {
   repeated whitehawk.proto.batch.scheduled.v3.BatchScheduledJob job = 1;
 }
-
