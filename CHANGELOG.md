@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.63.11](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.63.10...0.63.11) (2023-01-19)
+
+
+### Features
+
+* grpc delete service for scheduled ([548d21f](https://github.com/WhitehawkCEC/whitehawk-proto/commit/548d21fbbd94a47faab01c6a1abbc03733142b99))
+
 ### [0.63.10](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.63.9...0.63.10) (2023-01-19)
 
 
