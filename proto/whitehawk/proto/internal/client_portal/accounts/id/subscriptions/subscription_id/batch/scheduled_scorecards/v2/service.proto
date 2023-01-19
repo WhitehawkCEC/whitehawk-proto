@@ -9,6 +9,7 @@ import "whitehawk/proto/ulid/v1/message.proto";
 service Service {
   rpc Create(CreateRequest) returns (CreateResponse);
   rpc Read(ReadRequest) returns (ReadResponse);
+  rpc Update(UpdateRequest) returns (UpdateResponse);
   rpc List(ListRequest) returns (ListResponse);
 }
 
@@ -29,6 +30,16 @@ message ReadRequest {
 }
 
 message ReadResponse {
+  whitehawk.proto.batch.scheduled.v3.BatchScheduledJob job = 1;
+}
+
+message UpdateRequest {
+  whitehawk.proto.slug.v1.Slug account_id = 1;
+  whitehawk.proto.slug.v1.Slug subscription_id = 2;
+  whitehawk.proto.batch.scheduled.v3.BatchScheduledJob job = 3;
+}
+
+message UpdateResponse {
   whitehawk.proto.batch.scheduled.v3.BatchScheduledJob job = 1;
 }
 
