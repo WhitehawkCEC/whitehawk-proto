@@ -4,17 +4,15 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### [0.63.11](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.63.10...0.63.11) (2023-01-19)
 
-
 ### Features
 
-* grpc delete service for scheduled ([548d21f](https://github.com/WhitehawkCEC/whitehawk-proto/commit/548d21fbbd94a47faab01c6a1abbc03733142b99))
+- grpc delete service for scheduled ([548d21f](https://github.com/WhitehawkCEC/whitehawk-proto/commit/548d21fbbd94a47faab01c6a1abbc03733142b99))
 
 ### [0.63.10](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.63.9...0.63.10) (2023-01-19)
 
-
 ### Features
 
-* scheduled update grpc ([31db480](https://github.com/WhitehawkCEC/whitehawk-proto/commit/31db4801c139c365c11b1c7d105f8e25b2dbec2a))
+- scheduled update grpc ([31db480](https://github.com/WhitehawkCEC/whitehawk-proto/commit/31db4801c139c365c11b1c7d105f8e25b2dbec2a))
 
 ### [0.63.9](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.63.8...0.63.9) (2023-01-18)
 
