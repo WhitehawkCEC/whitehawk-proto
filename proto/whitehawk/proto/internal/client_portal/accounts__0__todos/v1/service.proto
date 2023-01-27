@@ -1,0 +1,47 @@
+syntax = "proto3";
+
+// buf:lint:ignore PACKAGE_LOWER_SNAKE_CASE
+package whitehawk.proto.internal.client_portal.accounts__0__todos.v1;
+
+import "whitehawk/proto/todo/v1/message.proto";
+import "whitehawk/proto/slug/v1/message.proto";
+import "whitehawk/proto/ulid/v1/message.proto";
+
+service Service {
+  rpc Create(CreateRequest) returns (CreateResponse);
+  rpc Update(UpdateRequest) returns (UpdateResponse);
+  rpc Delete(DeleteRequest) returns (DeleteResponse);
+  rpc List(ListRequest) returns (ListResponse);
+}
+
+message CreateRequest {
+  whitehawk.proto.slug.v1.Slug account_id = 1;
+  whitehawk.proto.todo.v1.Todo todo = 2;
+}
+
+message CreateResponse {
+  whitehawk.proto.ulid.v1.Ulid todo_id = 1;
+}
+
+message UpdateRequest {
+  whitehawk.proto.slug.v1.Slug account_id = 1;
+  whitehawk.proto.ulid.v1.Ulid todo_id = 2;
+  whitehawk.proto.todo.v1.Todo todo = 3;
+}
+
+message UpdateResponse {}
+
+message DeleteRequest {
+  whitehawk.proto.slug.v1.Slug account_id = 1;
+  whitehawk.proto.ulid.v1.Ulid todo_id = 2;
+}
+
+message DeleteResponse {}
+
+message ListRequest {
+  whitehawk.proto.slug.v1.Slug account_id = 1;
+}
+
+message ListResponse {
+  repeated whitehawk.proto.todo.v1.Todo todos = 1;
+}
