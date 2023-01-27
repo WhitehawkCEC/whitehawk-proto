@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.63.12](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.63.11...0.63.12) (2023-01-27)
+
+
+### Features
+
+* add `Todo` message ([670f50b](https://github.com/WhitehawkCEC/whitehawk-proto/commit/670f50b7b3441335ad576649a84a2a689f9da8a1))
+* add todo `CRUDL` services ([5ecaf96](https://github.com/WhitehawkCEC/whitehawk-proto/commit/5ecaf9604f486ebe4337bb1fe214d7464ef100fb))
+
 ### [0.63.11](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.63.10...0.63.11) (2023-01-19)
 
 ### Features
