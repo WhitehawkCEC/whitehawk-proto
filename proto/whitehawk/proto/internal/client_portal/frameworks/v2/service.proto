@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+package whitehawk.proto.internal.client_portal.frameworks.v2;
+
+import "whitehawk/proto/framework/v2/message.proto";
+import "whitehawk/proto/slug/v1/message.proto";
+
+service Service {
+  rpc Read(ReadRequest) returns (ReadResponse);
+}
+
+message ReadRequest {
+  whitehawk.proto.slug.v1.Slug id = 1;
+  string framework = 2;
+}
+
+message ReadResponse {
+  whitehawk.proto.framework.v2.Framework FrameworkMoreInfo = 1;
+}
