@@ -15,5 +15,5 @@ message ReadRequest {
 }
 
 message ReadResponse {
-  whitehawk.proto.framework.v2.Framework FrameworkMoreInfo = 1;
+  whitehawk.proto.framework.v2.Framework framework_more_info = 1;
 }
