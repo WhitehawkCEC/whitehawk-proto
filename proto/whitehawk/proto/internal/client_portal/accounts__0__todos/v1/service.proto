@@ -3,8 +3,8 @@ syntax = "proto3";
 // buf:lint:ignore PACKAGE_LOWER_SNAKE_CASE
 package whitehawk.proto.internal.client_portal.accounts__0__todos.v1;
 
-import "whitehawk/proto/todo/v1/message.proto";
 import "whitehawk/proto/slug/v1/message.proto";
+import "whitehawk/proto/todo/v1/message.proto";
 import "whitehawk/proto/ulid/v1/message.proto";
 
 service Service {
