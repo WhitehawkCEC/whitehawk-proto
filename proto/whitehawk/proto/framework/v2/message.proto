@@ -3,6 +3,7 @@ syntax = "proto3";
 package whitehawk.proto.framework.v2;
 
 import "whitehawk/proto/ulid/v1/message.proto";
+import "whitehawk/proto/meta/v1/message.proto";
 
 message Framework {
   whitehawk.proto.ulid.v1.Ulid id = 1;
@@ -20,6 +21,8 @@ message FrameworkMoreInfo {
   int32 completeness = 6;
   int32 compliance = 7;
   int32 confidence = 8;
+  whitehawk.proto.meta.v1.Meta meta = 9;
+
 }
 
 message Finding {
