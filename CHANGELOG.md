@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.67.0](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.66.0...0.67.0) (2023-02-15)
+
+
+### ⚠ BREAKING CHANGES
+
+* fix spelling
+
+### Features
+
+* fix spelling ([a6d08b4](https://github.com/WhitehawkCEC/whitehawk-proto/commit/a6d08b465c58435371d656bf4d9774b7bd82f5ea))
+
 ## [0.66.0](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.65.0...0.66.0) (2023-02-15)
 
 
