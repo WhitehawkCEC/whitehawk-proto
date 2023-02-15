@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.64.0](https://github.com/whitehawkcec/whitehawk-proto/compare/0.63.17...0.64.0) (2023-02-15)
+
+
+### ⚠ BREAKING CHANGES
+
+* remove messages for `scorecard_v3.indepthblackkitecmmcv2.v1`
+
+### Features
+
+* **proto:** add `enable_scorecard_download` flag ([b310485](https://github.com/whitehawkcec/whitehawk-proto/commit/b310485804e38a6b85af7c1fbdfa518a5d81b69c))
+* remove messages for `scorecard_v3.indepthblackkitecmmcv2.v1` ([109cc4e](https://github.com/whitehawkcec/whitehawk-proto/commit/109cc4e08649d858d1e7911adb1435e15dab5944))
+
 ### [0.63.17](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.63.16...0.63.17) (2023-01-30)
 
 ### [0.63.16](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.63.15...0.63.16) (2023-01-30)
