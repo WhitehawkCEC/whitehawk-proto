@@ -16,7 +16,7 @@ message ReadRequest {
 }
 
 message ReadResponse {
-  Framework framwork = 1;
+  Framework framework = 1;
 }
 
 message Framework {
