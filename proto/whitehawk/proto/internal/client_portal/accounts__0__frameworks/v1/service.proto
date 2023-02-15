@@ -1,0 +1,48 @@
+syntax = "proto3";
+
+// buf:lint:ignore PACKAGE_LOWER_SNAKE_CASE
+package whitehawk.proto.internal.client_portal.accounts__0__frameworks.v1;
+
+import "whitehawk/proto/slug/v1/message.proto";
+import "whitehawk/proto/framework/v3/message.proto";
+
+service Service {
+  rpc Read(ReadRequest) returns (ReadResponse);
+}
+
+message ReadRequest {
+  whitehawk.proto.slug.v1.Slug account_id = 1;
+  whitehawk.proto.framework.v3.FrameworkId framework_id = 2;
+}
+
+message ReadResponse {
+  Framework framwork = 1;
+}
+
+message Framework {
+  whitehawk.proto.framework.v3.FrameworkId id = 1;
+  string code = 2;
+  string name = 3;
+  string description = 4;
+  repeated Finding findings = 5;
+  int32 completeness = 6;
+  int32 compliance = 7;
+  int32 confidence = 8;
+}
+
+message Finding {
+  string item_id = 1;
+  string area = 2;
+  string description = 3;
+  int32 result = 4;
+  optional int32 result_override = 8;
+  Priority priority = 9;
+}
+
+enum Priority {
+  PRIORITY_UNSPECIFIED = 0;
+  PRIORITY_HIGH = 1;
+  PRIORITY_MEDIUM = 2;
+  PRIORITY_LOW = 3;
+}
+
