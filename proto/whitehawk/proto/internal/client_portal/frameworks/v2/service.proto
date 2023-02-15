@@ -1,0 +1,31 @@
+syntax = "proto3";
+
+package whitehawk.proto.internal.client_portal.frameworks.v2;
+
+import "whitehawk/proto/framework/v3/message.proto";
+
+service Service {
+  rpc Read(ReadRequest) returns (ReadResponse);
+  rpc Update(UpdateRequest) returns (UpdateResponse);
+  rpc List(ListRequest) returns (ListResponse);
+}
+
+message ReadRequest {
+  whitehawk.proto.framework.v3.FrameworkId id = 1;
+}
+
+message ReadResponse {
+  whitehawk.proto.framework.v3.FrameworkInfo framework = 1;
+}
+
+message UpdateRequest {
+  whitehawk.proto.framework.v3.FrameworkInfo framework = 1;
+}
+
+message UpdateResponse {}
+
+message ListRequest {}
+
+message ListResponse {
+  repeated whitehawk.proto.framework.v3.FrameworkInfo frameworks = 1;
+}
