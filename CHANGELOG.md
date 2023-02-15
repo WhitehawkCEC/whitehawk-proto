@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.65.0](https://github.com/whitehawkcec/whitehawk-proto/compare/0.64.0...0.65.0) (2023-02-15)
+
+
+### ⚠ BREAKING CHANGES
+
+* **proto:** remove service `client_portal.accounts.id.subscriptions.subscription_id.scorecards_v3.v1`
+
+### Features
+
+* **proto:** remove service `client_portal.accounts.id.subscriptions.subscription_id.scorecards_v3.v1` ([250ea1e](https://github.com/whitehawkcec/whitehawk-proto/commit/250ea1ed367a7cf49e2f1130a6ecbd24d78e085a))
+
 ## [0.64.0](https://github.com/whitehawkcec/whitehawk-proto/compare/0.63.17...0.64.0) (2023-02-15)
 
 
