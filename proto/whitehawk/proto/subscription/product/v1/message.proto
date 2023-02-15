@@ -26,6 +26,7 @@ message CyberRiskRatingBlackKiteConfig {
   whitehawk.proto.integration.black_kite.domain.v1.ScanProfileType license_type = 2;
   optional string mapped_entity_id = 3;
   optional string domain = 4;
+  bool enable_scorecard_download = 5;
 }
 
 message CyberRiskRatingBitsightConfig {
