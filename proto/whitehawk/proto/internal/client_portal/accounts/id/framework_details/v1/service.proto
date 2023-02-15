@@ -12,9 +12,9 @@ service Service {
 
 message ReadRequest {
   whitehawk.proto.slug.v1.Slug account_id = 1;
-  whitehawk.proto.ulid.v1.Ulid framework_id = 2;
+  string framework = 2;
 }
 
 message ReadResponse {
-  whitehawk.proto.framework.v2.FrameworkMoreInfo framework = 1;
+  whitehawk.proto.framework.v2.FrameworkMoreInfo framework_more_info = 1;
 }
