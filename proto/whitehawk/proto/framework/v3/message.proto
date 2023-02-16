@@ -2,6 +2,8 @@ syntax = "proto3";
 
 package whitehawk.proto.framework.v3;
 
+import "whitehawk/proto/ulid/v1/message.proto";
+
 enum FrameworkId {
   FRAMEWORK_ID_UNSPECIFIED = 0;
   FRAMEWORK_ID_CAIQ = 1;
@@ -21,35 +23,8 @@ enum FrameworkId {
 }
 
 message FrameworkInfo {
-  FrameworkId id = 1;
+  whitehawk.proto.ulid.v1.Ulid id = 1;
   string code = 2;
   string name = 3;
-  string description = 4;
-}
-
-message Framework {
-  FrameworkId id = 1;
-  string code = 2;
-  string name = 3;
-  string description = 4;
-  repeated Finding findings = 5;
-  int32 completeness = 6;
-  int32 compliance = 7;
-  int32 confidence = 8;
-}
-
-message Finding {
-  string item_id = 1;
-  string area = 2;
-  string description = 3;
-  int32 result = 4;
-  optional int32 result_override = 5;
-  Priority priority = 6;
-}
-
-enum Priority {
-  PRIORITY_UNSPECIFIED = 0;
-  PRIORITY_HIGH = 1;
-  PRIORITY_MEDIUM = 2;
-  PRIORITY_LOW = 3;
+  optional string description = 4;
 }
