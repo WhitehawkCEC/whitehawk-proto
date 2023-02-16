@@ -2,6 +2,21 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.68.0](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.67.0...0.68.0) (2023-02-16)
+
+
+### ⚠ BREAKING CHANGES
+
+* update `client_portal.frameworks.v2` service
+* remove `client_portal.accounts__0__framework_preferences.v1` service
+
+### Features
+
+* add `client_portal.accounts.id.frameworks.v2` service ([46f548e](https://github.com/WhitehawkCEC/whitehawk-proto/commit/46f548ec9baa4855cf4610db5b610df56dfeec22))
+* prefer consistent message to `v1` ([ad18be9](https://github.com/WhitehawkCEC/whitehawk-proto/commit/ad18be942aecde8574074b93a7c626a028ae558a))
+* remove `client_portal.accounts__0__framework_preferences.v1` service ([3760141](https://github.com/WhitehawkCEC/whitehawk-proto/commit/3760141cb3bae5bf9add282b1dc8b8ed21dbada2))
+* update `client_portal.frameworks.v2` service ([dea1c74](https://github.com/WhitehawkCEC/whitehawk-proto/commit/dea1c74631ddc10fdd62ed38a0957f264d69456c))
+
 ## [0.67.0](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.66.0...0.67.0) (2023-02-15)
 
 ### ⚠ BREAKING CHANGES
