@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.68.1](https://github.com/whitehawkcec/whitehawk-proto/compare/0.68.0...0.68.1) (2023-02-16)
+
+
+### Features
+
+* **proto:** add service `client_portal.accounts__0__subscriptions__0__feature_status.v1` ([0ce5123](https://github.com/whitehawkcec/whitehawk-proto/commit/0ce51238913eb00cab5824a233142ed346524154))
+
 ## [0.68.0](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.67.0...0.68.0) (2023-02-16)
 
 
