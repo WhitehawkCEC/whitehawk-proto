@@ -3,8 +3,8 @@ syntax = "proto3";
 // buf:lint:ignore PACKAGE_LOWER_SNAKE_CASE
 package whitehawk.proto.internal.client_portal.accounts__0__framework_preferences.v1;
 
-import "whitehawk/proto/slug/v1/message.proto";
 import "whitehawk/proto/framework/v3/message.proto";
+import "whitehawk/proto/slug/v1/message.proto";
 
 service Service {
   rpc Set(SetRequest) returns (SetResponse);
