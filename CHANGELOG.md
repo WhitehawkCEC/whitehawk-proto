@@ -4,59 +4,55 @@ All notable changes to this project will be documented in this file. See [standa
 
 ## [0.67.0](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.66.0...0.67.0) (2023-02-15)
 
-
 ### ⚠ BREAKING CHANGES
 
-* fix spelling
+- fix spelling
 
 ### Features
 
-* fix spelling ([a6d08b4](https://github.com/WhitehawkCEC/whitehawk-proto/commit/a6d08b465c58435371d656bf4d9774b7bd82f5ea))
+- fix spelling ([a6d08b4](https://github.com/WhitehawkCEC/whitehawk-proto/commit/a6d08b465c58435371d656bf4d9774b7bd82f5ea))
 
 ## [0.66.0](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.65.0...0.66.0) (2023-02-15)
 
-
 ### ⚠ BREAKING CHANGES
 
-* remove `client_portal.accounts.id.framework_details.v1` service
-* remove `client_portal.accounts.id.framework_details.framework_id.findings.finding_id.result_override.v2` service
-* remove `client_portal.accounts.id.framework_details.framework_id.findings.finding_id.result_override.v1` service
-* remove `client_portal.accounts.id.framework_details.framework_id.findings.finding_id.priority.v1` service
+- remove `client_portal.accounts.id.framework_details.v1` service
+- remove `client_portal.accounts.id.framework_details.framework_id.findings.finding_id.result_override.v2` service
+- remove `client_portal.accounts.id.framework_details.framework_id.findings.finding_id.result_override.v1` service
+- remove `client_portal.accounts.id.framework_details.framework_id.findings.finding_id.priority.v1` service
 
 ### Features
 
-* add `client_portal.accounts__0__framework_preferences.v1` service ([3bf7110](https://github.com/WhitehawkCEC/whitehawk-proto/commit/3bf7110cac452bf5c6e0855ae94c798820d5f80e))
-* add `client_portal.accounts__0__frameworks__0__findings__0__result_override.v1` service ([42f635f](https://github.com/WhitehawkCEC/whitehawk-proto/commit/42f635ff385b2649e690419fb9d4b57b8e48dd8a))
-* add `client_portal.accounts__0__frameworks.v1` service ([efc09e5](https://github.com/WhitehawkCEC/whitehawk-proto/commit/efc09e5c26c651436f8be3e26a749617e6b4636e))
-* add `whitehawk.proto.internal.client_portal.frameworks.v2` service ([534fe8a](https://github.com/WhitehawkCEC/whitehawk-proto/commit/534fe8ad6e1ab6fb9ed1fd427920bf5e45af89e4))
-* add framework v3 message ([940bf41](https://github.com/WhitehawkCEC/whitehawk-proto/commit/940bf41d33fe1904207519b02cf19d02a9db3e6c))
-* remove `client_portal.accounts.id.framework_details.framework_id.findings.finding_id.priority.v1` service ([f9813f7](https://github.com/WhitehawkCEC/whitehawk-proto/commit/f9813f72a34d9c2a0a88bc36d963c56d59ed2318))
-* remove `client_portal.accounts.id.framework_details.framework_id.findings.finding_id.result_override.v1` service ([e036e33](https://github.com/WhitehawkCEC/whitehawk-proto/commit/e036e332343a538ec85f3178b3fd09ac9f18aaf1))
-* remove `client_portal.accounts.id.framework_details.framework_id.findings.finding_id.result_override.v2` service ([728b0ad](https://github.com/WhitehawkCEC/whitehawk-proto/commit/728b0ad512616ad918df2f72925fd90c87394b88))
-* remove `client_portal.accounts.id.framework_details.v1` service ([4c7cdba](https://github.com/WhitehawkCEC/whitehawk-proto/commit/4c7cdba45aaa3dce8a1b72ff87540c445383cbb0))
+- add `client_portal.accounts__0__framework_preferences.v1` service ([3bf7110](https://github.com/WhitehawkCEC/whitehawk-proto/commit/3bf7110cac452bf5c6e0855ae94c798820d5f80e))
+- add `client_portal.accounts__0__frameworks__0__findings__0__result_override.v1` service ([42f635f](https://github.com/WhitehawkCEC/whitehawk-proto/commit/42f635ff385b2649e690419fb9d4b57b8e48dd8a))
+- add `client_portal.accounts__0__frameworks.v1` service ([efc09e5](https://github.com/WhitehawkCEC/whitehawk-proto/commit/efc09e5c26c651436f8be3e26a749617e6b4636e))
+- add `whitehawk.proto.internal.client_portal.frameworks.v2` service ([534fe8a](https://github.com/WhitehawkCEC/whitehawk-proto/commit/534fe8ad6e1ab6fb9ed1fd427920bf5e45af89e4))
+- add framework v3 message ([940bf41](https://github.com/WhitehawkCEC/whitehawk-proto/commit/940bf41d33fe1904207519b02cf19d02a9db3e6c))
+- remove `client_portal.accounts.id.framework_details.framework_id.findings.finding_id.priority.v1` service ([f9813f7](https://github.com/WhitehawkCEC/whitehawk-proto/commit/f9813f72a34d9c2a0a88bc36d963c56d59ed2318))
+- remove `client_portal.accounts.id.framework_details.framework_id.findings.finding_id.result_override.v1` service ([e036e33](https://github.com/WhitehawkCEC/whitehawk-proto/commit/e036e332343a538ec85f3178b3fd09ac9f18aaf1))
+- remove `client_portal.accounts.id.framework_details.framework_id.findings.finding_id.result_override.v2` service ([728b0ad](https://github.com/WhitehawkCEC/whitehawk-proto/commit/728b0ad512616ad918df2f72925fd90c87394b88))
+- remove `client_portal.accounts.id.framework_details.v1` service ([4c7cdba](https://github.com/WhitehawkCEC/whitehawk-proto/commit/4c7cdba45aaa3dce8a1b72ff87540c445383cbb0))
 
 ## [0.65.0](https://github.com/whitehawkcec/whitehawk-proto/compare/0.64.0...0.65.0) (2023-02-15)
 
-
 ### ⚠ BREAKING CHANGES
 
-* **proto:** remove service `client_portal.accounts.id.subscriptions.subscription_id.scorecards_v3.v1`
+- **proto:** remove service `client_portal.accounts.id.subscriptions.subscription_id.scorecards_v3.v1`
 
 ### Features
 
-* **proto:** remove service `client_portal.accounts.id.subscriptions.subscription_id.scorecards_v3.v1` ([250ea1e](https://github.com/whitehawkcec/whitehawk-proto/commit/250ea1ed367a7cf49e2f1130a6ecbd24d78e085a))
+- **proto:** remove service `client_portal.accounts.id.subscriptions.subscription_id.scorecards_v3.v1` ([250ea1e](https://github.com/whitehawkcec/whitehawk-proto/commit/250ea1ed367a7cf49e2f1130a6ecbd24d78e085a))
 
 ## [0.64.0](https://github.com/whitehawkcec/whitehawk-proto/compare/0.63.17...0.64.0) (2023-02-15)
 
-
 ### ⚠ BREAKING CHANGES
 
-* remove messages for `scorecard_v3.indepthblackkitecmmcv2.v1`
+- remove messages for `scorecard_v3.indepthblackkitecmmcv2.v1`
 
 ### Features
 
-* **proto:** add `enable_scorecard_download` flag ([b310485](https://github.com/whitehawkcec/whitehawk-proto/commit/b310485804e38a6b85af7c1fbdfa518a5d81b69c))
-* remove messages for `scorecard_v3.indepthblackkitecmmcv2.v1` ([109cc4e](https://github.com/whitehawkcec/whitehawk-proto/commit/109cc4e08649d858d1e7911adb1435e15dab5944))
+- **proto:** add `enable_scorecard_download` flag ([b310485](https://github.com/whitehawkcec/whitehawk-proto/commit/b310485804e38a6b85af7c1fbdfa518a5d81b69c))
+- remove messages for `scorecard_v3.indepthblackkitecmmcv2.v1` ([109cc4e](https://github.com/whitehawkcec/whitehawk-proto/commit/109cc4e08649d858d1e7911adb1435e15dab5944))
 
 ### [0.63.17](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.63.16...0.63.17) (2023-01-30)
 
