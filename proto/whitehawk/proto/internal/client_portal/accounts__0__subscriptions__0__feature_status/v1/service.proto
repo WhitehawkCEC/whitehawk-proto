@@ -1,0 +1,48 @@
+syntax = "proto3";
+
+// buf:lint:ignore PACKAGE_LOWER_SNAKE_CASE
+package whitehawk.proto.internal.client_portal.accounts__0__subscriptions__0__feature_status.v1;
+
+import "whitehawk/proto/resource/v1/message.proto";
+
+service Service {
+  rpc Get(GetRequest) returns (GetResponse);
+}
+
+message GetRequest {
+  whitehawk.proto.resource.v1.AccountSubscriptionId id = 1;
+}
+
+message GetResponse {
+  FeatureBitsight bitsight = 1;
+  FeatureBlackKite black_kite = 2;
+  FeatureCyberOne cyber_one = 3;
+  FeatureSupplyWisdom supply_wisdom = 4;
+  FeaturePeraton peraton = 5;
+  FeatureWhitehawk whitehawk = 6;
+}
+
+message FeatureBitsight {
+  bool is_enabled = 1;
+}
+
+message FeatureBlackKite {
+  bool is_enabled = 1;
+  bool is_scorecard_download_enabled = 2;
+}
+
+message FeatureCyberOne {
+  bool is_enabled = 1;
+}
+
+message FeatureSupplyWisdom {
+  bool is_enabled = 1;
+}
+
+message FeaturePeraton {
+  bool is_enabled = 1;
+}
+
+message FeatureWhitehawk {
+  bool is_enabled = 1;
+}
