@@ -11,7 +11,7 @@ service Service {
   rpc Create(CreateRequest) returns (CreateResponse);
   rpc Update(UpdateRequest) returns (UpdateResponse);
   rpc Delete(DeleteRequest) returns (DeleteResponse);
-  rpc show(ShowRequest) returns (ShowResponse);
+  rpc Show(ShowRequest) returns (ShowResponse);
 }
 
 message CreateRequest {
