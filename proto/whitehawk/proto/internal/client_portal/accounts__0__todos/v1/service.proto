@@ -11,7 +11,7 @@ service Service {
   rpc Create(CreateRequest) returns (CreateResponse);
   rpc Update(UpdateRequest) returns (UpdateResponse);
   rpc Delete(DeleteRequest) returns (DeleteResponse);
-  rpc List(ListRequest) returns (ListResponse);
+  rpc show(ShowRequest) returns (ShowResponse);
 }
 
 message CreateRequest {
@@ -38,10 +38,10 @@ message DeleteRequest {
 
 message DeleteResponse {}
 
-message ListRequest {
+message ShowRequest {
   whitehawk.proto.slug.v1.Slug account_id = 1;
 }
 
-message ListResponse {
+message ShowResponse {
   repeated whitehawk.proto.todo.v1.Todo todos = 1;
 }
