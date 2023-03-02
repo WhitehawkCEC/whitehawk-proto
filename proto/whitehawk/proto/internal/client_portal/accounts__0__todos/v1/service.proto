@@ -31,8 +31,7 @@ message UpdateRequest {
 message UpdateResponse {}
 
 message DeleteRequest {
-  whitehawk.proto.slug.v1.Slug account_id = 1;
-  whitehawk.proto.ulid.v1.Ulid todo_id = 2;
+  whitehawk.proto.ulid.v1.Ulid todo_id = 1;
 }
 
 message DeleteResponse {}
