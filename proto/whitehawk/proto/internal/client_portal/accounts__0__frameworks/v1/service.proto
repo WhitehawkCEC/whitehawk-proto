@@ -36,12 +36,5 @@ message Finding {
   string description = 3;
   int32 result = 4;
   optional int32 result_override = 8;
-  Priority priority = 9;
-}
-
-enum Priority {
-  PRIORITY_UNSPECIFIED = 0;
-  PRIORITY_HIGH = 1;
-  PRIORITY_MEDIUM = 2;
-  PRIORITY_LOW = 3;
+  whitehawk.proto.framework.v3.Priority priority = 9;
 }
