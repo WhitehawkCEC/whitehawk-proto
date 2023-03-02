@@ -22,6 +22,13 @@ enum FrameworkId {
   FRAMEWORK_ID_SA22 = 14;
 }
 
+enum Priority {
+  PRIORITY_UNSPECIFIED = 0;
+  PRIORITY_HIGH = 1;
+  PRIORITY_MEDIUM = 2;
+  PRIORITY_LOW = 3;
+}
+
 message FrameworkInfo {
   whitehawk.proto.ulid.v1.Ulid id = 1;
   string code = 2;
