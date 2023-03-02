@@ -30,7 +30,7 @@ enum Type {
   TYPE_CAIQ = 2;
   TYPE_CCPA = 3;
   TYPE_CIS_CSC_20 = 4;
-  TYPE_CMMC = 5;
+  TYPE_CMMC_20 = 5;
   TYPE_COBIT5 = 6;
   TYPE_CSF = 7;
   TYPE_GDPR = 8;
