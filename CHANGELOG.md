@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.68.6](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.68.5...0.68.6) (2023-03-02)
+
+
+### Features
+
+* add `accounts__0__frameworks__0__findings__0__priority.v1` service ([f5eaab2](https://github.com/WhitehawkCEC/whitehawk-proto/commit/f5eaab28b4a05d936f681d33626ef8b4fe2ac11a))
+* add `Priority` as global message ([a565dfd](https://github.com/WhitehawkCEC/whitehawk-proto/commit/a565dfdbcb26dbfe24040c44ce513c79196eb246))
+* prefer to use `v3` message ([9d793d3](https://github.com/WhitehawkCEC/whitehawk-proto/commit/9d793d363516745720bd5de05dc7e6a62243a759))
+* prefer to use global `Priority` message ([4766dfb](https://github.com/WhitehawkCEC/whitehawk-proto/commit/4766dfbe6de798e8e93bb2fa9ced1da9bf1433a4))
+
 ### [0.68.5](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.68.4...0.68.5) (2023-03-02)
 
 ### [0.68.4](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.68.3...0.68.4) (2023-02-28)
