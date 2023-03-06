@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.69.0](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.68.8...0.69.0) (2023-03-06)
+
+
+### ⚠ BREAKING CHANGES
+
+* remove `accounts__0__frameworks__0__findings__0__priority` v1 service
+
+### Features
+
+* remove `accounts__0__frameworks__0__findings__0__priority` v1 service ([a4fa3ff](https://github.com/WhitehawkCEC/whitehawk-proto/commit/a4fa3ff2d967e568feef76c04a68dcf861a02db5))
+
 ### [0.68.8](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.68.7...0.68.8) (2023-03-06)
 
 
