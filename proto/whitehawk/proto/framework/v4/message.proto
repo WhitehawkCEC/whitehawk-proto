@@ -1,0 +1,30 @@
+syntax = "proto3";
+
+package whitehawk.proto.framework.v4;
+
+import "whitehawk/proto/ulid/v1/message.proto";
+
+enum FrameworkId {
+  FRAMEWORK_ID_UNSPECIFIED = 0;
+  FRAMEWORK_ID_CAIQ = 1;
+  FRAMEWORK_ID_CCPA = 2;
+  FRAMEWORK_ID_CIS_CSC_20 = 3;
+  FRAMEWORK_ID_CMMC_2 = 4;
+  FRAMEWORK_ID_COBIT5 = 5;
+  FRAMEWORK_ID_CSF = 6;
+  FRAMEWORK_ID_GDPR = 7;
+  FRAMEWORK_ID_HIPAA = 8;
+  FRAMEWORK_ID_ISO27001 = 9;
+  FRAMEWORK_ID_NIST_800_171 = 10;
+  FRAMEWORK_ID_NIST_800_53_R5 = 11;
+  FRAMEWORK_ID_NY_DFS = 12;
+  FRAMEWORK_ID_PCI_DSS = 13;
+  FRAMEWORK_ID_SA22 = 14;
+}
+
+message FrameworkInfo {
+  whitehawk.proto.ulid.v1.Ulid id = 1;
+  string code = 2;
+  string name = 3;
+  optional string description = 4;
+}
