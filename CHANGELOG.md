@@ -2,6 +2,21 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.68.8](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.68.7...0.68.8) (2023-03-06)
+
+
+### Features
+
+* add `Framework` message v4 ([b1ba79d](https://github.com/WhitehawkCEC/whitehawk-proto/commit/b1ba79d79a1c99cb578d9143704de83b1406a86f))
+* add `Todo` message v2 ([ba0aaf2](https://github.com/WhitehawkCEC/whitehawk-proto/commit/ba0aaf257dc340b4ada58cc3154a398043214d04))
+* add v2 service for `accounts__0__frameworks` ([fa190b6](https://github.com/WhitehawkCEC/whitehawk-proto/commit/fa190b619cafac2c3e9f50f1b5ffe84c753ef656))
+* add v2 service for `accounts__0__todos` ([9874052](https://github.com/WhitehawkCEC/whitehawk-proto/commit/9874052fb91be64874f108f14b19ad1cd8abc7c4))
+
+
+### Bug Fixes
+
+* use `framework/v4` ([b1df160](https://github.com/WhitehawkCEC/whitehawk-proto/commit/b1df1608b643c0cc6b813b080b64df492d177d08))
+
 ### [0.68.7](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.68.6...0.68.7) (2023-03-02)
 
 ### [0.68.6](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.68.5...0.68.6) (2023-03-02)
