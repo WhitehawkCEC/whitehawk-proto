@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.69.1](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.69.0...0.69.1) (2023-03-06)
+
+
+### Features
+
+* add v2 service for `accounts__0__frameworks__0__findings__0__result_override` ([84a30a8](https://github.com/WhitehawkCEC/whitehawk-proto/commit/84a30a8c37ed785925ea0602f36bae84834b9e70))
+
 ## [0.69.0](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.68.8...0.69.0) (2023-03-06)
 
 
