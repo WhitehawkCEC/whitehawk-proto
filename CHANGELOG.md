@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.69.2](https://github.com/whitehawkcec/whitehawk-proto/compare/0.69.1...0.69.2) (2023-03-07)
+
+
+### Features
+
+* **proto:** add supply wisdom as subscription product ([397999e](https://github.com/whitehawkcec/whitehawk-proto/commit/397999ea3db539ace605f9f116321e21ee965003))
+
 ### [0.69.1](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.69.0...0.69.1) (2023-03-06)
 
 ### Features
