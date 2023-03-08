@@ -2,6 +2,7 @@
   "name": "@whitehawkcec/whitehawk-proto",
   "version": "0.1.0",
   "license": "MIT",
+  "type": "module",
   "scripts": {
     "build": "tsup src-gen/**/*.ts --format cjs,esm --minify --clean && tsc && tsc --project tsconfig.esm.json"
   },
