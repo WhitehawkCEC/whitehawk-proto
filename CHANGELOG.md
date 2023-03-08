@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.69.4](https://github.com/whitehawkcec/whitehawk-proto/compare/0.69.3...0.69.4) (2023-03-08)
+
+
+### Features
+
+* **web:** use `tsup` to build ([d57f1c3](https://github.com/whitehawkcec/whitehawk-proto/commit/d57f1c3cd8ff34ee4f0a037a8f795c6ff4b58dad))
+
 ### [0.69.3](https://github.com/whitehawkcec/whitehawk-proto/compare/0.69.2...0.69.3) (2023-03-08)
 
 
