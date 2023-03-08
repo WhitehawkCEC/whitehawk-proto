@@ -4,7 +4,7 @@
   "license": "MIT",
   "type": "module",
   "scripts": {
-    "build": "tsup src-gen/**/*.ts --format cjs,esm --minify --clean && tsc && tsc --project tsconfig.esm.json"
+    "build": "tsup src-gen/**/*.ts --format cjs,esm --minify --clean && tsc"
   },
   "dependencies": {
     "@protobuf-ts/runtime": "^2.8.1",
