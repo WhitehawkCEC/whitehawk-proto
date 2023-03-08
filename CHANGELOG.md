@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.69.3](https://github.com/whitehawkcec/whitehawk-proto/compare/0.69.2...0.69.3) (2023-03-08)
+
+
+### Features
+
+* **web:** generate ESM files as well ([1aa588e](https://github.com/whitehawkcec/whitehawk-proto/commit/1aa588e5268c8b1b48c42a87488825002bcfa416))
+
 ### [0.69.2](https://github.com/whitehawkcec/whitehawk-proto/compare/0.69.1...0.69.2) (2023-03-07)
 
 ### Features
