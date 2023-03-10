@@ -38,7 +38,9 @@ message UpdateRequest {
   whitehawk.proto.todo.v2.Todo todo = 2;
 }
 
-message UpdateResponse {}
+message UpdateResponse {
+  whitehawk.proto.ulid.v1.Ulid todo_id = 1;
+}
 
 message DeleteRequest {
   whitehawk.proto.ulid.v1.Ulid todo_id = 1;
