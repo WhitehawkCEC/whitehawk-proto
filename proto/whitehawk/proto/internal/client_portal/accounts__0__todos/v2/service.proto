@@ -46,7 +46,9 @@ message DeleteRequest {
   whitehawk.proto.ulid.v1.Ulid todo_id = 1;
 }
 
-message DeleteResponse {}
+message DeleteResponse {
+  whitehawk.proto.ulid.v1.Ulid todo_id = 1;
+}
 
 message ListRequest {
   whitehawk.proto.slug.v1.Slug account_id = 1;
