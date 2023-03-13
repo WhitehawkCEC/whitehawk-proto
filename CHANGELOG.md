@@ -8,25 +8,24 @@ All notable changes to this project will be documented in this file. See [standa
 
 ## [0.70.0](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.69.5...0.70.0) (2023-03-10)
 
-
 ### ⚠ BREAKING CHANGES
 
-* **proto:** remove service `client_portal.accounts.id.integrations.supply_wisdom.sync.v1`
-* **proto:** remove service `client_portal.accounts.id.integrations.supply_wisdom.syncs.v1`
-* **proto:** remove service `client_portal.accounts.id.integrations.supply_wisdom.report.v1`
-* **web:** stop generating extra `dist/esm/`
-* **web:** switch type to `module`
+- **proto:** remove service `client_portal.accounts.id.integrations.supply_wisdom.sync.v1`
+- **proto:** remove service `client_portal.accounts.id.integrations.supply_wisdom.syncs.v1`
+- **proto:** remove service `client_portal.accounts.id.integrations.supply_wisdom.report.v1`
+- **web:** stop generating extra `dist/esm/`
+- **web:** switch type to `module`
 
 ### Features
 
-* add `Read` resource to todos ([c724624](https://github.com/WhitehawkCEC/whitehawk-proto/commit/c7246240bc51505adf67a466f0b119ce84908575))
-* have `DeleteResponse` return `todo_id` for ui invalidation ([c975131](https://github.com/WhitehawkCEC/whitehawk-proto/commit/c975131072dbbbad6b0147bbb30b51498ab31e7e))
-* have `UpdateResponse` return `todo_id` for ui invalidation ([d94c9a5](https://github.com/WhitehawkCEC/whitehawk-proto/commit/d94c9a5cefc42bc3a621a7b97741c3b8557fe55b))
-* **proto:** remove service `client_portal.accounts.id.integrations.supply_wisdom.report.v1` ([b177f6a](https://github.com/WhitehawkCEC/whitehawk-proto/commit/b177f6a2ccc4e07d1244cd56e3640ad7c2dbf0d1))
-* **proto:** remove service `client_portal.accounts.id.integrations.supply_wisdom.sync.v1` ([af80dd2](https://github.com/WhitehawkCEC/whitehawk-proto/commit/af80dd25fa7cc4cefbc2e069d5713d30fd2711ff))
-* **proto:** remove service `client_portal.accounts.id.integrations.supply_wisdom.syncs.v1` ([ffa2db9](https://github.com/WhitehawkCEC/whitehawk-proto/commit/ffa2db9f7ac3d1506a4ac6e071e05d89044ede4d))
-* **web:** stop generating extra `dist/esm/` ([9058aba](https://github.com/WhitehawkCEC/whitehawk-proto/commit/9058aba8d5416e98df635cc0a3dd4e80e605abe4))
-* **web:** switch type to `module` ([2467b90](https://github.com/WhitehawkCEC/whitehawk-proto/commit/2467b907f1ab597123e687006d98fae3dae4ad9c))
+- add `Read` resource to todos ([c724624](https://github.com/WhitehawkCEC/whitehawk-proto/commit/c7246240bc51505adf67a466f0b119ce84908575))
+- have `DeleteResponse` return `todo_id` for ui invalidation ([c975131](https://github.com/WhitehawkCEC/whitehawk-proto/commit/c975131072dbbbad6b0147bbb30b51498ab31e7e))
+- have `UpdateResponse` return `todo_id` for ui invalidation ([d94c9a5](https://github.com/WhitehawkCEC/whitehawk-proto/commit/d94c9a5cefc42bc3a621a7b97741c3b8557fe55b))
+- **proto:** remove service `client_portal.accounts.id.integrations.supply_wisdom.report.v1` ([b177f6a](https://github.com/WhitehawkCEC/whitehawk-proto/commit/b177f6a2ccc4e07d1244cd56e3640ad7c2dbf0d1))
+- **proto:** remove service `client_portal.accounts.id.integrations.supply_wisdom.sync.v1` ([af80dd2](https://github.com/WhitehawkCEC/whitehawk-proto/commit/af80dd25fa7cc4cefbc2e069d5713d30fd2711ff))
+- **proto:** remove service `client_portal.accounts.id.integrations.supply_wisdom.syncs.v1` ([ffa2db9](https://github.com/WhitehawkCEC/whitehawk-proto/commit/ffa2db9f7ac3d1506a4ac6e071e05d89044ede4d))
+- **web:** stop generating extra `dist/esm/` ([9058aba](https://github.com/WhitehawkCEC/whitehawk-proto/commit/9058aba8d5416e98df635cc0a3dd4e80e605abe4))
+- **web:** switch type to `module` ([2467b90](https://github.com/WhitehawkCEC/whitehawk-proto/commit/2467b907f1ab597123e687006d98fae3dae4ad9c))
 
 ### [0.69.5](https://github.com/whitehawkcec/whitehawk-proto/compare/0.69.4...0.69.5) (2023-03-08)
 
