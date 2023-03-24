@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.70.3](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.70.2...0.70.3) (2023-03-24)
+
+
+### Features
+
+* **proto:** add service for account scorecard frameworks ([0d79189](https://github.com/WhitehawkCEC/whitehawk-proto/commit/0d79189081c7a2fc4d0556ad92e1e4891341e197))
+
 ### [0.70.2](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.70.1...0.70.2) (2023-03-10)
 
 ### [0.70.1](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.70.0...0.70.1) (2023-03-10)
