@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.70.4](https://github.com/whitehawkcec/whitehawk-proto/compare/0.70.3...0.70.4) (2023-03-27)
+
+
+### Features
+
+* **proto:** add service `accounts__0__subscriptions__0__scorecard_summaries_v3.v1` ([7ba785b](https://github.com/whitehawkcec/whitehawk-proto/commit/7ba785b3027e505f462cd4e4535ffabf11e36b77))
+
 ### [0.70.3](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.70.2...0.70.3) (2023-03-24)
 
 ### Features
