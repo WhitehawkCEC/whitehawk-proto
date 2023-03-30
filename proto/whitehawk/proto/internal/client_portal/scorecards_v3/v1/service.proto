@@ -37,3 +37,4 @@ message ScorecardInDepthBlackKiteCmmcV2 {
   whitehawk.proto.scorecard_v3.indepthblackkitecmmcv2.v2.DataBkCmmcV2 data = 1;
   whitehawk.proto.scorecard_v3.v1.TemplateId template = 2;
 }
+

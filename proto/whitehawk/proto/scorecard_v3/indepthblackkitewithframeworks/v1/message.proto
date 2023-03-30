@@ -12,3 +12,4 @@ message ScorecardInDepthBlackKiteWithFrameworks {
   whitehawk.proto.scorecard_v3.v1.TemplateId template = 2;
   repeated whitehawk.proto.internal.client_portal.accounts__0__frameworks.v2.Framework frameworks = 3;
 }
+
