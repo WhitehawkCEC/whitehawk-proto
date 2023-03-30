@@ -5,6 +5,7 @@ package whitehawk.proto.internal.client_portal.scorecards_v3.v1;
 import "whitehawk/proto/scorecard_v3/indepthblackkitecmmcv2/v2/message.proto";
 import "whitehawk/proto/scorecard_v3/v1/message.proto";
 import "whitehawk/proto/ulid/v1/message.proto";
+import "whitehawk/proto/scorecard_v3/indepthblackkitewithframeworks/v1/message.proto";
 
 service Service {
   rpc Read(ReadRequest) returns (ReadResponse);
@@ -18,6 +19,7 @@ message ReadRequest {
 message ReadResponse {
   oneof scorecard {
     ScorecardInDepthBlackKiteCmmcV2 bk = 3;
+    whitehawk.proto.scorecard_v3.indepthblackkitewithframeworks.v1.ScorecardInDepthBlackKiteWithFrameworks bkf = 4;
   }
 }
 
@@ -25,6 +27,7 @@ message UpdateRequest {
   whitehawk.proto.ulid.v1.Ulid scorecard_id = 1;
   oneof scorecard {
     ScorecardInDepthBlackKiteCmmcV2 bk = 3;
+    whitehawk.proto.scorecard_v3.indepthblackkitewithframeworks.v1.ScorecardInDepthBlackKiteWithFrameworks bkf = 4;
   }
 }
 
