@@ -22,6 +22,6 @@ message GetRequest {
   whitehawk.proto.slug.v1.Slug account_id = 1;
 }
 
-message GetResponse { 
+message GetResponse {
   repeated whitehawk.proto.framework.v4.FrameworkInfo frameworks = 1;
 }
