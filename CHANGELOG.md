@@ -4,10 +4,9 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### [0.70.7](https://github.com/whitehawkcec/whitehawk-proto/compare/0.70.6...0.70.7) (2023-04-04)
 
-
 ### Features
 
-* **proto:** add service `client_portal.accounts__0__subscriptions__0__licensing_id.v1` ([1174d80](https://github.com/whitehawkcec/whitehawk-proto/commit/1174d80cf06cb92c98632524455d5bf83ba52743))
+- **proto:** add service `client_portal.accounts__0__subscriptions__0__licensing_id.v1` ([1174d80](https://github.com/whitehawkcec/whitehawk-proto/commit/1174d80cf06cb92c98632524455d5bf83ba52743))
 
 ### [0.70.6](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.70.5...0.70.6) (2023-04-03)
 
