@@ -4,11 +4,13 @@ package whitehawk.proto.scorecard_v3.indepthblackkitewithframeworks.v1;
 
 import "whitehawk/proto/scorecard_v3/indepthblackkitecmmcv2/v2/message.proto";
 import "whitehawk/proto/scorecard_v3/v1/message.proto";
+import "whitehawk/proto/ulid/v1/message.proto";
 import "whitehawk/proto/internal/client_portal/accounts__0__frameworks/v2/service.proto";
 
 message ScorecardInDepthBlackKiteWithFrameworks {
-  whitehawk.proto.scorecard_v3.indepthblackkitecmmcv2.v2.DataBkCmmcV2 data = 1;
-  whitehawk.proto.scorecard_v3.v1.TemplateId template = 2;
-  repeated whitehawk.proto.internal.client_portal.accounts__0__frameworks.v2.Framework frameworks = 3;
+  whitehawk.proto.ulid.v1.Ulid id = 1;
+  whitehawk.proto.scorecard_v3.indepthblackkitecmmcv2.v2.DataBkCmmcV2 data = 2;
+  whitehawk.proto.scorecard_v3.v1.TemplateId template = 3;
+  repeated whitehawk.proto.internal.client_portal.accounts__0__frameworks.v2.Framework frameworks = 4;
 }
 
