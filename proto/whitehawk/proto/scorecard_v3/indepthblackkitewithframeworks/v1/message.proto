@@ -15,4 +15,3 @@ message ScorecardInDepthBlackKiteWithFrameworks {
   repeated whitehawk.proto.internal.client_portal.accounts__0__frameworks.v2.Framework frameworks = 4;
   repeated whitehawk.proto.framework.v4.FrameworkId chosen_frameworks = 5;
 }
-
