@@ -1,0 +1,68 @@
+syntax = "proto3";
+
+package whitehawk.proto.scorecard_v3.snapshot.v3;
+
+import "whitehawk/proto/meta/v2/message.proto";
+import "whitehawk/proto/scorecard_v3/v1/message.proto";
+import "whitehawk/proto/scorecard_v3/indepthblackkitecmmcv2/v2/message.proto";
+import "whitehawk/proto/status/v1/message.proto";
+import "whitehawk/proto/todo/v2/message.proto";
+import "whitehawk/proto/time/v1/message.proto";
+import "whitehawk/proto/ulid/v1/message.proto";
+import "whitehawk/proto/user/v1/message.proto";
+import "whitehawk/proto/uuid/v1/message.proto";
+
+message ScorecardSnapshot {
+  whitehawk.proto.ulid.v1.Ulid id = 1;
+  DataSnapshot data = 2;
+  whitehawk.proto.scorecard_v3.v1.TemplateId template = 3;
+}
+
+message DataSnapshot {
+  whitehawk.proto.scorecard_v3.v1.BuyerInfo buyer = 1;
+  whitehawk.proto.scorecard_v3.v1.SupplierBasicInfo supplier = 2;
+  QuestionnaireResponse questionnaire_response = 3;
+  RiskIndicator risk_indicator = 4;
+  repeated whitehawk.proto.todo.v2.Todo todos = 5;
+  whitehawk.proto.scorecard_v3.indepthblackkitecmmcv2.v2.BundleSolution bundle = 6;
+  whitehawk.proto.status.v1.Status status = 7;
+  whitehawk.proto.meta.v2.Meta meta = 8;
+}
+
+message QuestionnaireResponse {
+  whitehawk.proto.uuid.v1.Uuid id = 1;
+  string questionnaire_id = 2;
+  whitehawk.proto.scorecard_v3.v1.CompanyInfo company = 3;
+  whitehawk.proto.user.v1.User user = 4;
+  whitehawk.proto.time.v1.IsoDateTime created_at = 5;
+  repeated  Answer answers = 6;
+}
+
+message Answer {
+  string question_id = 1;
+  oneof value {
+    int32 numeric = 2;
+    string single_select = 3;
+    MultiSelect multi_select = 4;
+  }
+}
+
+message MultiSelect {
+  repeated string values = 1;
+}
+
+message CyberScore {
+  double value = 1;
+}
+
+message RiskIndicator {
+  CyberScore cyber_score = 1;
+  repeated string text = 2;
+  string note = 3;
+}
+
+message CompanyOverview {
+  map<string, string> summary = 1;
+  map<string, double> scores = 2;
+  repeated string text = 3;
+}
