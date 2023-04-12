@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+package whitehawk.proto.internal.client_portal.accounts.id.snapshot_scorecards.questionnaire_response.v1;
+
+import "whitehawk/proto/slug/v1/message.proto";
+import "whitehawk/proto/scorecard_v3/snapshot/v3/message.proto";
+
+service Service {
+  rpc Read(ReadRequest) returns (ReadResponse);
+}
+
+message ReadRequest {
+  whitehawk.proto.slug.v1.Slug account_id = 1;
+}
+
+message ReadResponse {
+  whitehawk.proto.scorecard_v3.snapshot.v3.QuestionnaireResponse questionnaire_response = 1;
+}
