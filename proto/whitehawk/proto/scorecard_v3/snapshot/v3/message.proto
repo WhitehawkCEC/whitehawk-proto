@@ -4,7 +4,7 @@ package whitehawk.proto.scorecard_v3.snapshot.v3;
 
 import "whitehawk/proto/meta/v2/message.proto";
 import "whitehawk/proto/scorecard_v3/v1/message.proto";
-import "whitehawk/proto/scorecard_v3/indepthblackkitecmmcv2/v2/message.proto";
+import "whitehawk/proto/slug/v1/message.proto";
 import "whitehawk/proto/status/v1/message.proto";
 import "whitehawk/proto/todo/v2/message.proto";
 import "whitehawk/proto/time/v1/message.proto";
@@ -24,7 +24,7 @@ message DataSnapshot {
   QuestionnaireResponse questionnaire_response = 3;
   RiskIndicator risk_indicator = 4;
   repeated whitehawk.proto.todo.v2.Todo todos = 5;
-  whitehawk.proto.scorecard_v3.indepthblackkitecmmcv2.v2.BundleSolution bundle = 6;
+  BundleSolution bundle = 6;
   whitehawk.proto.status.v1.Status status = 7;
   whitehawk.proto.meta.v2.Meta meta = 8;
 }
@@ -66,3 +66,34 @@ message CompanyOverview {
   map<string, double> scores = 2;
   repeated string text = 3;
 }
+
+message BundleSolution {
+  BundleSolutionEntry essential = 1;
+  BundleSolutionEntry balanced = 2;
+  BundleSolutionEntry premier = 3;
+}
+
+message BundleSolutionEntry {
+  string description = 1;
+  repeated ProductShortInfo products = 2;
+  repeated ProductCategoryInfo selection_categories = 3;
+}
+
+message ProductCategoryInfo {
+  whitehawk.proto.slug.v1.Slug id = 1;
+  string name = 2;
+}
+
+message ProductShortInfo {
+  whitehawk.proto.ulid.v1.Ulid id = 1;
+  string name = 2;
+  optional string description = 3;
+  ManufacturerInfo manufacturer = 4;
+  repeated ProductCategoryInfo categories = 5;
+}
+
+message ManufacturerInfo {
+  whitehawk.proto.slug.v1.Slug id = 1;
+  string name = 2;
+}
+
