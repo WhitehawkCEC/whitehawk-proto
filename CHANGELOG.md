@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.70.13](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.70.12...0.70.13) (2023-04-12)
+
+
+### Features
+
+* **proto:** add bundle solution ([c3cd5f8](https://github.com/WhitehawkCEC/whitehawk-proto/commit/c3cd5f802ccda2538624c3f8f79e5938e07f96c4))
+* **proto:** service to retrieve bundle solution ([058dd6b](https://github.com/WhitehawkCEC/whitehawk-proto/commit/058dd6b7257a2c73f548c113115bdb1c4744386a))
+
 ### [0.70.12](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.70.11...0.70.12) (2023-04-12)
 
 
