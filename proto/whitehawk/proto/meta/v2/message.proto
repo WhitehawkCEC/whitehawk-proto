@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package whitehawk.proto.meta.v2;
+
+import "whitehawk/proto/time/v1/message.proto";
+
+message Meta {
+  whitehawk.proto.time.v1.IsoDateTime created_at = 1;
+  whitehawk.proto.time.v1.IsoDateTime updated_at = 2;
+  whitehawk.proto.time.v1.IsoDateTime archived_at = 3;
+}
