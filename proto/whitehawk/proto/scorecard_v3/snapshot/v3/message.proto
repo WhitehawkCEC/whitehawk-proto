@@ -35,7 +35,7 @@ message QuestionnaireResponse {
   whitehawk.proto.scorecard_v3.v1.CompanyInfo company = 3;
   whitehawk.proto.user.v1.User user = 4;
   whitehawk.proto.time.v1.IsoDateTime created_at = 5;
-  repeated  Answer answers = 6;
+  repeated Answer answers = 6;
 }
 
 message Answer {
