@@ -8,3 +8,10 @@ message UserInfo {
   whitehawk.proto.uuid.v1.Uuid id = 1;
   string name = 2;
 }
+
+message User {
+  whitehawk.proto.uuid.v1.Uuid id = 1;
+  whitehawk.proto.uuid.v1.Uuid parent_id = 2;
+  string external_id = 3;
+  string email = 4;
+}
