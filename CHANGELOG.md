@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.70.11](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.70.10...0.70.11) (2023-04-12)
+
+
+### Features
+
+* **proto:** add archived data to meta ([55362a9](https://github.com/WhitehawkCEC/whitehawk-proto/commit/55362a97b8f260061cc3dbd9d45d8b328a6d87f8))
+* **proto:** add service for company overview ([e74484c](https://github.com/WhitehawkCEC/whitehawk-proto/commit/e74484cc0b49e7d7de3fe70df2c14a3cf3065dff))
+* **proto:** add snapshot scorecard ([f05d931](https://github.com/WhitehawkCEC/whitehawk-proto/commit/f05d9312ecacfb84ecdf5faf6893f9386dc51c7b))
+* **proto:** add user with additional fields ([77896bd](https://github.com/WhitehawkCEC/whitehawk-proto/commit/77896bdff1539f083166ba587aff0cf8d64f3b6e))
+
 ### [0.70.10](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.70.9...0.70.10) (2023-04-10)
 
 ### [0.70.9](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.70.8...0.70.9) (2023-04-05)
