@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.70.16](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.70.15...0.70.16) (2023-04-12)
+
+
+### Features
+
+* **proto:** service for standard questionnaire response ([307b21d](https://github.com/WhitehawkCEC/whitehawk-proto/commit/307b21d3f553e0f5c81fd5e16e1f885ce35f1a79))
+
 ### [0.70.15](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.70.14...0.70.15) (2023-04-12)
 
 ### [0.70.14](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.70.13...0.70.14) (2023-04-12)
