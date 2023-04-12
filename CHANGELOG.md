@@ -9,6 +9,9 @@ All notable changes to this project will be documented in this file. See [standa
 
 * **proto:** service for questionnaire response ([8c319fc](https://github.com/WhitehawkCEC/whitehawk-proto/commit/8c319fc2246015e875e98cd3ddf0e969fbd1ec53))
 
+* template use meta ([cbb1e66](https://github.com/WhitehawkCEC/whitehawk-proto/commit/cbb1e66d838c6ec9fe90ece13ea9f96225d301ac))
+
+
 ### [0.70.16](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.70.15...0.70.16) (2023-04-12)
 
 
