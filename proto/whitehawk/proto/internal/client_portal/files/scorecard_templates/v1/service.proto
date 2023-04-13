@@ -17,7 +17,9 @@ message CreateRequest {
   bytes data = 2;
 }
 
-message CreateResponse {}
+message CreateResponse {
+  whitehawk.proto.files.scorecard_templates.v1.ScorecardTemplate template = 1;
+}
 
 message UpdateRequest {
   whitehawk.proto.files.scorecard_templates.v1.ScorecardTemplate template = 1;
