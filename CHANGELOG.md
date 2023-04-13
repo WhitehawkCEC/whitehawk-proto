@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.70.19](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.70.18...0.70.19) (2023-04-13)
+
+
+### Features
+
+* create response return created object ([7ac3d4d](https://github.com/WhitehawkCEC/whitehawk-proto/commit/7ac3d4d6ee5b6f68085841b377630a458ef0ea66))
+
 ### [0.70.18](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.70.17...0.70.18) (2023-04-12)
 
 ### Features
