@@ -1,0 +1,58 @@
+syntax = "proto3";
+
+package whitehawk.proto.internal.client_portal.accounts.id.snapshot_scorecards.v1;
+
+import "whitehawk/proto/scorecard_v3/snapshot/v3/message.proto";
+import "whitehawk/proto/slug/v1/message.proto";
+import "whitehawk/proto/ulid/v1/message.proto";
+
+service Service {
+  rpc Create(CreateRequest) returns (CreateResponse);
+  rpc Read(ReadRequest) returns (ReadResponse);
+  rpc List(ListRequest) returns (ListResponse);
+  rpc Update(UpdateRequest) returns (UpdateResponse);
+  rpc Delete(DeleteRequest) returns (DeleteResponse);
+}
+
+message CreateRequest {
+  whitehawk.proto.slug.v1.Slug account_id = 1;
+  whitehawk.proto.scorecard_v3.snapshot.v3.ScorecardSnapshot scorecard = 2;
+}
+
+message CreateResponse {
+  whitehawk.proto.scorecard_v3.snapshot.v3.ScorecardSnapshot scorecard = 1;
+}
+
+message ReadRequest {
+  whitehawk.proto.slug.v1.Slug account_id = 1;
+  whitehawk.proto.ulid.v1.Ulid scorecard_id = 2;
+}
+
+message ReadResponse {
+  whitehawk.proto.scorecard_v3.snapshot.v3.ScorecardSnapshot scorecard = 1;
+}
+
+message ListRequest {
+  whitehawk.proto.slug.v1.Slug account_id = 1;
+}
+
+message ListResponse {
+  repeated whitehawk.proto.scorecard_v3.snapshot.v3.ScorecardSnapshot scorecard = 1;
+}
+
+message UpdateRequest {
+  whitehawk.proto.slug.v1.Slug account_id = 1;
+  whitehawk.proto.ulid.v1.Ulid scorecard_id = 2;
+  whitehawk.proto.scorecard_v3.snapshot.v3.ScorecardSnapshot scorecard = 3;
+}
+
+message UpdateResponse {
+  whitehawk.proto.scorecard_v3.snapshot.v3.ScorecardSnapshot scorecard = 1;
+}
+
+message DeleteRequest {
+  whitehawk.proto.slug.v1.Slug account_id = 1;
+  whitehawk.proto.ulid.v1.Ulid scorecard_id = 2;
+}
+
+message DeleteResponse {}
