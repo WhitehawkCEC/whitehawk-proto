@@ -4,61 +4,53 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### [0.70.18](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.70.17...0.70.18) (2023-04-12)
 
-
 ### Features
 
-* **proto:** service for questionnaire response ([8c319fc](https://github.com/WhitehawkCEC/whitehawk-proto/commit/8c319fc2246015e875e98cd3ddf0e969fbd1ec53))
+- **proto:** service for questionnaire response ([8c319fc](https://github.com/WhitehawkCEC/whitehawk-proto/commit/8c319fc2246015e875e98cd3ddf0e969fbd1ec53))
 
 ### [0.70.17](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.70.16...0.70.17) (2023-04-12)
 
-
 ### Features
 
-* **proto:** service for questionnaire response ([8c319fc](https://github.com/WhitehawkCEC/whitehawk-proto/commit/8c319fc2246015e875e98cd3ddf0e969fbd1ec53))
+- **proto:** service for questionnaire response ([8c319fc](https://github.com/WhitehawkCEC/whitehawk-proto/commit/8c319fc2246015e875e98cd3ddf0e969fbd1ec53))
 
-* template use meta ([cbb1e66](https://github.com/WhitehawkCEC/whitehawk-proto/commit/cbb1e66d838c6ec9fe90ece13ea9f96225d301ac))
-
+- template use meta ([cbb1e66](https://github.com/WhitehawkCEC/whitehawk-proto/commit/cbb1e66d838c6ec9fe90ece13ea9f96225d301ac))
 
 ### [0.70.16](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.70.15...0.70.16) (2023-04-12)
 
-
 ### Features
 
-* **proto:** service for standard questionnaire response ([307b21d](https://github.com/WhitehawkCEC/whitehawk-proto/commit/307b21d3f553e0f5c81fd5e16e1f885ce35f1a79))
+- **proto:** service for standard questionnaire response ([307b21d](https://github.com/WhitehawkCEC/whitehawk-proto/commit/307b21d3f553e0f5c81fd5e16e1f885ce35f1a79))
 
 ### [0.70.15](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.70.14...0.70.15) (2023-04-12)
 
 ### [0.70.14](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.70.13...0.70.14) (2023-04-12)
 
-
 ### Bug Fixes
 
-* **proto:** package name ([44ae5fd](https://github.com/WhitehawkCEC/whitehawk-proto/commit/44ae5fd56da70ef06d5180cd4c9005580ae83ebd))
+- **proto:** package name ([44ae5fd](https://github.com/WhitehawkCEC/whitehawk-proto/commit/44ae5fd56da70ef06d5180cd4c9005580ae83ebd))
 
 ### [0.70.13](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.70.12...0.70.13) (2023-04-12)
 
-
 ### Features
 
-* **proto:** add bundle solution ([c3cd5f8](https://github.com/WhitehawkCEC/whitehawk-proto/commit/c3cd5f802ccda2538624c3f8f79e5938e07f96c4))
-* **proto:** service to retrieve bundle solution ([058dd6b](https://github.com/WhitehawkCEC/whitehawk-proto/commit/058dd6b7257a2c73f548c113115bdb1c4744386a))
+- **proto:** add bundle solution ([c3cd5f8](https://github.com/WhitehawkCEC/whitehawk-proto/commit/c3cd5f802ccda2538624c3f8f79e5938e07f96c4))
+- **proto:** service to retrieve bundle solution ([058dd6b](https://github.com/WhitehawkCEC/whitehawk-proto/commit/058dd6b7257a2c73f548c113115bdb1c4744386a))
 
 ### [0.70.12](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.70.11...0.70.12) (2023-04-12)
 
-
 ### Features
 
-* templates as grpc ([1382452](https://github.com/WhitehawkCEC/whitehawk-proto/commit/138245299cd3ff30d99eb8db90ef50e40b9745e0))
+- templates as grpc ([1382452](https://github.com/WhitehawkCEC/whitehawk-proto/commit/138245299cd3ff30d99eb8db90ef50e40b9745e0))
 
 ### [0.70.11](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.70.10...0.70.11) (2023-04-12)
 
-
 ### Features
 
-* **proto:** add archived data to meta ([55362a9](https://github.com/WhitehawkCEC/whitehawk-proto/commit/55362a97b8f260061cc3dbd9d45d8b328a6d87f8))
-* **proto:** add service for company overview ([e74484c](https://github.com/WhitehawkCEC/whitehawk-proto/commit/e74484cc0b49e7d7de3fe70df2c14a3cf3065dff))
-* **proto:** add snapshot scorecard ([f05d931](https://github.com/WhitehawkCEC/whitehawk-proto/commit/f05d9312ecacfb84ecdf5faf6893f9386dc51c7b))
-* **proto:** add user with additional fields ([77896bd](https://github.com/WhitehawkCEC/whitehawk-proto/commit/77896bdff1539f083166ba587aff0cf8d64f3b6e))
+- **proto:** add archived data to meta ([55362a9](https://github.com/WhitehawkCEC/whitehawk-proto/commit/55362a97b8f260061cc3dbd9d45d8b328a6d87f8))
+- **proto:** add service for company overview ([e74484c](https://github.com/WhitehawkCEC/whitehawk-proto/commit/e74484cc0b49e7d7de3fe70df2c14a3cf3065dff))
+- **proto:** add snapshot scorecard ([f05d931](https://github.com/WhitehawkCEC/whitehawk-proto/commit/f05d9312ecacfb84ecdf5faf6893f9386dc51c7b))
+- **proto:** add user with additional fields ([77896bd](https://github.com/WhitehawkCEC/whitehawk-proto/commit/77896bdff1539f083166ba587aff0cf8d64f3b6e))
 
 ### [0.70.10](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.70.9...0.70.10) (2023-04-10)
 
