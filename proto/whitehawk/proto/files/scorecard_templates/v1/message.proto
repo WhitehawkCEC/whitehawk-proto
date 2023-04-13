@@ -8,11 +8,10 @@ import "whitehawk/proto/ulid/v1/message.proto";
 message ScorecardTemplate {
   whitehawk.proto.ulid.v1.Ulid id = 1;
   string name = 2;
-  string title = 3;
+  FileType type = 3;
   string description = 4;
   string s3_path = 5;
   whitehawk.proto.meta.v1.Meta meta = 6;
-  FileType type = 7;
 }
 
 enum FileType {
