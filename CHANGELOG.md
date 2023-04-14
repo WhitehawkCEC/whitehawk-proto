@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.70.23](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.70.22...0.70.23) (2023-04-14)
+
+
+### Features
+
+* delete request include type as well ([ae775f8](https://github.com/WhitehawkCEC/whitehawk-proto/commit/ae775f88fac08d931c6a25306268ef9e0a971f65))
+
 ### [0.70.22](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.70.21...0.70.22) (2023-04-13)
 
 ### [0.70.21](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.70.20...0.70.21) (2023-04-13)
