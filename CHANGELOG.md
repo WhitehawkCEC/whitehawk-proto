@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.70.24](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.70.23...0.70.24) (2023-04-14)
+
+
+### Features
+
+* file meta create request include filename as well ([58b033a](https://github.com/WhitehawkCEC/whitehawk-proto/commit/58b033a6b5f16c6d7010228f0b94cf594d1939b7))
+
 ### [0.70.23](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.70.22...0.70.23) (2023-04-14)
 
 
