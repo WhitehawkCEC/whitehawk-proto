@@ -35,6 +35,7 @@ message UpdateResponse {}
 
 message DeleteRequest {
   whitehawk.proto.ulid.v1.Ulid id = 1;
+  whitehawk.proto.files.scorecard_templates.v1.FileType type = 2;
 }
 
 message DeleteResponse {}
