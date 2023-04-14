@@ -15,6 +15,7 @@ service Service {
 message CreateRequest {
   whitehawk.proto.files.scorecard_templates.v1.ScorecardTemplate template = 1;
   bytes data = 2;
+  string file_name = 3;
 }
 
 message CreateResponse {
