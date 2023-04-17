@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-package whitehawk.proto.scorecard_v3.snapshot.v3;
+package whitehawk.proto.scorecard_v3.snapshot.v1;
 
 import "whitehawk/proto/meta/v2/message.proto";
 import "whitehawk/proto/scorecard_v3/v1/message.proto";
