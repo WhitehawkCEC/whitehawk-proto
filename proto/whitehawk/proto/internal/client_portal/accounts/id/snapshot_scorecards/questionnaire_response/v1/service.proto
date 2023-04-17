@@ -14,5 +14,5 @@ message ReadRequest {
 }
 
 message ReadResponse {
-  whitehawk.proto.scorecard_v3.snapshot.v3.QuestionnaireResponse questionnaire_response = 1;
+  whitehawk.proto.scorecard_v3.snapshot.v1.QuestionnaireResponse questionnaire_response = 1;
 }
