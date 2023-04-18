@@ -5,7 +5,6 @@ package whitehawk.proto.scorecard_v3.snapshot.v1;
 import "whitehawk/proto/meta/v2/message.proto";
 import "whitehawk/proto/scorecard_v3/v1/message.proto";
 import "whitehawk/proto/slug/v1/message.proto";
-import "whitehawk/proto/status/v1/message.proto";
 import "whitehawk/proto/time/v1/message.proto";
 import "whitehawk/proto/todo/v2/message.proto";
 import "whitehawk/proto/ulid/v1/message.proto";
@@ -25,8 +24,7 @@ message DataSnapshot {
   RiskIndicator risk_indicator = 4;
   repeated whitehawk.proto.todo.v2.Todo todos = 5;
   BundleSolution bundle = 6;
-  whitehawk.proto.status.v1.Status status = 7;
-  whitehawk.proto.meta.v2.Meta meta = 8;
+  Status status = 7;
 }
 
 message QuestionnaireResponse {
@@ -95,4 +93,10 @@ message ProductShortInfo {
 message ManufacturerInfo {
   whitehawk.proto.slug.v1.Slug id = 1;
   string name = 2;
+}
+
+message Status {
+  whitehawk.proto.scorecard_v3.v1.State state = 1;
+  int32 year = 2;
+  whitehawk.proto.scorecard_v3.v1.Quarter quarter = 3;
 }
