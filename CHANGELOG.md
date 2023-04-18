@@ -6,25 +6,22 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### [0.70.25](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.70.24...0.70.25) (2023-04-17)
 
-
 ### Bug Fixes
 
-* **proto:** version number ([a5d7515](https://github.com/WhitehawkCEC/whitehawk-proto/commit/a5d75154d1a9bbb4e931e9843319afa18617a794))
-* **proto:** version number ([3723191](https://github.com/WhitehawkCEC/whitehawk-proto/commit/37231913820d87ad7ce196d1b23d75c01bbb694d))
+- **proto:** version number ([a5d7515](https://github.com/WhitehawkCEC/whitehawk-proto/commit/a5d75154d1a9bbb4e931e9843319afa18617a794))
+- **proto:** version number ([3723191](https://github.com/WhitehawkCEC/whitehawk-proto/commit/37231913820d87ad7ce196d1b23d75c01bbb694d))
 
 ### [0.70.23](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.70.22...0.70.23) (2023-04-17)
 
-
 ### Features
 
-* delete request include type as well ([ae775f8](https://github.com/WhitehawkCEC/whitehawk-proto/commit/ae775f88fac08d931c6a25306268ef9e0a971f65))
-* file meta create request include filename as well ([58b033a](https://github.com/WhitehawkCEC/whitehawk-proto/commit/58b033a6b5f16c6d7010228f0b94cf594d1939b7))
-
+- delete request include type as well ([ae775f8](https://github.com/WhitehawkCEC/whitehawk-proto/commit/ae775f88fac08d931c6a25306268ef9e0a971f65))
+- file meta create request include filename as well ([58b033a](https://github.com/WhitehawkCEC/whitehawk-proto/commit/58b033a6b5f16c6d7010228f0b94cf594d1939b7))
 
 ### Bug Fixes
 
-* **proto:** version number ([a5d7515](https://github.com/WhitehawkCEC/whitehawk-proto/commit/a5d75154d1a9bbb4e931e9843319afa18617a794))
-* **proto:** version number ([3723191](https://github.com/WhitehawkCEC/whitehawk-proto/commit/37231913820d87ad7ce196d1b23d75c01bbb694d))
+- **proto:** version number ([a5d7515](https://github.com/WhitehawkCEC/whitehawk-proto/commit/a5d75154d1a9bbb4e931e9843319afa18617a794))
+- **proto:** version number ([3723191](https://github.com/WhitehawkCEC/whitehawk-proto/commit/37231913820d87ad7ce196d1b23d75c01bbb694d))
 
 ### [0.70.24](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.70.23...0.70.24) (2023-04-14)
 
