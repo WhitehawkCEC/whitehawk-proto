@@ -6,10 +6,9 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### [0.70.27](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.70.26...0.70.27) (2023-04-18)
 
-
 ### Bug Fixes
 
-* **proto:** remove unused field Meta, use scorecard V3 Status ([7f587ae](https://github.com/WhitehawkCEC/whitehawk-proto/commit/7f587ae86a8f75d2ac202835c1aca31192b24a72))
+- **proto:** remove unused field Meta, use scorecard V3 Status ([7f587ae](https://github.com/WhitehawkCEC/whitehawk-proto/commit/7f587ae86a8f75d2ac202835c1aca31192b24a72))
 
 ### [0.70.26](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.70.25...0.70.26) (2023-04-17)
 
