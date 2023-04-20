@@ -3,7 +3,6 @@ syntax = "proto3";
 package whitehawk.proto.internal.client_portal.accounts.id.snapshot_scorecards.v1;
 
 import "whitehawk/proto/scorecard_v3/snapshot/v1/message.proto";
-import "whitehawk/proto/scorecard_v3/v1/message.proto";
 import "whitehawk/proto/slug/v1/message.proto";
 import "whitehawk/proto/ulid/v1/message.proto";
 
