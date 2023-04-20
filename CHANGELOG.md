@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.70.32](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.70.31...0.70.32) (2023-04-20)
+
+
+### Features
+
+* refactor create request to not have ids and other fields ([358a179](https://github.com/WhitehawkCEC/whitehawk-proto/commit/358a179da620395c47b59f7cbcc43b3e06ebbbb1))
+
 ### [0.70.31](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.70.30...0.70.31) (2023-04-20)
 
 ### [0.70.30](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.70.29...0.70.30) (2023-04-20)
