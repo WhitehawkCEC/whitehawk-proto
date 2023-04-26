@@ -1,0 +1,27 @@
+syntax = "proto3";
+
+package whitehawk.proto.files.v1;
+
+message MetaData {
+  string name = 1;
+  string description = 2;
+  FileType type = 3;
+  string media_type = 4;
+}
+
+message File {
+  bytes content = 1;
+}
+
+enum Status {
+  STATUS_UNSPECIFIED = 0;
+  STATUS_PPENDING = 1;
+  STATUS_IN_PROGRESS = 2;
+  STATUS_SUCCESS = 3;
+  STATUS_FAILED = 4;
+}
+
+enum FileType {
+  FILE_TYPE_UNSPECIFIED = 0;
+  FILE_TYPE_WHK_IN_DEPTH = 1;
+}
