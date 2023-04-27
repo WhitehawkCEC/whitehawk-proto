@@ -14,8 +14,9 @@ service Service {
 message CreateRequest {
   whitehawk.proto.slug.v1.Slug account_id = 1;
   whitehawk.proto.slug.v1.Slug subscription_id = 2;
-  string entity_id = 3;
-  CreateInputInDepthBlackKiteCmmcV2 bk = 4;
+  oneof scorecard_input {
+    CreateInputInDepthBlackKiteCmmcV2 bk = 3;
+  }
 }
 
 message CreateInputInDepthBlackKiteCmmcV2 {
