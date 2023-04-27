@@ -10,9 +10,8 @@ message ScorecardTemplate {
   string name = 2;
   FileType type = 3;
   string description = 4;
-  string s3_path = 5;
-  string media_type = 6;
-  whitehawk.proto.meta.v1.Meta meta = 7;
+  string media_type = 5;
+  whitehawk.proto.meta.v1.Meta meta = 6;
 }
 
 enum FileType {
