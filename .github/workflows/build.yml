@@ -46,11 +46,11 @@ jobs:
 
       - name: Build all
         run: |
-          ./.ci/all-ci build $(git describe)
+          nix develop --command ./.ci/all-ci build $(git describe)
 
       - name: Deploy all
         run: |
-          ./.ci/all-ci deploy
+          nix develop --command ./.ci/all-ci deploy
         env:
           GITHUB_ACTOR: ${{ secrets.GITHUB_ACTOR }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
