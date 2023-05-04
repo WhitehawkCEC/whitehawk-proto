@@ -6,6 +6,7 @@ import "whitehawk/proto/scorecard_v3/indepthblackkitecmmcv2/v2/message.proto";
 import "whitehawk/proto/scorecard_v3/v1/message.proto";
 import "whitehawk/proto/slug/v1/message.proto";
 import "whitehawk/proto/ulid/v1/message.proto";
+import "whitehawk/proto/scorecard_v3/indepthblackkitewithframeworks/v1/message.proto";
 
 service Service {
   rpc Create(CreateRequest) returns (CreateResponse);
@@ -17,6 +18,7 @@ message CreateRequest {
   oneof scorecard_input {
     CreateInputInDepthBlackKiteCmmcV2 bk = 3;
   }
+  whitehawk.proto.scorecard_v3.indepthblackkitewithframeworks.v1.ChosenFrameworks chosen_frameworks = 4;
 }
 
 message CreateInputInDepthBlackKiteCmmcV2 {
