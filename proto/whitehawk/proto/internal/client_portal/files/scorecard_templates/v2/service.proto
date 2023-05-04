@@ -7,6 +7,7 @@ import "whitehawk/proto/ulid/v1/message.proto";
 
 service Service {
   rpc Create(CreateRequest) returns (CreateResponse);
+  rpc Read(ReadRequest) returns (ReadResponse);
   rpc List(ListRequest) returns (ListResponse);
   rpc Update(UpdateRequest) returns (UpdateResponse);
   rpc Delete(DeleteRequest) returns (DeleteResponse);
@@ -21,6 +22,15 @@ message CreateRequest {
 }
 
 message CreateResponse {
+  whitehawk.proto.files.scorecard_templates.v2.ScorecardTemplate template = 1;
+}
+
+message ReadRequest {
+  whitehawk.proto.ulid.v1.Ulid id = 1;
+  whitehawk.proto.files.scorecard_templates.v2.FileType type = 2;
+}
+
+message ReadResponse {
   whitehawk.proto.files.scorecard_templates.v2.ScorecardTemplate template = 1;
 }
 
