@@ -22,10 +22,9 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### [0.70.42](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.70.41...0.70.42) (2023-05-04)
 
-
 ### Features
 
-* sc template read rpc ([3ad35c1](https://github.com/WhitehawkCEC/whitehawk-proto/commit/3ad35c1fe0294bd41c98be00505eedc06a0367f9))
+- sc template read rpc ([3ad35c1](https://github.com/WhitehawkCEC/whitehawk-proto/commit/3ad35c1fe0294bd41c98be00505eedc06a0367f9))
 
 ### [0.70.41](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.70.40...0.70.41) (2023-05-02)
 
