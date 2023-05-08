@@ -3,6 +3,7 @@ syntax = "proto3";
 package whitehawk.proto.internal.client_portal.accounts.id.subscriptions.subscription_id.scorecards_v3.v2;
 
 import "whitehawk/proto/scorecard_v3/indepthblackkitecmmcv2/v2/message.proto";
+import "whitehawk/proto/scorecard_v3/indepthblackkitewithframeworks/v1/message.proto";
 import "whitehawk/proto/scorecard_v3/v1/message.proto";
 import "whitehawk/proto/slug/v1/message.proto";
 import "whitehawk/proto/ulid/v1/message.proto";
@@ -16,11 +17,17 @@ message CreateRequest {
   whitehawk.proto.slug.v1.Slug subscription_id = 2;
   oneof scorecard_input {
     CreateInputInDepthBlackKiteCmmcV2 bk = 3;
+    CreateInputInDepthBlackKiteWithFrameworks bkf = 4;
   }
 }
 
 message CreateInputInDepthBlackKiteCmmcV2 {
   whitehawk.proto.scorecard_v3.indepthblackkitecmmcv2.v2.DataBkCmmcV2 data = 1;
+  whitehawk.proto.scorecard_v3.v1.TemplateId template = 2;
+}
+
+message CreateInputInDepthBlackKiteWithFrameworks {
+  whitehawk.proto.scorecard_v3.indepthblackkitewithframeworks.v1.DataBkWithFrameworks data = 1;
   whitehawk.proto.scorecard_v3.v1.TemplateId template = 2;
 }
 
