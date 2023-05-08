@@ -41,7 +41,7 @@ jobs:
             ${{ runner.os }}-maven-
 
       - name: Install dependencies
-        run: pnpm install
+        run: nix develop --command pnpm install
 
       - name: Ignore changes to lock files
         run: |
@@ -54,7 +54,7 @@ jobs:
 
       - name: Auto format (buf)
         run: |
-          buf format -w
+          nix develop --command buf format -w
       - name: Commit changes (buf)
         run: |
           git add -u
@@ -63,7 +63,7 @@ jobs:
       - name: Auto format (java)
         run: |
           cd java/
-          ./mvnw -s settings.xml -Pformat
+          nix develop --command ./mvnw -s settings.xml -Pformat
       - name: Commit changes (java)
         run: |
           git add -u
@@ -71,7 +71,7 @@ jobs:
 
       - name: Auto format (prettier)
         run: |
-          git ls-files '*.js' '*.yml' '*.yaml' '*.json' '*.md' -z | xargs -0 pnpm exec prettier --write
+          git ls-files '*.js' '*.yml' '*.yaml' '*.json' '*.md' -z | xargs -0 nix develop --command pnpm exec prettier --write
       # Cannot modify .github/workflows (refusing to allow a GitHub App to create or update workflow)
       - name: Ignore github workflows
         run: |
