@@ -4,10 +4,9 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### [0.70.52](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.70.51...0.70.52) (2023-05-08)
 
-
 ### Features
 
-* add `CreateInputInDepthBlackKiteWithFrameworks` ([0746544](https://github.com/WhitehawkCEC/whitehawk-proto/commit/074654461802c5decf1db8a28ba28ee2348d74be))
+- add `CreateInputInDepthBlackKiteWithFrameworks` ([0746544](https://github.com/WhitehawkCEC/whitehawk-proto/commit/074654461802c5decf1db8a28ba28ee2348d74be))
 
 ### [0.70.51](https://github.com/whitehawkcec/whitehawk-proto/compare/0.70.50...0.70.51) (2023-05-04)
 
