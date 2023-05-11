@@ -8,6 +8,7 @@ import "whitehawk/proto/slug/v1/message.proto";
 
 service Service {
   rpc Read(ReadRequest) returns (ReadResponse);
+  rpc List(ListRequest) returns (ListResponse);
 }
 
 message ReadRequest {
@@ -17,6 +18,14 @@ message ReadRequest {
 
 message ReadResponse {
   Framework framework = 1;
+}
+
+message ListRequest {
+  whitehawk.proto.slug.v1.Slug account_id = 1;
+}
+
+message ListResponse {
+  repeated Framework frameworks = 1;
 }
 
 message Framework {
