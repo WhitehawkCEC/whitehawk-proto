@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.71.1](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.71.0...0.71.1) (2023-05-11)
+
+
+### Features
+
+* add list call to service ([a1ba311](https://github.com/WhitehawkCEC/whitehawk-proto/commit/a1ba311be8c5ee8d6fe287b59a60406dc64337f8))
+
 ## [0.71.0](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.70.52...0.71.0) (2023-05-11)
 
 
