@@ -2,6 +2,41 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.71.0](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.70.52...0.71.0) (2023-05-11)
+
+
+### ⚠ BREAKING CHANGES
+
+* **proto:** remove `scorecard_portfolio.v1`
+* **proto:** remove `client_portal.accounts.id.subscriptions.subscription_id.products.product_id.groups.group_id.license_batches.batch_id.quantity_changes.v1`
+* **proto:** remove `client_portal.accounts.id.subscriptions.subscription_id.products.product_id.license_batches.batch_id.quantity_changes.v1`
+* **proto:** remove `client_portal.accounts.id.subscriptions.subscription_id.groups.group_id.license_batches.batch_id.quantity_changes.v1`
+* **proto:** remove `client_portal.accounts.id.subscriptions.subscription_id.products.product_id.groups.group_id.license_batches.v1`
+* **proto:** remove `client_portal.accounts.id.subscriptions.subscription_id.products.product_id.license_batches.v1`
+* **proto:** remove `client_portal.accounts.id.subscriptions.subscription_id.groups.group_id.license_batches.v1`
+* **proto:** remove `client_portal.accounts.id.groups.group_id.summary.v2`
+* **proto:** remove `client_portal.accounts.id.groups.group_id.state.v2`
+* **proto:** remove `client_portal.accounts.id.groups.group_id.license_batches.batch_id.quantity_changes.v1`
+* **proto:** remove `client_portal.accounts.id.summary.v2`
+* **proto:** remove `client_portal.accounts.id.license_batches.v1`
+* **proto:** remove `client_portal.accounts.id.license_batches.batch_id.quantity_changes.v1`
+
+### Features
+
+* **proto:** remove `client_portal.accounts.id.groups.group_id.license_batches.batch_id.quantity_changes.v1` ([976817c](https://github.com/WhitehawkCEC/whitehawk-proto/commit/976817c89164cabdb13547581f25d67e58c76dd3))
+* **proto:** remove `client_portal.accounts.id.groups.group_id.state.v2` ([a0767b4](https://github.com/WhitehawkCEC/whitehawk-proto/commit/a0767b450ab8da4dba67b16fc92cb2d7f6e38f40))
+* **proto:** remove `client_portal.accounts.id.groups.group_id.summary.v2` ([6eec302](https://github.com/WhitehawkCEC/whitehawk-proto/commit/6eec3024f8b865e12de9928c7e64b9899315e738))
+* **proto:** remove `client_portal.accounts.id.license_batches.batch_id.quantity_changes.v1` ([69320f7](https://github.com/WhitehawkCEC/whitehawk-proto/commit/69320f7e67ebad5c84cc2c15f1d0b835657a6d58))
+* **proto:** remove `client_portal.accounts.id.license_batches.v1` ([afa926f](https://github.com/WhitehawkCEC/whitehawk-proto/commit/afa926fb89001e7bfd9eb416d171feaeca12c286))
+* **proto:** remove `client_portal.accounts.id.subscriptions.subscription_id.groups.group_id.license_batches.batch_id.quantity_changes.v1` ([72ef11a](https://github.com/WhitehawkCEC/whitehawk-proto/commit/72ef11a0c88510e7f7a913189f5be55fe320bcc3))
+* **proto:** remove `client_portal.accounts.id.subscriptions.subscription_id.groups.group_id.license_batches.v1` ([9c9b1b0](https://github.com/WhitehawkCEC/whitehawk-proto/commit/9c9b1b0d28a8d431de05f7c75e48404d222a8e2b))
+* **proto:** remove `client_portal.accounts.id.subscriptions.subscription_id.products.product_id.groups.group_id.license_batches.batch_id.quantity_changes.v1` ([d7c3564](https://github.com/WhitehawkCEC/whitehawk-proto/commit/d7c3564b4c066b97d0c3fbe35d244983e324cce5))
+* **proto:** remove `client_portal.accounts.id.subscriptions.subscription_id.products.product_id.groups.group_id.license_batches.v1` ([aa93070](https://github.com/WhitehawkCEC/whitehawk-proto/commit/aa93070aa14786092f2d7f4d0e280b4e64bc1dfc))
+* **proto:** remove `client_portal.accounts.id.subscriptions.subscription_id.products.product_id.license_batches.batch_id.quantity_changes.v1` ([6c14e72](https://github.com/WhitehawkCEC/whitehawk-proto/commit/6c14e724379a8b775effb6ae50120e8f34401353))
+* **proto:** remove `client_portal.accounts.id.subscriptions.subscription_id.products.product_id.license_batches.v1` ([405825e](https://github.com/WhitehawkCEC/whitehawk-proto/commit/405825e536385f773db93ecf5a52098a6372f123))
+* **proto:** remove `client_portal.accounts.id.summary.v2` ([5e13148](https://github.com/WhitehawkCEC/whitehawk-proto/commit/5e1314851514b5a4c75ddf87917d63d2d6498804))
+* **proto:** remove `scorecard_portfolio.v1` ([1de9bef](https://github.com/WhitehawkCEC/whitehawk-proto/commit/1de9befb28828e83276e3d0c642da84715f5f1fb))
+
 ### [0.70.52](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.70.51...0.70.52) (2023-05-08)
 
 ### Features
