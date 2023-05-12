@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+package whitehawk.proto.report.account.subscriptions.v1;
+
+import "whitehawk/proto/slug/v1/message.proto";
+import "whitehawk/proto/account/v1/message.proto";
+import "whitehawk/proto/company/v1/message.proto";
+import "whitehawk/proto/subscription/v1/message.proto";
+
+message ReportAccountSubscriptions {
+  whitehawk.proto.slug.v1.Slug id = 1;
+  whitehawk.proto.company.v1.Company company = 2;
+  repeated ReportSubscription subscriptions = 3;
+
+}
+
+message ReportSubscription {
+  whitehawk.proto.subscription.v1.Subscription subscription = 1;
+  whitehawk.proto.account.v1.AccountStatus status = 2;
+  int32 number_products = 3;
+}

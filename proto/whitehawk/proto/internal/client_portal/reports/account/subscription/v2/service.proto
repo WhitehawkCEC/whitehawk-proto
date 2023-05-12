@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package whitehawk.proto.internal.client_portal.reports.account.subscription.v2;
+
+import "whitehawk/proto/report/account/subscriptions/v1/message.proto";
+
+service Service {
+  rpc List(ListRequest) returns (ListResponse);
+}
+
+message ListRequest {}
+
+message ListResponse {
+  repeated whitehawk.proto.report.account.subscriptions.v1.ReportAccountSubscriptions accounts = 1;
+}
