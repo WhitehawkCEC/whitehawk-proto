@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.71.2](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.71.1...0.71.2) (2023-05-12)
+
+
+### Features
+
+* grpc subscription report v2 ([a54245e](https://github.com/WhitehawkCEC/whitehawk-proto/commit/a54245e8252eff8399384a85f890fd627f4a974c))
+
 ### [0.71.1](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.71.0...0.71.1) (2023-05-11)
 
 ### Features
