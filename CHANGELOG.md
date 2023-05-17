@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.71.4](https://github.com/whitehawkcec/whitehawk-proto/compare/0.71.3...0.71.4) (2023-05-17)
+
+
+### Features
+
+* **proto:** add `AccountSubscriptionGroupId` ([d132c2e](https://github.com/whitehawkcec/whitehawk-proto/commit/d132c2e3692b9295739ea0df2a45cd13613f21d6))
+* **proto:** add `client_portal.accounts__0__subscriptions__0__groups__0__license_packs.v1` ([5fcfe0f](https://github.com/whitehawkcec/whitehawk-proto/commit/5fcfe0f2db426717175de48157e7af7fd647980c))
+* **proto:** add `client_portal.accounts__0__subscriptions__0__license_packs.v1` ([ab35d0d](https://github.com/whitehawkcec/whitehawk-proto/commit/ab35d0d5dde9ad2668228426a4be37b723ffda1d))
+* **proto:** add `LicensePackOrder` ([63db645](https://github.com/whitehawkcec/whitehawk-proto/commit/63db645cb9c26ab8769f990201481d434f2cf21f))
+
 ### [0.71.3](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.71.2...0.71.3) (2023-05-17)
 
 
