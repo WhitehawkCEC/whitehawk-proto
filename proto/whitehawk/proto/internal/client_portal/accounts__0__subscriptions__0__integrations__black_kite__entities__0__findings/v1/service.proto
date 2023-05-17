@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+// buf:lint:ignore PACKAGE_LOWER_SNAKE_CASE
+package whitehawk.proto.internal.client_portal.accounts__0__subscriptions__0__integrations__black_kite__entities__0__findings.v1;
+
+service Service {
+  rpc Get(GetRequest) returns (GetResponse);
+}
+
+message GetRequest {
+  string entity_id = 1;
+}
+
+message GetResponse {
+  bytes findings = 1;
+}
