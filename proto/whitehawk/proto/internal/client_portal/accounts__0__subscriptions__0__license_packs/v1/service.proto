@@ -1,0 +1,45 @@
+syntax = "proto3";
+
+// buf:lint:ignore PACKAGE_LOWER_SNAKE_CASE
+package whitehawk.proto.internal.client_portal.accounts__0__subscriptions__0__license_packs.v1;
+
+import "whitehawk/proto/licensing/v1/message.proto";
+import "whitehawk/proto/resource/v1/message.proto";
+import "whitehawk/proto/ulid/v1/message.proto";
+
+service Service {
+  rpc Create(CreateRequest) returns (CreateResponse);
+  rpc Read(ReadRequest) returns (ReadResponse);
+  rpc List(ListRequest) returns (ListResponse);
+}
+
+message CreateRequest {
+  whitehawk.proto.resource.v1.AccountSubscriptionId id = 1;
+  whitehawk.proto.licensing.v1.LicensePackOrder order = 2;
+}
+
+message CreateResponse {
+  whitehawk.proto.ulid.v1.Ulid pack_id = 1;
+}
+
+message ReadRequest {
+  whitehawk.proto.resource.v1.AccountSubscriptionId id = 1;
+  whitehawk.proto.ulid.v1.Ulid pack_id = 2;
+}
+
+message ReadResponse {
+  LicensePackWithId value = 1;
+}
+
+message ListRequest {
+  whitehawk.proto.resource.v1.AccountSubscriptionId id = 1;
+}
+
+message ListResponse {
+  repeated LicensePackWithId values = 1;
+}
+
+message LicensePackWithId {
+  whitehawk.proto.ulid.v1.Ulid pack_id = 1;
+  whitehawk.proto.licensing.v1.LicensePackUsage data = 2;
+}
