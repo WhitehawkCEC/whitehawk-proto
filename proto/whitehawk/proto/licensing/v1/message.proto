@@ -12,6 +12,12 @@ message AggregateLicenseUsage {
   }
 }
 
+message LicensePackOrder {
+  whitehawk.proto.time.v1.DateRange validity = 1;
+  LicenseType type = 2;
+  int32 quantity = 3;
+}
+
 message LicensePackUsage {
   whitehawk.proto.time.v1.DateRange validity = 1;
   LicenseType type = 2;
