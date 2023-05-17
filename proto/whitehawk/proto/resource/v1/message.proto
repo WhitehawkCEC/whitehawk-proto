@@ -10,6 +10,12 @@ message AccountSubscriptionId {
   whitehawk.proto.slug.v1.Slug subscription_id = 2;
 }
 
+message AccountSubscriptionGroupId {
+  whitehawk.proto.slug.v1.Slug account_id = 1;
+  whitehawk.proto.slug.v1.Slug subscription_id = 2;
+  whitehawk.proto.slug.v1.Slug group_id = 3;
+}
+
 message AccountSubscriptionProductId {
   whitehawk.proto.slug.v1.Slug account_id = 1;
   whitehawk.proto.slug.v1.Slug subscription_id = 2;
