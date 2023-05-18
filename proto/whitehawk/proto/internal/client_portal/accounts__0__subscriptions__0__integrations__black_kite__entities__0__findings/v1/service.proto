@@ -12,5 +12,9 @@ message GetRequest {
 }
 
 message GetResponse {
-  bytes findings = 1;
+  File findings = 1;
+}
+
+message File {
+  bytes content = 1;
 }
