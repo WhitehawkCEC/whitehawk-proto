@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.71.5](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.71.4...0.71.5) (2023-05-18)
+
+
+### Features
+
+* **proto:** service to retrieve findings for spreadsheet ([f035203](https://github.com/WhitehawkCEC/whitehawk-proto/commit/f035203af4b72e7e9fc513aa8ddd421bc9140218))
+
+
+### Bug Fixes
+
+* **proto:** removed unused (never used) ([d57ad1f](https://github.com/WhitehawkCEC/whitehawk-proto/commit/d57ad1f41ac7b0f175095d7f886847db538ea24c))
+* **proto:** return File instead of bytes ([137204f](https://github.com/WhitehawkCEC/whitehawk-proto/commit/137204f2c187528f1a35c3142dd884ade8f3d6ba))
+
 ### [0.71.4](https://github.com/whitehawkcec/whitehawk-proto/compare/0.71.3...0.71.4) (2023-05-17)
 
 ### Features
