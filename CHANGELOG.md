@@ -2,6 +2,25 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.72.0](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.71.8...0.72.0) (2023-05-23)
+
+
+### ⚠ BREAKING CHANGES
+
+* prefer to use summary for list response
+* **proto:** remove `licensing.id.packs.pack_id.quantity_changes.v1`
+* **proto:** remove `licensing.id.packs.v1`
+* **proto:** remove `accounts__0__subscriptions__0__groups__0__licensing_id.v1`
+* **proto:** remove `accounts__0__subscriptions__0__licensing_id.v1`
+
+### Features
+
+* prefer to use summary for list response ([edc1ed6](https://github.com/WhitehawkCEC/whitehawk-proto/commit/edc1ed645ab01107c20ef813970480dcab82feea))
+* **proto:** remove `accounts__0__subscriptions__0__groups__0__licensing_id.v1` ([62c9a80](https://github.com/WhitehawkCEC/whitehawk-proto/commit/62c9a80c27c5b7ba82f00501adb1b86e597d78f0))
+* **proto:** remove `accounts__0__subscriptions__0__licensing_id.v1` ([f1298d1](https://github.com/WhitehawkCEC/whitehawk-proto/commit/f1298d16903a7c73dbab1c226b6518e63c777882))
+* **proto:** remove `licensing.id.packs.pack_id.quantity_changes.v1` ([de77c97](https://github.com/WhitehawkCEC/whitehawk-proto/commit/de77c972c6235f3e227fda4ddc27461eecb4b8f9))
+* **proto:** remove `licensing.id.packs.v1` ([7541468](https://github.com/WhitehawkCEC/whitehawk-proto/commit/754146867830cc3724bd67b0b78a75645cdaa7cf))
+
 ### [0.71.8](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.71.7...0.71.8) (2023-05-23)
 
 
