@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.71.8](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.71.7...0.71.8) (2023-05-23)
+
+
+### Features
+
+* add `PeratonCompany` message ([2cf6d36](https://github.com/WhitehawkCEC/whitehawk-proto/commit/2cf6d362a617ce60fdc5d26d78bcd6dec7915fa8))
+* add `RiskAnalyticsPeratonConfig` as subscription product type ([0552aa2](https://github.com/WhitehawkCEC/whitehawk-proto/commit/0552aa2a30eee9322272b4d53b08f89955338f73))
+* add service for peraton risk analytics ([7ebd028](https://github.com/WhitehawkCEC/whitehawk-proto/commit/7ebd028e74ef2cf6f981a8b2c5df07aa43f156e2))
+* add service to list subscription products mapped to subscription types ([21368bf](https://github.com/WhitehawkCEC/whitehawk-proto/commit/21368bf3f4f59f9be396ad9c122df7baaf0921ef))
+
 ### [0.71.7](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.71.6...0.71.7) (2023-05-23)
 
 ### [0.71.6](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.71.5...0.71.6) (2023-05-23)
