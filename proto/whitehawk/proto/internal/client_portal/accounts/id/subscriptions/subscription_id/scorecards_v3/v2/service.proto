@@ -3,6 +3,7 @@ syntax = "proto3";
 package whitehawk.proto.internal.client_portal.accounts.id.subscriptions.subscription_id.scorecards_v3.v2;
 
 import "whitehawk/proto/scorecard_v3/indepthblackkitecmmcv2/v2/message.proto";
+import "whitehawk/proto/internal/client_portal/accounts__0__frameworks/v2/service.proto";
 import "whitehawk/proto/scorecard_v3/indepthblackkitewithframeworks/v1/message.proto";
 import "whitehawk/proto/scorecard_v3/v1/message.proto";
 import "whitehawk/proto/slug/v1/message.proto";
@@ -33,4 +34,12 @@ message CreateInputInDepthBlackKiteWithFrameworks {
 
 message CreateResponse {
   whitehawk.proto.ulid.v1.Ulid scorecard_id = 1;
+}
+
+message ListRequest {
+  whitehawk.proto.slug.v1.Slug account_id = 1;
+}
+
+message ListResponse {
+  repeated whitehawk.proto.internal.client_portal.accounts__0__frameworks.v2.Framework frameworks = 1;
 }
