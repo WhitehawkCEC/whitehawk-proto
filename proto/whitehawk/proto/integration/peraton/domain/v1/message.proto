@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package whitehawk.proto.integration.peraton.domain.v1;
+
+message PeratonCompany {
+  string id = 1;
+  string name = 2;
+  string domain = 3;
+}
