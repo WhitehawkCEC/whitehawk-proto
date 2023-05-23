@@ -1,0 +1,50 @@
+syntax = "proto3";
+
+// buf:lint:ignore PACKAGE_LOWER_SNAKE_CASE
+package whitehawk.proto.internal.client_portal.accounts__0__subscriptions__0__integrations__peraton__companies__risk_analytics.v1;
+
+import "whitehawk/proto/resource/v1/message.proto";
+import "whitehawk/proto/integration/peraton/domain/v1/message.proto";
+import "whitehawk/proto/time/v1/message.proto";
+
+
+service Service {
+  rpc Read(ReadRequest) returns (ReadResponse);
+  rpc List(ListRequest) returns (ListResponse);
+}
+
+message ReadRequest {
+  whitehawk.proto.resource.v1.AccountSubscriptionId id = 1;
+  string company_id = 2;
+}
+
+message ReadResponse {
+  PeratonRiskAnalytics value = 1;
+}
+
+message ListRequest {
+  whitehawk.proto.resource.v1.AccountSubscriptionId id = 1;
+}
+
+message ListResponse {
+  repeated PeratonRiskAnalytics values = 1;
+}
+
+message PeratonRiskAnalytics {
+  whitehawk.proto.integration.peraton.domain.v1.PeratonCompany company = 1;
+  RiskOverview risk_overview = 2;
+}
+
+message RiskOverview {
+  int32 score = 1;
+  string description = 2;
+  whitehawk.proto.time.v1.IsoDateTime last_updated = 3;
+  repeated RiskVector risk_vectors = 4;
+}
+
+message RiskVector {
+  string display_name = 1;
+  string description = 2;
+  int32 score = 3;
+  int32 portfolio_mean = 4;
+}
