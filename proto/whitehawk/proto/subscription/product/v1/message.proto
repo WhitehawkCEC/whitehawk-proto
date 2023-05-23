@@ -19,6 +19,7 @@ message SubscriptionProductConfig {
     CyberRiskRatingBlackKiteConfig cyber_risk_rating_bk = 1;
     CyberRiskRatingBitsightConfig cyber_risk_rating_bs = 2;
     BusinessRiskSupplyWisdomConfig business_risk_sw = 3;
+    RiskAnalyticsPeratonConfig risk_analytics_p = 4;
   }
 }
 
@@ -39,3 +40,5 @@ message CyberRiskRatingBitsightConfig {
 }
 
 message BusinessRiskSupplyWisdomConfig {}
+
+message RiskAnalyticsPeratonConfig {}
