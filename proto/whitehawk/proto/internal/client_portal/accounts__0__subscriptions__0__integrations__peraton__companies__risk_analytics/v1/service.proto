@@ -27,7 +27,16 @@ message ListRequest {
 }
 
 message ListResponse {
-  repeated PeratonRiskAnalytics values = 1;
+  repeated PeratonRiskAnalyticsSummary values = 1;
+}
+
+message PeratonRiskAnalyticsSummary {
+  whitehawk.proto.integration.peraton.domain.v1.PeratonCompany company = 1;
+  RiskSummary risk_summary = 2;
+}
+
+message RiskSummary {
+  int32 score = 1;
 }
 
 message PeratonRiskAnalytics {
