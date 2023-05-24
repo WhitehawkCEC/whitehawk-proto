@@ -4,32 +4,30 @@ All notable changes to this project will be documented in this file. See [standa
 
 ## [0.72.0](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.71.8...0.72.0) (2023-05-23)
 
-
 ### ⚠ BREAKING CHANGES
 
-* prefer to use summary for list response
-* **proto:** remove `licensing.id.packs.pack_id.quantity_changes.v1`
-* **proto:** remove `licensing.id.packs.v1`
-* **proto:** remove `accounts__0__subscriptions__0__groups__0__licensing_id.v1`
-* **proto:** remove `accounts__0__subscriptions__0__licensing_id.v1`
+- prefer to use summary for list response
+- **proto:** remove `licensing.id.packs.pack_id.quantity_changes.v1`
+- **proto:** remove `licensing.id.packs.v1`
+- **proto:** remove `accounts__0__subscriptions__0__groups__0__licensing_id.v1`
+- **proto:** remove `accounts__0__subscriptions__0__licensing_id.v1`
 
 ### Features
 
-* prefer to use summary for list response ([edc1ed6](https://github.com/WhitehawkCEC/whitehawk-proto/commit/edc1ed645ab01107c20ef813970480dcab82feea))
-* **proto:** remove `accounts__0__subscriptions__0__groups__0__licensing_id.v1` ([62c9a80](https://github.com/WhitehawkCEC/whitehawk-proto/commit/62c9a80c27c5b7ba82f00501adb1b86e597d78f0))
-* **proto:** remove `accounts__0__subscriptions__0__licensing_id.v1` ([f1298d1](https://github.com/WhitehawkCEC/whitehawk-proto/commit/f1298d16903a7c73dbab1c226b6518e63c777882))
-* **proto:** remove `licensing.id.packs.pack_id.quantity_changes.v1` ([de77c97](https://github.com/WhitehawkCEC/whitehawk-proto/commit/de77c972c6235f3e227fda4ddc27461eecb4b8f9))
-* **proto:** remove `licensing.id.packs.v1` ([7541468](https://github.com/WhitehawkCEC/whitehawk-proto/commit/754146867830cc3724bd67b0b78a75645cdaa7cf))
+- prefer to use summary for list response ([edc1ed6](https://github.com/WhitehawkCEC/whitehawk-proto/commit/edc1ed645ab01107c20ef813970480dcab82feea))
+- **proto:** remove `accounts__0__subscriptions__0__groups__0__licensing_id.v1` ([62c9a80](https://github.com/WhitehawkCEC/whitehawk-proto/commit/62c9a80c27c5b7ba82f00501adb1b86e597d78f0))
+- **proto:** remove `accounts__0__subscriptions__0__licensing_id.v1` ([f1298d1](https://github.com/WhitehawkCEC/whitehawk-proto/commit/f1298d16903a7c73dbab1c226b6518e63c777882))
+- **proto:** remove `licensing.id.packs.pack_id.quantity_changes.v1` ([de77c97](https://github.com/WhitehawkCEC/whitehawk-proto/commit/de77c972c6235f3e227fda4ddc27461eecb4b8f9))
+- **proto:** remove `licensing.id.packs.v1` ([7541468](https://github.com/WhitehawkCEC/whitehawk-proto/commit/754146867830cc3724bd67b0b78a75645cdaa7cf))
 
 ### [0.71.8](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.71.7...0.71.8) (2023-05-23)
 
-
 ### Features
 
-* add `PeratonCompany` message ([2cf6d36](https://github.com/WhitehawkCEC/whitehawk-proto/commit/2cf6d362a617ce60fdc5d26d78bcd6dec7915fa8))
-* add `RiskAnalyticsPeratonConfig` as subscription product type ([0552aa2](https://github.com/WhitehawkCEC/whitehawk-proto/commit/0552aa2a30eee9322272b4d53b08f89955338f73))
-* add service for peraton risk analytics ([7ebd028](https://github.com/WhitehawkCEC/whitehawk-proto/commit/7ebd028e74ef2cf6f981a8b2c5df07aa43f156e2))
-* add service to list subscription products mapped to subscription types ([21368bf](https://github.com/WhitehawkCEC/whitehawk-proto/commit/21368bf3f4f59f9be396ad9c122df7baaf0921ef))
+- add `PeratonCompany` message ([2cf6d36](https://github.com/WhitehawkCEC/whitehawk-proto/commit/2cf6d362a617ce60fdc5d26d78bcd6dec7915fa8))
+- add `RiskAnalyticsPeratonConfig` as subscription product type ([0552aa2](https://github.com/WhitehawkCEC/whitehawk-proto/commit/0552aa2a30eee9322272b4d53b08f89955338f73))
+- add service for peraton risk analytics ([7ebd028](https://github.com/WhitehawkCEC/whitehawk-proto/commit/7ebd028e74ef2cf6f981a8b2c5df07aa43f156e2))
+- add service to list subscription products mapped to subscription types ([21368bf](https://github.com/WhitehawkCEC/whitehawk-proto/commit/21368bf3f4f59f9be396ad9c122df7baaf0921ef))
 
 ### [0.71.7](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.71.6...0.71.7) (2023-05-23)
 
