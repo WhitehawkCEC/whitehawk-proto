@@ -4,7 +4,7 @@ package whitehawk.proto.report.account.subscriptions.v1;
 
 import "whitehawk/proto/company/v1/message.proto";
 import "whitehawk/proto/slug/v1/message.proto";
-import "whitehawk/proto/subscription/v1/message.proto";
+import "whitehawk/proto/subscription/v2/message.proto";
 
 message ReportAccountSubscriptions {
   whitehawk.proto.slug.v1.Slug id = 1;
@@ -13,7 +13,7 @@ message ReportAccountSubscriptions {
 }
 
 message ReportSubscription {
-  whitehawk.proto.subscription.v1.Subscription subscription = 1;
-  whitehawk.proto.subscription.v1.SubscriptionStatus status = 2;
+  whitehawk.proto.subscription.v2.Subscription subscription = 1;
+  whitehawk.proto.subscription.v2.SubscriptionStatus status = 2;
   int32 number_products = 3;
 }
