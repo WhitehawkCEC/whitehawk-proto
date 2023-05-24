@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.72.3](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.72.2...0.72.3) (2023-05-24)
+
+
+### Features
+
+* description on createrequest v2 ([1b5dccc](https://github.com/WhitehawkCEC/whitehawk-proto/commit/1b5dccc24d0270b6cc86e6e64273a0a8d15803e3))
+
 ### [0.72.2](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.72.1...0.72.2) (2023-05-24)
 
 
