@@ -1,0 +1,49 @@
+syntax = "proto3";
+
+package whitehawk.proto.internal.client_portal.accounts.id.subscriptions.v2;
+
+import "whitehawk/proto/slug/v1/message.proto";
+import "whitehawk/proto/subscription/v2/message.proto";
+import "whitehawk/proto/time/v1/message.proto";
+
+service Service {
+  rpc Create(CreateRequest) returns (CreateResponse);
+  rpc Read(ReadRequest) returns (ReadResponse);
+  rpc Update(UpdateRequest) returns (UpdateResponse);
+  rpc List(ListRequest) returns (ListResponse);
+}
+
+message CreateRequest {
+  whitehawk.proto.slug.v1.Slug account_id = 1;
+  whitehawk.proto.slug.v1.Slug subscription_id = 2;
+  whitehawk.proto.subscription.v2.SubscriptionType type = 3;
+  string name = 4;
+  whitehawk.proto.time.v1.DateRange validity = 5;
+}
+
+message CreateResponse {}
+
+message ReadRequest {
+  whitehawk.proto.slug.v1.Slug account_id = 1;
+  whitehawk.proto.slug.v1.Slug subscription_id = 2;
+}
+
+message ReadResponse {
+  whitehawk.proto.subscription.v2.Subscription value = 1;
+}
+
+message UpdateRequest {
+  whitehawk.proto.slug.v1.Slug account_id = 1;
+  whitehawk.proto.slug.v1.Slug subscription_id = 2;
+  string name = 3;
+}
+
+message UpdateResponse {}
+
+message ListRequest {
+  whitehawk.proto.slug.v1.Slug account_id = 1;
+}
+
+message ListResponse {
+  repeated whitehawk.proto.subscription.v2.Subscription values = 1;
+}
