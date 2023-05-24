@@ -3,10 +3,9 @@ syntax = "proto3";
 // buf:lint:ignore PACKAGE_LOWER_SNAKE_CASE
 package whitehawk.proto.internal.client_portal.accounts__0__subscriptions__0__integrations__peraton__companies__risk_analytics.v1;
 
-import "whitehawk/proto/resource/v1/message.proto";
 import "whitehawk/proto/integration/peraton/domain/v1/message.proto";
+import "whitehawk/proto/resource/v1/message.proto";
 import "whitehawk/proto/time/v1/message.proto";
-
 
 service Service {
   rpc Read(ReadRequest) returns (ReadResponse);

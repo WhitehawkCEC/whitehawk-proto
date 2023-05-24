@@ -2,8 +2,8 @@ syntax = "proto3";
 
 package whitehawk.proto.internal.client_portal.subscription_product_types.v1;
 
-import "whitehawk/proto/subscription/v1/message.proto";
 import "whitehawk/proto/subscription/product/v1/message.proto";
+import "whitehawk/proto/subscription/v1/message.proto";
 
 service Service {
   rpc List(ListRequest) returns (ListResponse);
