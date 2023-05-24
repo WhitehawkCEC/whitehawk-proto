@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.72.5](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.72.4...0.72.5) (2023-05-24)
+
+
+### Features
+
+* reports v2 add readrequest ([e449fc8](https://github.com/WhitehawkCEC/whitehawk-proto/commit/e449fc85f2fdb34a5440daaa9b8482863fc84943))
+
 ### [0.72.4](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.72.3...0.72.4) (2023-05-24)
 
 
