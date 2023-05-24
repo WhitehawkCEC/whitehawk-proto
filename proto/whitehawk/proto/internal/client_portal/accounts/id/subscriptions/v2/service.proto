@@ -18,7 +18,8 @@ message CreateRequest {
   whitehawk.proto.slug.v1.Slug subscription_id = 2;
   whitehawk.proto.subscription.v2.SubscriptionType type = 3;
   string name = 4;
-  whitehawk.proto.time.v1.DateRange validity = 5;
+  string description = 5;
+  whitehawk.proto.time.v1.DateRange validity = 6;
 }
 
 message CreateResponse {}
