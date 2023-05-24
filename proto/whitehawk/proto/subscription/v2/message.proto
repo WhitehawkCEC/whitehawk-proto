@@ -1,0 +1,46 @@
+syntax = "proto3";
+
+package whitehawk.proto.subscription.v2;
+
+import "whitehawk/proto/slug/v1/message.proto";
+import "whitehawk/proto/time/v1/message.proto";
+
+message Subscription {
+  whitehawk.proto.slug.v1.Slug account_id = 1;
+  whitehawk.proto.slug.v1.Slug subscription_id = 2;
+  SubscriptionType type = 3;
+  string name = 4;
+  string description = 5;
+  SubscriptionStatus status = 6;
+  SubscriptionFeatures features = 7;
+}
+
+enum SubscriptionType {
+  SUBSCRIPTION_TYPE_UNSPECIFIED = 0;
+  SUBSCRIPTION_TYPE_INDIVIDUAL = 1;
+  SUBSCRIPTION_TYPE_PORTFOLIO = 2;
+  SUBSCRIPTION_TYPE_RESELLER = 3;
+}
+
+message SubscriptionFeatures {
+  bool has_products = 1;
+  bool has_suppliers = 2;
+  bool has_groups = 3;
+}
+
+message SubscriptionStatus {
+  SubscriptionState state = 1;
+  whitehawk.proto.time.v1.DateRange validity = 2;
+}
+
+enum SubscriptionState {
+  SUBSCRIPTION_STATE_UNSPECIFIED = 0;
+  SUBSCRIPTION_STATE_ACTIVE = 1;
+  SUBSCRIPTION_STATE_INACTIVE = 2;
+  SUBSCRIPTION_STATE_ARCHIVED = 3;
+}
+
+message SubscriptionGroup {
+  whitehawk.proto.slug.v1.Slug id = 1;
+  string name = 2;
+}
