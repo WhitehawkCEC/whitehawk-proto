@@ -4,38 +4,33 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### [0.72.5](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.72.4...0.72.5) (2023-05-24)
 
-
 ### Features
 
-* reports v2 add readrequest ([e449fc8](https://github.com/WhitehawkCEC/whitehawk-proto/commit/e449fc85f2fdb34a5440daaa9b8482863fc84943))
+- reports v2 add readrequest ([e449fc8](https://github.com/WhitehawkCEC/whitehawk-proto/commit/e449fc85f2fdb34a5440daaa9b8482863fc84943))
 
 ### [0.72.4](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.72.3...0.72.4) (2023-05-24)
 
-
 ### Features
 
-* report subscription use v2 subscription ([2a92e1a](https://github.com/WhitehawkCEC/whitehawk-proto/commit/2a92e1ac8092411d54e5679404486423c8434706))
+- report subscription use v2 subscription ([2a92e1a](https://github.com/WhitehawkCEC/whitehawk-proto/commit/2a92e1ac8092411d54e5679404486423c8434706))
 
 ### [0.72.3](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.72.2...0.72.3) (2023-05-24)
 
-
 ### Features
 
-* description on createrequest v2 ([1b5dccc](https://github.com/WhitehawkCEC/whitehawk-proto/commit/1b5dccc24d0270b6cc86e6e64273a0a8d15803e3))
+- description on createrequest v2 ([1b5dccc](https://github.com/WhitehawkCEC/whitehawk-proto/commit/1b5dccc24d0270b6cc86e6e64273a0a8d15803e3))
 
 ### [0.72.2](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.72.1...0.72.2) (2023-05-24)
 
-
 ### Features
 
-* subscription v2 service ([15e128f](https://github.com/WhitehawkCEC/whitehawk-proto/commit/15e128f72e83f8203e2c17458ab735e95dbae6c7))
+- subscription v2 service ([15e128f](https://github.com/WhitehawkCEC/whitehawk-proto/commit/15e128f72e83f8203e2c17458ab735e95dbae6c7))
 
 ### [0.72.1](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.72.0...0.72.1) (2023-05-24)
 
-
 ### Features
 
-* subscription with description v2 ([fd9297a](https://github.com/WhitehawkCEC/whitehawk-proto/commit/fd9297a96e79f186329db0372cf5795fcfc14bb5))
+- subscription with description v2 ([fd9297a](https://github.com/WhitehawkCEC/whitehawk-proto/commit/fd9297a96e79f186329db0372cf5795fcfc14bb5))
 
 ## [0.72.0](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.71.8...0.72.0) (2023-05-23)
 
