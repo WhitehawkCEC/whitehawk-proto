@@ -18,7 +18,7 @@ jobs:
           git fetch --tags --force
 
       - name: Install nix
-        uses: cachix/install-nix-action@v20
+        uses: cachix/install-nix-action@v21
         with:
           github_access_token: ${{ secrets.GITHUB_TOKEN }}
 
