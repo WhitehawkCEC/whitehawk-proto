@@ -4,10 +4,9 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### [0.72.6](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.72.5...0.72.6) (2023-06-05)
 
-
 ### Bug Fixes
 
-* move int to double for peraton scores ([51c9413](https://github.com/WhitehawkCEC/whitehawk-proto/commit/51c9413717b0f3c56cfc3f938ce55f6ea6078e2f))
+- move int to double for peraton scores ([51c9413](https://github.com/WhitehawkCEC/whitehawk-proto/commit/51c9413717b0f3c56cfc3f938ce55f6ea6078e2f))
 
 ### [0.72.5](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.72.4...0.72.5) (2023-05-24)
 
