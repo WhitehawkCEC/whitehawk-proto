@@ -40,15 +40,15 @@ message UpdateRequest {
 
 message UpdateResponse {}
 
-message ListRequest {}
-
-message ListResponse {
-  repeated whitehawk.proto.files.scorecard_templates.v2.ScorecardTemplate template = 1;
-}
-
 message DeleteRequest {
   whitehawk.proto.ulid.v1.Ulid id = 1;
   whitehawk.proto.files.scorecard_templates.v2.FileType type = 2;
 }
 
 message DeleteResponse {}
+
+message ListRequest {}
+
+message ListResponse {
+  repeated whitehawk.proto.files.scorecard_templates.v2.ScorecardTemplate template = 1;
+}
