@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.72.12](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.72.11...0.72.12) (2023-06-15)
+
+
+### Bug Fixes
+
+* remove `repeated` ([1f13af5](https://github.com/WhitehawkCEC/whitehawk-proto/commit/1f13af54d0ee77ab63f99bbd5f04ba29bc43f92e))
+
 ### [0.72.11](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.72.10...0.72.11) (2023-06-15)
 
 
