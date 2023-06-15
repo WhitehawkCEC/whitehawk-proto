@@ -21,7 +21,7 @@ message GetResponse {
 
 message SetRequest {
   whitehawk.proto.slug.v1.Slug account_id = 1;
-  repeated whitehawk.proto.files.scorecard_templates.v2.ScorecardTemplate templates = 2;
+  whitehawk.proto.files.scorecard_templates.v2.ScorecardTemplate templates = 2;
 }
 
 message SetResponse {}
