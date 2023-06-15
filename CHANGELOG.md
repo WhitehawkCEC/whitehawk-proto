@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.72.8](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.72.7...0.72.8) (2023-06-15)
+
+
+### Bug Fixes
+
+* prefer `CRUDL` order ([4a97595](https://github.com/WhitehawkCEC/whitehawk-proto/commit/4a97595684580671223eaeac059a18b5fb03cbdc))
+
 ### [0.72.7](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.72.6...0.72.7) (2023-06-15)
 
 
