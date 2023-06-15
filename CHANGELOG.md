@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.72.7](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.72.6...0.72.7) (2023-06-15)
+
+
+### Features
+
+* add service for `accounts__0__scorecard_templates` ([0c62bc0](https://github.com/WhitehawkCEC/whitehawk-proto/commit/0c62bc08e9262749dd24103b21113bbb63197383))
+
 ### [0.72.6](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.72.5...0.72.6) (2023-06-05)
 
 ### Bug Fixes
