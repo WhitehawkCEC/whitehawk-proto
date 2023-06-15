@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.72.10](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.72.9...0.72.10) (2023-06-15)
+
+
+### Bug Fixes
+
+* set template send account id as well ([a7d80e5](https://github.com/WhitehawkCEC/whitehawk-proto/commit/a7d80e5940b729c023f8ad57dd8b934c4b1f009b))
+
 ### [0.72.9](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.72.8...0.72.9) (2023-06-15)
 
 
