@@ -16,7 +16,7 @@ message GetRequest {
 }
 
 message GetResponse {
-  repeated whitehawk.proto.files.scorecard_templates.v2.ScorecardTemplate templates = 1;
+ whitehawk.proto.files.scorecard_templates.v2.ScorecardTemplate templates = 1;
 }
 
 message SetRequest {
