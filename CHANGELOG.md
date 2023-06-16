@@ -4,52 +4,45 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### [0.72.13](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.72.12...0.72.13) (2023-06-15)
 
-
 ### Bug Fixes
 
-* prefer singular tense ([98079fe](https://github.com/WhitehawkCEC/whitehawk-proto/commit/98079fe64c43c994700d643b6d04ed4fead3a18d))
+- prefer singular tense ([98079fe](https://github.com/WhitehawkCEC/whitehawk-proto/commit/98079fe64c43c994700d643b6d04ed4fead3a18d))
 
 ### [0.72.12](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.72.11...0.72.12) (2023-06-15)
 
-
 ### Bug Fixes
 
-* remove `repeated` ([1f13af5](https://github.com/WhitehawkCEC/whitehawk-proto/commit/1f13af54d0ee77ab63f99bbd5f04ba29bc43f92e))
+- remove `repeated` ([1f13af5](https://github.com/WhitehawkCEC/whitehawk-proto/commit/1f13af54d0ee77ab63f99bbd5f04ba29bc43f92e))
 
 ### [0.72.11](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.72.10...0.72.11) (2023-06-15)
 
-
 ### Bug Fixes
 
-* remove repeated for template set ([70e8c5f](https://github.com/WhitehawkCEC/whitehawk-proto/commit/70e8c5f4512a5f4bd7671c8fe63ea9976b41894a))
+- remove repeated for template set ([70e8c5f](https://github.com/WhitehawkCEC/whitehawk-proto/commit/70e8c5f4512a5f4bd7671c8fe63ea9976b41894a))
 
 ### [0.72.10](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.72.9...0.72.10) (2023-06-15)
 
-
 ### Bug Fixes
 
-* set template send account id as well ([a7d80e5](https://github.com/WhitehawkCEC/whitehawk-proto/commit/a7d80e5940b729c023f8ad57dd8b934c4b1f009b))
+- set template send account id as well ([a7d80e5](https://github.com/WhitehawkCEC/whitehawk-proto/commit/a7d80e5940b729c023f8ad57dd8b934c4b1f009b))
 
 ### [0.72.9](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.72.8...0.72.9) (2023-06-15)
 
-
 ### Bug Fixes
 
-* prefer `CRUDL` order ([e6b0622](https://github.com/WhitehawkCEC/whitehawk-proto/commit/e6b06225cdb1825ab8caf7f2ef1bc412d8f0d43c))
+- prefer `CRUDL` order ([e6b0622](https://github.com/WhitehawkCEC/whitehawk-proto/commit/e6b06225cdb1825ab8caf7f2ef1bc412d8f0d43c))
 
 ### [0.72.8](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.72.7...0.72.8) (2023-06-15)
 
-
 ### Bug Fixes
 
-* prefer `CRUDL` order ([4a97595](https://github.com/WhitehawkCEC/whitehawk-proto/commit/4a97595684580671223eaeac059a18b5fb03cbdc))
+- prefer `CRUDL` order ([4a97595](https://github.com/WhitehawkCEC/whitehawk-proto/commit/4a97595684580671223eaeac059a18b5fb03cbdc))
 
 ### [0.72.7](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.72.6...0.72.7) (2023-06-15)
 
-
 ### Features
 
-* add service for `accounts__0__scorecard_templates` ([0c62bc0](https://github.com/WhitehawkCEC/whitehawk-proto/commit/0c62bc08e9262749dd24103b21113bbb63197383))
+- add service for `accounts__0__scorecard_templates` ([0c62bc0](https://github.com/WhitehawkCEC/whitehawk-proto/commit/0c62bc08e9262749dd24103b21113bbb63197383))
 
 ### [0.72.6](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.72.5...0.72.6) (2023-06-05)
 
