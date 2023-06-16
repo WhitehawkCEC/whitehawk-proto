@@ -3,8 +3,8 @@ syntax = "proto3";
 // buf:lint:ignore PACKAGE_LOWER_SNAKE_CASE
 package whitehawk.proto.internal.client_portal.accounts__0__scorecard_templates.v1;
 
-import "whitehawk/proto/slug/v1/message.proto";
 import "whitehawk/proto/files/scorecard_templates/v2/message.proto";
+import "whitehawk/proto/slug/v1/message.proto";
 
 service Service {
   rpc Get(GetRequest) returns (GetResponse);
@@ -16,7 +16,7 @@ message GetRequest {
 }
 
 message GetResponse {
- whitehawk.proto.files.scorecard_templates.v2.ScorecardTemplate template = 1;
+  whitehawk.proto.files.scorecard_templates.v2.ScorecardTemplate template = 1;
 }
 
 message SetRequest {
