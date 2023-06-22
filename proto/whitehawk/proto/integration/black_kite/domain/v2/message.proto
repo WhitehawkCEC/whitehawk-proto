@@ -25,6 +25,13 @@ message BlackKiteEntity {
   int32 id = 1;
   string name = 2;
   string domain = 3;
+  LicenseStatus license_status = 4;
+}
+
+enum LicenseStatus {
+  LICENSE_STATUS_UNSPECIFIED = 0;
+  LICENSE_STATUS_ACTIVE = 1;
+  LICENSE_STATUS_EXPIRED = 2;
 }
 
 message SummaryReport {
