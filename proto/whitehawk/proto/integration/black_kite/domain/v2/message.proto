@@ -28,10 +28,15 @@ message BlackKiteEntity {
   LicenseStatus license_status = 4;
 }
 
-enum LicenseStatus {
-  LICENSE_STATUS_UNSPECIFIED = 0;
-  LICENSE_STATUS_ACTIVE = 1;
-  LICENSE_STATUS_EXPIRED = 2;
+message LicenseStatus {
+  ScanProfileType license_type =1;
+  LicenseState license_state = 2;
+}
+
+enum LicenseState {
+  LICENSE_STATE_UNSPECIFIED = 0;
+  LICENSE_STATE_ACTIVE = 1;
+  LICENSE_STATE_EXPIRED = 2;
 }
 
 message SummaryReport {
