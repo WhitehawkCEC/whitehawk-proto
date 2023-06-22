@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.72.15](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.72.14...0.72.15) (2023-06-22)
+
+
+### Features
+
+* add `license_type` to `LicenseStatus` ([6087389](https://github.com/WhitehawkCEC/whitehawk-proto/commit/6087389bbfd5e1988a8efb6bd70875728f3c3fbf))
+
 ### [0.72.14](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.72.13...0.72.14) (2023-06-22)
 
 
