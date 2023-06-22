@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.72.14](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.72.13...0.72.14) (2023-06-22)
+
+
+### Features
+
+* add `accounts__0__subscriptions__0__integrations__black_kite__entities/v1` service ([27048b7](https://github.com/WhitehawkCEC/whitehawk-proto/commit/27048b79ffcd935dc2a5b549a50b57a214442645))
+* add `accounts__0__subscriptions__0__pending_scorecards` service ([e8f0282](https://github.com/WhitehawkCEC/whitehawk-proto/commit/e8f028247ce494e56509781c72668af02c1c68b1))
+* add `LicenseStatus` to `BlackKiteEntity` message ([425ba21](https://github.com/WhitehawkCEC/whitehawk-proto/commit/425ba215e0a5222231316fb70e7bdfbcd68bf350))
+
 ### [0.72.13](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.72.12...0.72.13) (2023-06-15)
 
 ### Bug Fixes
