@@ -29,7 +29,7 @@ message BlackKiteEntity {
 }
 
 message LicenseStatus {
-  ScanProfileType license_type =1;
+  ScanProfileType license_type = 1;
   LicenseState license_state = 2;
 }
 
