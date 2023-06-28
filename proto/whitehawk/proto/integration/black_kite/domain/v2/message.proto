@@ -3,6 +3,8 @@ syntax = "proto3";
 package whitehawk.proto.integration.black_kite.domain.v2;
 
 import "google/protobuf/struct.proto";
+import "whitehawk/proto/time/v1/message.proto";
+
 
 message ApiKey {
   // 50 characters (letters or numbers)
@@ -31,6 +33,7 @@ message BlackKiteEntity {
 message LicenseStatus {
   ScanProfileType license_type = 1;
   LicenseState license_state = 2;
+  whitehawk.proto.time.v1.DateRange license_date_range = 3;
 }
 
 enum LicenseState {
