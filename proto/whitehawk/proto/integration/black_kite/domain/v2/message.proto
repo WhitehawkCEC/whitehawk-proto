@@ -5,7 +5,6 @@ package whitehawk.proto.integration.black_kite.domain.v2;
 import "google/protobuf/struct.proto";
 import "whitehawk/proto/time/v1/message.proto";
 
-
 message ApiKey {
   // 50 characters (letters or numbers)
   // Pattern: [A-Za-z0-9]{50}
