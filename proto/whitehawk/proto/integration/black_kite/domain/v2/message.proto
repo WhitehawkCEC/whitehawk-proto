@@ -26,10 +26,10 @@ message BlackKiteEntity {
   int32 id = 1;
   string name = 2;
   string domain = 3;
-  LicenseStatus license_status = 4;
+  repeated LicenseInfo license_info = 4;
 }
 
-message LicenseStatus {
+message LicenseInfo {
   ScanProfileType license_type = 1;
   LicenseState license_state = 2;
   whitehawk.proto.time.v1.DateRange license_date_range = 3;
