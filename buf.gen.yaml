@@ -6,6 +6,6 @@ plugins:
     out: java/proto-stub/src-gen/main/java/
   - plugin: buf.build/grpc/java:v1.55.1
     out: java/proto-stub/src-gen/main/java/
-  - remote: buf.build/timostamm/plugins/protobuf-ts:v2.8.1-1
+  - plugin: buf.build/community/timostamm-protobuf-ts:v2.8.3
     out: web/src-gen/
     opt: add_pb_suffix,ts_nocheck
