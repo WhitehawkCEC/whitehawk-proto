@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.72.21](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.72.20...0.72.21) (2023-07-13)
+
+
+### Features
+
+* individual entity sync include domain as well ([fb92a73](https://github.com/WhitehawkCEC/whitehawk-proto/commit/fb92a7393e6cb65953b9595595a9f82517a8b1b3))
+
 ### [0.72.20](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.72.19...0.72.20) (2023-07-13)
 
 
