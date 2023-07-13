@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.72.20](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.72.19...0.72.20) (2023-07-13)
+
+
+### Features
+
+* proto def for individual sync ([b2f2bbe](https://github.com/WhitehawkCEC/whitehawk-proto/commit/b2f2bbef62e245663587ad8a01fd1c5e4504efcb))
+
 ### [0.72.19](https://github.com/whitehawkcec/whitehawk-proto/compare/0.72.18...0.72.19) (2023-07-11)
 
 ### [0.72.18](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.72.17...0.72.18) (2023-07-11)
