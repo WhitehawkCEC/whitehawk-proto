@@ -11,7 +11,7 @@ service Service {
 message GetRequest {
   whitehawk.proto.resource.v1.AccountSubscriptionId id = 1;
   string entity_id = 2;
-
+  string domain = 3;
 }
 
 message GetResponse {
