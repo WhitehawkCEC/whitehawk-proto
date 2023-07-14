@@ -8,7 +8,7 @@ import "whitehawk/proto/slug/v1/message.proto";
 
 service Service {
   rpc Read(ReadRequest) returns (ReadResponse);
-  rpc List(ListRequest) returns (ListResponse);
+  rpc List(ListRequest) returns (stream ListResponse);
 }
 
 message ReadRequest {
