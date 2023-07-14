@@ -2,6 +2,7 @@ syntax = "proto3";
 
 // buf:lint:ignore PACKAGE_LOWER_SNAKE_CASE
 package whitehawk.proto.internal.client_portal.accounts__0__subscriptions__0__integrations__black_kite__entities__0__sync.v1;
+
 import "whitehawk/proto/resource/v1/message.proto";
 
 service Service {
@@ -14,5 +15,4 @@ message GetRequest {
   string domain = 3;
 }
 
-message GetResponse {
-}
+message GetResponse {}
