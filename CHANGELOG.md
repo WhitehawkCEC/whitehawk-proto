@@ -4,17 +4,15 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### [0.72.21](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.72.20...0.72.21) (2023-07-13)
 
-
 ### Features
 
-* individual entity sync include domain as well ([fb92a73](https://github.com/WhitehawkCEC/whitehawk-proto/commit/fb92a7393e6cb65953b9595595a9f82517a8b1b3))
+- individual entity sync include domain as well ([fb92a73](https://github.com/WhitehawkCEC/whitehawk-proto/commit/fb92a7393e6cb65953b9595595a9f82517a8b1b3))
 
 ### [0.72.20](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.72.19...0.72.20) (2023-07-13)
 
-
 ### Features
 
-* proto def for individual sync ([b2f2bbe](https://github.com/WhitehawkCEC/whitehawk-proto/commit/b2f2bbef62e245663587ad8a01fd1c5e4504efcb))
+- proto def for individual sync ([b2f2bbe](https://github.com/WhitehawkCEC/whitehawk-proto/commit/b2f2bbef62e245663587ad8a01fd1c5e4504efcb))
 
 ### [0.72.19](https://github.com/whitehawkcec/whitehawk-proto/compare/0.72.18...0.72.19) (2023-07-11)
 
