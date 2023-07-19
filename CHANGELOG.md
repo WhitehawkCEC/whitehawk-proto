@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.72.23](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.72.22...0.72.23) (2023-07-19)
+
+
+### Features
+
+* entities portfolio sync ([fca06cd](https://github.com/WhitehawkCEC/whitehawk-proto/commit/fca06cd7c420a8e31b06abac759c2f92237fe71e))
+
 ### [0.72.22](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.72.21...0.72.22) (2023-07-14)
 
 ### Bug Fixes
