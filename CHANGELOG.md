@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.72.26](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.72.25...0.72.26) (2023-07-20)
+
+
+### Features
+
+* add `integrations__black_kite__entities` resource ([399d62a](https://github.com/WhitehawkCEC/whitehawk-proto/commit/399d62ac99f514a7e915bb4ba23b271be6ae1b1d))
+
 ### [0.72.25](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.72.24...0.72.25) (2023-07-20)
 
 ### [0.72.24](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.72.23...0.72.24) (2023-07-19)
