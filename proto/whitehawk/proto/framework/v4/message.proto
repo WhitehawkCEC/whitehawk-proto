@@ -20,6 +20,8 @@ enum FrameworkId {
   FRAMEWORK_ID_NY_DFS = 12;
   FRAMEWORK_ID_PCI_DSS = 13;
   FRAMEWORK_ID_SA22 = 14;
+  FRAMEWORK_ID_CIS_V8 = 15;
+  FRAMEWORK_ID_PCI_DSS_V4 = 16;
 }
 
 message FrameworkInfo {
