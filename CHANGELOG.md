@@ -4,17 +4,15 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### [0.72.24](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.72.23...0.72.24) (2023-07-19)
 
-
 ### Bug Fixes
 
-* sync returns number of new suppliers synced ([91d75e2](https://github.com/WhitehawkCEC/whitehawk-proto/commit/91d75e246a8e759a63d0449f19cd2ecb35015390))
+- sync returns number of new suppliers synced ([91d75e2](https://github.com/WhitehawkCEC/whitehawk-proto/commit/91d75e246a8e759a63d0449f19cd2ecb35015390))
 
 ### [0.72.23](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.72.22...0.72.23) (2023-07-19)
 
-
 ### Features
 
-* entities portfolio sync ([fca06cd](https://github.com/WhitehawkCEC/whitehawk-proto/commit/fca06cd7c420a8e31b06abac759c2f92237fe71e))
+- entities portfolio sync ([fca06cd](https://github.com/WhitehawkCEC/whitehawk-proto/commit/fca06cd7c420a8e31b06abac759c2f92237fe71e))
 
 ### [0.72.22](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.72.21...0.72.22) (2023-07-14)
 
