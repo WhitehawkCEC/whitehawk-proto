@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.72.28](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.72.27...0.72.28) (2023-07-24)
+
+
+### Features
+
+* frameworks v2 use v5 version using framework id instead of ulid ([c92bba2](https://github.com/WhitehawkCEC/whitehawk-proto/commit/c92bba2420ce5d64a1744459ca772b1b87a688af))
+
 ### [0.72.27](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.72.26...0.72.27) (2023-07-21)
 
 ### [0.72.26](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.72.25...0.72.26) (2023-07-20)
