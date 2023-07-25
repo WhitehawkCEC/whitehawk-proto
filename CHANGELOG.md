@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.72.31](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.72.30...0.72.31) (2023-07-25)
+
+
+### Features
+
+* add `PCI_DSS_V4` ([a1b4ab2](https://github.com/WhitehawkCEC/whitehawk-proto/commit/a1b4ab2621bdf83ed4e9bd856acade31293e63f0))
+
 ### [0.72.30](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.72.29...0.72.30) (2023-07-25)
 
 
