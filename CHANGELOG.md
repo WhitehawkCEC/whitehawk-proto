@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.72.32](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.72.31...0.72.32) (2023-07-25)
+
+
+### Features
+
+* add `ISO27002` ([234611a](https://github.com/WhitehawkCEC/whitehawk-proto/commit/234611a54dbf4c57c374643753e154f4611eeaac))
+
 ### [0.72.31](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.72.30...0.72.31) (2023-07-25)
 
 
