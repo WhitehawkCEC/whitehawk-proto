@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.72.33](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.72.32...0.72.33) (2023-07-25)
+
+
+### Features
+
+* accounts frameworks v2 ([0f245de](https://github.com/WhitehawkCEC/whitehawk-proto/commit/0f245de4c69f9fc367dbee51c7c1b27482b9184c))
+
 ### [0.72.32](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.72.31...0.72.32) (2023-07-25)
 
 
