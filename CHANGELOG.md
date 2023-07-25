@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.72.30](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.72.29...0.72.30) (2023-07-25)
+
+
+### Features
+
+* add `CIS_V8` ([8b80e81](https://github.com/WhitehawkCEC/whitehawk-proto/commit/8b80e814efa09ad8a4b020bb44bf622f1b0f1262))
+
 ### [0.72.29](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.72.28...0.72.29) (2023-07-24)
 
 ### [0.72.28](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.72.27...0.72.28) (2023-07-24)
