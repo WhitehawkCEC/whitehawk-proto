@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.72.36](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.72.35...0.72.36) (2023-07-26)
+
+
+### Bug Fixes
+
+* frameworks v5 with refactored enum set ([004194b](https://github.com/WhitehawkCEC/whitehawk-proto/commit/004194b5298adb188f69ad68047277826a571a1c))
+
 ### [0.72.35](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.72.34...0.72.35) (2023-07-25)
 
 ### Features
