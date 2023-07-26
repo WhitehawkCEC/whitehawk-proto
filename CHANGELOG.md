@@ -4,45 +4,39 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### [0.72.35](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.72.34...0.72.35) (2023-07-25)
 
-
 ### Features
 
-* add `accounts__0__frameworks_config.v1` resource ([3279a47](https://github.com/WhitehawkCEC/whitehawk-proto/commit/3279a4760c50b8013ed21486c247adcc0f21314b))
+- add `accounts__0__frameworks_config.v1` resource ([3279a47](https://github.com/WhitehawkCEC/whitehawk-proto/commit/3279a4760c50b8013ed21486c247adcc0f21314b))
 
 ### [0.72.34](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.72.33...0.72.34) (2023-07-25)
 
-
 ### Features
 
-* accounts frameworks use v5 ([fb4aedf](https://github.com/WhitehawkCEC/whitehawk-proto/commit/fb4aedf94b9e1296eb90682b31d5df44d999074b))
+- accounts frameworks use v5 ([fb4aedf](https://github.com/WhitehawkCEC/whitehawk-proto/commit/fb4aedf94b9e1296eb90682b31d5df44d999074b))
 
 ### [0.72.33](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.72.32...0.72.33) (2023-07-25)
 
-
 ### Features
 
-* accounts frameworks v2 ([0f245de](https://github.com/WhitehawkCEC/whitehawk-proto/commit/0f245de4c69f9fc367dbee51c7c1b27482b9184c))
+- accounts frameworks v2 ([0f245de](https://github.com/WhitehawkCEC/whitehawk-proto/commit/0f245de4c69f9fc367dbee51c7c1b27482b9184c))
 
 ### [0.72.32](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.72.31...0.72.32) (2023-07-25)
 
-
 ### Features
 
-* add `ISO27002` ([234611a](https://github.com/WhitehawkCEC/whitehawk-proto/commit/234611a54dbf4c57c374643753e154f4611eeaac))
+- add `ISO27002` ([234611a](https://github.com/WhitehawkCEC/whitehawk-proto/commit/234611a54dbf4c57c374643753e154f4611eeaac))
 
 ### [0.72.31](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.72.30...0.72.31) (2023-07-25)
 
-
 ### Features
 
-* add `PCI_DSS_V4` ([a1b4ab2](https://github.com/WhitehawkCEC/whitehawk-proto/commit/a1b4ab2621bdf83ed4e9bd856acade31293e63f0))
+- add `PCI_DSS_V4` ([a1b4ab2](https://github.com/WhitehawkCEC/whitehawk-proto/commit/a1b4ab2621bdf83ed4e9bd856acade31293e63f0))
 
 ### [0.72.30](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.72.29...0.72.30) (2023-07-25)
 
-
 ### Features
 
-* add `CIS_V8` ([8b80e81](https://github.com/WhitehawkCEC/whitehawk-proto/commit/8b80e814efa09ad8a4b020bb44bf622f1b0f1262))
+- add `CIS_V8` ([8b80e81](https://github.com/WhitehawkCEC/whitehawk-proto/commit/8b80e814efa09ad8a4b020bb44bf622f1b0f1262))
 
 ### [0.72.29](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.72.28...0.72.29) (2023-07-24)
 
