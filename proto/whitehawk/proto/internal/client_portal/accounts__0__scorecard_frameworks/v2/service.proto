@@ -23,5 +23,5 @@ message GetRequest {
 }
 
 message GetResponse {
-  repeated whitehawk.proto.framework.v5.Framework frameworks = 1;
+  repeated whitehawk.proto.framework.v5.FrameworkInfo frameworks = 1;
 }
