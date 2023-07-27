@@ -1,6 +1,7 @@
 syntax = "proto3";
 
 package whitehawk.proto.framework.v5;
+import "whitehawk/proto/ulid/v1/message.proto";
 
 enum FrameworkId {
   FRAMEWORK_ID_UNSPECIFIED = 0;
@@ -26,4 +27,9 @@ message FrameworkInfo {
   string code = 2;
   string name = 3;
   optional string description = 4;
+}
+
+message Framework {
+  whitehawk.proto.ulid.v1.Ulid id = 1;
+  FrameworkInfo info = 2;
 }
