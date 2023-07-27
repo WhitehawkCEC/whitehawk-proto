@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.72.37](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.72.36...0.72.37) (2023-07-27)
+
+
+### Features
+
+* add frameowrk obj in v5 ([ba44de7](https://github.com/WhitehawkCEC/whitehawk-proto/commit/ba44de7fb15b43565d47ed8d57a26666ba30b82d))
+
 ### [0.72.36](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.72.35...0.72.36) (2023-07-26)
 
 ### Bug Fixes
