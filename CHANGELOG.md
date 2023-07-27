@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.72.39](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.72.38...0.72.39) (2023-07-27)
+
+
+### Bug Fixes
+
+* accounts_0_scorecard_frameworks_v2 use framework obj instead of frameworkinfo ([566cfca](https://github.com/WhitehawkCEC/whitehawk-proto/commit/566cfcadba45c36fe27df2789b59979c83c009f7))
+
 ### [0.72.38](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.72.37...0.72.38) (2023-07-27)
 
 ### [0.72.37](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.72.36...0.72.37) (2023-07-27)
