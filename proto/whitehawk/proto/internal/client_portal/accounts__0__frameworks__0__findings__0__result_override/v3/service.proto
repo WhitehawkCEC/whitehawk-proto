@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+// buf:lint:ignore PACKAGE_LOWER_SNAKE_CASE
+package whitehawk.proto.internal.client_portal.accounts__0__frameworks__0__findings__0__result_override.v3;
+
+import "whitehawk/proto/framework/v5/message.proto";
+import "whitehawk/proto/slug/v1/message.proto";
+
+service Service {
+  rpc Set(SetRequest) returns (SetResponse);
+}
+
+message SetRequest {
+  whitehawk.proto.slug.v1.Slug account_id = 1;
+  whitehawk.proto.framework.v5.FrameworkId framework_id = 2;
+  string item_id = 3;
+  optional int32 result_override = 4;
+}
+
+message SetResponse {}
