@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.72.41](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.72.40...0.72.41) (2023-07-27)
+
+
+### Features
+
+* add `accounts__0__frameworks__0__findings__0__result_override.v3` ([f93e135](https://github.com/WhitehawkCEC/whitehawk-proto/commit/f93e135fe1c99f2d33555512a6d5b18c5dc916f7))
+* add `accounts__0__todos.v3` ([9aba25e](https://github.com/WhitehawkCEC/whitehawk-proto/commit/9aba25ed59d3fba5fefcc9106c1b09e390520bf6))
+* add `CreateInputInDepthBlackKiteWithFrameworksV2` type ([222ca1b](https://github.com/WhitehawkCEC/whitehawk-proto/commit/222ca1b16e7d1138f3a2a18b1a2d2508aa9982d2))
+* add `CreateInputInDepthBlackKiteWithFrameworksV2` type ([a6cbfd1](https://github.com/WhitehawkCEC/whitehawk-proto/commit/a6cbfd10685dce9f516caa13294a523a04d59c20))
+* add `indepthblackkitewithframeworks.v2` message ([6a64caf](https://github.com/WhitehawkCEC/whitehawk-proto/commit/6a64caf7991570adbc51b54ed7ce6e77d766b7f0))
+* add `todo` v3 ([e8ea5e8](https://github.com/WhitehawkCEC/whitehawk-proto/commit/e8ea5e827c59efcc5ae8e3d8fcef65394a51dcd6))
+* prefer set request as `FrameworkId` ([0269c1d](https://github.com/WhitehawkCEC/whitehawk-proto/commit/0269c1d0bc1aaf3d66c46e73cd58105a4362341d))
+
 ### [0.72.40](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.72.39...0.72.40) (2023-07-27)
 
 ### [0.72.39](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.72.38...0.72.39) (2023-07-27)
