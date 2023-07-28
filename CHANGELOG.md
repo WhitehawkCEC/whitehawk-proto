@@ -2,6 +2,20 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.72.43](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.72.42...0.72.43) (2023-07-28)
+
+
+### Features
+
+* add `accounts__0__subscriptions__0__batch_scorecards_v3__zip.v1` ([83669e8](https://github.com/WhitehawkCEC/whitehawk-proto/commit/83669e893c7c0f03d8c4ad28ed3cebc02355d386))
+* add `accounts__0__subscriptions__0__batch_scorecards_v3.v1` ([be45586](https://github.com/WhitehawkCEC/whitehawk-proto/commit/be45586f97aeaebe25794e8da1f8a1a95e84fd7a))
+* add `accounts__0__subscriptions__0__integrations__black_kite__entities__0__latest_scorecard/v3` service ([58910e1](https://github.com/WhitehawkCEC/whitehawk-proto/commit/58910e1cbdf66db89669f88dacd7e11b3a11211a))
+
+
+### Bug Fixes
+
+* prefer chronological numbering ([21a00d9](https://github.com/WhitehawkCEC/whitehawk-proto/commit/21a00d9dd865ce2e5d0976501a38152a9a96f175))
+
 ### [0.72.42](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.72.41...0.72.42) (2023-07-27)
 
 ### Bug Fixes
