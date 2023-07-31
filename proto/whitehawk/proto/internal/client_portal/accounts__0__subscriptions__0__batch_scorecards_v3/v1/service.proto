@@ -44,11 +44,7 @@ message ListRequest {
 }
 
 message ListResponse {
-  whitehawk.proto.ulid.v1.Ulid id = 1;
-  whitehawk.proto.slug.v1.Slug account_id = 2;
-  whitehawk.proto.slug.v1.Slug subscription_id = 3;
-  whitehawk.proto.scorecard_v3.indepthblackkitecmmcv2.v2.Status status = 4;
-  whitehawk.proto.meta.v1.Meta meta = 5;
+repeated BatchScorecardList values = 1;
 }
 
 message BatchScorecard {
@@ -58,6 +54,14 @@ message BatchScorecard {
   repeated whitehawk.proto.integration.black_kite.domain.v2.BlackKiteEntity entities = 4;
   bool include_cmmc = 5;
   string template = 6;
+}
+
+message BatchScorecardList {
+    whitehawk.proto.ulid.v1.Ulid id = 1;
+  whitehawk.proto.slug.v1.Slug account_id = 2;
+  whitehawk.proto.slug.v1.Slug subscription_id = 3;
+  whitehawk.proto.scorecard_v3.indepthblackkitecmmcv2.v2.Status status = 4;
+  whitehawk.proto.meta.v1.Meta meta = 5;
 }
 
 message BatchScorecardResults {
