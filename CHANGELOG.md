@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.72.48](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.72.47...0.72.48) (2023-07-31)
+
+
+### Features
+
+* add `accounts__0__snapshot_scorecards/v1` resource ([2fda9a6](https://github.com/WhitehawkCEC/whitehawk-proto/commit/2fda9a6f2b0935a88ed39e67587123e8725a742c))
+* add `snapshot_scorecard/v1` ([b1ddd0c](https://github.com/WhitehawkCEC/whitehawk-proto/commit/b1ddd0ce831cf6e813defaae046a5a3741bf33c1))
+
 ### [0.72.47](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.72.46...0.72.47) (2023-07-31)
 
 ### [0.72.46](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.72.45...0.72.46) (2023-07-31)
