@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+package whitehawk.proto.internal.client_portal.frameworks.v3;
+
+service Service {
+  rpc CreateBlankFrameworks(CreateBlankFrameworksRequest) returns (CreateBlankFrameworksResponse);
+}
+
+message CreateBlankFrameworksRequest {}
+
+message CreateBlankFrameworksResponse {
+  string message = 1;
+}
+
