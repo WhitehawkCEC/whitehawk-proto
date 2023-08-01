@@ -4,41 +4,36 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### [0.72.49](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.72.48...0.72.49) (2023-07-31)
 
-
 ### Bug Fixes
 
-* return array of values ([bbb85f4](https://github.com/WhitehawkCEC/whitehawk-proto/commit/bbb85f49923705f5806f2698425f47905b044458))
+- return array of values ([bbb85f4](https://github.com/WhitehawkCEC/whitehawk-proto/commit/bbb85f49923705f5806f2698425f47905b044458))
 
 ### [0.72.48](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.72.47...0.72.48) (2023-07-31)
 
-
 ### Features
 
-* add `accounts__0__snapshot_scorecards/v1` resource ([2fda9a6](https://github.com/WhitehawkCEC/whitehawk-proto/commit/2fda9a6f2b0935a88ed39e67587123e8725a742c))
-* add `snapshot_scorecard/v1` ([b1ddd0c](https://github.com/WhitehawkCEC/whitehawk-proto/commit/b1ddd0ce831cf6e813defaae046a5a3741bf33c1))
+- add `accounts__0__snapshot_scorecards/v1` resource ([2fda9a6](https://github.com/WhitehawkCEC/whitehawk-proto/commit/2fda9a6f2b0935a88ed39e67587123e8725a742c))
+- add `snapshot_scorecard/v1` ([b1ddd0c](https://github.com/WhitehawkCEC/whitehawk-proto/commit/b1ddd0ce831cf6e813defaae046a5a3741bf33c1))
 
 ### [0.72.47](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.72.46...0.72.47) (2023-07-31)
 
 ### [0.72.46](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.72.45...0.72.46) (2023-07-31)
 
-
 ### Bug Fixes
 
-* use v5 framework info ([778741b](https://github.com/WhitehawkCEC/whitehawk-proto/commit/778741bc627b56146d1a47b99949c52c594911b5))
+- use v5 framework info ([778741b](https://github.com/WhitehawkCEC/whitehawk-proto/commit/778741bc627b56146d1a47b99949c52c594911b5))
 
 ### [0.72.45](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.72.44...0.72.45) (2023-07-31)
 
-
 ### Bug Fixes
 
-* set use framework info to not drop the name and description ([130e1ed](https://github.com/WhitehawkCEC/whitehawk-proto/commit/130e1ed558ec908b7d9f46388d0ece620a500c0f))
+- set use framework info to not drop the name and description ([130e1ed](https://github.com/WhitehawkCEC/whitehawk-proto/commit/130e1ed558ec908b7d9f46388d0ece620a500c0f))
 
 ### [0.72.44](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.72.43...0.72.44) (2023-07-31)
 
-
 ### Bug Fixes
 
-* prefer frameworkinfo ([81f64c2](https://github.com/WhitehawkCEC/whitehawk-proto/commit/81f64c2511cd311ff69d9147878edb5c80f4a815))
+- prefer frameworkinfo ([81f64c2](https://github.com/WhitehawkCEC/whitehawk-proto/commit/81f64c2511cd311ff69d9147878edb5c80f4a815))
 
 ### [0.72.43](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.72.42...0.72.43) (2023-07-28)
 
