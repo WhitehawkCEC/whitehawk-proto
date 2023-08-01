@@ -44,7 +44,7 @@ message ListRequest {
 }
 
 message ListResponse {
-repeated BatchScorecardList values = 1;
+  repeated BatchScorecardList values = 1;
 }
 
 message BatchScorecard {
@@ -57,7 +57,7 @@ message BatchScorecard {
 }
 
 message BatchScorecardList {
-    whitehawk.proto.ulid.v1.Ulid id = 1;
+  whitehawk.proto.ulid.v1.Ulid id = 1;
   whitehawk.proto.slug.v1.Slug account_id = 2;
   whitehawk.proto.slug.v1.Slug subscription_id = 3;
   whitehawk.proto.scorecard_v3.indepthblackkitecmmcv2.v2.Status status = 4;
