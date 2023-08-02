@@ -6,7 +6,9 @@ service Service {
   rpc CreateBlankFrameworks(CreateBlankFrameworksRequest) returns (CreateBlankFrameworksResponse);
 }
 
-message CreateBlankFrameworksRequest {}
+message CreateBlankFrameworksRequest {
+  optional string default_company = 1;
+}
 
 message CreateBlankFrameworksResponse {
   string message = 1;
