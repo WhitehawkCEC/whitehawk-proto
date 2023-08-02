@@ -13,4 +13,3 @@ message CreateBlankFrameworksRequest {
 message CreateBlankFrameworksResponse {
   string message = 1;
 }
-
