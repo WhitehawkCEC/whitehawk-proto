@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package whitehawk.proto.internal.client_portal.frameworks.lookup.v1;
+
+import "google/protobuf/struct.proto";
+
+service Service {
+  rpc List(ListRequest) returns (ListResponse);
+}
+
+message ListRequest {}
+
+message ListResponse {
+  google.protobuf.Struct value = 1;
+}
