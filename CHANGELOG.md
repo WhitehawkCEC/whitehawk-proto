@@ -4,10 +4,9 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### [0.72.51](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.72.50...0.72.51) (2023-08-03)
 
-
 ### Features
 
-* cyber risk v2 ([d4129c1](https://github.com/WhitehawkCEC/whitehawk-proto/commit/d4129c1d06951f757c9a64d5732c30b06701d8e2))
+- cyber risk v2 ([d4129c1](https://github.com/WhitehawkCEC/whitehawk-proto/commit/d4129c1d06951f757c9a64d5732c30b06701d8e2))
 
 ### [0.72.50](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.72.49...0.72.50) (2023-08-02)
 
