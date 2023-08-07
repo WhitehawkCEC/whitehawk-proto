@@ -4,17 +4,15 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### [0.72.53](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.72.52...0.72.53) (2023-08-04)
 
-
 ### Features
 
-* add `frameworks_lookup/v1` ([2bc83f6](https://github.com/WhitehawkCEC/whitehawk-proto/commit/2bc83f694ae26923eb53808bdb61f74ed118bae3))
+- add `frameworks_lookup/v1` ([2bc83f6](https://github.com/WhitehawkCEC/whitehawk-proto/commit/2bc83f694ae26923eb53808bdb61f74ed118bae3))
 
 ### [0.72.52](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.72.51...0.72.52) (2023-08-04)
 
-
 ### Features
 
-* fw lookup ([03b1b8c](https://github.com/WhitehawkCEC/whitehawk-proto/commit/03b1b8c111fb3fc8e050e7244972e44e5f8dc55c))
+- fw lookup ([03b1b8c](https://github.com/WhitehawkCEC/whitehawk-proto/commit/03b1b8c111fb3fc8e050e7244972e44e5f8dc55c))
 
 ### [0.72.51](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.72.50...0.72.51) (2023-08-03)
 
