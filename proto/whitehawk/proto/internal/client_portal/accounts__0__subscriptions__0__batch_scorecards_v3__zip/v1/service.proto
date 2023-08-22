@@ -11,6 +11,7 @@ import "whitehawk/proto/ulid/v1/message.proto";
 service Service {
   rpc Create(CreateRequest) returns (CreateResponse);
   rpc List(ListRequest) returns (ListResponse);
+  rpc Delete(DeleteRequest) returns (DeleteResponse);
 }
 
 message CreateRequest {
@@ -31,6 +32,14 @@ message ListRequest {
 message ListResponse {
   repeated BatchScorecardZip values = 1;
 }
+
+message DeleteRequest {
+  whitehawk.proto.slug.v1.Slug account_id = 1;
+  whitehawk.proto.slug.v1.Slug subscription_id = 2;
+  whitehawk.proto.ulid.v1.Ulid file_id = 3;
+}
+
+message DeleteResponse {}
 
 message BatchScorecardZip {
   whitehawk.proto.ulid.v1.Ulid batch_id = 1;
