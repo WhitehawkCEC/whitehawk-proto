@@ -4,10 +4,9 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### [0.72.55](https://github.com/whitehawkcec/whitehawk-proto/compare/0.72.54...0.72.55) (2023-09-07)
 
-
 ### Features
 
-* **proto:** add `BlackKiteConfig.web_app_credentials` ([d06628b](https://github.com/whitehawkcec/whitehawk-proto/commit/d06628beb48e48b4654c8baf01cc7be038c5d50a))
+- **proto:** add `BlackKiteConfig.web_app_credentials` ([d06628b](https://github.com/whitehawkcec/whitehawk-proto/commit/d06628beb48e48b4654c8baf01cc7be038c5d50a))
 
 ### [0.72.54](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.72.53...0.72.54) (2023-08-22)
 
