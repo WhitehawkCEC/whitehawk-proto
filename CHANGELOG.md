@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.72.60](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.72.59...0.72.60) (2023-09-27)
+
+
+### Features
+
+* **proto:** add status to entities ([168bef0](https://github.com/WhitehawkCEC/whitehawk-proto/commit/168bef01c99e2c6da96e93ce50061753861ea171))
+
 ### [0.72.59](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.72.58...0.72.59) (2023-09-27)
 
 
