@@ -18,6 +18,14 @@ message ReadResponse {
   whitehawk.proto.integration.black_kite.domain.v2.BlackKiteEntity entity = 1;
 }
 
+message UpdateRequest {
+  whitehawk.proto.integration.black_kite.domain.v2.BlackKiteEntity entity = 1;
+}
+
+message UpdateResponse {
+  whitehawk.proto.integration.black_kite.domain.v2.BlackKiteEntity entity = 1;
+}
+
 message ListRequest {}
 
 message ListResponse {
