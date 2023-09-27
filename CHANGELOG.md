@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.72.59](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.72.58...0.72.59) (2023-09-27)
+
+
+### Bug Fixes
+
+* remove unused service ([f29c84f](https://github.com/WhitehawkCEC/whitehawk-proto/commit/f29c84f4588fe929d0163630ed82d1499a162a31))
+
 ### [0.72.58](https://github.com/whitehawkcec/whitehawk-proto/compare/0.72.57...0.72.58) (2023-09-16)
 
 ### [0.72.57](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.72.56...0.72.57) (2023-09-12)
