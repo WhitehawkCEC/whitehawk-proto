@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.72.62](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.72.61...0.72.62) (2023-09-27)
+
+
+### Bug Fixes
+
+* **proto:** missed the service declaration ([05dd2a3](https://github.com/WhitehawkCEC/whitehawk-proto/commit/05dd2a31da7560594d03bc39f5407a985b1ee861))
+
 ### [0.72.61](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.72.60...0.72.61) (2023-09-27)
 
 
