@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.72.61](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.72.60...0.72.61) (2023-09-27)
+
+
+### Bug Fixes
+
+* **proto:** no respose type from update service ([5102773](https://github.com/WhitehawkCEC/whitehawk-proto/commit/510277342b677ec7225bfd5883f3822b855f75f1))
+
 ### [0.72.60](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.72.59...0.72.60) (2023-09-27)
 
 
