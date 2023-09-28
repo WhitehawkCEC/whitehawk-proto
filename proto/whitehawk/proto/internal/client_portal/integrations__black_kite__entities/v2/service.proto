@@ -5,9 +5,26 @@ package whitehawk.proto.internal.client_portal.integrations__black_kite__entitie
 
 import "whitehawk/proto/integration/black_kite/domain/v2/message.proto";
 
+
 service Service {
+  rpc Read(ReadRequest) returns (ReadResponse);
+  rpc Update(UpdateRequest) returns (UpdateResponse);
   rpc List(ListRequest) returns (stream ListResponse);
 }
+
+message ReadRequest {
+  int32 entity_id = 3;
+}
+
+message ReadResponse {
+  whitehawk.proto.integration.black_kite.domain.v2.BlackKiteEntity entity = 1;
+}
+
+message UpdateRequest {
+  whitehawk.proto.integration.black_kite.domain.v2.BlackKiteEntity entity = 1;
+}
+
+message UpdateResponse {}
 
 message ListRequest {
   repeated whitehawk.proto.integration.black_kite.domain.v2.EntityStatus entity_status = 1;
