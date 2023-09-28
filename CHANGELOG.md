@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.72.63](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.72.62...0.72.63) (2023-09-28)
+
+
+### Features
+
+* **proto:** service to retrieve entities filtered by status ([f2bc6f1](https://github.com/WhitehawkCEC/whitehawk-proto/commit/f2bc6f1f226b8c4d60a7e99e2fef3a1d8c1d923b))
+
 ### [0.72.62](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.72.61...0.72.62) (2023-09-27)
 
 ### Bug Fixes
