@@ -4,31 +4,27 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### [0.72.62](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.72.61...0.72.62) (2023-09-27)
 
-
 ### Bug Fixes
 
-* **proto:** missed the service declaration ([05dd2a3](https://github.com/WhitehawkCEC/whitehawk-proto/commit/05dd2a31da7560594d03bc39f5407a985b1ee861))
+- **proto:** missed the service declaration ([05dd2a3](https://github.com/WhitehawkCEC/whitehawk-proto/commit/05dd2a31da7560594d03bc39f5407a985b1ee861))
 
 ### [0.72.61](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.72.60...0.72.61) (2023-09-27)
 
-
 ### Bug Fixes
 
-* **proto:** no respose type from update service ([5102773](https://github.com/WhitehawkCEC/whitehawk-proto/commit/510277342b677ec7225bfd5883f3822b855f75f1))
+- **proto:** no respose type from update service ([5102773](https://github.com/WhitehawkCEC/whitehawk-proto/commit/510277342b677ec7225bfd5883f3822b855f75f1))
 
 ### [0.72.60](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.72.59...0.72.60) (2023-09-27)
 
-
 ### Features
 
-* **proto:** add status to entities ([168bef0](https://github.com/WhitehawkCEC/whitehawk-proto/commit/168bef01c99e2c6da96e93ce50061753861ea171))
+- **proto:** add status to entities ([168bef0](https://github.com/WhitehawkCEC/whitehawk-proto/commit/168bef01c99e2c6da96e93ce50061753861ea171))
 
 ### [0.72.59](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.72.58...0.72.59) (2023-09-27)
 
-
 ### Bug Fixes
 
-* remove unused service ([f29c84f](https://github.com/WhitehawkCEC/whitehawk-proto/commit/f29c84f4588fe929d0163630ed82d1499a162a31))
+- remove unused service ([f29c84f](https://github.com/WhitehawkCEC/whitehawk-proto/commit/f29c84f4588fe929d0163630ed82d1499a162a31))
 
 ### [0.72.58](https://github.com/whitehawkcec/whitehawk-proto/compare/0.72.57...0.72.58) (2023-09-16)
 
