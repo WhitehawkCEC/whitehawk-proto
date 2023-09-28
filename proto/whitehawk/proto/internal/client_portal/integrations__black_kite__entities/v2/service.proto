@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+// buf:lint:ignore PACKAGE_LOWER_SNAKE_CASE
+package whitehawk.proto.internal.client_portal.integrations__black_kite__entities.v2;
+
+import "whitehawk/proto/integration/black_kite/domain/v2/message.proto";
+
+service Service {
+  rpc List(ListRequest) returns (stream ListResponse);
+}
+
+message ListRequest {
+  repeated whitehawk.proto.integration.black_kite.domain.v2.EntityStatus entity_status = 1;
+}
+
+message ListResponse {
+  repeated whitehawk.proto.integration.black_kite.domain.v2.BlackKiteEntity entities = 1;
+}
