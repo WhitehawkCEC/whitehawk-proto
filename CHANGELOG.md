@@ -4,17 +4,15 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### [0.72.64](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.72.63...0.72.64) (2023-09-28)
 
-
 ### Bug Fixes
 
-* **proto:** move services to v2 ([7601e76](https://github.com/WhitehawkCEC/whitehawk-proto/commit/7601e76e85e1ac7b11051e81a11d759b8774428e))
+- **proto:** move services to v2 ([7601e76](https://github.com/WhitehawkCEC/whitehawk-proto/commit/7601e76e85e1ac7b11051e81a11d759b8774428e))
 
 ### [0.72.63](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.72.62...0.72.63) (2023-09-28)
 
-
 ### Features
 
-* **proto:** service to retrieve entities filtered by status ([f2bc6f1](https://github.com/WhitehawkCEC/whitehawk-proto/commit/f2bc6f1f226b8c4d60a7e99e2fef3a1d8c1d923b))
+- **proto:** service to retrieve entities filtered by status ([f2bc6f1](https://github.com/WhitehawkCEC/whitehawk-proto/commit/f2bc6f1f226b8c4d60a7e99e2fef3a1d8c1d923b))
 
 ### [0.72.62](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.72.61...0.72.62) (2023-09-27)
 
