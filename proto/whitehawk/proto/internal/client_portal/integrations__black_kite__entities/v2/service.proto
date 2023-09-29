@@ -5,7 +5,6 @@ package whitehawk.proto.internal.client_portal.integrations__black_kite__entitie
 
 import "whitehawk/proto/integration/black_kite/domain/v2/message.proto";
 
-
 service Service {
   rpc Read(ReadRequest) returns (ReadResponse);
   rpc Update(UpdateRequest) returns (UpdateResponse);
