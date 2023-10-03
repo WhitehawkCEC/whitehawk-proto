@@ -1,0 +1,72 @@
+syntax = "proto3";
+
+package whitehawk.proto.portfolio_report.v1;
+
+import "whitehawk/proto/slug/v1/message.proto";
+
+message BuyerInfo {
+  CompanyInfo company = 1;
+}
+
+message CompanyInfo {
+  whitehawk.proto.slug.v1.Slug id = 1;
+  string name = 2;
+}
+
+message SupplierBasicInfo {
+  string id = 1;
+  string name = 2;
+  string domain = 3;
+  LicenseState license_state = 4;
+  optional int32 rating = 5;
+}
+
+message SupplierInfo {
+  string id = 1;
+  string name = 2;
+  string domain = 3;
+  LicenseState license_state = 4;
+  optional int32 rating = 5;
+  optional string sector = 6;
+  optional string location = 7;
+  optional string company_size = 8;
+  optional int32 employee_count = 9;
+  optional string company_revenue = 10;
+}
+
+enum LicenseState {
+  LICENSE_STATE_UNSPECIFIED = 0;
+  LICENSE_STATE_ACTIVE = 1;
+  LICENSE_STATE_EXPIRED = 2;
+}
+
+message TemplateId {
+  string value = 1;
+}
+
+// Note(estotz): this is what Soo asked us to add until analysts can figure out exactly what they will want for the state fields
+message ReportStatus {
+  ReportTimeline report_timeline = 1;
+  optional string field_2 = 2;
+  optional string field_3 = 3;
+  optional string field_4 = 4;
+  optional string field_5 = 5;
+  optional string field_6 = 6;
+  optional string field_7 = 7;
+  optional string field_8 = 8;
+  optional string field_9 = 9;
+  optional string field_10 = 10;
+}
+
+message ReportTimeline {
+  int32 year = 1;
+  Quarter quarter = 2;
+}
+
+enum Quarter {
+  QUARTER_UNSPECIFIED = 0;
+  QUARTER_Q1 = 1;
+  QUARTER_Q2 = 2;
+  QUARTER_Q3 = 3;
+  QUARTER_Q4 = 4;
+}
