@@ -1,0 +1,170 @@
+syntax = "proto3";
+
+package whitehawk.proto.portfolio_report.performance_analysis.v1;
+
+import "whitehawk/proto/portfolio_report/v1/message.proto";
+import "whitehawk/proto/ulid/v1/message.proto";
+import "whitehawk/proto/uuid/v1/message.proto";
+import "whitehawk/proto/analysis/v1/message.proto";
+import "whitehawk/proto/heatmap/v2/message.proto";
+import "whitehawk/proto/framework/v5/message.proto";
+
+message PortfolioPerformanceAnalysis {
+  whitehawk.proto.ulid.v1.Ulid id = 1;
+  PerformanceAnalysis data = 2;
+  whitehawk.proto.portfolio_report.v1.TemplateId template = 3;
+}
+
+message PerformanceAnalysis {
+  whitehawk.proto.portfolio_report.v1.BuyerInfo buyer = 1;
+  repeated whitehawk.proto.portfolio_report.v1.SupplierInfo suppliers = 2;
+  UserMoreInfo analyst = 3;
+  ExecutiveOverview executive = 4;
+  TechnicalRiskOverview technical_risk = 5;
+  FinancialImpactOverview financial_impact = 6;
+  ComplianceOverview compliance = 7;
+}
+
+message UserMoreInfo {
+  whitehawk.proto.uuid.v1.Uuid id = 1;
+  string name = 2;
+  string title = 3;
+  string email = 4;
+  string phone = 5;
+}
+
+message ExecutiveOverview {
+  int32 new_suppliers_added = 1;
+  double average_technical_rating = 2;
+  whitehawk.proto.portfolio_report.v1.SupplierBasicInfo top_supplier = 3;
+  whitehawk.proto.portfolio_report.v1.SupplierBasicInfo bottom_supplier = 4;
+  PositiveRatingChanges positive_rating_changes = 5;
+  NegativeRatingChanges negative_rating_changes = 6;
+}
+
+message PositiveRatingChanges {
+  LargestChangeSupplier first = 1;
+  LargestChangeSupplier second = 2;
+  LargestChangeSupplier third = 3;
+  LargestChangeSupplier fourth = 4;
+  LargestChangeSupplier fifth = 5;
+}
+
+message NegativeRatingChanges {
+  LargestChangeSupplier first = 1;
+  LargestChangeSupplier second = 2;
+  LargestChangeSupplier third = 3;
+  LargestChangeSupplier fourth = 4;
+  LargestChangeSupplier fifth = 5;
+}
+
+message LargestChangeSupplier {
+  whitehawk.proto.portfolio_report.v1.SupplierBasicInfo supplier = 3;
+  optional double prev_rating = 2;
+}
+
+message TopRiskVectors {
+  RiskVectorAnalysisEntry first = 1;
+  RiskVectorAnalysisEntry second = 2;
+  RiskVectorAnalysisEntry third = 3;
+}
+
+message RiskVectorAnalysisEntry {
+  whitehawk.proto.analysis.v1.RiskVector risk_vector = 1;
+  RiskVectorAnalysis analysis = 2;
+}
+
+message RiskVectorAnalysis {
+  double percent_affected = 1;
+}
+
+message TechnicalRiskOverview {
+  int32 total_critical_findings = 1;
+  whitehawk.proto.heatmap.v2.Heatmap heatmap = 2;
+  HighCriticalFindings high_critical_findings = 3;
+  double data_breach_index = 4;
+  double ransomware_susceptibility_index = 5;
+  PoorDataBreach poor_data_breach = 6;
+  PoorRansomwareSusceptibility poor_ransomware_susceptibility = 7;
+}
+
+message HighCriticalFindings {
+  CriticalFindingsSupplier first = 1;
+  CriticalFindingsSupplier second = 2;
+  CriticalFindingsSupplier third = 3;
+  CriticalFindingsSupplier fourth = 4;
+  CriticalFindingsSupplier fifth = 5;
+}
+
+message CriticalFindingsSupplier {
+  whitehawk.proto.portfolio_report.v1.SupplierBasicInfo supplier = 1;
+  int32 num_critical_findings = 2;
+  whitehawk.proto.analysis.v1.RiskVector top_risk_vector = 3;
+}
+
+message PoorDataBreach {
+  IndexRatingSupplier first = 1;
+  IndexRatingSupplier second = 2;
+  IndexRatingSupplier third = 3;
+  IndexRatingSupplier fourth = 4;
+  IndexRatingSupplier fifth = 5;
+}
+
+message PoorRansomwareSusceptibility {
+  IndexRatingSupplier first = 1;
+  IndexRatingSupplier second = 2;
+  IndexRatingSupplier third = 3;
+  IndexRatingSupplier fourth = 4;
+  IndexRatingSupplier fifth = 5;
+}
+
+message IndexRatingSupplier {
+  whitehawk.proto.portfolio_report.v1.SupplierBasicInfo supplier = 1;
+  double index_rating = 2;
+}
+
+message FinancialImpactOverview {
+  CumulativeAnnualRisk annual_risk = 1;
+  IndustryRiskDistribution risk_distribution = 2;
+}
+
+message CumulativeAnnualRisk {
+  double min_risk = 1;
+  double avg_risk = 2;
+  double max_risk = 3;
+}
+
+message IndustryRiskDistribution {
+  FinancialImpackIndustry first = 1;
+  FinancialImpackIndustry second = 2;
+  FinancialImpackIndustry third = 3;
+  FinancialImpackIndustry fourth = 4;
+  FinancialImpackIndustry fifth = 5;
+}
+
+message FinancialImpackIndustry {
+  string industry = 1;
+  double financial_impact = 2;
+}
+
+message ComplianceOverview {
+  double average_overall_rating = 1;
+  FrameworkAverages framework_averages = 2;
+}
+
+message FrameworkAverages {
+  AverageFrameworkRating first = 1;
+  AverageFrameworkRating second = 2;
+  AverageFrameworkRating third = 3;
+}
+
+message AverageFrameworkRating {
+  whitehawk.proto.framework.v5.FrameworkInfo framework = 1;
+  double average_compliance = 2;
+}
+
+
+
+
+
+
