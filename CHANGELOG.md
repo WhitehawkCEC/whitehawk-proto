@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.72.65](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.72.64...0.72.65) (2023-10-03)
+
+
+### Features
+
+* add `portfolio_report/performance_analysis/v1` message ([72516b0](https://github.com/WhitehawkCEC/whitehawk-proto/commit/72516b0bb0b54f1f7c3bca6492d9a0d24545f1cb))
+* add `portfolio_report/v1` message ([906ec24](https://github.com/WhitehawkCEC/whitehawk-proto/commit/906ec24f34c8fb4d0369d72cae82b4035b44fec9))
+
 ### [0.72.64](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.72.63...0.72.64) (2023-09-28)
 
 ### Bug Fixes
