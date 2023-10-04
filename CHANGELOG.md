@@ -4,20 +4,18 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### [0.72.66](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.72.65...0.72.66) (2023-10-03)
 
-
 ### Features
 
-* add `portfolio_report_summaries/v1` `LIST` service ([bedaf13](https://github.com/WhitehawkCEC/whitehawk-proto/commit/bedaf13e11eb50a5d8f5f6480ffd9780347c87d3))
-* add `portfolio_reports/v1` `CREATE` service ([aea9648](https://github.com/WhitehawkCEC/whitehawk-proto/commit/aea9648adae8f6c4e0956aa42da4fc13ecbfbd76))
-* add `portfolio_reports/v1` `READ`/`UPDATE` services ([e44afef](https://github.com/WhitehawkCEC/whitehawk-proto/commit/e44afef8dba706557c2f8cb0734d23c5a10cd2f1))
+- add `portfolio_report_summaries/v1` `LIST` service ([bedaf13](https://github.com/WhitehawkCEC/whitehawk-proto/commit/bedaf13e11eb50a5d8f5f6480ffd9780347c87d3))
+- add `portfolio_reports/v1` `CREATE` service ([aea9648](https://github.com/WhitehawkCEC/whitehawk-proto/commit/aea9648adae8f6c4e0956aa42da4fc13ecbfbd76))
+- add `portfolio_reports/v1` `READ`/`UPDATE` services ([e44afef](https://github.com/WhitehawkCEC/whitehawk-proto/commit/e44afef8dba706557c2f8cb0734d23c5a10cd2f1))
 
 ### [0.72.65](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.72.64...0.72.65) (2023-10-03)
 
-
 ### Features
 
-* add `portfolio_report/performance_analysis/v1` message ([72516b0](https://github.com/WhitehawkCEC/whitehawk-proto/commit/72516b0bb0b54f1f7c3bca6492d9a0d24545f1cb))
-* add `portfolio_report/v1` message ([906ec24](https://github.com/WhitehawkCEC/whitehawk-proto/commit/906ec24f34c8fb4d0369d72cae82b4035b44fec9))
+- add `portfolio_report/performance_analysis/v1` message ([72516b0](https://github.com/WhitehawkCEC/whitehawk-proto/commit/72516b0bb0b54f1f7c3bca6492d9a0d24545f1cb))
+- add `portfolio_report/v1` message ([906ec24](https://github.com/WhitehawkCEC/whitehawk-proto/commit/906ec24f34c8fb4d0369d72cae82b4035b44fec9))
 
 ### [0.72.64](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.72.63...0.72.64) (2023-09-28)
 
