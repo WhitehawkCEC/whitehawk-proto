@@ -2,12 +2,12 @@ syntax = "proto3";
 
 package whitehawk.proto.portfolio_report.performance_analysis.v1;
 
+import "whitehawk/proto/analysis/v1/message.proto";
+import "whitehawk/proto/framework/v5/message.proto";
+import "whitehawk/proto/heatmap/v2/message.proto";
 import "whitehawk/proto/portfolio_report/v1/message.proto";
 import "whitehawk/proto/ulid/v1/message.proto";
 import "whitehawk/proto/uuid/v1/message.proto";
-import "whitehawk/proto/analysis/v1/message.proto";
-import "whitehawk/proto/heatmap/v2/message.proto";
-import "whitehawk/proto/framework/v5/message.proto";
 
 message PortfolioPerformanceAnalysis {
   whitehawk.proto.ulid.v1.Ulid id = 1;
@@ -162,9 +162,3 @@ message AverageFrameworkRating {
   whitehawk.proto.framework.v5.FrameworkInfo framework = 1;
   double average_compliance = 2;
 }
-
-
-
-
-
-

@@ -28,4 +28,3 @@ message PortfolioReportSummary {
   whitehawk.proto.portfolio_report.v1.ReportStatus status = 4;
   whitehawk.proto.meta.v1.Meta meta = 5;
 }
-
