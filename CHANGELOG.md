@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.72.67](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.72.66...0.72.67) (2023-10-04)
+
+
+### Features
+
+* **proto:** add update service ([766e9ef](https://github.com/WhitehawkCEC/whitehawk-proto/commit/766e9efc14b106272a36578b93d1e2f933dc235d))
+
 ### [0.72.66](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.72.65...0.72.66) (2023-10-03)
 
 ### Features
