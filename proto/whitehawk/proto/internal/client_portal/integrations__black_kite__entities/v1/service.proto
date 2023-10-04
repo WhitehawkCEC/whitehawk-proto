@@ -7,6 +7,7 @@ import "whitehawk/proto/integration/black_kite/domain/v2/message.proto";
 
 service Service {
   rpc Read(ReadRequest) returns (ReadResponse);
+  rpc Update(UpdateRequest) returns (UpdateResponse);
   rpc List(ListRequest) returns (stream ListResponse);
 }
 
@@ -17,6 +18,12 @@ message ReadRequest {
 message ReadResponse {
   whitehawk.proto.integration.black_kite.domain.v2.BlackKiteEntity entity = 1;
 }
+
+message UpdateRequest {
+  whitehawk.proto.integration.black_kite.domain.v2.BlackKiteEntity entity = 1;
+}
+
+message UpdateResponse {}
 
 message ListRequest {}
 
