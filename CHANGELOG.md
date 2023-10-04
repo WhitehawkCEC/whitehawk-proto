@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.72.68](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.72.67...0.72.68) (2023-10-04)
+
+
+### Bug Fixes
+
+* **proto:** replace entity status with archive time ([92ea3f7](https://github.com/WhitehawkCEC/whitehawk-proto/commit/92ea3f79b88e74283bc2e3d6ecc7d69e59d0cd8a))
+
 ### [0.72.67](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.72.66...0.72.67) (2023-10-04)
 
 
