@@ -4,24 +4,21 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### [0.72.69](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.72.68...0.72.69) (2023-10-04)
 
-
 ### Bug Fixes
 
-* **proto:** remove unused service ([1c340ca](https://github.com/WhitehawkCEC/whitehawk-proto/commit/1c340ca9c571698875725313391da16c9eff8faa))
+- **proto:** remove unused service ([1c340ca](https://github.com/WhitehawkCEC/whitehawk-proto/commit/1c340ca9c571698875725313391da16c9eff8faa))
 
 ### [0.72.68](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.72.67...0.72.68) (2023-10-04)
 
-
 ### Bug Fixes
 
-* **proto:** replace entity status with archive time ([92ea3f7](https://github.com/WhitehawkCEC/whitehawk-proto/commit/92ea3f79b88e74283bc2e3d6ecc7d69e59d0cd8a))
+- **proto:** replace entity status with archive time ([92ea3f7](https://github.com/WhitehawkCEC/whitehawk-proto/commit/92ea3f79b88e74283bc2e3d6ecc7d69e59d0cd8a))
 
 ### [0.72.67](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.72.66...0.72.67) (2023-10-04)
 
-
 ### Features
 
-* **proto:** add update service ([766e9ef](https://github.com/WhitehawkCEC/whitehawk-proto/commit/766e9efc14b106272a36578b93d1e2f933dc235d))
+- **proto:** add update service ([766e9ef](https://github.com/WhitehawkCEC/whitehawk-proto/commit/766e9efc14b106272a36578b93d1e2f933dc235d))
 
 ### [0.72.66](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.72.65...0.72.66) (2023-10-03)
 
