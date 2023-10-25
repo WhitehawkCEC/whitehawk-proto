@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.72.70](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.72.69...0.72.70) (2023-10-25)
+
+
+### Features
+
+* **proto:** add CyberRating go BlackKite entity ([5b77cbb](https://github.com/WhitehawkCEC/whitehawk-proto/commit/5b77cbbc11143662ce2addbc9093009825748690))
+* **proto:** black kite entity v2 service ([040866f](https://github.com/WhitehawkCEC/whitehawk-proto/commit/040866f1c30d70af50c30dbf663b24e7bb95cccd))
+* **proto:** entity archive service ([de015be](https://github.com/WhitehawkCEC/whitehawk-proto/commit/de015bee513143b51284884cdc04b142c8ab7cdf))
+
 ### [0.72.69](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.72.68...0.72.69) (2023-10-04)
 
 ### Bug Fixes
