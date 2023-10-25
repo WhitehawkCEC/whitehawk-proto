@@ -29,6 +29,7 @@ message BlackKiteEntity {
   repeated LicenseInfo license_info = 4;
   whitehawk.proto.time.v1.IsoDateTime archived_at = 5;
   CyberRating cyber_rating = 6;
+  string client_id = 7;
 }
 
 message LicenseInfo {
