@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.72.75](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.72.74...0.72.75) (2023-10-25)
+
+
+### Bug Fixes
+
+* **proto:** add client id to black kite entity ([39049d5](https://github.com/WhitehawkCEC/whitehawk-proto/commit/39049d5ea6d0297cadf06439b352bc22f27de750))
+
 ### [0.72.74](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.72.73...0.72.74) (2023-10-25)
 
 
