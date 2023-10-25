@@ -28,6 +28,7 @@ message BlackKiteEntity {
   string domain = 3;
   repeated LicenseInfo license_info = 4;
   whitehawk.proto.time.v1.IsoDateTime archived_at = 5;
+  CyberRating cyber_rating = 6;
 }
 
 message LicenseInfo {
@@ -60,4 +61,10 @@ message ComplianceSummaryEntry {
 
 message ComplianceFramework {
   repeated google.protobuf.Struct findings = 1;
+}
+
+message CyberRating {
+  string grade_letter = 1;
+  int32 rating = 2;
+  whitehawk.proto.time.v1.IsoDateTime last_updated = 3;
 }
