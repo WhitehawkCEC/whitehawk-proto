@@ -9,7 +9,9 @@ service Service {
   rpc List(ListRequest) returns (stream ListResponse);
 }
 
-message ListRequest {}
+message ListRequest {
+  string account_id = 1;
+}
 
 message ListResponse {
   repeated whitehawk.proto.integration.black_kite.domain.v2.BlackKiteEntity entities = 1;

@@ -12,7 +12,8 @@ service Service {
 }
 
 message ReadRequest {
-  int32 entity_id = 3;
+  string account_id = 1;
+  string entity_id = 2;
 }
 
 message ReadResponse {
@@ -25,7 +26,9 @@ message UpdateRequest {
 
 message UpdateResponse {}
 
-message ListRequest {}
+message ListRequest {
+  string account_id = 1;
+}
 
 message ListResponse {
   repeated whitehawk.proto.integration.black_kite.domain.v2.BlackKiteEntity entities = 1;
