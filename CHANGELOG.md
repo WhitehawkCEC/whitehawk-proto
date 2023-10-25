@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.72.74](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.72.73...0.72.74) (2023-10-25)
+
+
+### Bug Fixes
+
+* **proto:** add account id to request params ([372268e](https://github.com/WhitehawkCEC/whitehawk-proto/commit/372268ee13d7a4a92c3b6193a95836903ed89942))
+
 ### [0.72.73](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.72.72...0.72.73) (2023-10-25)
 
 
