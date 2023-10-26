@@ -4,49 +4,43 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### [0.72.76](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.72.75...0.72.76) (2023-10-25)
 
-
 ### Bug Fixes
 
-* **proto:** package version ([be662f8](https://github.com/WhitehawkCEC/whitehawk-proto/commit/be662f87e290169a80a230eb3bf003a5ea135031))
+- **proto:** package version ([be662f8](https://github.com/WhitehawkCEC/whitehawk-proto/commit/be662f87e290169a80a230eb3bf003a5ea135031))
 
 ### [0.72.75](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.72.74...0.72.75) (2023-10-25)
 
-
 ### Bug Fixes
 
-* **proto:** add client id to black kite entity ([39049d5](https://github.com/WhitehawkCEC/whitehawk-proto/commit/39049d5ea6d0297cadf06439b352bc22f27de750))
+- **proto:** add client id to black kite entity ([39049d5](https://github.com/WhitehawkCEC/whitehawk-proto/commit/39049d5ea6d0297cadf06439b352bc22f27de750))
 
 ### [0.72.74](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.72.73...0.72.74) (2023-10-25)
 
-
 ### Bug Fixes
 
-* **proto:** add account id to request params ([372268e](https://github.com/WhitehawkCEC/whitehawk-proto/commit/372268ee13d7a4a92c3b6193a95836903ed89942))
+- **proto:** add account id to request params ([372268e](https://github.com/WhitehawkCEC/whitehawk-proto/commit/372268ee13d7a4a92c3b6193a95836903ed89942))
 
 ### [0.72.73](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.72.72...0.72.73) (2023-10-25)
 
-
 ### Bug Fixes
 
-* **proto:** move package ([746912c](https://github.com/WhitehawkCEC/whitehawk-proto/commit/746912c34ff4387cce9f861df4ec71162bae903b))
+- **proto:** move package ([746912c](https://github.com/WhitehawkCEC/whitehawk-proto/commit/746912c34ff4387cce9f861df4ec71162bae903b))
 
 ### [0.72.72](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.72.71...0.72.72) (2023-10-25)
 
-
 ### Bug Fixes
 
-* **proto:** package name ([151c9f5](https://github.com/WhitehawkCEC/whitehawk-proto/commit/151c9f5d7ebfb3f4619003bf60cc10bd9f393959))
+- **proto:** package name ([151c9f5](https://github.com/WhitehawkCEC/whitehawk-proto/commit/151c9f5d7ebfb3f4619003bf60cc10bd9f393959))
 
 ### [0.72.71](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.72.70...0.72.71) (2023-10-25)
 
 ### [0.72.70](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.72.69...0.72.70) (2023-10-25)
 
-
 ### Features
 
-* **proto:** add CyberRating go BlackKite entity ([5b77cbb](https://github.com/WhitehawkCEC/whitehawk-proto/commit/5b77cbbc11143662ce2addbc9093009825748690))
-* **proto:** black kite entity v2 service ([040866f](https://github.com/WhitehawkCEC/whitehawk-proto/commit/040866f1c30d70af50c30dbf663b24e7bb95cccd))
-* **proto:** entity archive service ([de015be](https://github.com/WhitehawkCEC/whitehawk-proto/commit/de015bee513143b51284884cdc04b142c8ab7cdf))
+- **proto:** add CyberRating go BlackKite entity ([5b77cbb](https://github.com/WhitehawkCEC/whitehawk-proto/commit/5b77cbbc11143662ce2addbc9093009825748690))
+- **proto:** black kite entity v2 service ([040866f](https://github.com/WhitehawkCEC/whitehawk-proto/commit/040866f1c30d70af50c30dbf663b24e7bb95cccd))
+- **proto:** entity archive service ([de015be](https://github.com/WhitehawkCEC/whitehawk-proto/commit/de015bee513143b51284884cdc04b142c8ab7cdf))
 
 ### [0.72.69](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.72.68...0.72.69) (2023-10-04)
 
