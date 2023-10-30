@@ -3,6 +3,7 @@ syntax = "proto3";
 package whitehawk.proto.portfolio_report.v1;
 
 import "whitehawk/proto/slug/v1/message.proto";
+import "whitehawk/proto/integration/black_kite/domain/v2/message.proto";
 
 message BuyerInfo {
   CompanyInfo company = 1;
@@ -17,7 +18,7 @@ message SupplierBasicInfo {
   string id = 1;
   string name = 2;
   string domain = 3;
-  LicenseState license_state = 4;
+  whitehawk.proto.integration.black_kite.domain.v2.LicenseState license_state = 4;
   optional int32 rating = 5;
 }
 
@@ -25,19 +26,13 @@ message SupplierInfo {
   string id = 1;
   string name = 2;
   string domain = 3;
-  LicenseState license_state = 4;
+  whitehawk.proto.integration.black_kite.domain.v2.LicenseState license_state = 4;
   optional int32 rating = 5;
   optional string sector = 6;
   optional string location = 7;
   optional string company_size = 8;
   optional int32 employee_count = 9;
   optional string company_revenue = 10;
-}
-
-enum LicenseState {
-  LICENSE_STATE_UNSPECIFIED = 0;
-  LICENSE_STATE_ACTIVE = 1;
-  LICENSE_STATE_EXPIRED = 2;
 }
 
 message TemplateId {
