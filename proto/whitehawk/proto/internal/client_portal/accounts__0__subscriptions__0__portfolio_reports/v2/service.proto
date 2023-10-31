@@ -3,13 +3,13 @@ syntax = "proto3";
 // buf:lint:ignore PACKAGE_LOWER_SNAKE_CASE
 package whitehawk.proto.internal.client_portal.accounts__0__subscriptions__0__portfolio_reports.v2;
 
-import "whitehawk/proto/resource/v1/message.proto";
-import "whitehawk/proto/portfolio_report/v1/message.proto";
-import "whitehawk/proto/portfolio_report/performance_analysis/v1/message.proto";
 import "whitehawk/proto/job/v1/message.proto";
-import "whitehawk/proto/ulid/v1/message.proto";
 import "whitehawk/proto/meta/v1/message.proto";
+import "whitehawk/proto/portfolio_report/performance_analysis/v1/message.proto";
+import "whitehawk/proto/portfolio_report/v1/message.proto";
+import "whitehawk/proto/resource/v1/message.proto";
 import "whitehawk/proto/time/v1/message.proto";
+import "whitehawk/proto/ulid/v1/message.proto";
 
 service Service {
   rpc Create(CreateRequest) returns (CreateResponse);
