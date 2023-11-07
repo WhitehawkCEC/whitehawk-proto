@@ -13,6 +13,7 @@ import "whitehawk/proto/ulid/v1/message.proto";
 
 service Service {
   rpc Create(CreateRequest) returns (CreateResponse);
+  rpc GetReport(GetReportRequest) returns (GetReportResponse);
 }
 
 message CreateRequest {
@@ -30,4 +31,16 @@ message CreateRequest {
 
 message CreateResponse {
   whitehawk.proto.ulid.v1.Ulid report_id = 1;
+}
+
+message GetReportRequest {
+  whitehawk.proto.ulid.v1.Ulid report_id = 1;
+}
+
+message GetReportResponse {
+  File file = 1;
+}
+
+message File {
+  bytes content = 1;
 }
