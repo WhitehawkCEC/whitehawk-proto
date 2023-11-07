@@ -2,8 +2,8 @@ syntax = "proto3";
 
 package whitehawk.proto.portfolio_report.v1;
 
-import "whitehawk/proto/slug/v1/message.proto";
 import "whitehawk/proto/integration/black_kite/domain/v2/message.proto";
+import "whitehawk/proto/slug/v1/message.proto";
 
 message BuyerInfo {
   CompanyInfo company = 1;
