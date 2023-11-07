@@ -20,7 +20,7 @@ message CreateRequest {
   string name = 2;
   repeated whitehawk.proto.portfolio_report.v1.SupplierInfo suppliers = 3;
   optional whitehawk.proto.portfolio_report.v1.TemplateId template = 4;
-  whitehawk.proto.portfolio_report.performance_analysis.v1.UserMoreInfo analyst = 5;
+  repeated whitehawk.proto.portfolio_report.performance_analysis.v1.UserMoreInfo analysts = 5;
   whitehawk.proto.job.v1.FrequencyType frequency = 6;
   string filter = 7;
   whitehawk.proto.time.v1.IsoDateTime report_date = 8;
