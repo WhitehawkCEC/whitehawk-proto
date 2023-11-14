@@ -23,8 +23,7 @@ message ListResponse {
 
 message PortfolioReportSummary {
   whitehawk.proto.ulid.v1.Ulid report_id = 1;
-  whitehawk.proto.portfolio_report.v1.BuyerInfo buyer = 2;
+  repeated whitehawk.proto.portfolio_report.v1.SupplierInfo suppliers = 2;
   int32 num_suppliers = 3;
-  whitehawk.proto.portfolio_report.v1.ReportStatus status = 4;
   whitehawk.proto.meta.v1.Meta meta = 5;
 }
