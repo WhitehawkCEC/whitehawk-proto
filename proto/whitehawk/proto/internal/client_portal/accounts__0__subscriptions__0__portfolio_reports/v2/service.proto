@@ -25,8 +25,7 @@ message CreateRequest {
   whitehawk.proto.job.v1.FrequencyType frequency = 6;
   string filter = 7;
   whitehawk.proto.time.v1.IsoDateTime report_date = 8;
-  whitehawk.proto.meta.v1.Meta meta = 9;
-  repeated string meta_data = 10;
+  repeated string meta_data = 9;
 }
 
 message CreateResponse {
