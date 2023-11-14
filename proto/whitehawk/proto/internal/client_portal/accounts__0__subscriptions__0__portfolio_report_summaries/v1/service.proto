@@ -26,5 +26,5 @@ message PortfolioReportSummary {
   whitehawk.proto.ulid.v1.Ulid report_id = 1;
   repeated whitehawk.proto.portfolio_report.performance_analysis.v1.UserMoreInfo analysts = 2;
   int32 num_suppliers = 3;
-  whitehawk.proto.meta.v1.Meta meta = 5;
+  whitehawk.proto.meta.v1.Meta meta = 4;
 }
