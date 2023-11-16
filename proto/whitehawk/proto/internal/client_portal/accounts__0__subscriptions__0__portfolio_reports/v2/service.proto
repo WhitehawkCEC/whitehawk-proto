@@ -12,7 +12,7 @@ import "whitehawk/proto/ulid/v1/message.proto";
 
 service Service {
   rpc Create(CreateRequest) returns (CreateResponse);
-  rpc GetReport(GetReportRequest) returns (stream GetReportResponse);
+  rpc GetReport(GetReportRequest) returns (GetReportResponse);
 }
 
 message CreateRequest {
