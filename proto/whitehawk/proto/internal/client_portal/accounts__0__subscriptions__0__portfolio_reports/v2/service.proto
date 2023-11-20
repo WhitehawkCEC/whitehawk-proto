@@ -14,6 +14,7 @@ service Service {
   rpc Create(CreateRequest) returns (CreateResponse);
   rpc GetReport(GetReportRequest) returns (GetReportResponse);
   rpc UploadTemplate(UploadTemplateRequest) returns (UploadTemplateResponse);
+  rpc ListTemplates(ListTemplatesRequest) returns (ListTemplatesResponse);
 }
 
 message CreateRequest {
