@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.72.94](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.72.93...0.72.94) (2023-11-20)
+
+
+### Features
+
+* add `accounts__0__portfolio_report_template` service ([18f4a91](https://github.com/WhitehawkCEC/whitehawk-proto/commit/18f4a91f9a9f9d41d083488be253c28cf34220a1))
+* add `WHK_PORTFOLIO_REPORT` as `FileType` ([aee4907](https://github.com/WhitehawkCEC/whitehawk-proto/commit/aee490703f50e41696f92c0085c1212e1d07e9e0))
+
 ### [0.72.93](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.72.92...0.72.93) (2023-11-20)
 
 ### [0.72.92](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.72.91...0.72.92) (2023-11-20)
