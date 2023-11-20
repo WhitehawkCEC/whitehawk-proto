@@ -46,3 +46,8 @@ message UploadTemplateRequest {
 
 message UploadTemplateResponse {}
 
+message ListTemplatesRequest {}
+
+message ListTemplatesResponse {
+  repeated whitehawk.proto.ulid.v1.Ulid template_ids = 1;
+}
