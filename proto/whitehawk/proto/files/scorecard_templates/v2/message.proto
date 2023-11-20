@@ -17,4 +17,5 @@ message ScorecardTemplate {
 enum FileType {
   FILE_TYPE_UNSPECIFIED = 0;
   FILE_TYPE_WHK_IN_DEPTH = 1;
+  FILE_TYPE_WHK_PORTFOLIO_REPORT = 2;
 }
