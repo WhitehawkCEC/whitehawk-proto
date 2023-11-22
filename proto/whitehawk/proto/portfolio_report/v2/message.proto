@@ -1,0 +1,126 @@
+syntax = "proto3";
+
+package whitehawk.proto.portfolio_report.v2;
+
+import "whitehawk/proto/integration/black_kite/domain/v2/message.proto";
+import "whitehawk/proto/slug/v1/message.proto";
+import "whitehawk/proto/ulid/v1/message.proto";
+import "whitehawk/proto/resource/v1/message.proto";
+import "whitehawk/proto/time/v1/message.proto";
+import "whitehawk/proto/portfolio_report/performance_analysis/v1/message.proto";
+import "whitehawk/proto/portfolio_report/v1/message.proto";
+import "whitehawk/proto/framework/v5/message.proto";
+
+message PortfolioReportData {
+  whitehawk.proto.ulid.v1.Ulid report_id = 1;
+  whitehawk.proto.resource.v1.AccountSubscriptionId account_subscription_id = 2;
+  whitehawk.proto.time.v1.IsoDateTime report_date = 3;
+  repeated whitehawk.proto.portfolio_report.performance_analysis.v1.UserMoreInfo analysts = 4;
+  string name = 5;
+  repeated SupplierInfo suppliers = 6;
+  int32 companies_added_since_last_report = 7;
+  double average_technical_rating = 8;
+  repeated TopRiskVector top_risk_vector = 9;
+  string bottom_supplier_name = 10;
+  string bottom_supplier_rating = 11;
+  string top_supplier_name = 12;
+  string top_supplier_rating = 13;
+  repeated RatingChange top_change = 14;
+  repeated RatingChange bottom_change = 15;
+  int32 critical_findings_total = 16;
+  HeatMapData heat_map_data = 17;
+  repeated CriticalFindingsCompany critical_findings_company = 18;
+  double data_breach_index_rating = 19;
+  double ransomware_susceptibility_index_rating = 20;
+  repeated CompanyIndex data_breach_companies = 21;
+  repeated CompanyIndex ransomware_companies = 22;
+  int32 financial_impact_min = 23;
+  int32 financial_impact_avg = 24;
+  int32 financial_impact_max = 25;
+  repeated IndustryCost industry_cost = 26;
+  repeated IndustryCost supplier_cost = 27;
+  double average_compliance_rating = 28;
+  repeated FrameworkInfo frameworks = 29;
+  whitehawk.proto.portfolio_report.v1.TemplateId template = 30;
+  string search_filter = 31;
+  MetaData meta_data = 32;
+  whitehawk.proto.time.v1.IsoDateTime past_report_date = 33;
+}
+
+message SupplierInfo {
+  string id = 1;
+  string name = 2;
+  string domain = 3;
+  whitehawk.proto.integration.black_kite.domain.v2.LicenseState license_state = 4;
+  optional int32 rating = 5;
+  optional int32 past_rating = 6;
+  optional string sector = 7;
+  optional string location = 8;
+  optional string company_size = 9;
+  optional int32 employee_count = 10;
+  optional string company_revenue = 11;
+}
+
+message TopRiskVector{
+  string risk_description = 1;
+  double percentage = 2;
+}
+
+message RatingChange{
+  int32 previous_rating = 1;
+  int32 current_rating = 2;
+  string company = 3;
+}
+
+message HeatMapData{
+  int32 failed_critical = 1;
+  int32 failed_high = 2;
+  int32 failed_medium = 3;
+  int32 failed_low = 4;
+  int32 warning_critical = 5;
+  int32 warning_high = 6;
+  int32 warning_medium = 7;
+  int32 warning_low = 8;
+  int32 passed_critical = 9;
+  int32 passed_high = 10;
+  int32 passed_medium = 11;
+  int32 passed_low = 12;
+}
+
+message CriticalFindingsCompany{
+  string company_name = 1;
+  int32 critical_findings_total = 2;
+  TopRiskVector risk_vector = 3;
+}
+
+message CompanyIndex{
+  string company_name = 1;
+  double index_rating = 2;
+}
+message IndustryCost{
+  string name = 1;
+  int32 cost = 2;
+}
+
+message FrameworkInfo{
+  whitehawk.proto.framework.v5.FrameworkId framework_id = 1;
+  string code = 2;
+  string name = 3;
+  string description = 4;
+  int32 completeness = 5;
+  int32 compliance = 6;
+  int32 confidence = 7;
+}
+
+message MetaData {
+  optional string field_1 = 1;
+  optional string field_2 = 2;
+  optional string field_3 = 3;
+  optional string field_4 = 4;
+  optional string field_5 = 5;
+  optional string field_6 = 6;
+  optional string field_7 = 7;
+  optional string field_8 = 8;
+  optional string field_9 = 9;
+  optional string field_10 = 10;
+}
