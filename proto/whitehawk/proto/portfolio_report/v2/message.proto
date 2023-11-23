@@ -2,13 +2,13 @@ syntax = "proto3";
 
 package whitehawk.proto.portfolio_report.v2;
 
+import "whitehawk/proto/framework/v5/message.proto";
 import "whitehawk/proto/integration/black_kite/domain/v2/message.proto";
-import "whitehawk/proto/ulid/v1/message.proto";
-import "whitehawk/proto/resource/v1/message.proto";
-import "whitehawk/proto/time/v1/message.proto";
 import "whitehawk/proto/portfolio_report/performance_analysis/v1/message.proto";
 import "whitehawk/proto/portfolio_report/v1/message.proto";
-import "whitehawk/proto/framework/v5/message.proto";
+import "whitehawk/proto/resource/v1/message.proto";
+import "whitehawk/proto/time/v1/message.proto";
+import "whitehawk/proto/ulid/v1/message.proto";
 
 message PortfolioReportData {
   whitehawk.proto.ulid.v1.Ulid report_id = 1;
@@ -60,18 +60,18 @@ message SupplierInfo {
   optional string company_revenue = 11;
 }
 
-message TopRiskVector{
+message TopRiskVector {
   string risk_description = 1;
   double percentage = 2;
 }
 
-message RatingChange{
+message RatingChange {
   int32 previous_rating = 1;
   int32 current_rating = 2;
   string company = 3;
 }
 
-message HeatMapData{
+message HeatMapData {
   int32 failed_critical = 1;
   int32 failed_high = 2;
   int32 failed_medium = 3;
@@ -86,22 +86,22 @@ message HeatMapData{
   int32 passed_low = 12;
 }
 
-message CriticalFindingsCompany{
+message CriticalFindingsCompany {
   string company_name = 1;
   int32 critical_findings_total = 2;
   TopRiskVector risk_vector = 3;
 }
 
-message CompanyIndex{
+message CompanyIndex {
   string company_name = 1;
   double index_rating = 2;
 }
-message IndustryCost{
+message IndustryCost {
   string name = 1;
   int32 cost = 2;
 }
 
-message FrameworkInfo{
+message FrameworkInfo {
   whitehawk.proto.framework.v5.FrameworkId framework_id = 1;
   string code = 2;
   string name = 3;
