@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.72.97](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.72.96...0.72.97) (2023-11-30)
+
+
+### Bug Fixes
+
+* frameworkIdv4 replace cobit5 to 19 ([2484834](https://github.com/WhitehawkCEC/whitehawk-proto/commit/2484834fab8b215658275a0f8ef3e896dee3a2f4))
+
 ### [0.72.96](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.72.95...0.72.96) (2023-11-22)
 
 ### [0.72.95](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.72.94...0.72.95) (2023-11-22)
