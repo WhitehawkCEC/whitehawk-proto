@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.73.0](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.72.98...0.73.0) (2023-11-30)
+
+
+### ⚠ BREAKING CHANGES
+
+* remove `FileType` from `ReadRequest` & `DeleteRequest`
+
+### Features
+
+* remove `FileType` from `ReadRequest` & `DeleteRequest` ([f061e5c](https://github.com/WhitehawkCEC/whitehawk-proto/commit/f061e5ceaaf2e7d7a8055cc33236e5506c7b53fc))
+
 ### [0.72.98](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.72.97...0.72.98) (2023-11-30)
 
 ### [0.72.97](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.72.96...0.72.97) (2023-11-30)
