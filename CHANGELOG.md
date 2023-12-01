@@ -4,23 +4,21 @@ All notable changes to this project will be documented in this file. See [standa
 
 ## [0.73.0](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.72.98...0.73.0) (2023-11-30)
 
-
 ### ⚠ BREAKING CHANGES
 
-* remove `FileType` from `ReadRequest` & `DeleteRequest`
+- remove `FileType` from `ReadRequest` & `DeleteRequest`
 
 ### Features
 
-* remove `FileType` from `ReadRequest` & `DeleteRequest` ([f061e5c](https://github.com/WhitehawkCEC/whitehawk-proto/commit/f061e5ceaaf2e7d7a8055cc33236e5506c7b53fc))
+- remove `FileType` from `ReadRequest` & `DeleteRequest` ([f061e5c](https://github.com/WhitehawkCEC/whitehawk-proto/commit/f061e5ceaaf2e7d7a8055cc33236e5506c7b53fc))
 
 ### [0.72.98](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.72.97...0.72.98) (2023-11-30)
 
 ### [0.72.97](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.72.96...0.72.97) (2023-11-30)
 
-
 ### Bug Fixes
 
-* frameworkIdv4 replace cobit5 to 19 ([2484834](https://github.com/WhitehawkCEC/whitehawk-proto/commit/2484834fab8b215658275a0f8ef3e896dee3a2f4))
+- frameworkIdv4 replace cobit5 to 19 ([2484834](https://github.com/WhitehawkCEC/whitehawk-proto/commit/2484834fab8b215658275a0f8ef3e896dee3a2f4))
 
 ### [0.72.96](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.72.95...0.72.96) (2023-11-22)
 
