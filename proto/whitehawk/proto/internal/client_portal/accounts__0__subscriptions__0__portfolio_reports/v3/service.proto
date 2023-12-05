@@ -1,0 +1,33 @@
+syntax = "proto3";
+
+// buf:lint:ignore PACKAGE_LOWER_SNAKE_CASE
+package whitehawk.proto.internal.client_portal.accounts__0__subscriptions__0__portfolio_reports.v3;
+
+import "whitehawk/proto/job/v1/message.proto";
+import "whitehawk/proto/portfolio_report/performance_analysis/v1/message.proto";
+import "whitehawk/proto/portfolio_report/v1/message.proto";
+import "whitehawk/proto/portfolio_report/v2/message.proto";
+import "whitehawk/proto/resource/v1/message.proto";
+import "whitehawk/proto/time/v1/message.proto";
+import "whitehawk/proto/ulid/v1/message.proto";
+
+service Service {
+  rpc Create(CreateRequest) returns (CreateResponse);
+}
+
+message CreateRequest {
+  whitehawk.proto.resource.v1.AccountSubscriptionId id = 1;
+  string name = 2;
+  string prepared_for = 3;
+  repeated whitehawk.proto.portfolio_report.v1.SupplierInfo suppliers = 4;
+  optional whitehawk.proto.portfolio_report.v1.TemplateId template = 5;
+  repeated whitehawk.proto.portfolio_report.performance_analysis.v1.UserMoreInfo analysts = 6;
+  whitehawk.proto.job.v1.FrequencyType frequency = 7;
+  string filter = 8;
+  whitehawk.proto.time.v1.IsoDateTime report_date = 9;
+  optional whitehawk.proto.portfolio_report.v2.ExtraData extra_data = 10;
+}
+
+message CreateResponse {
+  whitehawk.proto.ulid.v1.Ulid report_id = 1;
+}

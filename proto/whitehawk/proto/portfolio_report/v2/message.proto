@@ -42,7 +42,7 @@ message PortfolioReportData {
   repeated FrameworkInfo frameworks = 29;
   whitehawk.proto.portfolio_report.v1.TemplateId template = 30;
   string search_filter = 31;
-  MetaData meta_data = 32;
+  ExtraData meta_data = 32;
   whitehawk.proto.time.v1.IsoDateTime past_report_date = 33;
 }
 
@@ -111,7 +111,7 @@ message FrameworkInfo {
   int32 confidence = 7;
 }
 
-message MetaData {
+message ExtraData {
   optional string field_1 = 1;
   optional string field_2 = 2;
   optional string field_3 = 3;
