@@ -42,7 +42,7 @@ message PortfolioReportData {
   repeated FrameworkInfo frameworks = 29;
   whitehawk.proto.portfolio_report.v1.TemplateId template = 30;
   string search_filter = 31;
-  ExtraData meta_data = 32;
+  ExtraData extra_data = 32;
   whitehawk.proto.time.v1.IsoDateTime past_report_date = 33;
 }
 
