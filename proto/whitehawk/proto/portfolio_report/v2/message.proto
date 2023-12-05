@@ -43,7 +43,7 @@ message PortfolioReportData {
   whitehawk.proto.portfolio_report.v1.TemplateId template = 30;
   string search_filter = 31;
   ExtraData extra_data = 32;
-  whitehawk.proto.time.v1.IsoDateTime past_report_date = 33;
+  optional whitehawk.proto.time.v1.IsoDateTime past_report_date = 33;
 }
 
 message SupplierInfo {
