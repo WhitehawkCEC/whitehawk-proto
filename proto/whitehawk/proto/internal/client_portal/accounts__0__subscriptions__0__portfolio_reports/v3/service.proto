@@ -15,6 +15,7 @@ service Service {
   rpc Create(CreateRequest) returns (CreateResponse);
   rpc GetReport(GetReportRequest) returns (GetReportResponse);
   rpc Read(ReadRequest) returns (ReadResponse);
+  rpc Delete(DeleteRequest) returns (DeleteResponse);
 }
 
 message CreateRequest {
@@ -49,3 +50,9 @@ message ReadRequest {
 message ReadResponse {
   whitehawk.proto.portfolio_report.v2.PortfolioReportData portfolio_report_data = 1;
 }
+
+message DeleteRequest {
+  whitehawk.proto.ulid.v1.Ulid report_id = 1;
+}
+
+message DeleteResponse {}
