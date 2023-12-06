@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.73.7](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.73.6...0.73.7) (2023-12-06)
+
+
+### Features
+
+* update `PerformanceAnalysis` message ([81effd7](https://github.com/WhitehawkCEC/whitehawk-proto/commit/81effd7d291dfa9f40e7831adc5086a134ddb3b8))
+
 ### [0.73.6](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.73.5...0.73.6) (2023-12-06)
 
 ### [0.73.5](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.73.4...0.73.5) (2023-12-05)
