@@ -38,19 +38,12 @@ message ExecutiveOverview {
   double average_technical_rating = 2;
   whitehawk.proto.portfolio_report.v1.SupplierBasicInfo top_supplier = 3;
   whitehawk.proto.portfolio_report.v1.SupplierBasicInfo bottom_supplier = 4;
-  PositiveRatingChanges positive_rating_changes = 5;
-  NegativeRatingChanges negative_rating_changes = 6;
+  RatingChanges positive_rating_changes = 5;
+  RatingChanges negative_rating_changes = 6;
+  TopRiskVectors top_risk_vectors = 7;
 }
 
-message PositiveRatingChanges {
-  LargestChangeSupplier first = 1;
-  LargestChangeSupplier second = 2;
-  LargestChangeSupplier third = 3;
-  LargestChangeSupplier fourth = 4;
-  LargestChangeSupplier fifth = 5;
-}
-
-message NegativeRatingChanges {
+message RatingChanges {
   LargestChangeSupplier first = 1;
   LargestChangeSupplier second = 2;
   LargestChangeSupplier third = 3;
@@ -80,7 +73,7 @@ message RiskVectorAnalysis {
 
 message TechnicalRiskOverview {
   int32 total_critical_findings = 1;
-  whitehawk.proto.heatmap.v2.Heatmap heatmap = 2;
+  whitehawk.proto.heatmap.v2.Findings heatmap = 2;
   HighCriticalFindings high_critical_findings = 3;
   double data_breach_index = 4;
   double ransomware_susceptibility_index = 5;
@@ -135,14 +128,14 @@ message CumulativeAnnualRisk {
 }
 
 message IndustryRiskDistribution {
-  FinancialImpackIndustry first = 1;
-  FinancialImpackIndustry second = 2;
-  FinancialImpackIndustry third = 3;
-  FinancialImpackIndustry fourth = 4;
-  FinancialImpackIndustry fifth = 5;
+  FinancialImpactIndustry first = 1;
+  FinancialImpactIndustry second = 2;
+  FinancialImpactIndustry third = 3;
+  FinancialImpactIndustry fourth = 4;
+  FinancialImpactIndustry fifth = 5;
 }
 
-message FinancialImpackIndustry {
+message FinancialImpactIndustry {
   string industry = 1;
   double financial_impact = 2;
 }
@@ -160,5 +153,7 @@ message FrameworkAverages {
 
 message AverageFrameworkRating {
   whitehawk.proto.framework.v5.FrameworkInfo framework = 1;
-  double average_compliance = 2;
+  int32 completeness = 5;
+  int32 compliance = 6;
+  int32 confidence = 7;
 }
