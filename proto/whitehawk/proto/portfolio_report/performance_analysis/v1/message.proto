@@ -18,7 +18,7 @@ message PortfolioPerformanceAnalysis {
 message PerformanceAnalysis {
   whitehawk.proto.portfolio_report.v1.BuyerInfo buyer = 1;
   repeated whitehawk.proto.portfolio_report.v1.SupplierInfo suppliers = 2;
-  UserMoreInfo analyst = 3;
+  repeated UserMoreInfo analysts = 3;
   ExecutiveOverview executive = 4;
   TechnicalRiskOverview technical_risk = 5;
   FinancialImpactOverview financial_impact = 6;
