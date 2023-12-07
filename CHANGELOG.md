@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.73.10](https://github.com/whitehawkcec/whitehawk-proto/compare/0.73.9...0.73.10) (2023-12-07)
+
+
+### Features
+
+* **proto:** add `client_portal.portfolio_reports__0__pdf.v1` ([9c7a45c](https://github.com/whitehawkcec/whitehawk-proto/commit/9c7a45c2499caf054bcfd029d6a0ac611c392542))
+
 ### [0.73.9](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.73.8...0.73.9) (2023-12-07)
 
 ### [0.73.8](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.73.7...0.73.8) (2023-12-07)
