@@ -4,10 +4,9 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### [0.73.7](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.73.6...0.73.7) (2023-12-06)
 
-
 ### Features
 
-* update `PerformanceAnalysis` message ([81effd7](https://github.com/WhitehawkCEC/whitehawk-proto/commit/81effd7d291dfa9f40e7831adc5086a134ddb3b8))
+- update `PerformanceAnalysis` message ([81effd7](https://github.com/WhitehawkCEC/whitehawk-proto/commit/81effd7d291dfa9f40e7831adc5086a134ddb3b8))
 
 ### [0.73.6](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.73.5...0.73.6) (2023-12-06)
 
