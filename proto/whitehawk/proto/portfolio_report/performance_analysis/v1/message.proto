@@ -38,28 +38,14 @@ message ExecutiveOverview {
   double average_technical_rating = 2;
   whitehawk.proto.portfolio_report.v1.SupplierBasicInfo top_supplier = 3;
   whitehawk.proto.portfolio_report.v1.SupplierBasicInfo bottom_supplier = 4;
-  RatingChanges positive_rating_changes = 5;
-  RatingChanges negative_rating_changes = 6;
-  TopRiskVectors top_risk_vectors = 7;
-}
-
-message RatingChanges {
-  LargestChangeSupplier first = 1;
-  LargestChangeSupplier second = 2;
-  LargestChangeSupplier third = 3;
-  LargestChangeSupplier fourth = 4;
-  LargestChangeSupplier fifth = 5;
+  repeated LargestChangeSupplier positive_rating_changes = 5;
+  repeated LargestChangeSupplier negative_rating_changes = 6;
+  repeated RiskVectorAnalysisEntry top_risk_vectors = 7;
 }
 
 message LargestChangeSupplier {
   whitehawk.proto.portfolio_report.v1.SupplierBasicInfo supplier = 3;
   optional double prev_rating = 2;
-}
-
-message TopRiskVectors {
-  RiskVectorAnalysisEntry first = 1;
-  RiskVectorAnalysisEntry second = 2;
-  RiskVectorAnalysisEntry third = 3;
 }
 
 message RiskVectorAnalysisEntry {
@@ -74,41 +60,17 @@ message RiskVectorAnalysis {
 message TechnicalRiskOverview {
   int32 total_critical_findings = 1;
   whitehawk.proto.heatmap.v2.Findings heatmap = 2;
-  HighCriticalFindings high_critical_findings = 3;
+  repeated CriticalFindingsSupplier high_critical_findings = 3;
   double data_breach_index = 4;
   double ransomware_susceptibility_index = 5;
-  PoorDataBreach poor_data_breach = 6;
-  PoorRansomwareSusceptibility poor_ransomware_susceptibility = 7;
-}
-
-message HighCriticalFindings {
-  CriticalFindingsSupplier first = 1;
-  CriticalFindingsSupplier second = 2;
-  CriticalFindingsSupplier third = 3;
-  CriticalFindingsSupplier fourth = 4;
-  CriticalFindingsSupplier fifth = 5;
+  repeated IndexRatingSupplier poor_data_breach = 6;
+  repeated IndexRatingSupplier poor_ransomware_susceptibility = 7;
 }
 
 message CriticalFindingsSupplier {
   whitehawk.proto.portfolio_report.v1.SupplierBasicInfo supplier = 1;
   int32 num_critical_findings = 2;
   whitehawk.proto.analysis.v1.RiskVector top_risk_vector = 3;
-}
-
-message PoorDataBreach {
-  IndexRatingSupplier first = 1;
-  IndexRatingSupplier second = 2;
-  IndexRatingSupplier third = 3;
-  IndexRatingSupplier fourth = 4;
-  IndexRatingSupplier fifth = 5;
-}
-
-message PoorRansomwareSusceptibility {
-  IndexRatingSupplier first = 1;
-  IndexRatingSupplier second = 2;
-  IndexRatingSupplier third = 3;
-  IndexRatingSupplier fourth = 4;
-  IndexRatingSupplier fifth = 5;
 }
 
 message IndexRatingSupplier {
@@ -118,21 +80,13 @@ message IndexRatingSupplier {
 
 message FinancialImpactOverview {
   CumulativeAnnualRisk annual_risk = 1;
-  IndustryRiskDistribution risk_distribution = 2;
+  repeated FinancialImpactIndustry risk_distribution = 2;
 }
 
 message CumulativeAnnualRisk {
   double min_risk = 1;
   double avg_risk = 2;
   double max_risk = 3;
-}
-
-message IndustryRiskDistribution {
-  FinancialImpactIndustry first = 1;
-  FinancialImpactIndustry second = 2;
-  FinancialImpactIndustry third = 3;
-  FinancialImpactIndustry fourth = 4;
-  FinancialImpactIndustry fifth = 5;
 }
 
 message FinancialImpactIndustry {
@@ -142,13 +96,7 @@ message FinancialImpactIndustry {
 
 message ComplianceOverview {
   double average_overall_rating = 1;
-  FrameworkAverages framework_averages = 2;
-}
-
-message FrameworkAverages {
-  AverageFrameworkRating first = 1;
-  AverageFrameworkRating second = 2;
-  AverageFrameworkRating third = 3;
+  repeated AverageFrameworkRating framework_averages = 2;
 }
 
 message AverageFrameworkRating {
