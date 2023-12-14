@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+// buf:lint:ignore PACKAGE_LOWER_SNAKE_CASE
+package whitehawk.proto.internal.client_portal.accounts__0__subscriptions__0__portfolio_report_suppliers.v1;
+
+import "whitehawk/proto/resource/v1/message.proto";
+import "whitehawk/proto/portfolio_report/v1/message.proto";
+
+service Service {
+  rpc List(ListRequest) returns (ListResponse);
+}
+
+message ListRequest {
+  whitehawk.proto.resource.v1.AccountSubscriptionId id = 1;
+}
+
+message ListResponse {
+  repeated whitehawk.proto.portfolio_report.v1.SupplierInfo suppliers = 1;
+}
