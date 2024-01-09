@@ -8,6 +8,6 @@ message SupplyWisdomConfig {
   oneof api_key_maybe {
     whitehawk.proto.integration.supply_wisdom.domain.v1.ApiKey api_key = 1;
   }
-  string target_name = 2;
-  string mapped_target_name = 3;
+  string target_name = 2 [deprecated = true];
+  string mapped_target_name = 3 [deprecated = true];
 }
