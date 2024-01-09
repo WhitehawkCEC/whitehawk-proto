@@ -8,8 +8,8 @@ message BlackKiteConfig {
   oneof api_key_maybe {
     whitehawk.proto.integration.black_kite.domain.v1.ApiKey api_key = 1;
   }
-  int32 mapped_ecosystem_id = 2;
-  int32 mapped_entity_id = 3;
+  int32 mapped_ecosystem_id = 2 [deprecated = true];
+  int32 mapped_entity_id = 3 [deprecated = true];
   string client_id = 4;
   string secret = 5;
   WebAppCredentials web_app_credentials = 6;
