@@ -2,6 +2,37 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.74.0](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.73.11...0.74.0) (2024-01-09)
+
+
+### ⚠ BREAKING CHANGES
+
+* add new fields, deprecate unused
+* **proto:** remove service `client_portal.integrations__black_kite__entities.v1`
+* **proto:** remove service `client_portal.accounts__0__subscriptions__0__integrations__black_kite__entities.v1`
+* **proto:** remove service `client_portal.accounts.id.integrations.black_kite.entities.v1`
+* **proto:** remove message(s) for `custom_questionnaire.display_schema.v1`
+* **proto:** remove message(s) for `custom_questionnaire.display_uischema.v1
+* **proto:** remove service `client_portal.custom_questionnaire.v1`
+* **proto:** remove service `client_portal.custom_questionnaires.display_ui_schemas.v1`
+* **proto:** remove service `client_portal.custom_questionnaires.display_schemas.v1`
+* **proto:** remove `client_portal.custom_questionnaire.display_schema.v2` service
+* **proto:** remove `client_portal.custom_questionnaire.display_uischema.v2` service
+
+### Features
+
+* add new fields, deprecate unused ([42f6c53](https://github.com/WhitehawkCEC/whitehawk-proto/commit/42f6c538dd1834925874953262acb616cff6721b))
+* **proto:** remove `client_portal.custom_questionnaire.display_schema.v2` service ([a8fd676](https://github.com/WhitehawkCEC/whitehawk-proto/commit/a8fd67601b9746e2637c96505613f969f72ca4dd))
+* **proto:** remove `client_portal.custom_questionnaire.display_uischema.v2` service ([81e7d9e](https://github.com/WhitehawkCEC/whitehawk-proto/commit/81e7d9e81aca25cca02263da9b98119925db0121))
+* **proto:** remove message(s) for `custom_questionnaire.display_schema.v1` ([75539da](https://github.com/WhitehawkCEC/whitehawk-proto/commit/75539da1dd8863a4ed7c1cebed77cc953a440c51))
+* **proto:** remove message(s) for `custom_questionnaire.display_uischema.v1 ([570895e](https://github.com/WhitehawkCEC/whitehawk-proto/commit/570895e958a22f5b06d284c12e143358105dce42))
+* **proto:** remove service `client_portal.accounts__0__subscriptions__0__integrations__black_kite__entities.v1` ([8f257fe](https://github.com/WhitehawkCEC/whitehawk-proto/commit/8f257fe46f62a7e75493db3497878200cf1d1fb4))
+* **proto:** remove service `client_portal.accounts.id.integrations.black_kite.entities.v1` ([2bd1348](https://github.com/WhitehawkCEC/whitehawk-proto/commit/2bd134850e2c1cbb5da3dba52f410476e5d07d99))
+* **proto:** remove service `client_portal.custom_questionnaire.v1` ([7429249](https://github.com/WhitehawkCEC/whitehawk-proto/commit/74292493c2e7a20359e4482bafbd35fbfb4e8af3))
+* **proto:** remove service `client_portal.custom_questionnaires.display_schemas.v1` ([22a3ab8](https://github.com/WhitehawkCEC/whitehawk-proto/commit/22a3ab89ce50656f5b6dd3afd1b0204f0f1e9e41))
+* **proto:** remove service `client_portal.custom_questionnaires.display_ui_schemas.v1` ([cb2ef48](https://github.com/WhitehawkCEC/whitehawk-proto/commit/cb2ef48a018a537cd21f133d316db80fe22ee857))
+* **proto:** remove service `client_portal.integrations__black_kite__entities.v1` ([16eeb84](https://github.com/WhitehawkCEC/whitehawk-proto/commit/16eeb8430d520fd4b55d01a554eb245cb8b6b1e4))
+
 ### [0.73.11](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.73.10...0.73.11) (2023-12-14)
 
 ### [0.73.10](https://github.com/whitehawkcec/whitehawk-proto/compare/0.73.9...0.73.10) (2023-12-07)
