@@ -7,6 +7,7 @@ import "whitehawk/proto/integration/black_kite/domain/v1/message.proto";
 import "whitehawk/proto/time/v1/message.proto";
 import "whitehawk/proto/ulid/v1/message.proto";
 import "whitehawk/proto/uuid/v1/message.proto";
+import "whitehawk/proto/files/scorecard_templates/v2/message.proto";
 
 message SubscriptionProduct {
   whitehawk.proto.ulid.v1.Ulid id = 1;
@@ -24,21 +25,52 @@ message SubscriptionProductConfig {
 }
 
 message CyberRiskRatingBlackKiteConfig {
-  whitehawk.proto.integration.black_kite.domain.v1.ApiKey api_key = 1;
-  whitehawk.proto.integration.black_kite.domain.v1.ScanProfileType license_type = 2;
-  optional string mapped_entity_id = 3;
-  optional string domain = 4;
-  bool enable_scorecard_download = 5;
+  whitehawk.proto.integration.black_kite.domain.v1.ApiKey api_key = 1 [deprecated = true];
+  whitehawk.proto.integration.black_kite.domain.v1.ScanProfileType license_type = 2 [deprecated = true];
+  optional string mapped_entity_id = 3 [deprecated = true];
+  optional string mapped_ecosystem_id = 4;
+  optional string domain = 5 [deprecated = true];
+  bool enable_scorecard_download = 6 [deprecated = true];
+  ReportConfig report_config = 8;
 }
 
 message CyberRiskRatingBitsightConfig {
-  whitehawk.proto.integration.bitsight.domain.v1.ApiToken api_token = 1;
+  whitehawk.proto.integration.bitsight.domain.v1.ApiToken api_token = 1 [deprecated = true];
+  // NOTE: Bitsight `mapped_entity_id` is to be deprecated, per Soo
   oneof mapped_entity_id {
     whitehawk.proto.uuid.v1.Uuid value = 2;
   }
-  optional string domain = 4;
+  optional string domain = 3 [deprecated = true];
+  ReportConfig report_config = 4;
 }
 
 message BusinessRiskSupplyWisdomConfig {}
 
 message RiskAnalyticsPeratonConfig {}
+
+message ReportConfig {
+  whitehawk.proto.files.scorecard_templates.v2.ScorecardTemplate scorecard_template = 1;
+  whitehawk.proto.files.scorecard_templates.v2.ScorecardTemplate portfolio_report_template = 2;
+  repeated DataFeature enabled_data_features = 3;
+  repeated SyncFeature enabled_sync_features = 4;
+}
+
+enum DataFeature {
+  DATA_FEATURE_UNSPECIFIED = 0;
+  DATA_FEATURE_OVERALL_SUMMARY = 1;
+  DATA_FEATURE_FAIR = 2;
+  DATA_FEATURE_FINDINGS = 3;
+  DATA_FEATURE_FOCUS_AREAS = 4;
+  DATA_FEATURE_RISK_VECTOR_ANALYSIS = 5;
+  DATA_FEATURE_FRAMEWORKS = 6;
+  DATA_FEATURE_SOLUTION_OPTIONS = 7;
+  DATA_FEATURE_SCORECARD_DOWNLOAD = 8;
+  DATA_FEATURE_OTHER = 9;
+}
+
+enum SyncFeature {
+  SYNC_FEATURE_UNSPECIFIED = 0;
+  SYNC_FEATURE_AUTO_GENERATE_SCORECARD_PDF = 1;
+  SYNC_FEATURE_AUTO_GENERATE_COMPLIANCE_XLSX = 2;
+  SYNC_FEATURE_AUTO_GENERATE_FINDINGS_XLSX = 3;
+}
