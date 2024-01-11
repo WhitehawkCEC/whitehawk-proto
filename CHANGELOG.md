@@ -4,26 +4,25 @@ All notable changes to this project will be documented in this file. See [standa
 
 ## [0.75.0](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.74.0...0.75.0) (2024-01-10)
 
-
 ### ⚠ BREAKING CHANGES
 
-* deprecate unused fields
-* deprecate unused fields
-* deprecate unused fields
-* **proto:** remove messages `whitehawk.proto.snapshot_scorecard.v1`
-* **proto:** remove unused messages from `whitehawk.proto.scorecard_v3.snapshot.v1`
-* **proto:** remove service `client_portal.accounts__0__snapshot_scorecards.v1`
-* **proto:** remove service `client_portal.accounts.id.snapshot_scorecards.v1`
+- deprecate unused fields
+- deprecate unused fields
+- deprecate unused fields
+- **proto:** remove messages `whitehawk.proto.snapshot_scorecard.v1`
+- **proto:** remove unused messages from `whitehawk.proto.scorecard_v3.snapshot.v1`
+- **proto:** remove service `client_portal.accounts__0__snapshot_scorecards.v1`
+- **proto:** remove service `client_portal.accounts.id.snapshot_scorecards.v1`
 
 ### Features
 
-* deprecate unused fields ([fa99737](https://github.com/WhitehawkCEC/whitehawk-proto/commit/fa9973735feef534d053c6ffa95b502e4b956eee))
-* deprecate unused fields ([5626838](https://github.com/WhitehawkCEC/whitehawk-proto/commit/5626838bff0892bb130e2b72a6adb9775cb8831e))
-* deprecate unused fields ([6249bb3](https://github.com/WhitehawkCEC/whitehawk-proto/commit/6249bb32dec2a9b11d85fc94421cf8312e2f7f2d))
-* **proto:** remove messages `whitehawk.proto.snapshot_scorecard.v1` ([cb9e052](https://github.com/WhitehawkCEC/whitehawk-proto/commit/cb9e05287079a9901f57514d87c72f41956a0a2d))
-* **proto:** remove service `client_portal.accounts__0__snapshot_scorecards.v1` ([49f0454](https://github.com/WhitehawkCEC/whitehawk-proto/commit/49f0454aa40961686d0e5b2e92c26a000d378bb1))
-* **proto:** remove service `client_portal.accounts.id.snapshot_scorecards.v1` ([221b46e](https://github.com/WhitehawkCEC/whitehawk-proto/commit/221b46e7ce19fd53dce745f4d50934f9433476a1))
-* **proto:** remove unused messages from `whitehawk.proto.scorecard_v3.snapshot.v1` ([b66b201](https://github.com/WhitehawkCEC/whitehawk-proto/commit/b66b2014599302b228dd363414f1b65ad8ad4eb7))
+- deprecate unused fields ([fa99737](https://github.com/WhitehawkCEC/whitehawk-proto/commit/fa9973735feef534d053c6ffa95b502e4b956eee))
+- deprecate unused fields ([5626838](https://github.com/WhitehawkCEC/whitehawk-proto/commit/5626838bff0892bb130e2b72a6adb9775cb8831e))
+- deprecate unused fields ([6249bb3](https://github.com/WhitehawkCEC/whitehawk-proto/commit/6249bb32dec2a9b11d85fc94421cf8312e2f7f2d))
+- **proto:** remove messages `whitehawk.proto.snapshot_scorecard.v1` ([cb9e052](https://github.com/WhitehawkCEC/whitehawk-proto/commit/cb9e05287079a9901f57514d87c72f41956a0a2d))
+- **proto:** remove service `client_portal.accounts__0__snapshot_scorecards.v1` ([49f0454](https://github.com/WhitehawkCEC/whitehawk-proto/commit/49f0454aa40961686d0e5b2e92c26a000d378bb1))
+- **proto:** remove service `client_portal.accounts.id.snapshot_scorecards.v1` ([221b46e](https://github.com/WhitehawkCEC/whitehawk-proto/commit/221b46e7ce19fd53dce745f4d50934f9433476a1))
+- **proto:** remove unused messages from `whitehawk.proto.scorecard_v3.snapshot.v1` ([b66b201](https://github.com/WhitehawkCEC/whitehawk-proto/commit/b66b2014599302b228dd363414f1b65ad8ad4eb7))
 
 ## [0.74.0](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.73.11...0.74.0) (2024-01-09)
 
