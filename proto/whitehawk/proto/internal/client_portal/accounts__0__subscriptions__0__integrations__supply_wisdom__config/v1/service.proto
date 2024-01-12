@@ -1,0 +1,34 @@
+syntax = "proto3";
+
+// buf:lint:ignore PACKAGE_LOWER_SNAKE_CASE
+package whitehawk.proto.internal.client_portal.accounts__0__subscriptions__0__integrations__supply_wisdom__config.v1;
+
+import "whitehawk/proto/integration/supply_wisdom/domain/v1/message.proto";
+import "whitehawk/proto/resource/v1/message.proto";
+
+service Service {
+  rpc Get(GetRequest) returns (GetResponse);
+  rpc Set(SetRequest) returns (SetResponse);
+}
+
+message GetRequest {
+  whitehawk.proto.resource.v1.AccountSubscriptionId id = 1;
+}
+
+message GetResponse {
+  SupplyWisdomConfig config = 1;
+}
+
+message SetRequest {
+  whitehawk.proto.resource.v1.AccountSubscriptionId id = 1;
+  SupplyWisdomConfig config = 2;
+}
+
+message SetResponse {}
+
+
+message SupplyWisdomConfig {
+  oneof api_key_maybe {
+    whitehawk.proto.integration.supply_wisdom.domain.v1.ApiKey api_key = 1;
+  }
+}
