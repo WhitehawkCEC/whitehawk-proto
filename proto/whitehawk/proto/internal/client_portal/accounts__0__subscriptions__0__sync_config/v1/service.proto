@@ -1,0 +1,33 @@
+syntax = "proto3";
+
+// buf:lint:ignore PACKAGE_LOWER_SNAKE_CASE
+package whitehawk.proto.internal.client_portal.accounts__0__subscriptions__0__sync_config.v1;
+
+import "whitehawk/proto/resource/v1/message.proto";
+
+service Service {
+  rpc Get(GetRequest) returns (GetResponse);
+  rpc Set(SetRequest) returns (SetResponse);
+}
+
+message GetRequest {
+  whitehawk.proto.resource.v1.AccountSubscriptionId id = 1;
+}
+
+message GetResponse {
+  repeated SyncFeature enabled = 1;
+}
+
+message SetRequest {
+  whitehawk.proto.resource.v1.AccountSubscriptionId id = 1;
+  repeated SyncFeature enabled = 2;
+}
+
+message SetResponse {}
+
+enum SyncFeature {
+  SYNC_FEATURE_UNSPECIFIED = 0;
+  SYNC_FEATURE_AUTO_GEN_SCORECARD_PDF = 1;
+  SYNC_FEATURE_AUTO_GEN_COMPLIANCE_XLSX = 2;
+  SYNC_FEATURE_AUTO_GEN_FINDINGS_XLSX = 3;
+}
