@@ -1,0 +1,51 @@
+syntax = "proto3";
+
+// buf:lint:ignore PACKAGE_LOWER_SNAKE_CASE
+package whitehawk.proto.internal.client_portal.accounts__0__subscriptions__0__integrations__black_kite__config.v1;
+
+import "whitehawk/proto/integration/black_kite/domain/v1/message.proto";
+import "whitehawk/proto/resource/v1/message.proto";
+
+service Service {
+  rpc Get(GetRequest) returns (GetResponse);
+  rpc Set(SetRequest) returns (SetResponse);
+}
+
+message GetRequest {
+  whitehawk.proto.resource.v1.AccountSubscriptionId id = 1;
+}
+
+message GetResponse {
+  BlackKiteConfig config = 1;
+}
+
+message SetRequest {
+  whitehawk.proto.resource.v1.AccountSubscriptionId id = 1;
+  BlackKiteConfig config = 2;
+}
+
+message SetResponse {}
+
+
+message BlackKiteConfig {
+  ApiV1Credentials v1_credentials = 1;
+  ApiV2Credentials v2_credentials = 2;
+  WebAppCredentials web_app_credentials = 3;
+  optional string mapped_ecosystem_id = 4;
+}
+
+message ApiV1Credentials {
+  oneof api_key_maybe {
+    whitehawk.proto.integration.black_kite.domain.v1.ApiKey api_key = 1;
+  }
+}
+
+message ApiV2Credentials {
+  string client_id = 1;
+  string client_secret = 2;
+}
+
+message WebAppCredentials {
+  string email = 1;
+  string password = 2;
+}
