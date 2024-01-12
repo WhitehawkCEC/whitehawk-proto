@@ -1,0 +1,34 @@
+syntax = "proto3";
+
+// buf:lint:ignore PACKAGE_LOWER_SNAKE_CASE
+package whitehawk.proto.internal.client_portal.accounts__0__subscriptions__0__report_config.v1;
+
+import "whitehawk/proto/resource/v1/message.proto";
+import "whitehawk/proto/files/scorecard_templates/v2/message.proto";
+import "whitehawk/proto/framework/v5/message.proto";
+
+service Service {
+  rpc Get(GetRequest) returns (GetResponse);
+  rpc Set(SetRequest) returns (SetResponse);
+}
+
+message GetRequest {
+  whitehawk.proto.resource.v1.AccountSubscriptionId id = 1;
+}
+
+message GetResponse {
+  ReportConfig config = 1;
+}
+
+message SetRequest {
+  whitehawk.proto.resource.v1.AccountSubscriptionId id = 1;
+  ReportConfig config = 2;
+}
+
+message SetResponse {}
+
+message ReportConfig {
+  whitehawk.proto.files.scorecard_templates.v2.ScorecardTemplate scorecard_template = 1;
+  whitehawk.proto.files.scorecard_templates.v2.ScorecardTemplate portfolio_report_template = 2;
+  repeated whitehawk.proto.framework.v5.FrameworkInfo frameworks = 3;
+}
