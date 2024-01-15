@@ -4,27 +4,26 @@ All notable changes to this project will be documented in this file. See [standa
 
 ## [0.76.0](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.75.0...0.76.0) (2024-01-12)
 
-
 ### ⚠ BREAKING CHANGES
 
-* **proto:** remove service `client_portal.accounts.id.frameworks.v2`
-* **proto:** remove service `client_portal.accounts.id.frameworks.v1`
-* **proto:** remove service `client_portal.accounts__0__subscriptions__0__integrations__black_kite__entities__0__latest_scorecard.v2`
-* **proto:** remove service `client_portal.accounts__0__subscriptions__0__integrations__black_kite__entities__0__latest_scorecard.v1`
+- **proto:** remove service `client_portal.accounts.id.frameworks.v2`
+- **proto:** remove service `client_portal.accounts.id.frameworks.v1`
+- **proto:** remove service `client_portal.accounts__0__subscriptions__0__integrations__black_kite__entities__0__latest_scorecard.v2`
+- **proto:** remove service `client_portal.accounts__0__subscriptions__0__integrations__black_kite__entities__0__latest_scorecard.v1`
 
 ### Features
 
-* add `accounts__0__subscriptions__0__data_feature_config.v1` service ([ecdd418](https://github.com/WhitehawkCEC/whitehawk-proto/commit/ecdd418ff776089ad2fcc9b44e7cb73184010cda))
-* add `accounts__0__subscriptions__0__integrations__bitsight__config.v1` service ([afacfa9](https://github.com/WhitehawkCEC/whitehawk-proto/commit/afacfa98879d84eb9dd63aaf40503a4a4567281f))
-* add `accounts__0__subscriptions__0__integrations__black_kite__config.v1` service ([2855be8](https://github.com/WhitehawkCEC/whitehawk-proto/commit/2855be8ec96f4ac75d86e7295a17a9ff23c843a7))
-* add `accounts__0__subscriptions__0__integrations__cyber_one__config.v1` service ([1ada4da](https://github.com/WhitehawkCEC/whitehawk-proto/commit/1ada4dad2e5b7c96c8dd366796074f1b1f6dae13))
-* add `accounts__0__subscriptions__0__integrations__supply_wisdom__config.v1` service ([3b1c34b](https://github.com/WhitehawkCEC/whitehawk-proto/commit/3b1c34b3cbe448e2e3a9067a3d1375672e7b291e))
-* add `accounts__0__subscriptions__0__report_config.v1` service ([34289e7](https://github.com/WhitehawkCEC/whitehawk-proto/commit/34289e7ab7c9aee228c4d6f2b7a476dfc984bb99))
-* add `accounts__0__subscriptions__0__sync_config.v1` service ([a850b7f](https://github.com/WhitehawkCEC/whitehawk-proto/commit/a850b7f6f1dd8ebc34f54c490966d768cf2b04e2))
-* **proto:** remove service `client_portal.accounts__0__subscriptions__0__integrations__black_kite__entities__0__latest_scorecard.v1` ([5e60315](https://github.com/WhitehawkCEC/whitehawk-proto/commit/5e603156c10b0d355bc31f957c9293ecde233e22))
-* **proto:** remove service `client_portal.accounts__0__subscriptions__0__integrations__black_kite__entities__0__latest_scorecard.v2` ([1426d02](https://github.com/WhitehawkCEC/whitehawk-proto/commit/1426d0212c1048583f3cdda1bf3ccc9ca2fa2325))
-* **proto:** remove service `client_portal.accounts.id.frameworks.v1` ([8e95bc4](https://github.com/WhitehawkCEC/whitehawk-proto/commit/8e95bc42a911309456ddb1c5be3c23b355b74c72))
-* **proto:** remove service `client_portal.accounts.id.frameworks.v2` ([9ea452f](https://github.com/WhitehawkCEC/whitehawk-proto/commit/9ea452f26536d38529689ce5bba00bd9fe2bc1e9))
+- add `accounts__0__subscriptions__0__data_feature_config.v1` service ([ecdd418](https://github.com/WhitehawkCEC/whitehawk-proto/commit/ecdd418ff776089ad2fcc9b44e7cb73184010cda))
+- add `accounts__0__subscriptions__0__integrations__bitsight__config.v1` service ([afacfa9](https://github.com/WhitehawkCEC/whitehawk-proto/commit/afacfa98879d84eb9dd63aaf40503a4a4567281f))
+- add `accounts__0__subscriptions__0__integrations__black_kite__config.v1` service ([2855be8](https://github.com/WhitehawkCEC/whitehawk-proto/commit/2855be8ec96f4ac75d86e7295a17a9ff23c843a7))
+- add `accounts__0__subscriptions__0__integrations__cyber_one__config.v1` service ([1ada4da](https://github.com/WhitehawkCEC/whitehawk-proto/commit/1ada4dad2e5b7c96c8dd366796074f1b1f6dae13))
+- add `accounts__0__subscriptions__0__integrations__supply_wisdom__config.v1` service ([3b1c34b](https://github.com/WhitehawkCEC/whitehawk-proto/commit/3b1c34b3cbe448e2e3a9067a3d1375672e7b291e))
+- add `accounts__0__subscriptions__0__report_config.v1` service ([34289e7](https://github.com/WhitehawkCEC/whitehawk-proto/commit/34289e7ab7c9aee228c4d6f2b7a476dfc984bb99))
+- add `accounts__0__subscriptions__0__sync_config.v1` service ([a850b7f](https://github.com/WhitehawkCEC/whitehawk-proto/commit/a850b7f6f1dd8ebc34f54c490966d768cf2b04e2))
+- **proto:** remove service `client_portal.accounts__0__subscriptions__0__integrations__black_kite__entities__0__latest_scorecard.v1` ([5e60315](https://github.com/WhitehawkCEC/whitehawk-proto/commit/5e603156c10b0d355bc31f957c9293ecde233e22))
+- **proto:** remove service `client_portal.accounts__0__subscriptions__0__integrations__black_kite__entities__0__latest_scorecard.v2` ([1426d02](https://github.com/WhitehawkCEC/whitehawk-proto/commit/1426d0212c1048583f3cdda1bf3ccc9ca2fa2325))
+- **proto:** remove service `client_portal.accounts.id.frameworks.v1` ([8e95bc4](https://github.com/WhitehawkCEC/whitehawk-proto/commit/8e95bc42a911309456ddb1c5be3c23b355b74c72))
+- **proto:** remove service `client_portal.accounts.id.frameworks.v2` ([9ea452f](https://github.com/WhitehawkCEC/whitehawk-proto/commit/9ea452f26536d38529689ce5bba00bd9fe2bc1e9))
 
 ## [0.75.0](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.74.0...0.75.0) (2024-01-10)
 
