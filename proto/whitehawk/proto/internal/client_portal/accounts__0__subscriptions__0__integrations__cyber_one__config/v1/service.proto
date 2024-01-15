@@ -26,7 +26,6 @@ message SetRequest {
 
 message SetResponse {}
 
-
 message CyberOneConfig {
   oneof api_key_maybe {
     whitehawk.proto.integration.cyber_one.domain.v1.ApiKey api_key = 1;

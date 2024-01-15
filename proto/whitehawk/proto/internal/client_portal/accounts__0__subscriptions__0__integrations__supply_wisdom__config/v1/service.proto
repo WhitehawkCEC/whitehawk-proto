@@ -26,7 +26,6 @@ message SetRequest {
 
 message SetResponse {}
 
-
 message SupplyWisdomConfig {
   oneof api_key_maybe {
     whitehawk.proto.integration.supply_wisdom.domain.v1.ApiKey api_key = 1;

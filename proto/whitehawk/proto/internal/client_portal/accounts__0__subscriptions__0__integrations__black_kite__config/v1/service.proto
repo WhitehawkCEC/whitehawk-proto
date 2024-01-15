@@ -26,7 +26,6 @@ message SetRequest {
 
 message SetResponse {}
 
-
 message BlackKiteConfig {
   ApiV1Credentials v1_credentials = 1;
   ApiV2Credentials v2_credentials = 2;

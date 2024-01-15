@@ -27,7 +27,6 @@ message SetRequest {
 
 message SetResponse {}
 
-
 message BitsightConfig {
   oneof api_token_maybe {
     whitehawk.proto.integration.bitsight.domain.v1.ApiToken api_token = 1;
