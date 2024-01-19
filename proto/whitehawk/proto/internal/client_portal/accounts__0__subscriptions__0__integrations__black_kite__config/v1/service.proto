@@ -31,6 +31,7 @@ message BlackKiteConfig {
   ApiV2Credentials v2_credentials = 2;
   WebAppCredentials web_app_credentials = 3;
   optional string mapped_ecosystem_id = 4;
+  optional string mapped_entity_id = 5;
 }
 
 message ApiV1Credentials {
