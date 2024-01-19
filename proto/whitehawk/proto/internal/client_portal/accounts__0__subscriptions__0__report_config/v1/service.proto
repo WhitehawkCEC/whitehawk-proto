@@ -3,7 +3,7 @@ syntax = "proto3";
 // buf:lint:ignore PACKAGE_LOWER_SNAKE_CASE
 package whitehawk.proto.internal.client_portal.accounts__0__subscriptions__0__report_config.v1;
 
-import "whitehawk/proto/files/scorecard_templates/v2/message.proto";
+import "whitehawk/proto/scorecard_v3/v1/message.proto";
 import "whitehawk/proto/framework/v5/message.proto";
 import "whitehawk/proto/resource/v1/message.proto";
 
@@ -28,7 +28,7 @@ message SetRequest {
 message SetResponse {}
 
 message ReportConfig {
-  whitehawk.proto.files.scorecard_templates.v2.ScorecardTemplate scorecard_template = 1;
-  whitehawk.proto.files.scorecard_templates.v2.ScorecardTemplate portfolio_report_template = 2;
+  whitehawk.proto.scorecard_v3.v1.TemplateId scorecard_template = 1;
+  whitehawk.proto.scorecard_v3.v1.TemplateId portfolio_report_template = 2;
   repeated whitehawk.proto.framework.v5.FrameworkInfo frameworks = 3;
 }
