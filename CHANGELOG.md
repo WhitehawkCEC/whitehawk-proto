@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.77.0](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.76.0...0.77.0) (2024-01-19)
+
+
+### ⚠ BREAKING CHANGES
+
+* prefer to use `TemplateId`
+
+### Features
+
+* add `mapped_entity_id` to `BlackKiteConfig` message ([d9e00bf](https://github.com/WhitehawkCEC/whitehawk-proto/commit/d9e00bfea63e217a75785407ef7146f950e76c4f))
+* prefer to use `TemplateId` ([2b36d22](https://github.com/WhitehawkCEC/whitehawk-proto/commit/2b36d22d770016b060ad4e1d9e7ce21da9d44661))
+
 ## [0.76.0](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.75.0...0.76.0) (2024-01-12)
 
 ### ⚠ BREAKING CHANGES
