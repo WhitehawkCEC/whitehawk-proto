@@ -30,5 +30,5 @@ message SetResponse {}
 message ReportConfig {
   whitehawk.proto.scorecard_v3.v1.TemplateId scorecard_template = 1;
   whitehawk.proto.scorecard_v3.v1.TemplateId portfolio_report_template = 2;
-  repeated whitehawk.proto.framework.v5.FrameworkInfo frameworks = 3;
+  repeated whitehawk.proto.framework.v5.FrameworkId enabled_frameworks = 3;
 }
