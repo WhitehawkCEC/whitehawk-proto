@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.78.0](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.77.0...0.78.0) (2024-01-22)
+
+
+### ⚠ BREAKING CHANGES
+
+* prefer to pass `FrameworkId` only
+
+### Features
+
+* prefer to pass `FrameworkId` only ([01e7b4f](https://github.com/WhitehawkCEC/whitehawk-proto/commit/01e7b4f5a7e917424c0eee8eb09ab11d5bc14f96))
+
 ## [0.77.0](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.76.0...0.77.0) (2024-01-19)
 
 ### ⚠ BREAKING CHANGES
