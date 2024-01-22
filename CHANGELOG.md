@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.78.1](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.78.0...0.78.1) (2024-01-22)
+
+
+### Features
+
+* add `data_features/v1` resource ([f582cbf](https://github.com/WhitehawkCEC/whitehawk-proto/commit/f582cbfe16a6ec58b4bc8271bfc5599f7e23bb91))
+* add `sync_features/v1` resource ([585fdf1](https://github.com/WhitehawkCEC/whitehawk-proto/commit/585fdf13ebbddc0ef719f2b8fa06b3cb5ba29c02))
+
 ## [0.78.0](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.77.0...0.78.0) (2024-01-22)
 
 
