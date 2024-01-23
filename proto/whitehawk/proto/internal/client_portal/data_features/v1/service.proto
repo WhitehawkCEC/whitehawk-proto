@@ -6,7 +6,7 @@ package whitehawk.proto.internal.client_portal.data_features.v1;
 import "whitehawk/proto/internal/client_portal/accounts__0__subscriptions__0__data_feature_config/v1/service.proto";
 
 service Service {
-  rpc List (ListRequest) returns (ListResponse);
+  rpc List(ListRequest) returns (ListResponse);
 }
 
 message ListRequest {}
@@ -14,4 +14,3 @@ message ListRequest {}
 message ListResponse {
   repeated whitehawk.proto.internal.client_portal.accounts__0__subscriptions__0__data_feature_config.v1.DataFeature features = 1;
 }
-
