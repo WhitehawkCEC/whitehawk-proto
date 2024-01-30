@@ -19,17 +19,13 @@ message CreateRequest {
   whitehawk.proto.bundle.v1.BundleSet bundle_set = 1;
 }
 
-message CreateResponse {
-  whitehawk.proto.bundle.v1.BundleSet bundle_set = 1;
-}
+message CreateResponse {}
 
 message DeleteRequest {
   whitehawk.proto.ulid.v1.Ulid id = 1;
 }
 
-message DeleteResponse {
-  whitehawk.proto.bundle.v1.BundleSet bundle_set = 1;
-}
+message DeleteResponse {}
 
 message UpdateRequest {
   whitehawk.proto.bundle.v1.BundleSet bundle_set = 1;
