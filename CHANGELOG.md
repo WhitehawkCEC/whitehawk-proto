@@ -4,14 +4,13 @@ All notable changes to this project will be documented in this file. See [standa
 
 ## [0.80.0](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.79.0...0.80.0) (2024-01-30)
 
-
 ### ⚠ BREAKING CHANGES
 
-* remove unused return values
+- remove unused return values
 
 ### eat
 
-* remove unused return values ([9f4a4a7](https://github.com/WhitehawkCEC/whitehawk-proto/commit/9f4a4a7202f36c293eee3aa4f673a24ce0cbd666))
+- remove unused return values ([9f4a4a7](https://github.com/WhitehawkCEC/whitehawk-proto/commit/9f4a4a7202f36c293eee3aa4f673a24ce0cbd666))
 
 ## [0.79.0](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.78.1...0.79.0) (2024-01-23)
 
