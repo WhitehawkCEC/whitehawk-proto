@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.80.2](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.80.1...0.80.2) (2024-02-12)
+
+
+### Bug Fixes
+
+* buf:lint:ignore PACKAGE_LOWER_SNAKE_CASE ([3add929](https://github.com/WhitehawkCEC/whitehawk-proto/commit/3add929c29964d2e89396b158756fdb5b005bce2))
+
 ### [0.80.1](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.80.0...0.80.1) (2024-02-12)
 
 
