@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+package whitehawk.proto.internal.client_portal.bundle_sets__0__allocated.v1;
+
+import "whitehawk/proto/questionnaire_preference/v1/message.proto";
+import "whitehawk/proto/ulid/v1/message.proto";
+
+service Service {
+  rpc List(ListRequest) returns (ListResponse);
+}
+
+message ListRequest {
+  whitehawk.proto.ulid.v1.Ulid id = 1;
+}
+
+message ListResponse {
+  repeated whitehawk.proto.questionnaire_preference.v1.QuestionnairePreference questionnaire_preference = 1;
+}
