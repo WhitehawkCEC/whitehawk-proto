@@ -4,27 +4,24 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### [0.80.3](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.80.2...0.80.3) (2024-02-12)
 
-
 ### Bug Fixes
 
-* remove unused import ([a754685](https://github.com/WhitehawkCEC/whitehawk-proto/commit/a754685c77da5a19fa1c6d5fb53f78e08881eb9c))
+- remove unused import ([a754685](https://github.com/WhitehawkCEC/whitehawk-proto/commit/a754685c77da5a19fa1c6d5fb53f78e08881eb9c))
 
 ### [0.80.2](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.80.1...0.80.2) (2024-02-12)
 
-
 ### Bug Fixes
 
-* buf:lint:ignore PACKAGE_LOWER_SNAKE_CASE ([3add929](https://github.com/WhitehawkCEC/whitehawk-proto/commit/3add929c29964d2e89396b158756fdb5b005bce2))
+- buf:lint:ignore PACKAGE_LOWER_SNAKE_CASE ([3add929](https://github.com/WhitehawkCEC/whitehawk-proto/commit/3add929c29964d2e89396b158756fdb5b005bce2))
 
 ### [0.80.1](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.80.0...0.80.1) (2024-02-12)
 
-
 ### Features
 
-* service to get bundle sets associated with a category ([1da2db7](https://github.com/WhitehawkCEC/whitehawk-proto/commit/1da2db707a6cf8fcb9a078abf8b2468f82b909d4))
-* service to get bundle sets that are allocated to a questionnaire preference ([9c0fb3f](https://github.com/WhitehawkCEC/whitehawk-proto/commit/9c0fb3f344fd979cf4739c5e1ce3b9ceb416e085))
-* service to get products associated with a category ([b3045a7](https://github.com/WhitehawkCEC/whitehawk-proto/commit/b3045a797381a616963e19f146281c4b4e3cebd8))
-* service to get products associated with a feature ([de31b91](https://github.com/WhitehawkCEC/whitehawk-proto/commit/de31b91f8a557ee121d8f4f5c4441fee271c5354))
+- service to get bundle sets associated with a category ([1da2db7](https://github.com/WhitehawkCEC/whitehawk-proto/commit/1da2db707a6cf8fcb9a078abf8b2468f82b909d4))
+- service to get bundle sets that are allocated to a questionnaire preference ([9c0fb3f](https://github.com/WhitehawkCEC/whitehawk-proto/commit/9c0fb3f344fd979cf4739c5e1ce3b9ceb416e085))
+- service to get products associated with a category ([b3045a7](https://github.com/WhitehawkCEC/whitehawk-proto/commit/b3045a797381a616963e19f146281c4b4e3cebd8))
+- service to get products associated with a feature ([de31b91](https://github.com/WhitehawkCEC/whitehawk-proto/commit/de31b91f8a557ee121d8f4f5c4441fee271c5354))
 
 ## [0.80.0](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.79.0...0.80.0) (2024-01-30)
 
