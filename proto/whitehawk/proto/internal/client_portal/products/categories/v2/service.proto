@@ -2,7 +2,6 @@ syntax = "proto3";
 
 package whitehawk.proto.internal.client_portal.products.categories.v2;
 
-import "whitehawk/proto/bundle/v1/message.proto";
 import "whitehawk/proto/product/v1/message.proto";
 import "whitehawk/proto/slug/v1/message.proto";
 
