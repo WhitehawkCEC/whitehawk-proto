@@ -4,14 +4,13 @@ All notable changes to this project will be documented in this file. See [standa
 
 ## [0.81.0](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.80.3...0.81.0) (2024-02-13)
 
-
 ### ⚠ BREAKING CHANGES
 
-* move to different package
+- move to different package
 
 ### Bug Fixes
 
-* move to different package ([88694bc](https://github.com/WhitehawkCEC/whitehawk-proto/commit/88694bc16520523d4dc9744eb324056c912675a0))
+- move to different package ([88694bc](https://github.com/WhitehawkCEC/whitehawk-proto/commit/88694bc16520523d4dc9744eb324056c912675a0))
 
 ### [0.80.3](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.80.2...0.80.3) (2024-02-12)
 
