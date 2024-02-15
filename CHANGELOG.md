@@ -4,24 +4,21 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### [0.81.2](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.81.1...0.81.2) (2024-02-14)
 
-
 ### Bug Fixes
 
-* remove unused imports ([ac273a6](https://github.com/WhitehawkCEC/whitehawk-proto/commit/ac273a63e0d5749ed2f4cb6eee1fd184e79ece84))
+- remove unused imports ([ac273a6](https://github.com/WhitehawkCEC/whitehawk-proto/commit/ac273a63e0d5749ed2f4cb6eee1fd184e79ece84))
 
 ### [0.81.1](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.81.0...0.81.1) (2024-02-14)
 
-
 ### Features
 
-* remove deprecated method ([95dd533](https://github.com/WhitehawkCEC/whitehawk-proto/commit/95dd533369d57c484ca0453d24fae35b130d6197))
-* remove deprecated method, change delete request ([a0a7f2e](https://github.com/WhitehawkCEC/whitehawk-proto/commit/a0a7f2e35924bc71a12464484c1fdafd6ec6dd4b))
-* remove deprecated method, change delete request ([97f71d2](https://github.com/WhitehawkCEC/whitehawk-proto/commit/97f71d219135e005d1e5fd71a955c57389e6e475))
-
+- remove deprecated method ([95dd533](https://github.com/WhitehawkCEC/whitehawk-proto/commit/95dd533369d57c484ca0453d24fae35b130d6197))
+- remove deprecated method, change delete request ([a0a7f2e](https://github.com/WhitehawkCEC/whitehawk-proto/commit/a0a7f2e35924bc71a12464484c1fdafd6ec6dd4b))
+- remove deprecated method, change delete request ([97f71d2](https://github.com/WhitehawkCEC/whitehawk-proto/commit/97f71d219135e005d1e5fd71a955c57389e6e475))
 
 ### Bug Fixes
 
-* change delete request ([fe51886](https://github.com/WhitehawkCEC/whitehawk-proto/commit/fe5188680f2d50140d7dd77c6fa537910433aa61))
+- change delete request ([fe51886](https://github.com/WhitehawkCEC/whitehawk-proto/commit/fe5188680f2d50140d7dd77c6fa537910433aa61))
 
 ## [0.81.0](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.80.3...0.81.0) (2024-02-13)
 
