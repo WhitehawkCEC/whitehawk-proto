@@ -1,0 +1,37 @@
+syntax = "proto3";
+
+// buf:lint:ignore PACKAGE_LOWER_SNAKE_CASE
+package whitehawk.proto.internal.client_portal.accounts__0__subscriptions__0__integrations__black_kite__entities__archive.v1;
+
+import "whitehawk/proto/integration/black_kite/domain/v2/message.proto";
+
+service Service {
+  rpc Read(ReadRequest) returns (ReadResponse);
+  rpc Update(UpdateRequest) returns (UpdateResponse);
+  rpc List(ListRequest) returns (stream ListResponse);
+}
+
+message ReadRequest {
+  string account_id = 1;
+  string subscription_id = 2;
+  string entity_id = 3;
+}
+
+message ReadResponse {
+  whitehawk.proto.integration.black_kite.domain.v2.BlackKiteEntity entity = 1;
+}
+
+message UpdateRequest {
+  whitehawk.proto.integration.black_kite.domain.v2.BlackKiteEntity entity = 1;
+}
+
+message UpdateResponse {}
+
+message ListRequest {
+  string account_id = 1;
+  string subscription_id = 2;
+}
+
+message ListResponse {
+  repeated whitehawk.proto.integration.black_kite.domain.v2.BlackKiteEntity entities = 1;
+}
