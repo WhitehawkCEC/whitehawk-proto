@@ -2,6 +2,73 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.82.0](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.81.2...0.82.0) (2024-07-16)
+
+
+### ⚠ BREAKING CHANGES
+
+* **proto:** remove message `proto.batch.scorecards.v3`
+* **proto:** remove service `accounts__0__scorecard_templates.v1`
+* **proto:** remove service `client_portal.bundle.template.v1`
+* **proto:** remove service `client_portal.accounts__0__todos.v2`
+* **proto:** remove service `client_portal.accounts__0__todos.v1`
+* **proto:** remove service `client_portal.accounts__0__scorecard_frameworks.v2`
+* **proto:** remove service `client_portal.accounts__0__scorecard_frameworks.v1`
+* **proto:** remove service `client_portal.custom_questionnaire_answered.v1`
+* **proto:** remove service `client_portal.custom_questionnaires.v1`
+* **proto:** remove service `client_portal.custom_questionnaires.taken.v1`
+* **proto:** remove service `client_portal.custom_questionnaire_taken.v1`
+* **proto:** remove service `client_portal.files.v2`
+* **proto:** remove service `client_portal.files.scorecard_templates.v1`
+* **proto:** remove service `client_portal.frameworks_lookup.v1`
+* **proto:** remove service `client_portal.frameworks.v1`
+* **proto:** remove service `client_portal.frameworks.lookup.v1`
+* **proto:** remove service `client_portal.custom_questionnaires.answered.v1`
+* **proto:** remove service `client_portal.frameworks.v3`
+* **proto:** remove service `client_portal.accounts.id.subscriptions.subscription_id.batch.zip.v3`
+* **proto:** remove service `client_portal.accounts.id.subscriptions.subscription_id.batch.scorecards_v3.v2`
+* **proto:** remove service `client_portal.accounts.id.subscriptions.subscription_id.batch.batch_id.pdf_status.v2`
+* **proto:** remove service `client_portal.accounts.id.jobs.job_id.v1`
+* **proto:** remove service `client_portal.accounts.id.jobs.v1`
+* **proto:** remove service `client_portal.accounts.id.heatmap.v1`
+* **proto:** remove service `client_portal.accounts.id.integrations.supply_wisdom.config.v1`
+* **proto:** remove service `client_portal.accounts.id.integrations.cyber_one.config.v1`
+* **proto:** remove service `client_portal.accounts.id.integrations.black_kite.config.v1`
+* **proto:** remove service `client_portal.accounts.id.integrations.bitsight.config.v1`
+
+### Features
+
+* **proto:** remove message `proto.batch.scorecards.v3` ([3305b8d](https://github.com/WhitehawkCEC/whitehawk-proto/commit/3305b8dd6c18c7a1b23fa4cdb39ac2e31ed122e3))
+* **proto:** remove service `accounts__0__scorecard_templates.v1` ([cc6a4ba](https://github.com/WhitehawkCEC/whitehawk-proto/commit/cc6a4ba5f45527473b8e5dc5cea2e7c079c37bf6))
+* **proto:** remove service `client_portal.accounts__0__scorecard_frameworks.v1` ([e4ac71d](https://github.com/WhitehawkCEC/whitehawk-proto/commit/e4ac71d35734e51e32f49f9a18acd88e7938899f))
+* **proto:** remove service `client_portal.accounts__0__scorecard_frameworks.v2` ([0adb7d5](https://github.com/WhitehawkCEC/whitehawk-proto/commit/0adb7d578313e19e9e2dcc88649d4d7500871918))
+* **proto:** remove service `client_portal.accounts__0__todos.v1` ([c13abd7](https://github.com/WhitehawkCEC/whitehawk-proto/commit/c13abd7c990dcdc931d61930dbbf2183a150ec8b))
+* **proto:** remove service `client_portal.accounts__0__todos.v2` ([a2354c0](https://github.com/WhitehawkCEC/whitehawk-proto/commit/a2354c0e1d42e96789cda6f2eb00040114caec31))
+* **proto:** remove service `client_portal.accounts.id.heatmap.v1` ([0a5d7d6](https://github.com/WhitehawkCEC/whitehawk-proto/commit/0a5d7d6567629157386d2f92004b78c2e12f6794))
+* **proto:** remove service `client_portal.accounts.id.integrations.bitsight.config.v1` ([d1a16df](https://github.com/WhitehawkCEC/whitehawk-proto/commit/d1a16dfdeb8e7e597c8babf23c613f779f77e248))
+* **proto:** remove service `client_portal.accounts.id.integrations.black_kite.config.v1` ([127e4e3](https://github.com/WhitehawkCEC/whitehawk-proto/commit/127e4e3ca4679d93bea9875a5a1667ed449d839f))
+* **proto:** remove service `client_portal.accounts.id.integrations.cyber_one.config.v1` ([0472963](https://github.com/WhitehawkCEC/whitehawk-proto/commit/04729634bad1647f1ce21b9e98c0ae7af0266de4))
+* **proto:** remove service `client_portal.accounts.id.integrations.supply_wisdom.config.v1` ([5b19209](https://github.com/WhitehawkCEC/whitehawk-proto/commit/5b192092ffd87a33e94c2cb4f2ba4b7d101095d2))
+* **proto:** remove service `client_portal.accounts.id.jobs.job_id.v1` ([43cb3c7](https://github.com/WhitehawkCEC/whitehawk-proto/commit/43cb3c7902a42a27fc4f4c5981b680d18f3c32b6))
+* **proto:** remove service `client_portal.accounts.id.jobs.v1` ([2a4c323](https://github.com/WhitehawkCEC/whitehawk-proto/commit/2a4c32366068d46306e2927c13c25cb3f2489d47))
+* **proto:** remove service `client_portal.accounts.id.subscriptions.subscription_id.batch.batch_id.pdf_status.v2` ([3049262](https://github.com/WhitehawkCEC/whitehawk-proto/commit/304926201dc50d77d9e7566a501be1669d15ac56))
+* **proto:** remove service `client_portal.accounts.id.subscriptions.subscription_id.batch.scorecards_v3.v2` ([005537b](https://github.com/WhitehawkCEC/whitehawk-proto/commit/005537bcb76decb272cb6877ef4976527fdb606d))
+* **proto:** remove service `client_portal.accounts.id.subscriptions.subscription_id.batch.zip.v3` ([3c02709](https://github.com/WhitehawkCEC/whitehawk-proto/commit/3c027099061f4568f701b7bb89f88a93c4510c03))
+* **proto:** remove service `client_portal.bundle.template.v1` ([a09ddce](https://github.com/WhitehawkCEC/whitehawk-proto/commit/a09ddce85ddafa555bf2884f15777ecf6f514aa5))
+* **proto:** remove service `client_portal.custom_questionnaire_answered.v1` ([9df35f4](https://github.com/WhitehawkCEC/whitehawk-proto/commit/9df35f4095360bcc59fc6cd4f13c5b8984d40fd6))
+* **proto:** remove service `client_portal.custom_questionnaire_taken.v1` ([fc3ec88](https://github.com/WhitehawkCEC/whitehawk-proto/commit/fc3ec8842515b1da235288a601d00ad33a34dd42))
+* **proto:** remove service `client_portal.custom_questionnaires.answered.v1` ([cb4fac5](https://github.com/WhitehawkCEC/whitehawk-proto/commit/cb4fac5ca74d9c2ceb0408013c29c97560d12b00))
+* **proto:** remove service `client_portal.custom_questionnaires.taken.v1` ([e9cb637](https://github.com/WhitehawkCEC/whitehawk-proto/commit/e9cb63779b1c379ad60be9a7cd35e37e8c4b9e3f))
+* **proto:** remove service `client_portal.custom_questionnaires.v1` ([830f83a](https://github.com/WhitehawkCEC/whitehawk-proto/commit/830f83abbaec92798ab39ff66b898a626cf8cdb2))
+* **proto:** remove service `client_portal.files.scorecard_templates.v1` ([295699b](https://github.com/WhitehawkCEC/whitehawk-proto/commit/295699b81d496b2714558df4900854c0fa535ed8))
+* **proto:** remove service `client_portal.files.v2` ([458c9c6](https://github.com/WhitehawkCEC/whitehawk-proto/commit/458c9c65908175dc4c945a7628419b7a075717e5))
+* **proto:** remove service `client_portal.frameworks_lookup.v1` ([e1684d0](https://github.com/WhitehawkCEC/whitehawk-proto/commit/e1684d04061da3879a9997ef592480294c3c77be))
+* **proto:** remove service `client_portal.frameworks.lookup.v1` ([9b2e2d3](https://github.com/WhitehawkCEC/whitehawk-proto/commit/9b2e2d3ead06778ae285d721c873f2b0389b5b85))
+* **proto:** remove service `client_portal.frameworks.v1` ([e8541ea](https://github.com/WhitehawkCEC/whitehawk-proto/commit/e8541ea7fa8e764af62160bd93be644c08494476))
+* **proto:** remove service `client_portal.frameworks.v3` ([e13f67d](https://github.com/WhitehawkCEC/whitehawk-proto/commit/e13f67d8a4b454a3dec5d54ad8e6d7e8acfbb4b0))
+* service for archived entities associated with an account and subscription ([f8a1941](https://github.com/WhitehawkCEC/whitehawk-proto/commit/f8a194171bfaf993725b2ca873a6af7f15b95f9b))
+* service for entities associated with an account and subscription ([20cae2d](https://github.com/WhitehawkCEC/whitehawk-proto/commit/20cae2d7993c089057260f5d1e7dbb0d6aadf192))
+
 ### [0.81.2](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.81.1...0.81.2) (2024-02-14)
 
 ### Bug Fixes
