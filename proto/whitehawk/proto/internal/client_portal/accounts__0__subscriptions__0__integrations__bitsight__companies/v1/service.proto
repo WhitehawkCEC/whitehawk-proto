@@ -1,0 +1,29 @@
+syntax = "proto3";
+
+// buf:lint:ignore PACKAGE_LOWER_SNAKE_CASE
+package whitehawk.proto.internal.client_portal.accounts__0__subscriptions__0__integrations__bitsight__config.v1;
+
+import "whitehawk/proto/integration/bitsight/domain/v1/message.proto";
+import "whitehawk/proto/resource/v1/message.proto";
+
+service Service {
+  rpc Read(ReadRequest) returns (ReadResponse);
+  rpc List(ListRequest) returns (stream ListResponse);
+}
+
+message ReadRequest {
+  whitehawk.proto.resource.v1.AccountSubscriptionId account_subscription_id = 1;
+  string company_id = 2;
+}
+
+message ReadResponse {
+  whitehawk.proto.integration.bitsight.domain.v1.BitsightCompany company = 1;
+}
+
+message ListRequest {
+  whitehawk.proto.resource.v1.AccountSubscriptionId account_subscription_id = 1;
+}
+
+message ListResponse {
+  repeated whitehawk.proto.integration.bitsight.domain.v1.BitsightCompany companies = 1;
+}
