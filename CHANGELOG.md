@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.82.2](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.82.1...0.82.2) (2024-07-22)
+
+
+### Features
+
+* **proto:** add fields for bitsight company ([4983274](https://github.com/WhitehawkCEC/whitehawk-proto/commit/49832746c39b1a6578e200e70e6a0ff625d6f1ec))
+* **proto:** service to retrieve bitsight companies associated with an account and subscription ([d4717e1](https://github.com/WhitehawkCEC/whitehawk-proto/commit/d4717e10589890aeb81b2e5dcf26689150a13eee))
+
 ### [0.82.1](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.82.0...0.82.1) (2024-07-17)
 
 ## [0.82.0](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.81.2...0.82.0) (2024-07-16)
