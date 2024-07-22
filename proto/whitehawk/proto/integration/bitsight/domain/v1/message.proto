@@ -3,6 +3,7 @@ syntax = "proto3";
 package whitehawk.proto.integration.bitsight.domain.v1;
 
 import "whitehawk/proto/uuid/v1/message.proto";
+import "whitehawk/proto/time/v1/message.proto";
 
 message ApiToken {
   // 40 characters (lowercase letters or numbers)
@@ -13,4 +14,10 @@ message ApiToken {
 message BitsightCompanyInfo {
   whitehawk.proto.uuid.v1.Uuid id = 1;
   string name = 2;
+}
+
+message BitsightCompany {
+  BitsightCompanyInfo info = 1;
+  whitehawk.proto.time.v1.IsoDateTime date_added = 2;
+  string primary_domain = 3;
 }
