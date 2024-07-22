@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.82.3](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.82.2...0.82.3) (2024-07-22)
+
+
+### Bug Fixes
+
+* **proto:** copy/paste error ([944beb0](https://github.com/WhitehawkCEC/whitehawk-proto/commit/944beb0f4faf2355e3437a2f99f1d1e91794fa79))
+
 ### [0.82.2](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.82.1...0.82.2) (2024-07-22)
 
 
