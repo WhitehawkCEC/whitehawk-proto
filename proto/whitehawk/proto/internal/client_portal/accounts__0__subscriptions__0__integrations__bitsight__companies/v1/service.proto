@@ -6,6 +6,7 @@ package whitehawk.proto.internal.client_portal.accounts__0__subscriptions__0__in
 import "google/protobuf/struct.proto";
 import "whitehawk/proto/integration/bitsight/domain/v1/message.proto";
 import "whitehawk/proto/resource/v1/message.proto";
+import "whitehawk/proto/uuid/v1/message.proto";
 
 service Service {
   rpc Read(ReadRequest) returns (ReadResponse);
@@ -14,7 +15,7 @@ service Service {
 
 message ReadRequest {
   whitehawk.proto.resource.v1.AccountSubscriptionId account_subscription_id = 1;
-  string company_id = 2;
+  whitehawk.proto.uuid.v1.Uuid company_id = 2;
 }
 
 message ReadResponse {
