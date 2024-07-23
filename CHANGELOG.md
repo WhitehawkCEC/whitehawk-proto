@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.83.2](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.83.1...0.83.2) (2024-07-23)
+
+
+### Bug Fixes
+
+* **proto:** company id should be uuid ([5cc289c](https://github.com/WhitehawkCEC/whitehawk-proto/commit/5cc289cf51bf802d1e5469a81635f9ae4141c23b))
+
 ### [0.83.1](https://github.com/whitehawkcec/whitehawk-proto/compare/0.83.0...0.83.1) (2024-07-23)
 
 
