@@ -3,6 +3,7 @@ syntax = "proto3";
 // buf:lint:ignore PACKAGE_LOWER_SNAKE_CASE
 package whitehawk.proto.internal.client_portal.accounts__0__subscriptions__0__integrations__bitsight__companies.v1;
 
+import "google/protobuf/struct.proto";
 import "whitehawk/proto/integration/bitsight/domain/v1/message.proto";
 import "whitehawk/proto/resource/v1/message.proto";
 
@@ -17,7 +18,7 @@ message ReadRequest {
 }
 
 message ReadResponse {
-  whitehawk.proto.integration.bitsight.domain.v1.BitsightCompany company = 1;
+  google.protobuf.Struct json = 1;
 }
 
 message ListRequest {
