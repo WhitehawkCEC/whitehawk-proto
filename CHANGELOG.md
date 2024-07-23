@@ -2,6 +2,31 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.83.0](https://github.com/whitehawkcec/whitehawk-proto/compare/0.82.3...0.83.0) (2024-07-23)
+
+
+### ⚠ BREAKING CHANGES
+
+* **proto:** remove service `client_portal.accounts__0__subscriptions__0__integrations__black_kite__entities__0__findings.v1`
+
+### Features
+
+* **proto:** add service `client_portal.accounts__0__subscriptions__0__integrations__black_kite__entities__0__compliance_xlsx.v1` ([6253c28](https://github.com/whitehawkcec/whitehawk-proto/commit/6253c281855a1d14e156e917c87ebf6149026905))
+* **proto:** add service `client_portal.accounts__0__subscriptions__0__integrations__black_kite__entities__0__cyber_risk.v1` ([c071a64](https://github.com/whitehawkcec/whitehawk-proto/commit/c071a6443d428e34846750eb021efeb1a7b832e0))
+* **proto:** add service `client_portal.accounts__0__subscriptions__0__integrations__black_kite__entities__0__findings_xlsx.v1` ([0fb6957](https://github.com/whitehawkcec/whitehawk-proto/commit/0fb69579df4e5b8455fb5d0d9e18d3dad23d1d4b))
+* **proto:** add service `client_portal.accounts__0__subscriptions__0__integrations__black_kite__entities__0__heat_map.v1` ([f3578af](https://github.com/whitehawkcec/whitehawk-proto/commit/f3578afa3e8c75e8e789d02ea79ae44db75c76de))
+* **proto:** add service `client_portal.accounts__0__subscriptions__0__integrations__black_kite__latest_sync.v1` ([f5558e7](https://github.com/whitehawkcec/whitehawk-proto/commit/f5558e7b8002a64e466b1b3b948b3ad9fbaa0df0))
+* **proto:** add service `client_portal.accounts__0__subscriptions__0__integrations__black_kite__mapped_ecosystem__entities.v1` ([73401f3](https://github.com/whitehawkcec/whitehawk-proto/commit/73401f3c4077dd365243f8ce418e1233729fb2b1))
+* **proto:** add service `client_portal.accounts__0__subscriptions__0__integrations__black_kite__sync.v1` ([b91e316](https://github.com/whitehawkcec/whitehawk-proto/commit/b91e316226961d55c04f7649b3a0bf5e2833106f))
+* **proto:** remove service `client_portal.accounts__0__subscriptions__0__integrations__black_kite__entities__0__findings.v1` ([7d1686c](https://github.com/whitehawkcec/whitehawk-proto/commit/7d1686c53b800f4251985faa58c40578009a28aa))
+
+
+### Bug Fixes
+
+* **proto:** add missing parameter ([99e7ac9](https://github.com/whitehawkcec/whitehawk-proto/commit/99e7ac9a88e15c955c79d5bb54953cdb278944c1))
+* **proto:** correct type for read response ([5d4d80e](https://github.com/whitehawkcec/whitehawk-proto/commit/5d4d80eca2cd6c5a3604c96aa4c06f852e17f929))
+* **proto:** rename response ([424b421](https://github.com/whitehawkcec/whitehawk-proto/commit/424b421363f77cd2a60c157bde416c254a828f78))
+
 ### [0.82.3](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.82.2...0.82.3) (2024-07-22)
 
 
