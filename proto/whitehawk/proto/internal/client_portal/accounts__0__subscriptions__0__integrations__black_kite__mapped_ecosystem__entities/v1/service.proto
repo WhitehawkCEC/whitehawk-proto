@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+// buf:lint:ignore PACKAGE_LOWER_SNAKE_CASE
+package whitehawk.proto.internal.client_portal.accounts__0__subscriptions__0__integrations__black_kite__mapped_ecosystem__entities.v1;
+
+import "whitehawk/proto/integration/black_kite/domain/v1/message.proto";
+import "whitehawk/proto/resource/v1/message.proto";
+
+service Service {
+  rpc List(ListRequest) returns (ListResponse);
+}
+
+message ListRequest {
+  whitehawk.proto.resource.v1.AccountSubscriptionId id = 1;
+}
+
+message ListResponse {
+  repeated whitehawk.proto.integration.black_kite.domain.v1.BlackKiteEntity companies = 1;
+}
