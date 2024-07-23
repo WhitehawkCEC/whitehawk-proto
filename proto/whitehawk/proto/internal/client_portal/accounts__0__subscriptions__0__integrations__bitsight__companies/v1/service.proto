@@ -18,7 +18,7 @@ message ReadRequest {
 }
 
 message ReadResponse {
-  google.protobuf.Struct json = 1;
+  google.protobuf.Struct companyJson = 1;
 }
 
 message ListRequest {
