@@ -2,6 +2,20 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.83.4](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.83.3...0.83.4) (2024-07-24)
+
+
+### Bug Fixes
+
+* **proto:** remove stream ([e9ba87a](https://github.com/WhitehawkCEC/whitehawk-proto/commit/e9ba87abc9195ef1d0d3692ae426563a8e0359b1))
+
+### [0.83.4](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.83.3...0.83.4) (2024-07-24)
+
+
+### Bug Fixes
+
+* **proto:** remove stream ([e9ba87a](https://github.com/WhitehawkCEC/whitehawk-proto/commit/e9ba87abc9195ef1d0d3692ae426563a8e0359b1))
+
 ### [0.83.3](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.83.2...0.83.3) (2024-07-24)
 
 
