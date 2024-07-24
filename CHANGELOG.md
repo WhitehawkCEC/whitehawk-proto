@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.83.5](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.83.4...0.83.5) (2024-07-24)
+
+
+### Features
+
+* **proto:** add service `client_portal.accounts__0__subscriptions__0__integrations__bitsight__sync.v1` ([ab608d8](https://github.com/WhitehawkCEC/whitehawk-proto/commit/ab608d8eedc56fc941208c7a189ddabdf979b136))
+
 ### [0.83.4](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.83.3...0.83.4) (2024-07-24)
 
 
