@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.83.3](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.83.2...0.83.3) (2024-07-24)
+
+
+### Features
+
+* **proto:** additional fields for bitsight company ([4d50f99](https://github.com/WhitehawkCEC/whitehawk-proto/commit/4d50f99c3e7800f681c51ccccf0c9a8fc362b3c6))
+
 ### [0.83.2](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.83.1...0.83.2) (2024-07-23)
 
 
