@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.83.6](https://github.com/whitehawkcec/whitehawk-proto/compare/0.83.5...0.83.6) (2024-07-25)
+
+
+### Features
+
+* **proto:** add `frameworks` field to `accounts__0__subscriptions__0__integrations__black_kite__entities__0__compliance_xlsx.v1` ([9cfa116](https://github.com/whitehawkcec/whitehawk-proto/commit/9cfa116ec059e74e4304231446b53610af07bf7d))
+
 ### [0.83.5](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.83.4...0.83.5) (2024-07-24)
 
 
