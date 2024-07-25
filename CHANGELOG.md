@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.83.7](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.83.6...0.83.7) (2024-07-25)
+
+
+### Features
+
+* **proto:** definitions for cis to cmmc mapping ([4a98143](https://github.com/WhitehawkCEC/whitehawk-proto/commit/4a981432088536f5ce031f37e033a46cd82fd695))
+
 ### [0.83.6](https://github.com/whitehawkcec/whitehawk-proto/compare/0.83.5...0.83.6) (2024-07-25)
 
 
