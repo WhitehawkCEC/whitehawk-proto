@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.83.9](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.83.8...0.83.9) (2024-07-26)
+
+
+### Features
+
+* **proto:** add service `client_portal.accounts__0__subscriptions__0__integrations__bitsight__companies__0__cyber_risk.v1` ([3b16171](https://github.com/WhitehawkCEC/whitehawk-proto/commit/3b16171ed4b7a47da7ff7ee45aa6e0fd9aba9f94))
+
 ### [0.83.8](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.83.7...0.83.8) (2024-07-25)
 
 ### [0.83.7](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.83.6...0.83.7) (2024-07-25)
