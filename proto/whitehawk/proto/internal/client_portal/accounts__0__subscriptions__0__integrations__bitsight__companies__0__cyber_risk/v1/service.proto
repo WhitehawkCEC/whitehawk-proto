@@ -1,5 +1,6 @@
 syntax = "proto3";
 
+// buf:lint:ignore PACKAGE_LOWER_SNAKE_CASE
 package whitehawk.proto.internal.client_portal.accounts__0__subscriptions__0__integrations__bitsight__companies__0__cyber_risk.v1;
 
 import "google/protobuf/struct.proto";
