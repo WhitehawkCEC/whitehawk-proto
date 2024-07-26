@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.83.10](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.83.9...0.83.10) (2024-07-26)
+
+
+### Bug Fixes
+
+* **proto:** lint ignore ([d74aa96](https://github.com/WhitehawkCEC/whitehawk-proto/commit/d74aa96844b2a5ed2eea48c4b414462018d3120c))
+
 ### [0.83.9](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.83.8...0.83.9) (2024-07-26)
 
 
