@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.84.1](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.84.0...0.84.1) (2024-07-30)
+
+
+### Features
+
+* **proto:** add service `client_portal.accounts__0__subscriptions__0__integrations__bitsight__batch_scorecards_zip.v1` ([602d701](https://github.com/WhitehawkCEC/whitehawk-proto/commit/602d7018e455fbcd0440a77a016ed1fdf3b4bac4))
+* **proto:** add service `client_portal.accounts__0__subscriptions__0__integrations__bitsight__batch_scorecards.v1` ([5f6bf4f](https://github.com/WhitehawkCEC/whitehawk-proto/commit/5f6bf4f0d81a73f6b2c41cfeae70b79b0ef19acb))
+
 ## [0.84.0](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.83.10...0.84.0) (2024-07-30)
 
 
