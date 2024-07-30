@@ -2,6 +2,29 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.84.0](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.83.10...0.84.0) (2024-07-30)
+
+
+### ⚠ BREAKING CHANGES
+
+* **proto:** remove service `client_portal.heatmap.v1`
+* **proto:** remove service `client_portal.accounts.id.integrations.black_kite.mapped_ecosystem.companies.v1`
+* **proto:** remove service `client_portal.accounts.id.integrations.black_kite.latest_sync.v1`
+* **proto:** remove service `client_portal.accounts.id.integrations.black_kite.entities.entity_id.cyber_risk.v2`
+* **proto:** remove service `client_portal.accounts.id.integrations.black_kite.entities.entity_id.cyber_risk.v1`
+* **proto:** remove service `client_portal.integrations__black_kite__entities.v2`
+* **proto:** remove service `client_portal.integrations__black_kite__entities__archive.v2`
+
+### Features
+
+* **proto:** remove service `client_portal.accounts.id.integrations.black_kite.entities.entity_id.cyber_risk.v1` ([12ee00d](https://github.com/WhitehawkCEC/whitehawk-proto/commit/12ee00d7c85b25b1cc4855c5471b330207ea007f))
+* **proto:** remove service `client_portal.accounts.id.integrations.black_kite.entities.entity_id.cyber_risk.v2` ([793622c](https://github.com/WhitehawkCEC/whitehawk-proto/commit/793622ca3516c5d6bc0e482195328599c3df5594))
+* **proto:** remove service `client_portal.accounts.id.integrations.black_kite.latest_sync.v1` ([903f7fb](https://github.com/WhitehawkCEC/whitehawk-proto/commit/903f7fb9dca3186f53e4b975d178be672d0b2124))
+* **proto:** remove service `client_portal.accounts.id.integrations.black_kite.mapped_ecosystem.companies.v1` ([d0eebda](https://github.com/WhitehawkCEC/whitehawk-proto/commit/d0eebda25bc08c1048f4bc796fbc84339b5b9451))
+* **proto:** remove service `client_portal.heatmap.v1` ([780ef55](https://github.com/WhitehawkCEC/whitehawk-proto/commit/780ef55bee23fc788eefba49570953c476df42ff))
+* **proto:** remove service `client_portal.integrations__black_kite__entities__archive.v2` ([747ef42](https://github.com/WhitehawkCEC/whitehawk-proto/commit/747ef42376d24cf21e9889a058addfe470dcca36))
+* **proto:** remove service `client_portal.integrations__black_kite__entities.v2` ([d67d843](https://github.com/WhitehawkCEC/whitehawk-proto/commit/d67d84373dfa4f8174bda9e6e16fbe8af64812ab))
+
 ### [0.83.10](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.83.9...0.83.10) (2024-07-26)
 
 
