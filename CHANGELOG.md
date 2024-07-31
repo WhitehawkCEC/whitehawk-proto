@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.84.4](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.84.3...0.84.4) (2024-07-31)
+
+
+### Bug Fixes
+
+* **proto:** use account status ([cc2a29f](https://github.com/WhitehawkCEC/whitehawk-proto/commit/cc2a29fe3d4bcd66a76b78900bd5ac6afb6e20da))
+
 ### [0.84.3](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.84.2...0.84.3) (2024-07-30)
 
 ### [0.84.2](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.84.1...0.84.2) (2024-07-30)
