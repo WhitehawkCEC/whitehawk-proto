@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+// buf:lint:ignore PACKAGE_LOWER_SNAKE_CASE
+package whitehawk.proto.internal.client_portal.accounts__0__subscriptions__0__integrations__cyber_one__assets.v1;
+
+import "whitehawk/proto/integration/cyber_one/domain/v1/message.proto";
+import "whitehawk/proto/slug/v1/message.proto";
+
+service Service {
+  rpc List(ListRequest) returns (ListResponse);
+}
+
+message ListRequest {
+  whitehawk.proto.slug.v1.Slug id = 1;
+}
+
+message ListResponse {
+  repeated whitehawk.proto.integration.cyber_one.domain.v1.CyberOneAsset assets = 1;
+}
