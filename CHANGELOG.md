@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.84.11](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.84.10...0.84.11) (2024-08-01)
+
+
+### Bug Fixes
+
+* **proto:** snake case ([aa3fc2b](https://github.com/WhitehawkCEC/whitehawk-proto/commit/aa3fc2b4c5fea881b13b40971453d72473bd5ab6))
+
 ### [0.84.10](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.84.9...0.84.10) (2024-08-01)
 
 
