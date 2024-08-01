@@ -6,6 +6,7 @@ package whitehawk.proto.internal.client_portal.accounts__0__subscriptions__0__in
 import "whitehawk/proto/account/v1/message.proto";
 import "whitehawk/proto/company/v1/message.proto";
 import "whitehawk/proto/meta/v1/message.proto";
+import "whitehawk/proto/resource/v1/message.proto";
 import "whitehawk/proto/scorecard_v3/indepthblackkitecmmcv2/v2/message.proto";
 import "whitehawk/proto/scorecard_v3/v1/message.proto";
 import "whitehawk/proto/slug/v1/message.proto";
@@ -19,9 +20,8 @@ service Service {
 }
 
 message CreateRequest {
-  whitehawk.proto.slug.v1.Slug account_id = 1;
-  whitehawk.proto.slug.v1.Slug subscription_id = 2;
-  BatchScorecard batch = 3;
+  whitehawk.proto.resource.v1.AccountSubscriptionId = 1;
+  BatchScorecard batch = 2;
 }
 
 message CreateResponse {
@@ -29,21 +29,18 @@ message CreateResponse {
 }
 
 message ReadRequest {
-  whitehawk.proto.slug.v1.Slug account_id = 1;
-  whitehawk.proto.slug.v1.Slug subscription_id = 2;
-  whitehawk.proto.ulid.v1.Ulid batch_id = 3;
+  whitehawk.proto.resource.v1.AccountSubscriptionId = 1;
+  whitehawk.proto.ulid.v1.Ulid batch_id = 2;
 }
 
 message ReadResponse {
-  whitehawk.proto.ulid.v1.Ulid id = 1;
-  whitehawk.proto.slug.v1.Slug account_id = 2;
-  whitehawk.proto.slug.v1.Slug subscription_id = 3;
-  repeated BatchScorecard scorecard = 4;
+  whitehawk.proto.resource.v1.AccountSubscriptionId = 1;
+  whitehawk.proto.ulid.v1.Ulid batch_id = 2;
+  repeated BatchScorecard scorecard = 3;
 }
 
 message ListRequest {
-  whitehawk.proto.slug.v1.Slug account_id = 1;
-  whitehawk.proto.slug.v1.Slug subscription_id = 2;
+  whitehawk.proto.resource.v1.AccountSubscriptionId = 1;
 }
 
 message ListResponse {
