@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.84.5](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.84.4...0.84.5) (2024-08-01)
+
+
+### Features
+
+* add accountsubscription support endpoint for c1 and sw ([4a90394](https://github.com/WhitehawkCEC/whitehawk-proto/commit/4a90394a2d50e85866e81fb62046f9ded45015c2))
+
 ### [0.84.4](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.84.3...0.84.4) (2024-07-31)
 
 
