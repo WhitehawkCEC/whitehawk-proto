@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.84.10](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.84.9...0.84.10) (2024-08-01)
+
+
+### Bug Fixes
+
+* **proto:** missing field name ([a954253](https://github.com/WhitehawkCEC/whitehawk-proto/commit/a9542535fef24d8a6e81035ea9f84754fddb4dac))
+
 ### [0.84.9](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.84.8...0.84.9) (2024-08-01)
 
 
