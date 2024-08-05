@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.84.13](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.84.12...0.84.13) (2024-08-05)
+
+
+### Bug Fixes
+
+* **proto:** add read and delete methods, fix subscription id ([cf42df1](https://github.com/WhitehawkCEC/whitehawk-proto/commit/cf42df110f38e6a6d3002f150f927bda661a049d))
+
 ### [0.84.12](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.84.11...0.84.12) (2024-08-05)
 
 
