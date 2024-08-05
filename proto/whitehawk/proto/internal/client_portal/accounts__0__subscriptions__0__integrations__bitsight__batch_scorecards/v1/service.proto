@@ -63,11 +63,12 @@ message BatchScorecardShortInfo {
 }
 
 message BuyerInfo {
-  whitehawk.proto.scorecard_v3.v1.CompanyInfo company = 1;
-  string domain = 2;
-  whitehawk.proto.company.v1.Industry industry = 3;
-  Creator creator = 4;
-  whitehawk.proto.account.v1.AccountStatus status = 5;
+  whitehawk.proto.uuid.v1.Uuid id = 1;
+  string name = 2;
+  string domain = 3;
+  whitehawk.proto.company.v1.Industry industry = 4;
+  Creator creator = 5;
+  whitehawk.proto.account.v1.AccountStatus status = 6;
 }
 
 message Creator {
