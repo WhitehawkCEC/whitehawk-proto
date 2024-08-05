@@ -4,33 +4,49 @@ syntax = "proto3";
 package whitehawk.proto.internal.client_portal.accounts__0__subscriptions__0__integrations__bitsight__batch_scorecards__zip.v1;
 
 import "whitehawk/proto/meta/v1/message.proto";
-import "whitehawk/proto/slug/v1/message.proto";
+import "whitehawk/proto/resource/v1/message.proto";
 import "whitehawk/proto/ulid/v1/message.proto";
 import "whitehawk/proto/uuid/v1/message.proto";
 
 service Service {
   rpc Create(CreateRequest) returns (CreateResponse);
+  rpc Read(ReadRequest) returns (ReadResponse);
   rpc List(ListRequest) returns (ListResponse);
+  rpc Delete(DeleteRequest) returns (DeleteResponse);
 }
 
 message CreateRequest {
-  whitehawk.proto.slug.v1.Slug account_id = 1;
-  whitehawk.proto.slug.v1.Slug subscription_id = 2;
-  BatchScorecardZip value = 3;
+  whitehawk.proto.resource.v1.AccountSubscriptionId account_subscription_id = 1;
+  BatchScorecardZip value = 2;
 }
 
 message CreateResponse {
   whitehawk.proto.ulid.v1.Ulid id = 1;
 }
 
+message ReadRequest {
+  whitehawk.proto.resource.v1.AccountSubscriptionId account_subscription_id = 1;
+  string file_id = 2;
+}
+
+message ReadResponse {
+  bytes chunk = 1;
+}
+
 message ListRequest {
-  whitehawk.proto.slug.v1.Slug account_id = 1;
-  whitehawk.proto.slug.v1.Slug subscription_id = 2;
+  whitehawk.proto.resource.v1.AccountSubscriptionId account_subscription_id = 1;
 }
 
 message ListResponse {
   repeated BatchScorecardZip values = 1;
 }
+
+message DeleteRequest {
+  whitehawk.proto.resource.v1.AccountSubscriptionId account_subscription_id = 1;
+  string file_id = 2;
+}
+
+message DeleteResponse {}
 
 message BatchScorecardZip {
   whitehawk.proto.ulid.v1.Ulid batch_id = 1;
