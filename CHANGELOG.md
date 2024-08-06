@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.84.18](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.84.17...0.84.18) (2024-08-06)
+
+
+### Bug Fixes
+
+* **proto:** buyer is account/subscription ([bd717a7](https://github.com/WhitehawkCEC/whitehawk-proto/commit/bd717a73ab78113e5b029558ef23175ce3b5ca25))
+
 ### [0.84.17](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.84.16...0.84.17) (2024-08-06)
 
 
