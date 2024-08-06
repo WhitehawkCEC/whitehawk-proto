@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.84.19](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.84.18...0.84.19) (2024-08-06)
+
+
+### Bug Fixes
+
+* **proto:** change name to ScorecardInfo ([2391781](https://github.com/WhitehawkCEC/whitehawk-proto/commit/239178125c49b47d5e2f4741adfcfc65de37f89f))
+
 ### [0.84.18](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.84.17...0.84.18) (2024-08-06)
 
 
