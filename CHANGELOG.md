@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.84.16](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.84.15...0.84.16) (2024-08-06)
+
+
+### Bug Fixes
+
+* **proto:** remove include_cmmc, add batch id ([9f8cb1e](https://github.com/WhitehawkCEC/whitehawk-proto/commit/9f8cb1ef964460b0330dfefefdf370bbe5fc1477))
+
 ### [0.84.15](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.84.14...0.84.15) (2024-08-06)
 
 
