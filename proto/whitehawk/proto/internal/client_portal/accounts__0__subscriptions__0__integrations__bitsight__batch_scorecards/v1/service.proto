@@ -49,14 +49,14 @@ message BatchScorecardRequest {
   BuyerInfo buyer = 1;
   whitehawk.proto.scorecard_v3.indepthblackkitecmmcv2.v2.UserMoreInfo analyst = 2;
   whitehawk.proto.scorecard_v3.indepthblackkitecmmcv2.v2.Status status = 3;
-  bool include_cmmc = 4;
-  repeated SupplierInfo supplier_infos = 5;
+  repeated SupplierInfo supplier_infos = 4;
 }
 
 message BatchScorecardResult {
-  BuyerInfo buyer = 1;
-  whitehawk.proto.scorecard_v3.indepthblackkitecmmcv2.v2.UserMoreInfo analyst = 2;
-  whitehawk.proto.scorecard_v3.indepthblackkitecmmcv2.v2.Status status = 3;
+  whitehawk.proto.ulid.v1.Ulid id = 1;
+  BuyerInfo buyer = 2;
+  whitehawk.proto.scorecard_v3.indepthblackkitecmmcv2.v2.UserMoreInfo analyst = 3;
+  whitehawk.proto.scorecard_v3.indepthblackkitecmmcv2.v2.Status status = 4;
   repeated SupplierInfo supplier_infos = 5;
   repeated Scorecard scorecards = 6;
   bool is_complete = 7;
