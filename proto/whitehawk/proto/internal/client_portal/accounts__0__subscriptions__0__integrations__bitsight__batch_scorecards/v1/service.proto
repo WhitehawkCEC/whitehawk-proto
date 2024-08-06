@@ -21,7 +21,7 @@ service Service {
 
 message CreateRequest {
   whitehawk.proto.resource.v1.AccountSubscriptionId account_subscription_id = 1;
-  BatchScorecard batch = 2;
+  BatchScorecardRequest batch = 2;
 }
 
 message CreateResponse {
@@ -34,9 +34,8 @@ message ReadRequest {
 }
 
 message ReadResponse {
-  whitehawk.proto.resource.v1.AccountSubscriptionId account_subscription_id = 1;
-  whitehawk.proto.ulid.v1.Ulid batch_id = 2;
-  repeated BatchScorecard scorecard = 3;
+  whitehawk.proto.ulid.v1.Ulid batch_id = 1;
+  repeated BatchScorecardResult batch = 2;
 }
 
 message ListRequest {
@@ -47,17 +46,27 @@ message ListResponse {
   repeated BatchScorecardShortInfo scorecard_infos = 1;
 }
 
-message BatchScorecard {
+message BatchScorecardRequest {
   BuyerInfo buyer = 1;
   whitehawk.proto.scorecard_v3.indepthblackkitecmmcv2.v2.UserMoreInfo analyst = 2;
   whitehawk.proto.scorecard_v3.indepthblackkitecmmcv2.v2.Status status = 3;
-  bool include_cmmc = 5;
-  repeated SupplierInfo supplier_infos = 6;
+  bool include_cmmc = 4;
+  repeated SupplierInfo supplier_infos = 5;
+}
+
+message BatchScorecardResult {
+  BuyerInfo buyer = 1;
+  whitehawk.proto.scorecard_v3.indepthblackkitecmmcv2.v2.UserMoreInfo analyst = 2;
+  whitehawk.proto.scorecard_v3.indepthblackkitecmmcv2.v2.Status status = 3;
+  repeated SupplierInfo supplier_infos = 5;
+  repeated Scorecard scorecards = 6;
+  bool is_complete = 7;
+  whitehawk.proto.meta.v1.Meta meta = 8;
 }
 
 message BatchScorecardShortInfo {
   whitehawk.proto.ulid.v1.Ulid id = 1;
-  whitehawk.proto.slug.v1.Slug buyer = 2;
+  whitehawk.proto.uuid.v1.Uuid buyer = 2;
   whitehawk.proto.scorecard_v3.indepthblackkitecmmcv2.v2.Status status = 3;
   whitehawk.proto.meta.v1.Meta meta = 4;
 }
@@ -76,14 +85,20 @@ message Creator {
   string email = 2;
 }
 
-message SupplierInfo {
-  whitehawk.proto.uuid.v1.Uuid id = 1;
-  string name = 2;
-  string domain = 3;
+message Scorecard {
+  string supplier_name = 1;
+  whitehawk.proto.uuid.v1.Uuid supplier_id = 2;
+  whitehawk.proto.uuid.v1.Uuid scorecard_id = 3;
 }
 
 message Status {
   whitehawk.proto.scorecard_v3.v1.State state = 1;
   int32 year = 2;
   whitehawk.proto.scorecard_v3.v1.Quarter quarter = 3;
+}
+
+message SupplierInfo {
+  whitehawk.proto.uuid.v1.Uuid id = 1;
+  string name = 2;
+  string domain = 3;
 }
