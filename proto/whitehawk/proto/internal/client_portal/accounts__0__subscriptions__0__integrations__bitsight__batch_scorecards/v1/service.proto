@@ -57,7 +57,7 @@ message BatchScorecardResult {
   whitehawk.proto.scorecard_v3.indepthblackkitecmmcv2.v2.UserMoreInfo analyst = 3;
   whitehawk.proto.scorecard_v3.indepthblackkitecmmcv2.v2.Status status = 4;
   repeated SupplierInfo supplier_infos = 5;
-  repeated Scorecard scorecards = 6;
+  repeated ScorecardInfo scorecard_infos = 6;
   bool is_complete = 7;
   whitehawk.proto.meta.v1.Meta meta = 8;
 }
@@ -83,7 +83,7 @@ message Creator {
   string email = 2;
 }
 
-message Scorecard {
+message ScorecardInfo {
   string supplier_name = 1;
   whitehawk.proto.uuid.v1.Uuid supplier_id = 2;
   whitehawk.proto.uuid.v1.Uuid scorecard_id = 3;
