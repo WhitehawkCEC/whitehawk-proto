@@ -49,8 +49,9 @@ message DeleteRequest {
 message DeleteResponse {}
 
 message BatchScorecardZipRequest {
-  string zip_file_name = 1;
-  repeated ScorecardSupplierInfo supplier_infos = 2;
+  whitehawk.proto.ulid.v1.Ulid batch_id = 1;
+  string zip_file_name = 2;
+  repeated ScorecardSupplierInfo supplier_infos = 3;
 }
 
 message BatchScorecardZipResult {
