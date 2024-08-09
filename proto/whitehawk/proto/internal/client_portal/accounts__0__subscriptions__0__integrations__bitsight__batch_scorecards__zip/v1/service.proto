@@ -26,7 +26,7 @@ message CreateResponse {
 
 message ReadRequest {
   whitehawk.proto.resource.v1.AccountSubscriptionId account_subscription_id = 1;
-  string file_id = 2;
+  string batch_id = 2;
 }
 
 message ReadResponse {
@@ -43,7 +43,7 @@ message ListResponse {
 
 message DeleteRequest {
   whitehawk.proto.resource.v1.AccountSubscriptionId account_subscription_id = 1;
-  string file_id = 2;
+  string batch_id = 2;
 }
 
 message DeleteResponse {}
