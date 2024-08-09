@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.84.24](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.84.23...0.84.24) (2024-08-09)
+
+
+### Bug Fixes
+
+* **proto:** change file_id to batch_id ([9c3e1b9](https://github.com/WhitehawkCEC/whitehawk-proto/commit/9c3e1b93292a6a3ce48b8509e7f10827a28d249d))
+* **proto:** change id to batch_id ([7e22749](https://github.com/WhitehawkCEC/whitehawk-proto/commit/7e227496cae9fd2f4032672700dfbf0590ca8ecf))
+* **proto:** rearrange params ([51066a6](https://github.com/WhitehawkCEC/whitehawk-proto/commit/51066a6510d763e81feb9fcf6581d950ac8b7bfe))
+* **proto:** remove meta from request ([ef6b351](https://github.com/WhitehawkCEC/whitehawk-proto/commit/ef6b351a2b20b103002ce472c39cbf99a44df6a6))
+
 ### [0.84.23](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.84.22...0.84.23) (2024-08-09)
 
 
