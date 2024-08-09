@@ -17,7 +17,7 @@ service Service {
 
 message CreateRequest {
   whitehawk.proto.resource.v1.AccountSubscriptionId account_subscription_id = 1;
-  BatchScorecardZip value = 2;
+  BatchScorecardZipRequest value = 2;
 }
 
 message CreateResponse {
@@ -38,7 +38,7 @@ message ListRequest {
 }
 
 message ListResponse {
-  repeated BatchScorecardZip values = 1;
+  repeated BatchScorecardZipResult values = 1;
 }
 
 message DeleteRequest {
@@ -48,7 +48,13 @@ message DeleteRequest {
 
 message DeleteResponse {}
 
-message BatchScorecardZip {
+message BatchScorecardZipRequest {
+  whitehawk.proto.ulid.v1.Ulid batch_id = 1;
+  string zip_file_name = 2;
+  repeated ScorecardSupplierInfo details = 3;
+}
+
+message BatchScorecardZipResult {
   whitehawk.proto.ulid.v1.Ulid batch_id = 1;
   string zip_file_name = 2;
   repeated ScorecardSupplierInfo details = 3;
