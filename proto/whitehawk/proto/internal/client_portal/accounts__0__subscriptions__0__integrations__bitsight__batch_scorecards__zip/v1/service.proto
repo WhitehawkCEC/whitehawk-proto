@@ -55,10 +55,10 @@ message BatchScorecardZipRequest {
 
 message BatchScorecardZipResult {
   whitehawk.proto.ulid.v1.Ulid batch_id = 1;
-  string zip_file_name = 2;
-  repeated ScorecardSupplierInfo details = 3;
-  whitehawk.proto.meta.v1.Meta meta = 4;
-  optional string s3_file_path = 5;
+  repeated ScorecardSupplierInfo supplier_infos = 2;
+  string zip_file_name = 3;
+  optional string s3_file_path = 4;
+  whitehawk.proto.meta.v1.Meta meta = 5;
 }
 
 message ScorecardSupplierInfo {
