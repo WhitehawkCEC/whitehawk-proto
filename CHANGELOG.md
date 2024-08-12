@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.84.26](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.84.25...0.84.26) (2024-08-12)
+
+
+### Bug Fixes
+
+* **proto:** make parameter name consistent with other service ([7bf0680](https://github.com/WhitehawkCEC/whitehawk-proto/commit/7bf0680b1c60ae12bb34afa7f9b26d3c6532e538))
+
 ### [0.84.25](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.84.24...0.84.25) (2024-08-09)
 
 
