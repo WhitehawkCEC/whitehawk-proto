@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.84.29](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.84.28...0.84.29) (2024-08-12)
+
+
+### Bug Fixes
+
+* **proto:** batch scorecard id is ulid ([f7b08f2](https://github.com/WhitehawkCEC/whitehawk-proto/commit/f7b08f26073897afe049c166b4b33931431b3947))
+
 ### [0.84.28](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.84.27...0.84.28) (2024-08-12)
 
 
