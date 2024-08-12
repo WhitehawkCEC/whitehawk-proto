@@ -17,7 +17,7 @@ service Service {
 
 message CreateRequest {
   whitehawk.proto.resource.v1.AccountSubscriptionId account_subscription_id = 1;
-  BatchScorecardZipRequest value = 2;
+  BatchScorecardZipRequest zip_request = 2;
 }
 
 message CreateResponse {
