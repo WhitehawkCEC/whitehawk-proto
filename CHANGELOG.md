@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.84.31](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.84.30...0.84.31) (2024-08-12)
+
+
+### Bug Fixes
+
+* **proto:** response need to be a stream ([51b5fa3](https://github.com/WhitehawkCEC/whitehawk-proto/commit/51b5fa375d77ee95cd353578b8cdf196bfee2867))
+
 ### [0.84.30](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.84.29...0.84.30) (2024-08-12)
 
 ### [0.84.29](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.84.28...0.84.29) (2024-08-12)
