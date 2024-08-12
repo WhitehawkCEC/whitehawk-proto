@@ -21,12 +21,12 @@ message CreateRequest {
 }
 
 message CreateResponse {
-  whitehawk.proto.ulid.v1.Ulid batch_id = 1;
+  whitehawk.proto.ulid.v1.Ulid batch_scorecard_id = 1;
 }
 
 message ReadRequest {
   whitehawk.proto.resource.v1.AccountSubscriptionId account_subscription_id = 1;
-  string batch_id = 2;
+  string batch_scorecard_id = 2;
 }
 
 message ReadResponse {
@@ -43,19 +43,19 @@ message ListResponse {
 
 message DeleteRequest {
   whitehawk.proto.resource.v1.AccountSubscriptionId account_subscription_id = 1;
-  string batch_id = 2;
+  string batch_scorecard_id = 2;
 }
 
 message DeleteResponse {}
 
 message BatchScorecardZipRequest {
-  whitehawk.proto.ulid.v1.Ulid batch_id = 1;
+  whitehawk.proto.ulid.v1.Ulid batch_scorecard_id = 1;
   string zip_file_name = 2;
   repeated ScorecardSupplierInfo supplier_infos = 3;
 }
 
 message BatchScorecardZipResult {
-  whitehawk.proto.ulid.v1.Ulid batch_id = 1;
+  whitehawk.proto.ulid.v1.Ulid batch_scorecard_id = 1;
   repeated ScorecardSupplierInfo supplier_infos = 2;
   string zip_file_name = 3;
   optional string s3_file_path = 4;
