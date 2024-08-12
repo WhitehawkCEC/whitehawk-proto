@@ -10,7 +10,7 @@ import "whitehawk/proto/uuid/v1/message.proto";
 
 service Service {
   rpc Create(CreateRequest) returns (CreateResponse);
-  rpc Read(ReadRequest) returns (ReadResponse);
+  rpc Read(ReadRequest) returns (stream ReadResponse);
   rpc List(ListRequest) returns (ListResponse);
   rpc Delete(DeleteRequest) returns (DeleteResponse);
 }
