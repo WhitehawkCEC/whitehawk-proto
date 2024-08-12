@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.84.27](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.84.26...0.84.27) (2024-08-12)
+
+
+### Bug Fixes
+
+* **proto:** param name ([be2cfde](https://github.com/WhitehawkCEC/whitehawk-proto/commit/be2cfde2a0eb6c01a809bb107b189b18c16ff4fd))
+
 ### [0.84.26](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.84.25...0.84.26) (2024-08-12)
 
 
