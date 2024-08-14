@@ -64,14 +64,14 @@ message BatchScorecardResult {
 }
 
 message BatchScorecardShortInfo {
-  whitehawk.proto.slug.v1.Slug id = 1;
+  whitehawk.proto.ulid.v1.Ulid id = 1;
   whitehawk.proto.resource.v1.AccountSubscriptionId buyer_id = 2;
   whitehawk.proto.scorecard_v3.indepthblackkitecmmcv2.v2.Status status = 3;
   whitehawk.proto.meta.v1.Meta meta = 4;
 }
 
 message BuyerInfo {
-  whitehawk.proto.uuid.v1.Uuid id = 1;
+  whitehawk.proto.slug.v1.Slug id = 1;
   string name = 2;
   string domain = 3;
   whitehawk.proto.company.v1.Industry industry = 4;
