@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.84.36](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.84.35...0.84.36) (2024-08-14)
+
+
+### Bug Fixes
+
+* **proto:** wrong param was changd to slug ([06cdb0f](https://github.com/WhitehawkCEC/whitehawk-proto/commit/06cdb0f607ad08fd5db19d23b97ded4fcc311ac3))
+
 ### [0.84.35](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.84.34...0.84.35) (2024-08-14)
 
 
