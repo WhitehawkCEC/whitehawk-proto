@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.84.34](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.84.33...0.84.34) (2024-08-14)
+
+
+### Bug Fixes
+
+* **proto:** buyer info should be uuid ([54022f3](https://github.com/WhitehawkCEC/whitehawk-proto/commit/54022f3f984f3cfab4d85b405f1b72a8b7f11190))
+
 ### [0.84.33](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.84.32...0.84.33) (2024-08-13)
 
 
