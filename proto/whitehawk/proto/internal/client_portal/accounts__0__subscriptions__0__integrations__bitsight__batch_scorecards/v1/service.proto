@@ -70,7 +70,7 @@ message BatchScorecardShortInfo {
 }
 
 message BuyerInfo {
-  whitehawk.proto.resource.v1.AccountSubscriptionId id = 1;
+  whitehawk.proto.uuid.v1.Uuid id = 1;
   string name = 2;
   string domain = 3;
   whitehawk.proto.company.v1.Industry industry = 4;
