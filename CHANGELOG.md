@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.84.38](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.84.37...0.84.38) (2024-08-15)
+
+
+### Features
+
+* added bitsight pending scorecards support ([402e2a2](https://github.com/WhitehawkCEC/whitehawk-proto/commit/402e2a237fb9b20dc8f937953b55fe7e72cf57ab))
+
 ### [0.84.37](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.84.36...0.84.37) (2024-08-15)
 
 ### [0.84.36](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.84.35...0.84.36) (2024-08-14)
