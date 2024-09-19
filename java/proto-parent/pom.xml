@@ -20,7 +20,7 @@
     <maven.compiler.target>11</maven.compiler.target>
 
     <version.grpc>1.58.0</version.grpc>
-    <version.protobuf>3.24.3</version.protobuf>
+    <version.protobuf>3.25.5</version.protobuf>
   </properties>
 
   <dependencyManagement>
