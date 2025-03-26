@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package whitehawk.proto.internal.client_portal.partner_scheduler_visit.visit.v1;
+
+import "whitehawk/proto/time/v1/message.proto";
+import "whitehawk/proto/slug/v1/message.proto";
+
+message PartnerVisitLog {
+  whitehawk.proto.slug.v1.Slug partner_account_id = 1;
+  string visit_ip = 2;
+  whitehawk.proto.time.v1.IsoDateTime visit_time = 3;
+}
