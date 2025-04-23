@@ -24,6 +24,7 @@ enum FrameworkId {
   FRAMEWORK_ID_PCI_DSS_V4 = 16;
   FRAMEWORK_ID_ISO27002 = 17;
   FRAMEWORK_ID_COBIT19 = 18;
+  FRAMEWORK_ID_AUE8 = 19;
 }
 
 message FrameworkInfo {
