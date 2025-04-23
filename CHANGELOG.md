@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.84.42](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.84.41...0.84.42) (2025-04-23)
+
+
+### Features
+
+* **jproto:** add Australia Essential 8 framework ([aa700c7](https://github.com/WhitehawkCEC/whitehawk-proto/commit/aa700c741ba4ca197dadd53dc3d360f884e609e8))
+
 ### [0.84.41](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.84.40...0.84.41) (2025-04-01)
 
 ### [0.84.40](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.84.39...0.84.40) (2025-03-26)
