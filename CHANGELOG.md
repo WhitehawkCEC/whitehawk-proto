@@ -2,6 +2,8 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.84.44](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.84.43...0.84.44) (2025-05-01)
+
 ### [0.84.43](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.84.42...0.84.43) (2025-04-23)
 
 
