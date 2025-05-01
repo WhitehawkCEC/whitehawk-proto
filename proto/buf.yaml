@@ -6,3 +6,5 @@ lint:
   allow_comment_ignores: true
   use:
     - DEFAULT
+deps:
+  - buf.build/googleapis/googleapis
