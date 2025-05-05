@@ -1,0 +1,52 @@
+syntax = "proto3";
+
+package whitehawk.proto.product.v2;
+
+import "google/api/field_behavior.proto";
+import "whitehawk/proto/meta/v1/message.proto";
+import "whitehawk/proto/slug/v1/message.proto";
+import "whitehawk/proto/ulid/v1/message.proto";
+
+message Manufacturer {
+  optional whitehawk.proto.slug.v1.Slug id = 1 [(google.api.field_behavior) = REQUIRED];
+  optional string name = 2 [(google.api.field_behavior) = REQUIRED];
+  optional string website = 3 [(google.api.field_behavior) = REQUIRED];
+  optional string tagline = 4 [(google.api.field_behavior) = REQUIRED];
+  optional string description = 5 [(google.api.field_behavior) = REQUIRED];
+  optional string referral_link = 6 [(google.api.field_behavior) = REQUIRED];
+}
+
+message Reseller {
+  optional string name = 2 [(google.api.field_behavior) = OPTIONAL];
+}
+
+message Product {
+  optional whitehawk.proto.ulid.v1.Ulid id = 1 [(google.api.field_behavior) = REQUIRED];
+  optional string name = 2 [(google.api.field_behavior) = REQUIRED];
+  optional string description = 3 [(google.api.field_behavior) = REQUIRED];
+  optional ProductType type = 4 [(google.api.field_behavior) = REQUIRED];
+  repeated ProductFeature features = 5 [(google.api.field_behavior) = REQUIRED];
+  repeated ProductCategory categories = 6 [(google.api.field_behavior) = REQUIRED];
+  optional Reseller reseller = 7 [(google.api.field_behavior) = OPTIONAL];
+  optional string price = 8 [(google.api.field_behavior) = REQUIRED];
+  optional Manufacturer manufacturer = 9 [(google.api.field_behavior) = REQUIRED];
+}
+
+message ProductType {
+  optional whitehawk.proto.slug.v1.Slug id = 1 [(google.api.field_behavior) = REQUIRED];
+  optional string name = 2 [(google.api.field_behavior) = REQUIRED];
+}
+
+message ProductFeature {
+  optional whitehawk.proto.slug.v1.Slug id = 1 [(google.api.field_behavior) = REQUIRED];
+  optional string name = 2 [(google.api.field_behavior) = REQUIRED];
+  optional string description = 3 [(google.api.field_behavior) = OPTIONAL];
+  optional whitehawk.proto.meta.v1.Meta meta = 4 [(google.api.field_behavior) = OPTIONAL];
+}
+
+message ProductCategory {
+  optional whitehawk.proto.slug.v1.Slug id = 1 [(google.api.field_behavior) = REQUIRED];
+  optional string name = 2 [(google.api.field_behavior) = REQUIRED];
+  optional string description = 3 [(google.api.field_behavior) = OPTIONAL];
+  optional whitehawk.proto.meta.v1.Meta meta = 4 [(google.api.field_behavior) = OPTIONAL];
+}
