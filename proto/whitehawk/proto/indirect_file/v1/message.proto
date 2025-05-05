@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package whitehawk.proto.indirect_file.v1;
+
+import "google/api/field_behavior.proto";
+
+message IndirectDownloadViaGet {
+  optional string url = 1 [(google.api.field_behavior) = REQUIRED];
+}
+
+message IndirectUploadViaPostFormData {
+  optional string url = 1 [(google.api.field_behavior) = REQUIRED];
+  map<string, string> form_data_entries = 2 [(google.api.field_behavior) = REQUIRED];
+  optional string form_data_content_key_name = 3 [(google.api.field_behavior) = REQUIRED];
+}
