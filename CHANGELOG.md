@@ -2,6 +2,23 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.84.47](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.84.46...0.84.47) (2025-05-05)
+
+
+### Features
+
+* add `Collection` v1 message ([889d616](https://github.com/WhitehawkCEC/whitehawk-proto/commit/889d61619aa6aa8db69752a589112754e8fcd2d6))
+* add `collections` v1 service ([f18eeff](https://github.com/WhitehawkCEC/whitehawk-proto/commit/f18eeff83038265d5e7a9d15b3b948e3193c73c3))
+* add `IndirectFile` v1 message ([880ae9b](https://github.com/WhitehawkCEC/whitehawk-proto/commit/880ae9b9b02d77ea263b2bfa08f572f560261004))
+* add `manufacturers__0__logo_download_info` v1 service ([0a70b7d](https://github.com/WhitehawkCEC/whitehawk-proto/commit/0a70b7defe27a8bc0614f77f63f3378665933d3d))
+* add `manufacturers__0__logo_upload_info` v1 service ([cc4c7ef](https://github.com/WhitehawkCEC/whitehawk-proto/commit/cc4c7ef4ef1a3ba7f99d1ac5fe618d0d81e02f75))
+* add `manufacturers__0__products` v1 service ([7ddc299](https://github.com/WhitehawkCEC/whitehawk-proto/commit/7ddc29979c5e233628c5a031e79af551a38b0d0f))
+* add `manufacturers__0__resource_download_info` v1 service ([0342ece](https://github.com/WhitehawkCEC/whitehawk-proto/commit/0342ecefa3a49eab683cc9cd260819f859eea162))
+* add `manufacturers__0__resource_upload_info` v1 service ([eee69c4](https://github.com/WhitehawkCEC/whitehawk-proto/commit/eee69c4b25380d030d099e85e9ef61e1b7737638))
+* add `manufacturers` v1 service ([27bc097](https://github.com/WhitehawkCEC/whitehawk-proto/commit/27bc09712e072e1a5c55b66529c2a25eb36f49d2))
+* add `Product` v2 message ([51b26a7](https://github.com/WhitehawkCEC/whitehawk-proto/commit/51b26a7aa976295545b572fbd6ea52d5d821be6c))
+* add `products` v3 service ([7070404](https://github.com/WhitehawkCEC/whitehawk-proto/commit/7070404888864d0fbaa77f61c58cc2fcfab392c8))
+
 ### [0.84.46](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.84.45...0.84.46) (2025-05-01)
 
 ### [0.84.45](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.84.44...0.84.45) (2025-05-01)
