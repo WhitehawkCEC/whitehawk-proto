@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+package whitehawk.proto.collection.v1;
+
+import "google/api/field_behavior.proto";
+import "whitehawk/proto/product/v2/message.proto";
+import "whitehawk/proto/ulid/v1/message.proto";
+
+enum CollectionType {
+  COLLECTION_TYPE_UNSPECIFIED = 0;
+  COLLECTION_TYPE_PRODUCTS = 1;
+  COLLECTION_TYPE_MANUFACTURERS = 2;
+}
+
+message Collection {
+  optional whitehawk.proto.ulid.v1.Ulid id = 1 [(google.api.field_behavior) = REQUIRED];
+  optional CollectionType type = 2 [(google.api.field_behavior) = REQUIRED];
+  optional string name = 3 [(google.api.field_behavior) = REQUIRED];
+  optional string description = 4 [(google.api.field_behavior) = OPTIONAL];
+  repeated whitehawk.proto.product.v2.Product products = 5 [(google.api.field_behavior) = OPTIONAL];
+  repeated whitehawk.proto.product.v2.Manufacturer manufacturers = 6 [(google.api.field_behavior) = OPTIONAL];
+}
