@@ -1,0 +1,27 @@
+syntax = "proto3";
+
+// buf:lint:ignore PACKAGE_LOWER_SNAKE_CASE
+package whitehawk.proto.internal.client_portal.manufacturers__0__resource_download_info.v1;
+
+import "whitehawk/proto/indirect_file/v1/message.proto";
+import "whitehawk/proto/ulid/v1/message.proto";
+import "google/api/field_behavior.proto";
+
+service Service {
+  rpc Get(GetRequest) returns (GetResponse) {}
+}
+
+message GetRequest {
+  whitehawk.proto.ulid.v1.Ulid manufacturer_id = 1;
+}
+
+message GetResponse {
+  ResourceDownload download_info = 1;
+}
+
+message ResourceDownload {
+  optional string name = 1 [(google.api.field_behavior) = REQUIRED];
+  optional string type = 2 [(google.api.field_behavior) = REQUIRED];
+  optional string description = 3 [(google.api.field_behavior) = REQUIRED];
+  optional whitehawk.proto.indirect_file.v1.IndirectDownloadViaGet download = 4 [(google.api.field_behavior) = REQUIRED];
+}
