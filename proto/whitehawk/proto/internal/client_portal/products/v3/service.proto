@@ -20,7 +20,7 @@ message ReadResponse {
 }
 
 message UpdateRequest {
-  whitehawk.proto.product.v2.Product product = 1;
+  whitehawk.proto.product.v2.ProductData product = 1;
 }
 
 message UpdateResponse {}
