@@ -9,6 +9,10 @@ import "whitehawk/proto/ulid/v1/message.proto";
 
 message Manufacturer {
   optional whitehawk.proto.slug.v1.Slug id = 1 [(google.api.field_behavior) = REQUIRED];
+  optional ManufacturerData data = 2 [(google.api.field_behavior) = REQUIRED];
+}
+
+message ManufacturerData {
   optional string name = 2 [(google.api.field_behavior) = REQUIRED];
   optional string website = 3 [(google.api.field_behavior) = REQUIRED];
   optional string tagline = 4 [(google.api.field_behavior) = REQUIRED];
@@ -16,20 +20,19 @@ message Manufacturer {
   optional string referral_link = 6 [(google.api.field_behavior) = REQUIRED];
 }
 
-message Reseller {
-  optional string name = 2 [(google.api.field_behavior) = OPTIONAL];
-}
-
 message Product {
   optional whitehawk.proto.ulid.v1.Ulid id = 1 [(google.api.field_behavior) = REQUIRED];
+  optional ProductData data = 2 [(google.api.field_behavior) = REQUIRED];
+  optional Manufacturer manufacturer = 3 [(google.api.field_behavior) = REQUIRED];
+}
+
+message ProductData {
   optional string name = 2 [(google.api.field_behavior) = REQUIRED];
   optional string description = 3 [(google.api.field_behavior) = REQUIRED];
   optional ProductType type = 4 [(google.api.field_behavior) = REQUIRED];
-  repeated ProductFeature features = 5 [(google.api.field_behavior) = REQUIRED];
-  repeated ProductCategory categories = 6 [(google.api.field_behavior) = REQUIRED];
-  optional Reseller reseller = 7 [(google.api.field_behavior) = OPTIONAL];
-  optional string price = 8 [(google.api.field_behavior) = REQUIRED];
-  optional Manufacturer manufacturer = 9 [(google.api.field_behavior) = REQUIRED];
+  repeated ProductFeature features = 5;
+  repeated ProductCategory categories = 6;
+  optional string price = 7 [(google.api.field_behavior) = REQUIRED];
 }
 
 message ProductType {
