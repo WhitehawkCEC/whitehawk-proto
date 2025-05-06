@@ -2,6 +2,23 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.85.0](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.84.47...0.85.0) (2025-05-06)
+
+
+### ⚠ BREAKING CHANGES
+
+* avoid duplication
+* avoid duplication, add `id` to list/read
+* avoid duplication
+* avoid duplication, remove `Reseller`
+
+### Features
+
+* avoid duplication ([e2ca5ad](https://github.com/WhitehawkCEC/whitehawk-proto/commit/e2ca5ad4731b0b0fe22a23b4924e14060885e6cf))
+* avoid duplication ([cb3c0e2](https://github.com/WhitehawkCEC/whitehawk-proto/commit/cb3c0e26f97ada85ad6c73996ff903d9dcc0869e))
+* avoid duplication, add `id` to list/read ([c3f6688](https://github.com/WhitehawkCEC/whitehawk-proto/commit/c3f668815c0466eac245c5eed7e686dbab9ee2ac))
+* avoid duplication, remove `Reseller` ([9ed3a6f](https://github.com/WhitehawkCEC/whitehawk-proto/commit/9ed3a6f29f1bc241a8674d5ec33f4c7d2dd1df49))
+
 ### [0.84.47](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.84.46...0.84.47) (2025-05-05)
 
 
