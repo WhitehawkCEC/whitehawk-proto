@@ -39,9 +39,7 @@ message DeleteRequest {
   whitehawk.proto.slug.v1.Slug id = 1;
 }
 
-message DeleteResponse {
-  whitehawk.proto.product.v2.Manufacturer manufacturer = 1;
-}
+message DeleteResponse {}
 
 message ListRequest {}
 
