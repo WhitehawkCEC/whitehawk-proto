@@ -42,11 +42,11 @@ message ProductType {
 message ProductFeature {
   optional whitehawk.proto.slug.v1.Slug id = 1 [(google.api.field_behavior) = REQUIRED];
   optional string name = 2 [(google.api.field_behavior) = REQUIRED];
-  optional string description = 3 [(google.api.field_behavior) = OPTIONAL];
+  optional string description = 3 [(google.api.field_behavior) = REQUIRED];
 }
 
 message ProductCategory {
   optional whitehawk.proto.slug.v1.Slug id = 1 [(google.api.field_behavior) = REQUIRED];
   optional string name = 2 [(google.api.field_behavior) = REQUIRED];
-  optional string description = 3 [(google.api.field_behavior) = OPTIONAL];
+  optional string description = 3 [(google.api.field_behavior) = REQUIRED];
 }
