@@ -21,11 +21,11 @@ message CreateResponse {
   whitehawk.proto.product.v2.Manufacturer manufacturer = 1;
 }
 
-message DeleteRequest {
+message ReadRequest {
   whitehawk.proto.slug.v1.Slug id = 1;
 }
 
-message DeleteResponse {
+message ReadResponse {
   whitehawk.proto.product.v2.Manufacturer manufacturer = 1;
 }
 
@@ -35,11 +35,11 @@ message UpdateRequest {
 
 message UpdateResponse {}
 
-message ReadRequest {
+message DeleteRequest {
   whitehawk.proto.slug.v1.Slug id = 1;
 }
 
-message ReadResponse {
+message DeleteResponse {
   whitehawk.proto.product.v2.Manufacturer manufacturer = 1;
 }
 
