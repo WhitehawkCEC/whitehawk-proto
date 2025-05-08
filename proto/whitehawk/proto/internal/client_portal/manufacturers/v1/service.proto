@@ -10,7 +10,7 @@ service Service {
   rpc Delete(DeleteRequest) returns (DeleteResponse);
   rpc Update(UpdateRequest) returns (UpdateResponse);
   rpc Read(ReadRequest) returns (ReadResponse);
-  rpc List(ListRequest) returns (ListResponse);
+  rpc List(ListRequest) returns (stream ListResponse);
 }
 
 message CreateRequest {
