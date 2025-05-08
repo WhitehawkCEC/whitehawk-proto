@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.87.0](https://github.com/whitehawkcec/whitehawk-proto/compare/0.86.0...0.87.0) (2025-05-08)
+
+
+### ⚠ BREAKING CHANGES
+
+* **proto:** make field REQUIRED
+* **proto:** remove `meta` field from `product.v2`
+
+### Features
+
+* **proto:** make field REQUIRED ([4a2c0ba](https://github.com/whitehawkcec/whitehawk-proto/commit/4a2c0bafc52323760418f567a202bfab9a3a9b78))
+* **proto:** remove `meta` field from `product.v2` ([6f8142b](https://github.com/whitehawkcec/whitehawk-proto/commit/6f8142b2828822b885202a057ce19f5615e4170a))
+
 ## [0.86.0](https://github.com/whitehawkcec/whitehawk-proto/compare/0.85.0...0.86.0) (2025-05-07)
 
 
