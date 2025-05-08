@@ -4,14 +4,14 @@ syntax = "proto3";
 package whitehawk.proto.internal.client_portal.manufacturers__0__logo_upload_info.v1;
 
 import "whitehawk/proto/indirect_file/v1/message.proto";
-import "whitehawk/proto/ulid/v1/message.proto";
+import "whitehawk/proto/slug/v1/message.proto";
 
 service Service {
   rpc Get(GetRequest) returns (GetResponse) {}
 }
 
 message GetRequest {
-  whitehawk.proto.ulid.v1.Ulid manufacturer_id = 1;
+  whitehawk.proto.slug.v1.Slug manufacturer_id = 1;
 }
 
 message GetResponse {
