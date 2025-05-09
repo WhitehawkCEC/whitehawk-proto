@@ -2,6 +2,37 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.88.0](https://github.com/whitehawkcec/whitehawk-proto/compare/0.87.0...0.88.0) (2025-05-09)
+
+
+### ⚠ BREAKING CHANGES
+
+* **proto:** use correct type for manufacturer ID
+* **proto:** use correct type for manufacturer ID
+* **proto:** use correct type for manufacturer ID
+* **proto:** use correct type for manufacturer ID
+* **proto:** don't return anything in `DeleteResponse`
+* **proto:** use correct type for manufacturer ID
+* **proto:** make `ListResponse` streaming
+* **proto:** make `ListResponse` streaming
+* **proto:** make `ListResponse` streaming
+
+### Features
+
+* **proto:** don't return anything in `DeleteResponse` ([f54b8de](https://github.com/whitehawkcec/whitehawk-proto/commit/f54b8de5319d5c132e28d68e95936e059ce2138b))
+* **proto:** make `ListResponse` streaming ([c4dd4a9](https://github.com/whitehawkcec/whitehawk-proto/commit/c4dd4a932efe68332d07d97e2bbe484ee2c3a5ab))
+* **proto:** make `ListResponse` streaming ([80677e4](https://github.com/whitehawkcec/whitehawk-proto/commit/80677e4615ce4d5233f27e26fa9c74069e79c6eb))
+* **proto:** make `ListResponse` streaming ([9f651db](https://github.com/whitehawkcec/whitehawk-proto/commit/9f651dbeca3048bd274398e8a943a1ff5ad2cf43))
+
+
+### Bug Fixes
+
+* **proto:** use correct type for manufacturer ID ([78f0e2a](https://github.com/whitehawkcec/whitehawk-proto/commit/78f0e2a4a8c0c7ed5f52ef24a727765b38c3ab53))
+* **proto:** use correct type for manufacturer ID ([52ae4bd](https://github.com/whitehawkcec/whitehawk-proto/commit/52ae4bde428a2e8ee633f94b489c2446e414aba1))
+* **proto:** use correct type for manufacturer ID ([e603d67](https://github.com/whitehawkcec/whitehawk-proto/commit/e603d67bbe3d0d42966e45e4437cd689a8a337db))
+* **proto:** use correct type for manufacturer ID ([8fdccbc](https://github.com/whitehawkcec/whitehawk-proto/commit/8fdccbcfa68ba713786ce2b9a7523d97155174d1))
+* **proto:** use correct type for manufacturer ID ([b76c60b](https://github.com/whitehawkcec/whitehawk-proto/commit/b76c60b88a9f2d3ca1fc02161fc3edcf3765fab0))
+
 ## [0.87.0](https://github.com/whitehawkcec/whitehawk-proto/compare/0.86.0...0.87.0) (2025-05-08)
 
 
