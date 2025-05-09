@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "release": "standard-version"
+    "release": "git pull && standard-version"
   },
   "devDependencies": {
     "@prettier/plugin-xml": "^0.13.1",
