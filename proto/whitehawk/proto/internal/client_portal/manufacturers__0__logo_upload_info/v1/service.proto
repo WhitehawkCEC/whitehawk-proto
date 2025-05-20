@@ -3,6 +3,7 @@ syntax = "proto3";
 // buf:lint:ignore PACKAGE_LOWER_SNAKE_CASE
 package whitehawk.proto.internal.client_portal.manufacturers__0__logo_upload_info.v1;
 
+import "google/api/field_behavior.proto";
 import "whitehawk/proto/indirect_file/v1/message.proto";
 import "whitehawk/proto/slug/v1/message.proto";
 
@@ -11,9 +12,9 @@ service Service {
 }
 
 message GetRequest {
-  whitehawk.proto.slug.v1.Slug manufacturer_id = 1;
+  optional whitehawk.proto.slug.v1.Slug manufacturer_id = 1 [(google.api.field_behavior) = REQUIRED];
 }
 
 message GetResponse {
-  whitehawk.proto.indirect_file.v1.IndirectUploadViaPostFormData upload_info = 1;
+  optional whitehawk.proto.indirect_file.v1.IndirectUploadViaPostFormData upload_info = 1 [(google.api.field_behavior) = REQUIRED];
 }
