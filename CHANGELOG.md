@@ -2,6 +2,46 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.89.0](https://github.com/whitehawkcec/whitehawk-proto/compare/0.88.0...0.89.0) (2025-05-20)
+
+
+### ⚠ BREAKING CHANGES
+
+* **proto:** mark required
+* **proto:** mark required
+* **proto:** mark required
+* **proto:** mark required
+* **proto:** mark required
+* **proto:** take in necessary arguments
+* **proto:** take in necessary arguments
+* **proto:** mark required
+* **proto:** take in necessary arguments
+* **proto:** mark required
+* **proto:** take in necessary arguments
+* **proto:** take in necessary arguments
+
+### Features
+
+* **proto:** mark required ([6a45a9a](https://github.com/whitehawkcec/whitehawk-proto/commit/6a45a9a42c9aaa1edebc2ce94072a36b620db1e2))
+* **proto:** mark required ([2089f75](https://github.com/whitehawkcec/whitehawk-proto/commit/2089f75e1863bf1dac764b30a951c889f5a1de57))
+* **proto:** mark required ([c6577ce](https://github.com/whitehawkcec/whitehawk-proto/commit/c6577ce25dafd3db9ea4bacf8d2499dbc781d002))
+* **proto:** mark required ([05d49ad](https://github.com/whitehawkcec/whitehawk-proto/commit/05d49ad9b9b463afcd2d652279c738d8623ee72c))
+* **proto:** mark required ([a7b655a](https://github.com/whitehawkcec/whitehawk-proto/commit/a7b655acb105a0e71e484f438bdb8e4cf1262811))
+* **proto:** mark required ([4843dd4](https://github.com/whitehawkcec/whitehawk-proto/commit/4843dd41ae79e732b2ffb484b24a3e13c55072da))
+* **proto:** mark required ([867b8af](https://github.com/whitehawkcec/whitehawk-proto/commit/867b8af7088a70a7946555bb1dee1720711de859))
+* **proto:** reorder messages ([76f3c9d](https://github.com/whitehawkcec/whitehawk-proto/commit/76f3c9ddba3d89d01ad477375018ee8d6dbd6648))
+* **proto:** reorder rpc methods ([58f8807](https://github.com/whitehawkcec/whitehawk-proto/commit/58f8807e5a37637002885bcb86baeecf8c749853))
+* **proto:** reorder rpc methods ([dcd9a29](https://github.com/whitehawkcec/whitehawk-proto/commit/dcd9a29e82a04a12132bec0e46bc5b9e1deb451a))
+
+
+### Bug Fixes
+
+* **proto:** take in necessary arguments ([73c558a](https://github.com/whitehawkcec/whitehawk-proto/commit/73c558ae5d2602635f7c5ff9147414abca79f032))
+* **proto:** take in necessary arguments ([6d59c6f](https://github.com/whitehawkcec/whitehawk-proto/commit/6d59c6f872ec1ba55353bce98f0398bce9f475d6))
+* **proto:** take in necessary arguments ([7452234](https://github.com/whitehawkcec/whitehawk-proto/commit/7452234db32f1966b4a18f76bad003cb9a12cfc9))
+* **proto:** take in necessary arguments ([0370d74](https://github.com/whitehawkcec/whitehawk-proto/commit/0370d74e086ac7fb19ae70881ddb254f50ec4cf4))
+* **proto:** take in necessary arguments ([e0f1bf7](https://github.com/whitehawkcec/whitehawk-proto/commit/e0f1bf7658e9cda18504e47b8d69313c37aee2ac))
+
 ## [0.88.0](https://github.com/whitehawkcec/whitehawk-proto/compare/0.87.0...0.88.0) (2025-05-09)
 
 
