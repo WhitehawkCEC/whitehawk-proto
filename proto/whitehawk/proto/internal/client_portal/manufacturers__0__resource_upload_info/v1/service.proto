@@ -12,11 +12,11 @@ service Service {
 }
 
 message GetRequest {
-  whitehawk.proto.slug.v1.Slug manufacturer_id = 1;
+  optional whitehawk.proto.slug.v1.Slug manufacturer_id = 1 [(google.api.field_behavior) = REQUIRED];
 }
 
 message GetResponse {
-  ResourceUpload upload_info = 1;
+  optional ResourceUpload upload_info = 1 [(google.api.field_behavior) = REQUIRED];
 }
 
 message ResourceUpload {
