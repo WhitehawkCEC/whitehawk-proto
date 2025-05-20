@@ -16,7 +16,9 @@ service Service {
 }
 
 message CreateRequest {
-  whitehawk.proto.product.v2.ProductData product = 1;
+  whitehawk.proto.slug.v1.Slug id = 1;
+  whitehawk.proto.ulid.v1.Ulid product_id = 2;
+  whitehawk.proto.product.v2.ProductData product_data = 3;
 }
 
 message CreateResponse {
