@@ -23,19 +23,6 @@ message CreateResponse {
   whitehawk.proto.product.v2.Product product = 1;
 }
 
-message DeleteRequest {
-  whitehawk.proto.slug.v1.Slug id = 1;
-  whitehawk.proto.ulid.v1.Ulid product_id = 2;
-}
-
-message DeleteResponse {}
-
-message UpdateRequest {
-  whitehawk.proto.product.v2.ProductData product = 1;
-}
-
-message UpdateResponse {}
-
 message ReadRequest {
   whitehawk.proto.slug.v1.Slug id = 1;
   whitehawk.proto.ulid.v1.Ulid product_id = 2;
@@ -44,6 +31,19 @@ message ReadRequest {
 message ReadResponse {
   whitehawk.proto.product.v2.Product product = 1;
 }
+
+message UpdateRequest {
+  whitehawk.proto.product.v2.ProductData product = 1;
+}
+
+message UpdateResponse {}
+
+message DeleteRequest {
+  whitehawk.proto.slug.v1.Slug id = 1;
+  whitehawk.proto.ulid.v1.Ulid product_id = 2;
+}
+
+message DeleteResponse {}
 
 message ListRequest {
   whitehawk.proto.slug.v1.Slug id = 1;
