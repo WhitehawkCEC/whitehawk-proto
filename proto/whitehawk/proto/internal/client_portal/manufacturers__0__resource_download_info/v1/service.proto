@@ -3,20 +3,20 @@ syntax = "proto3";
 // buf:lint:ignore PACKAGE_LOWER_SNAKE_CASE
 package whitehawk.proto.internal.client_portal.manufacturers__0__resource_download_info.v1;
 
+import "google/api/field_behavior.proto";
 import "whitehawk/proto/indirect_file/v1/message.proto";
 import "whitehawk/proto/slug/v1/message.proto";
-import "google/api/field_behavior.proto";
 
 service Service {
   rpc Get(GetRequest) returns (GetResponse) {}
 }
 
 message GetRequest {
-  whitehawk.proto.slug.v1.Slug manufacturer_id = 1;
+  optional whitehawk.proto.slug.v1.Slug manufacturer_id = 1 [(google.api.field_behavior) = REQUIRED];
 }
 
 message GetResponse {
-  ResourceDownload download_info = 1;
+  optional ResourceDownload download_info = 1 [(google.api.field_behavior) = REQUIRED];
 }
 
 message ResourceDownload {
