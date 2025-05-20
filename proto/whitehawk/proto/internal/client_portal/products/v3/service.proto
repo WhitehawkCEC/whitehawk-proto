@@ -20,7 +20,8 @@ message ReadResponse {
 }
 
 message UpdateRequest {
-  whitehawk.proto.product.v2.ProductData product = 1;
+  whitehawk.proto.ulid.v1.Ulid id = 1;
+  whitehawk.proto.product.v2.ProductData data = 2;
 }
 
 message UpdateResponse {}
