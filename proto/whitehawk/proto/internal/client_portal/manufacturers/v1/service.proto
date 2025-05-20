@@ -2,6 +2,7 @@ syntax = "proto3";
 
 package whitehawk.proto.internal.client_portal.manufacturers.v1;
 
+import "google/api/field_behavior.proto";
 import "whitehawk/proto/product/v2/message.proto";
 import "whitehawk/proto/slug/v1/message.proto";
 
@@ -14,31 +15,31 @@ service Service {
 }
 
 message CreateRequest {
-  whitehawk.proto.slug.v1.Slug id = 1;
-  whitehawk.proto.product.v2.ManufacturerData data = 2;
+  optional whitehawk.proto.slug.v1.Slug id = 1 [(google.api.field_behavior) = REQUIRED];
+  optional whitehawk.proto.product.v2.ManufacturerData data = 2 [(google.api.field_behavior) = REQUIRED];
 }
 
 message CreateResponse {
-  whitehawk.proto.product.v2.Manufacturer manufacturer = 1;
+  optional whitehawk.proto.product.v2.Manufacturer manufacturer = 1 [(google.api.field_behavior) = REQUIRED];
 }
 
 message ReadRequest {
-  whitehawk.proto.slug.v1.Slug id = 1;
+  optional whitehawk.proto.slug.v1.Slug id = 1 [(google.api.field_behavior) = REQUIRED];
 }
 
 message ReadResponse {
-  whitehawk.proto.product.v2.Manufacturer manufacturer = 1;
+  optional whitehawk.proto.product.v2.Manufacturer manufacturer = 1 [(google.api.field_behavior) = REQUIRED];
 }
 
 message UpdateRequest {
-  whitehawk.proto.slug.v1.Slug id = 1;
-  whitehawk.proto.product.v2.ManufacturerData data = 2;
+  optional whitehawk.proto.slug.v1.Slug id = 1 [(google.api.field_behavior) = REQUIRED];
+  optional whitehawk.proto.product.v2.ManufacturerData data = 2 [(google.api.field_behavior) = REQUIRED];
 }
 
 message UpdateResponse {}
 
 message DeleteRequest {
-  whitehawk.proto.slug.v1.Slug id = 1;
+  optional whitehawk.proto.slug.v1.Slug id = 1 [(google.api.field_behavior) = REQUIRED];
 }
 
 message DeleteResponse {}
