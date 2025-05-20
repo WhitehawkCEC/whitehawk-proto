@@ -2,6 +2,7 @@ syntax = "proto3";
 
 package whitehawk.proto.internal.client_portal.products.v3;
 
+import "google/api/field_behavior.proto";
 import "whitehawk/proto/product/v2/message.proto";
 import "whitehawk/proto/ulid/v1/message.proto";
 
@@ -12,16 +13,16 @@ service Service {
 }
 
 message ReadRequest {
-  whitehawk.proto.ulid.v1.Ulid id = 1;
+  optional whitehawk.proto.ulid.v1.Ulid id = 1 [(google.api.field_behavior) = REQUIRED];
 }
 
 message ReadResponse {
-  whitehawk.proto.product.v2.Product product = 1;
+  optional whitehawk.proto.product.v2.Product product = 1 [(google.api.field_behavior) = REQUIRED];
 }
 
 message UpdateRequest {
-  whitehawk.proto.ulid.v1.Ulid id = 1;
-  whitehawk.proto.product.v2.ProductData data = 2;
+  optional whitehawk.proto.ulid.v1.Ulid id = 1 [(google.api.field_behavior) = REQUIRED];
+  optional whitehawk.proto.product.v2.ProductData data = 2 [(google.api.field_behavior) = REQUIRED];
 }
 
 message UpdateResponse {}
