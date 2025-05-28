@@ -2,8 +2,6 @@ syntax = "proto3";
 
 package whitehawk.proto.internal.client_portal.scorecards_v3.v1;
 
-import "whitehawk/proto/scorecard_v3/indepthblackkitecmmcv2/v2/message.proto";
-import "whitehawk/proto/scorecard_v3/indepthblackkitewithframeworks/v1/message.proto";
 import "whitehawk/proto/scorecard_v3/indepthblackkitewithframeworks/v2/message.proto";
 import "whitehawk/proto/scorecard_v3/v1/message.proto";
 import "whitehawk/proto/ulid/v1/message.proto";
@@ -19,8 +17,9 @@ message ReadRequest {
 
 message ReadResponse {
   oneof scorecard {
-    ScorecardInDepthBlackKiteCmmcV2 bk = 1;
-    whitehawk.proto.scorecard_v3.indepthblackkitewithframeworks.v1.ScorecardInDepthBlackKiteWithFrameworks bkf = 2;
+    reserved 1, 2;
+    // ScorecardInDepthBlackKiteCmmcV2 bk = 1;
+    // w.p.scorecard_v3.indepthblackkitewithframeworks.v1.ScorecardInDepthBlackKiteWithFrameworks bkf = 2;
     ScorecardInDepthBlackKiteWithFrameworksV2 bkf2 = 3;
   }
 }
@@ -28,8 +27,9 @@ message ReadResponse {
 message UpdateRequest {
   whitehawk.proto.ulid.v1.Ulid scorecard_id = 1;
   oneof scorecard {
-    ScorecardInDepthBlackKiteCmmcV2 bk = 2;
-    whitehawk.proto.scorecard_v3.indepthblackkitewithframeworks.v1.ScorecardInDepthBlackKiteWithFrameworks bkf = 3;
+    reserved 2, 3;
+    // ScorecardInDepthBlackKiteCmmcV2 bk = 2;
+    // w.p.scorecard_v3.indepthblackkitewithframeworks.v1.ScorecardInDepthBlackKiteWithFrameworks bkf = 3;
     ScorecardInDepthBlackKiteWithFrameworksV2 bkf2 = 4;
   }
 }
@@ -38,10 +38,5 @@ message UpdateResponse {}
 
 message ScorecardInDepthBlackKiteWithFrameworksV2 {
   whitehawk.proto.scorecard_v3.indepthblackkitewithframeworks.v2.ScorecardInDepthBlackKiteWithFrameworks data = 1;
-  whitehawk.proto.scorecard_v3.v1.TemplateId template = 2;
-}
-
-message ScorecardInDepthBlackKiteCmmcV2 {
-  whitehawk.proto.scorecard_v3.indepthblackkitecmmcv2.v2.DataBkCmmcV2 data = 1;
   whitehawk.proto.scorecard_v3.v1.TemplateId template = 2;
 }
