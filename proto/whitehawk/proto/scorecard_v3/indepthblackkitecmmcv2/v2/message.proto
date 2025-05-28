@@ -10,27 +10,6 @@ import "whitehawk/proto/slug/v1/message.proto";
 import "whitehawk/proto/ulid/v1/message.proto";
 import "whitehawk/proto/uuid/v1/message.proto";
 
-message ScorecardInDepthBlackKiteCmmcV2 {
-  whitehawk.proto.ulid.v1.Ulid id = 1;
-  DataBkCmmcV2 data = 2;
-  whitehawk.proto.scorecard_v3.v1.TemplateId template = 3;
-}
-
-message DataBkCmmcV2 {
-  whitehawk.proto.scorecard_v3.v1.BuyerInfo buyer = 1;
-  whitehawk.proto.scorecard_v3.v1.SupplierBasicInfo supplier = 2;
-  UserMoreInfo analyst = 3;
-  RatingScoreDetails rating_score = 4;
-  ReportsV2 reports = 5;
-  RiskVectorAnalysisOverview risk_vectors = 6;
-  FocusAreas focus_areas = 7;
-  FocusAreaOrder focus_area_order = 8;
-  BundleSolution bundle = 9;
-  CmmcDomainV2AnalysisOverview cmmc_analysis = 10;
-  ComplianceSummaryV2 compliance = 11;
-  Status status = 12;
-}
-
 message UserMoreInfo {
   whitehawk.proto.uuid.v1.Uuid id = 1;
   string name = 2;
