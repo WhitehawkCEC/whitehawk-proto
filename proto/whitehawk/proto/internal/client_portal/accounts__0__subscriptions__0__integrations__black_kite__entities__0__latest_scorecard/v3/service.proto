@@ -4,7 +4,6 @@ syntax = "proto3";
 package whitehawk.proto.internal.client_portal.accounts__0__subscriptions__0__integrations__black_kite__entities__0__latest_scorecard.v3;
 
 import "whitehawk/proto/resource/v1/message.proto";
-import "whitehawk/proto/scorecard_v3/indepthblackkitewithframeworks/v1/message.proto";
 import "whitehawk/proto/scorecard_v3/indepthblackkitewithframeworks/v2/message.proto";
 
 service Service {
@@ -18,13 +17,10 @@ message GetRequest {
 
 message GetResponse {
   oneof scorecard {
-    ScorecardInDepthBlackKiteWithFrameworks bkf = 1;
+    reserved 1;
+    // ScorecardInDepthBlackKiteWithFrameworks bkf = 1;
     ScorecardInDepthBlackKiteWithFrameworksV2 bkf2 = 2;
   }
-}
-
-message ScorecardInDepthBlackKiteWithFrameworks {
-  whitehawk.proto.scorecard_v3.indepthblackkitewithframeworks.v1.ScorecardInDepthBlackKiteWithFrameworks data = 1;
 }
 
 message ScorecardInDepthBlackKiteWithFrameworksV2 {
