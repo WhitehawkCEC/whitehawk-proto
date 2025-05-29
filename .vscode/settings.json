@@ -10,6 +10,8 @@
     "options": ["--proto_path=proto/*/"]
   },
 
+  "buf.binaryPath": "./node_modules/@bufbuild/buf/bin/buf",
+
   "xml.format.splitAttributes": true,
 
   "[html]": {
