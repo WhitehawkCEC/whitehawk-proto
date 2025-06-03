@@ -8,7 +8,6 @@ import "whitehawk/proto/ulid/v1/message.proto";
 
 service Service {
   rpc Read(ReadRequest) returns (ReadResponse);
-  rpc Update(UpdateRequest) returns (UpdateResponse);
   rpc List(ListRequest) returns (stream ListResponse);
 }
 
@@ -19,13 +18,6 @@ message ReadRequest {
 message ReadResponse {
   optional whitehawk.proto.product.v2.Product product = 1 [(google.api.field_behavior) = REQUIRED];
 }
-
-message UpdateRequest {
-  optional whitehawk.proto.ulid.v1.Ulid id = 1 [(google.api.field_behavior) = REQUIRED];
-  optional whitehawk.proto.product.v2.ProductData data = 2 [(google.api.field_behavior) = REQUIRED];
-}
-
-message UpdateResponse {}
 
 message ListRequest {}
 
