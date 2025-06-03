@@ -16,8 +16,9 @@ message ReadRequest {
 }
 
 message ReadResponse {
+  reserved 1, 2;
+  reserved "bk", "bkf";
   oneof scorecard {
-    reserved 1, 2;
     // ScorecardInDepthBlackKiteCmmcV2 bk = 1;
     // w.p.scorecard_v3.indepthblackkitewithframeworks.v1.ScorecardInDepthBlackKiteWithFrameworks bkf = 2;
     ScorecardInDepthBlackKiteWithFrameworksV2 bkf2 = 3;
@@ -26,8 +27,9 @@ message ReadResponse {
 
 message UpdateRequest {
   whitehawk.proto.ulid.v1.Ulid scorecard_id = 1;
+  reserved 2, 3;
+  reserved "bk", "bkf";
   oneof scorecard {
-    reserved 2, 3;
     // ScorecardInDepthBlackKiteCmmcV2 bk = 2;
     // w.p.scorecard_v3.indepthblackkitewithframeworks.v1.ScorecardInDepthBlackKiteWithFrameworks bkf = 3;
     ScorecardInDepthBlackKiteWithFrameworksV2 bkf2 = 4;
