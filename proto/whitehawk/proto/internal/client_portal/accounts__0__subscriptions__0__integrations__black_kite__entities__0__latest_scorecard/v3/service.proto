@@ -16,8 +16,9 @@ message GetRequest {
 }
 
 message GetResponse {
+  reserved 1;
+  reserved "bkf";
   oneof scorecard {
-    reserved 1;
     // ScorecardInDepthBlackKiteWithFrameworks bkf = 1;
     ScorecardInDepthBlackKiteWithFrameworksV2 bkf2 = 2;
   }
