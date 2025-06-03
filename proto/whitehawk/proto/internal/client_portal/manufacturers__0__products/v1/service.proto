@@ -31,7 +31,7 @@ message ReadRequest {
 }
 
 message ReadResponse {
-  optional whitehawk.proto.product.v2.Product product = 1 [(google.api.field_behavior) = REQUIRED];
+  optional whitehawk.proto.product.v2.ProductData product_data = 1 [(google.api.field_behavior) = REQUIRED];
 }
 
 message UpdateRequest {
