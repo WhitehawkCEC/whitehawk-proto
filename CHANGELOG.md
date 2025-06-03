@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.90.1](https://github.com/whitehawkcec/whitehawk-proto/compare/0.90.0...0.90.1) (2025-06-03)
+
+
+### Bug Fixes
+
+* **proto:** properly mark reserved fields ([26586a1](https://github.com/whitehawkcec/whitehawk-proto/commit/26586a1c8ff381dc5a0674194fdf4189f777d75b))
+* **proto:** properly mark reserved fields ([f52f948](https://github.com/whitehawkcec/whitehawk-proto/commit/f52f948999eaeb2eab3868ecee4cecbbd3ee4c41))
+* **proto:** properly mark reserved fields ([1f7f9a1](https://github.com/whitehawkcec/whitehawk-proto/commit/1f7f9a14eca11c1749f8948d77c98e930f036f36))
+
 ## [0.90.0](https://github.com/whitehawkcec/whitehawk-proto/compare/0.89.0...0.90.0) (2025-06-03)
 
 
