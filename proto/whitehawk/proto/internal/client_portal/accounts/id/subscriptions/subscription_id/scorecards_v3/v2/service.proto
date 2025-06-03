@@ -14,8 +14,9 @@ service Service {
 message CreateRequest {
   whitehawk.proto.slug.v1.Slug account_id = 1;
   whitehawk.proto.slug.v1.Slug subscription_id = 2;
+  reserved 3, 4;
+  reserved "bk", "bkf";
   oneof scorecard_input {
-    reserved 3, 4;
     // CreateInputInDepthBlackKiteCmmcV2 bk = 3;
     // CreateInputInDepthBlackKiteWithFrameworks bkf = 4;
     CreateInputInDepthBlackKiteWithFrameworksV2 bkf2 = 5;
