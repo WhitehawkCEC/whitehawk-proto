@@ -18,12 +18,11 @@ service Service {
 
 message CreateRequest {
   optional whitehawk.proto.slug.v1.Slug id = 1 [(google.api.field_behavior) = REQUIRED];
-  optional whitehawk.proto.ulid.v1.Ulid product_id = 2 [(google.api.field_behavior) = REQUIRED];
-  optional whitehawk.proto.product.v2.ProductData product_data = 3 [(google.api.field_behavior) = REQUIRED];
+  optional whitehawk.proto.product.v2.ProductData product_data = 2 [(google.api.field_behavior) = REQUIRED];
 }
 
 message CreateResponse {
-  optional whitehawk.proto.product.v2.Product product = 1 [(google.api.field_behavior) = REQUIRED];
+  optional whitehawk.proto.ulid.v1.Ulid product_id = 1 [(google.api.field_behavior) = REQUIRED];
 }
 
 message ReadRequest {
@@ -55,5 +54,10 @@ message ListRequest {
 }
 
 message ListResponse {
-  repeated whitehawk.proto.product.v2.Product products = 1;
+  message Entry {
+    optional whitehawk.proto.ulid.v1.Ulid product_id = 1 [(google.api.field_behavior) = REQUIRED];
+    optional whitehawk.proto.product.v2.ProductData product_data = 2 [(google.api.field_behavior) = REQUIRED];
+  }
+
+  repeated Entry products = 1;
 }
