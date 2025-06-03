@@ -2,6 +2,129 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.90.0](https://github.com/whitehawkcec/whitehawk-proto/compare/0.89.0...0.90.0) (2025-06-03)
+
+
+### ⚠ BREAKING CHANGES
+
+* **proto:** change messages for `client_portal.manufacturers__0__products.v1`
+* **proto:** remove rpc `Update` from `client_portal.products.v3`
+* **proto:** change messages for `client_portal.manufacturers__0__products.v1`
+* **proto:** introduce `*Ref` messages types for product.v2
+* **proto:** remove messages `proto.report.bundle.v1`
+* **proto:** remove messages `proto.custom_questionnaire.v1`
+* **proto:** remove messages `proto.jobs.v1`
+* **proto:** partially remove messages from `proto.scorecard_v3.indepthblackkitecmmcv2.v2`
+* **proto:** remove message `proto.framework.v4`
+* **proto:** remove message `proto.todo.v2`
+* **proto:** remove message `proto.framework.v3`
+* **proto:** remove service `client_portal.accounts.id.subscriptions.subscription_id.products.product_id.cyber_risk_rating.black_kite.performance.v1`
+* **proto:** remove service `client_portal.reports.bundle.set.v1`
+* **proto:** remove service `client_portal.reports.account.v1`
+* **proto:** remove service `client_portal.reports.account.subscription.v1`
+* **proto:** remove service `client_portal.reports.account.subscription.product.v1`
+* **proto:** remove service `client_portal.products.v1`
+* **proto:** remove service `client_portal.products.features.v1`
+* **proto:** remove service `client_portal.products.categories.v1`
+* **proto:** remove service `client_portal.manufacturers.products.count.v1`
+* **proto:** remove service `client_portal.accounts__0__subscriptions__0__portfolio_reports.v2`
+* **proto:** remove service `client_portal.accounts__0__subscriptions__0__portfolio_reports.v1`
+* **proto:** remove service `client_portal.accounts__0__portfolio_report_template.v1`
+* **proto:** remove service `client_portal.accounts__0__frameworks__0__findings__0__result_override.v2`
+* **proto:** remove service `client_portal.accounts__0__frameworks__0__findings__0__result_override.v1`
+* **proto:** remove service `client_portal.accounts__0__frameworks.v2`
+* **proto:** remove service `client_portal.accounts.id.integrations.bitsight.companies.company_id.cyber_risk.v1`
+* **proto:** remove service `client_portal.accounts.id.integrations.black_kite.syncs.v1`
+* **proto:** remove service `client_portal.accounts.id.integrations.black_kite.ecosystems.v1`
+* **proto:** remove service `client_portal.accounts.id.integrations.cyber_one.sync.v1`
+* **proto:** remove service `client_portal.accounts__0__subscriptions__0__integrations__cyber_one__sync.v1`
+* **proto:** remove message `proto.todo.v1`
+* **proto:** remove message `proto.status.v1`
+* **proto:** remove message `proto.supply_wisdom.utils.v1`
+* **proto:** remove service `client_portal.cyberone.id.supply_wisdom.targets.v1`
+* **proto:** remove service `client_portal.cyberone.id.supply_wisdom.assets.v1`
+* **proto:** remove service `client_portal.cyberone.id.supply_wisdom.key.v1`
+* **proto:** remove service `proto.supply_wisdom.admin.v1`
+* **proto:** remove message `proto.scorecard_licensing.v1`
+* **proto:** remove message `proto.scorecard_v3.indepthblackkitewithframeworks.v1`
+* **proto:** remove fields from service `client_portal.scorecards_v3.v1`
+* **proto:** remove fields from service `client_portal.accounts__0__subscriptions__0__integrations__black_kite__entities__0__latest_scorecard.v3`
+* **proto:** remove fields from service `client_portal.accounts.id.subscriptions.subscription_id.scorecards_v3.v2`
+* **proto:** remove method from service `client_portal.accounts.id.subscriptions.subscription_id.scorecards_v3.v2`
+* **proto:** remove service `client_portal.accounts__0__frameworks.v1`
+* **proto:** remove message `proto.framework.v2`
+* **proto:** remove message `proto.framework.v1`
+* **proto:** remove message `proto.files.v1`
+* **proto:** remove message `proto.files.scorecard_templates.v1`
+* **proto:** remove message `proto.cyberone.v1`
+* **proto:** remove service `client_portal.cyberone.id.matched_pairs.supply_wisdom.v1`
+* **proto:** remove service `client_portal.cyberone.id.matched_pairs.white_hawk.v1`
+* **proto:** remove service `client_portal.cyberone.id.cyberone.key.v1`
+* **proto:** remove service `client_portal.cyberone.id.cyberone.assets.v1`
+* **proto:** remove message `proto.custom_questionnaire_taken.v1`
+* **proto:** remove message `proto.custom_questionnaire_answered.v1`
+* **proto:** remove message `proto.batch.zip.v3`
+
+### Features
+
+* **proto:** change messages for `client_portal.manufacturers__0__products.v1` ([6e3dcc3](https://github.com/whitehawkcec/whitehawk-proto/commit/6e3dcc358efdd03d83ea50014810067f9a2ca282))
+* **proto:** change messages for `client_portal.manufacturers__0__products.v1` ([69dfcd0](https://github.com/whitehawkcec/whitehawk-proto/commit/69dfcd003c73a52cdfd23445ace52b33adcbdc11))
+* **proto:** introduce `*Ref` messages types for product.v2 ([ca2fc2a](https://github.com/whitehawkcec/whitehawk-proto/commit/ca2fc2a1653cd077f7a8fa40bb099a073ecdf33a))
+* **proto:** partially remove messages from `proto.scorecard_v3.indepthblackkitecmmcv2.v2` ([95a6aff](https://github.com/whitehawkcec/whitehawk-proto/commit/95a6aff44e4715402e64ca60041abc81a100f457))
+* **proto:** remove fields from service `client_portal.accounts__0__subscriptions__0__integrations__black_kite__entities__0__latest_scorecard.v3` ([47cad28](https://github.com/whitehawkcec/whitehawk-proto/commit/47cad287c482589a55956397b27727936c3e9652))
+* **proto:** remove fields from service `client_portal.accounts.id.subscriptions.subscription_id.scorecards_v3.v2` ([87f32c9](https://github.com/whitehawkcec/whitehawk-proto/commit/87f32c9d25219a0a3d7181fbc2d5f752dd27e668))
+* **proto:** remove fields from service `client_portal.scorecards_v3.v1` ([7c78704](https://github.com/whitehawkcec/whitehawk-proto/commit/7c787045801e88dec341dee5f4c79ef29da96413))
+* **proto:** remove message `proto.batch.zip.v3` ([a3c617b](https://github.com/whitehawkcec/whitehawk-proto/commit/a3c617b1d4838489e99ab8bc630c2839bcd40d0c))
+* **proto:** remove message `proto.custom_questionnaire_answered.v1` ([f993b86](https://github.com/whitehawkcec/whitehawk-proto/commit/f993b862ec42ef382ce08b79bd7fdf0caacb0674))
+* **proto:** remove message `proto.custom_questionnaire_taken.v1` ([6e9836c](https://github.com/whitehawkcec/whitehawk-proto/commit/6e9836c608972ba8d6253cb57c0cac17231f641d))
+* **proto:** remove message `proto.cyberone.v1` ([5c0b720](https://github.com/whitehawkcec/whitehawk-proto/commit/5c0b720d4300f6a900450dfa39bac461662e9892))
+* **proto:** remove message `proto.files.scorecard_templates.v1` ([8fef34e](https://github.com/whitehawkcec/whitehawk-proto/commit/8fef34e3a616a9af4abc4489a1812fe0ec52cafd))
+* **proto:** remove message `proto.files.v1` ([560840e](https://github.com/whitehawkcec/whitehawk-proto/commit/560840eda57446766e8ffc9069498450a980e6d5))
+* **proto:** remove message `proto.framework.v1` ([900d2b0](https://github.com/whitehawkcec/whitehawk-proto/commit/900d2b0c56ec6f498439606b5ac30ebb8e76a66e))
+* **proto:** remove message `proto.framework.v2` ([d22e12b](https://github.com/whitehawkcec/whitehawk-proto/commit/d22e12bff5086cb0d7c609d56b15b03700dd64bb))
+* **proto:** remove message `proto.framework.v3` ([7b4481c](https://github.com/whitehawkcec/whitehawk-proto/commit/7b4481c2b826129e980759a26cd7cdcaeec97d50))
+* **proto:** remove message `proto.framework.v4` ([6bc5643](https://github.com/whitehawkcec/whitehawk-proto/commit/6bc56438984f7ecc18ed23cfb2a5bc433bd5a24f))
+* **proto:** remove message `proto.scorecard_licensing.v1` ([c6ddad6](https://github.com/whitehawkcec/whitehawk-proto/commit/c6ddad6ef7373dd2745a49b522d5f85ddc90f79a))
+* **proto:** remove message `proto.scorecard_v3.indepthblackkitewithframeworks.v1` ([655418b](https://github.com/whitehawkcec/whitehawk-proto/commit/655418b26e64ee2ea441f76cd01804cd59722543))
+* **proto:** remove message `proto.status.v1` ([3684e26](https://github.com/whitehawkcec/whitehawk-proto/commit/3684e26b713dace3c7a37416889200c0b68d0913))
+* **proto:** remove message `proto.supply_wisdom.utils.v1` ([ede395d](https://github.com/whitehawkcec/whitehawk-proto/commit/ede395d20414e03a9ec7de7640aa9df0c46e2540))
+* **proto:** remove message `proto.todo.v1` ([a35c9c4](https://github.com/whitehawkcec/whitehawk-proto/commit/a35c9c43e9d4b209afa50533a75f21950d44be83))
+* **proto:** remove message `proto.todo.v2` ([4850467](https://github.com/whitehawkcec/whitehawk-proto/commit/48504678a91c5c1a148222b4216c6addcceaa44b))
+* **proto:** remove messages `proto.custom_questionnaire.v1` ([bc896ee](https://github.com/whitehawkcec/whitehawk-proto/commit/bc896eea9f62ed750a5ae293dc665f0fba0e4e48))
+* **proto:** remove messages `proto.jobs.v1` ([9deeda9](https://github.com/whitehawkcec/whitehawk-proto/commit/9deeda9787f2881bb5830cf330947db2b20e1aff))
+* **proto:** remove messages `proto.report.bundle.v1` ([c55f214](https://github.com/whitehawkcec/whitehawk-proto/commit/c55f214bec19c9df1ff08de3e8498694543cf5f8))
+* **proto:** remove method from service `client_portal.accounts.id.subscriptions.subscription_id.scorecards_v3.v2` ([823f36a](https://github.com/whitehawkcec/whitehawk-proto/commit/823f36abeccda711d3979fe8204040c7472b08ad))
+* **proto:** remove rpc `Update` from `client_portal.products.v3` ([2e41c4d](https://github.com/whitehawkcec/whitehawk-proto/commit/2e41c4dd284a61070792e02d3f5048f1c15be3b1))
+* **proto:** remove service `client_portal.accounts__0__frameworks__0__findings__0__result_override.v1` ([7043de5](https://github.com/whitehawkcec/whitehawk-proto/commit/7043de518ee3aaf8586aee6b87e94f2eb137baac))
+* **proto:** remove service `client_portal.accounts__0__frameworks__0__findings__0__result_override.v2` ([2a0e8fb](https://github.com/whitehawkcec/whitehawk-proto/commit/2a0e8fb3c8b0646565a2f6a72859b60e76bcf3f9))
+* **proto:** remove service `client_portal.accounts__0__frameworks.v1` ([2fbcc69](https://github.com/whitehawkcec/whitehawk-proto/commit/2fbcc69a51fa97df89ef54d866ff9678ba516e6b))
+* **proto:** remove service `client_portal.accounts__0__frameworks.v2` ([0d43a9d](https://github.com/whitehawkcec/whitehawk-proto/commit/0d43a9d204d953be72f362ea2e0525682c127170))
+* **proto:** remove service `client_portal.accounts__0__portfolio_report_template.v1` ([ebf089a](https://github.com/whitehawkcec/whitehawk-proto/commit/ebf089a73f88c54ce098627e155df27ce0ccd2ee))
+* **proto:** remove service `client_portal.accounts__0__subscriptions__0__integrations__cyber_one__sync.v1` ([28b123e](https://github.com/whitehawkcec/whitehawk-proto/commit/28b123ee53241baa3ff6c28d6dcb5c8582ccaaea))
+* **proto:** remove service `client_portal.accounts__0__subscriptions__0__portfolio_reports.v1` ([4bae4c7](https://github.com/whitehawkcec/whitehawk-proto/commit/4bae4c7ab129fa5fb40775f29fb7bb23596e0038))
+* **proto:** remove service `client_portal.accounts__0__subscriptions__0__portfolio_reports.v2` ([e8870ea](https://github.com/whitehawkcec/whitehawk-proto/commit/e8870ea6a159927b359ee0fb40437f000bb53f48))
+* **proto:** remove service `client_portal.accounts.id.integrations.bitsight.companies.company_id.cyber_risk.v1` ([1407a11](https://github.com/whitehawkcec/whitehawk-proto/commit/1407a11c6f5c622db0eea50197bf418f96ce0d5e))
+* **proto:** remove service `client_portal.accounts.id.integrations.black_kite.ecosystems.v1` ([fa891a1](https://github.com/whitehawkcec/whitehawk-proto/commit/fa891a162f32146ec56845bdd86c735b12057440))
+* **proto:** remove service `client_portal.accounts.id.integrations.black_kite.syncs.v1` ([48b5c65](https://github.com/whitehawkcec/whitehawk-proto/commit/48b5c659d55ae7d7d0a1023c88e0ba373ba4409e))
+* **proto:** remove service `client_portal.accounts.id.integrations.cyber_one.sync.v1` ([cb0d0c0](https://github.com/whitehawkcec/whitehawk-proto/commit/cb0d0c0d4528e1a40259c2e132c4548f2bdd37cd))
+* **proto:** remove service `client_portal.accounts.id.subscriptions.subscription_id.products.product_id.cyber_risk_rating.black_kite.performance.v1` ([cba722f](https://github.com/whitehawkcec/whitehawk-proto/commit/cba722fa74a5f9f52cc1e7d85b72c4638421b3b4))
+* **proto:** remove service `client_portal.cyberone.id.cyberone.assets.v1` ([f2ac482](https://github.com/whitehawkcec/whitehawk-proto/commit/f2ac482100e48607fca537ee716e373577c88571))
+* **proto:** remove service `client_portal.cyberone.id.cyberone.key.v1` ([803104b](https://github.com/whitehawkcec/whitehawk-proto/commit/803104be615f2de449cfe23555757dd0fbf9a9ab))
+* **proto:** remove service `client_portal.cyberone.id.matched_pairs.supply_wisdom.v1` ([17c4184](https://github.com/whitehawkcec/whitehawk-proto/commit/17c418409e622575686dad0c3efbe9b377a50ca7))
+* **proto:** remove service `client_portal.cyberone.id.matched_pairs.white_hawk.v1` ([2548282](https://github.com/whitehawkcec/whitehawk-proto/commit/25482823d9201114efe676bc3f961e5d2887b372))
+* **proto:** remove service `client_portal.cyberone.id.supply_wisdom.assets.v1` ([02260c4](https://github.com/whitehawkcec/whitehawk-proto/commit/02260c48f7ddb07207ed081d7ee10df6b2ddcae3))
+* **proto:** remove service `client_portal.cyberone.id.supply_wisdom.key.v1` ([ab62e8b](https://github.com/whitehawkcec/whitehawk-proto/commit/ab62e8bc2400d1078b930583d191b70d33228cad))
+* **proto:** remove service `client_portal.cyberone.id.supply_wisdom.targets.v1` ([c25e532](https://github.com/whitehawkcec/whitehawk-proto/commit/c25e5329dd092efce267e7bc74f0f5088b5d2f0c))
+* **proto:** remove service `client_portal.manufacturers.products.count.v1` ([ad413db](https://github.com/whitehawkcec/whitehawk-proto/commit/ad413db81c482af1ff0155278d65a8b1464f8a38))
+* **proto:** remove service `client_portal.products.categories.v1` ([cdaa3bd](https://github.com/whitehawkcec/whitehawk-proto/commit/cdaa3bd3aca739efd5b54ccb8ac17f2924558eb7))
+* **proto:** remove service `client_portal.products.features.v1` ([e654691](https://github.com/whitehawkcec/whitehawk-proto/commit/e654691abe9dafcf64b4854d2704dce23c21ae2c))
+* **proto:** remove service `client_portal.products.v1` ([c6a81af](https://github.com/whitehawkcec/whitehawk-proto/commit/c6a81af5f181468a8125271372a812f4dc35cc82))
+* **proto:** remove service `client_portal.reports.account.subscription.product.v1` ([5e1f0fa](https://github.com/whitehawkcec/whitehawk-proto/commit/5e1f0fa8db382353e83f0384391a929ad5aaa808))
+* **proto:** remove service `client_portal.reports.account.subscription.v1` ([d94a1d5](https://github.com/whitehawkcec/whitehawk-proto/commit/d94a1d5511c97ee21bc9bf4c0530736c93ef5364))
+* **proto:** remove service `client_portal.reports.account.v1` ([f16d6d4](https://github.com/whitehawkcec/whitehawk-proto/commit/f16d6d49a9a0def3f4668792684f2d170daa17ec))
+* **proto:** remove service `client_portal.reports.bundle.set.v1` ([6d64dfb](https://github.com/whitehawkcec/whitehawk-proto/commit/6d64dfbcda4c73d179b762d6e7346f31c6e00620))
+* **proto:** remove service `proto.supply_wisdom.admin.v1` ([3a7b2ad](https://github.com/whitehawkcec/whitehawk-proto/commit/3a7b2adc6fa2de6392046772515f1b39b7e3f793))
+
 ## [0.89.0](https://github.com/whitehawkcec/whitehawk-proto/compare/0.88.0...0.89.0) (2025-05-20)
 
 
