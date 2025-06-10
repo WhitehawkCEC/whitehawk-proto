@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.90.2](https://github.com/whitehawkcec/whitehawk-proto/compare/0.90.1...0.90.2) (2025-06-10)
+
+
+### Features
+
+* **proto:** add service `client_portal.product_types.v1` ([c794e72](https://github.com/whitehawkcec/whitehawk-proto/commit/c794e72f15f12ba8fad6bf1817726472618317b3))
+
 ### [0.90.1](https://github.com/whitehawkcec/whitehawk-proto/compare/0.90.0...0.90.1) (2025-06-03)
 
 
