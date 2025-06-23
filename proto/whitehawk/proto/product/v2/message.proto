@@ -74,3 +74,13 @@ message ProductCategory {
   optional string name = 2 [(google.api.field_behavior) = REQUIRED];
   optional string description = 3 [(google.api.field_behavior) = REQUIRED];
 }
+
+message ResourceId {
+  optional string value = 1 [(google.api.field_behavior) = REQUIRED];
+}
+
+message ResourceData {
+  optional string name = 1 [(google.api.field_behavior) = REQUIRED];
+  optional string type = 2 [(google.api.field_behavior) = REQUIRED];
+  optional string description = 3 [(google.api.field_behavior) = REQUIRED];
+}
