@@ -29,9 +29,9 @@ This file contains instructions and guidelines for AI agents working with this c
   ```proto
   service Service {
     rpc Create(CreateRequest) returns (CreateResponse);
-    rpc Delete(DeleteRequest) returns (DeleteResponse);
-    rpc Update(UpdateRequest) returns (UpdateResponse);
     rpc Read(ReadRequest) returns (ReadResponse);
+    rpc Update(UpdateRequest) returns (UpdateResponse);
+    rpc Delete(DeleteRequest) returns (DeleteResponse);
     rpc List(ListRequest) returns (stream ListResponse);
   }
   ```
