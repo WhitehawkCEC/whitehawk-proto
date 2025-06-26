@@ -1,0 +1,60 @@
+syntax = "proto3";
+
+// buf:lint:ignore PACKAGE_LOWER_SNAKE_CASE
+package whitehawk.proto.internal.client_portal.manufacturers__0__resources.v1;
+
+import "google/api/field_behavior.proto";
+import "whitehawk/proto/product/v2/message.proto";
+
+service Service {
+  rpc Create(CreateRequest) returns (CreateResponse);
+  rpc Read(ReadRequest) returns (ReadResponse);
+  rpc Update(UpdateRequest) returns (UpdateResponse);
+  rpc Delete(DeleteRequest) returns (DeleteResponse);
+  rpc List(ListRequest) returns (stream ListResponse);
+}
+
+message CreateRequest {
+  optional whitehawk.proto.product.v2.ManufacturerId manufacturer_id = 1 [(google.api.field_behavior) = REQUIRED];
+  optional whitehawk.proto.product.v2.ResourceId resource_id = 2 [(google.api.field_behavior) = REQUIRED];
+  optional whitehawk.proto.product.v2.ResourceData data = 3 [(google.api.field_behavior) = REQUIRED];
+}
+
+message CreateResponse {}
+
+message ReadRequest {
+  optional whitehawk.proto.product.v2.ManufacturerId manufacturer_id = 1 [(google.api.field_behavior) = REQUIRED];
+  optional whitehawk.proto.product.v2.ResourceId resource_id = 2 [(google.api.field_behavior) = REQUIRED];
+}
+
+message ReadResponse {
+  optional whitehawk.proto.product.v2.ResourceData found = 1 [(google.api.field_behavior) = REQUIRED];
+}
+
+message UpdateRequest {
+  optional whitehawk.proto.product.v2.ManufacturerId manufacturer_id = 1 [(google.api.field_behavior) = REQUIRED];
+  optional whitehawk.proto.product.v2.ResourceId resource_id = 2 [(google.api.field_behavior) = REQUIRED];
+  optional whitehawk.proto.product.v2.ResourceData data = 3 [(google.api.field_behavior) = REQUIRED];
+}
+
+message UpdateResponse {}
+
+message DeleteRequest {
+  optional whitehawk.proto.product.v2.ManufacturerId manufacturer_id = 1 [(google.api.field_behavior) = REQUIRED];
+  optional whitehawk.proto.product.v2.ResourceId resource_id = 2 [(google.api.field_behavior) = REQUIRED];
+}
+
+message DeleteResponse {}
+
+message ListRequest {
+  optional whitehawk.proto.product.v2.ManufacturerId manufacturer_id = 1 [(google.api.field_behavior) = REQUIRED];
+}
+
+message ListResponse {
+  message Entry {
+    optional whitehawk.proto.product.v2.ResourceId resource_id = 1 [(google.api.field_behavior) = REQUIRED];
+    optional whitehawk.proto.product.v2.ResourceData data = 2 [(google.api.field_behavior) = REQUIRED];
+  }
+
+  repeated Entry found = 1;
+}
