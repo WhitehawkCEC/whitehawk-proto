@@ -2,6 +2,27 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.91.0](https://github.com/whitehawkcec/whitehawk-proto/compare/0.90.2...0.91.0) (2025-07-18)
+
+
+### ⚠ BREAKING CHANGES
+
+* **proto:** remove service `client_portal.manufacturers__0__resource_upload_info.v1`
+* **proto:** remove service `client_portal.manufacturers__0__resource_download_info.v1`
+* **proto:** remove service `client_portal.manufacturers.products.v1`
+* **proto:** change `client_portal.manufacturers.v1` `CreateResponse`
+
+### Features
+
+* **proto:** add message `ManufacturerId` ([d071350](https://github.com/whitehawkcec/whitehawk-proto/commit/d07135002fb7a5042fc65e36692c2844f8597b6d))
+* **proto:** add message `Resource*` ([42dc16e](https://github.com/whitehawkcec/whitehawk-proto/commit/42dc16e8e359e5a09094b3dd1324f15bdb43f9db))
+* **proto:** add service `client_portal.manufacturers__0__resources__0__data.v1` ([b2b4cd4](https://github.com/whitehawkcec/whitehawk-proto/commit/b2b4cd4c989e17184ced457246ce0000639347ae))
+* **proto:** add service `client_portal.manufacturers__0__resources.v1` ([ca7c7ff](https://github.com/whitehawkcec/whitehawk-proto/commit/ca7c7ffedbc5ebf83932355d2461d9bbeb6fcdf7))
+* **proto:** change `client_portal.manufacturers.v1` `CreateResponse` ([e762c37](https://github.com/whitehawkcec/whitehawk-proto/commit/e762c3782a7a9fd7cd88ab388bc788663dc5e42d))
+* **proto:** remove service `client_portal.manufacturers__0__resource_download_info.v1` ([9a2a6fa](https://github.com/whitehawkcec/whitehawk-proto/commit/9a2a6fab21f6b47d9c92b3eeab995fa1b91c0f5e))
+* **proto:** remove service `client_portal.manufacturers__0__resource_upload_info.v1` ([27d5bea](https://github.com/whitehawkcec/whitehawk-proto/commit/27d5bea72fd9f66479f5447e949ae8d6de07fdfd))
+* **proto:** remove service `client_portal.manufacturers.products.v1` ([6e5653d](https://github.com/whitehawkcec/whitehawk-proto/commit/6e5653d804e431b7630be8624ed33447b6704e64))
+
 ### [0.90.2](https://github.com/whitehawkcec/whitehawk-proto/compare/0.90.1...0.90.2) (2025-06-10)
 
 
