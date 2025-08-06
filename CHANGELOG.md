@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.91.1](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.91.0...0.91.1) (2025-08-06)
+
+
+### Features
+
+* **proto:** add service `client_portal.manufacturers.featured.v1` ([031d00f](https://github.com/WhitehawkCEC/whitehawk-proto/commit/031d00f15d2599a2a7fdc5a83baa5acdc3040832))
+
 ## [0.91.0](https://github.com/whitehawkcec/whitehawk-proto/compare/0.90.2...0.91.0) (2025-07-18)
 
 
