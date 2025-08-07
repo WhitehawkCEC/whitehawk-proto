@@ -14,7 +14,6 @@ service Service {
 
 message CreateRequest {
   optional whitehawk.proto.slug.v1.Slug id = 1 [(google.api.field_behavior) = REQUIRED];
-  optional whitehawk.proto.product.v2.ManufacturerData data = 2 [(google.api.field_behavior) = REQUIRED];
 }
 
 message CreateResponse {}
