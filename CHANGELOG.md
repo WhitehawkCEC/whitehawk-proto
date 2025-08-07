@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.91.2](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.91.1...0.91.2) (2025-08-07)
+
+
+### Bug Fixes
+
+* **proto:** remove unneeded param ([f424bca](https://github.com/WhitehawkCEC/whitehawk-proto/commit/f424bca7f8620029e95f26cc6c470bd823a85381))
+
 ### [0.91.1](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.91.0...0.91.1) (2025-08-06)
 
 
