@@ -23,6 +23,10 @@ message ManufacturerData {
   optional string referral_link = 5 [(google.api.field_behavior) = REQUIRED];
 }
 
+message ProductId {
+  string value = 1 [(google.api.field_behavior) = REQUIRED];
+}
+
 message Product {
   optional whitehawk.proto.ulid.v1.Ulid id = 1 [(google.api.field_behavior) = REQUIRED];
   optional ProductData data = 2 [(google.api.field_behavior) = REQUIRED];
