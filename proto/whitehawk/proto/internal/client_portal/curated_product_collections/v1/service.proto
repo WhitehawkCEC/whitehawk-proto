@@ -13,6 +13,8 @@ service Service {
 
 message CreateRequest {
   repeated whitehawk.proto.product.v2.ManufacturerId manufacturers = 1;
+  optional string name = 2 [(google.api.field_behavior) = REQUIRED];
+  optional string description = 3 [(google.api.field_behavior) = REQUIRED];
 }
 
 message CreateResponse {
