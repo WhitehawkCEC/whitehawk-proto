@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.91.4](https://github.com/whitehawkcec/whitehawk-proto/compare/0.91.3...0.91.4) (2025-08-12)
+
+
+### Features
+
+* **proto:** add more fields during create ([d113717](https://github.com/whitehawkcec/whitehawk-proto/commit/d113717efeb3a959a7832f98ad7437d64166d820))
+* **proto:** add more fields during create ([febdf99](https://github.com/whitehawkcec/whitehawk-proto/commit/febdf997c399beae60923b45c9ff1b777def6b51))
+* **proto:** add service `client_portal.curated_manufacturer_collections.v2` ([125530c](https://github.com/whitehawkcec/whitehawk-proto/commit/125530c9c9ee91ce638b0c5742c24f950d828d2d))
+* **proto:** add service `client_portal.curated_product_collections.v2` ([dac0e5d](https://github.com/whitehawkcec/whitehawk-proto/commit/dac0e5de9fafdf3e92eeccc9f907051d0680cceb))
+
 ### [0.91.3](https://github.com/whitehawkcec/whitehawk-proto/compare/0.91.2...0.91.3) (2025-08-11)
 
 
