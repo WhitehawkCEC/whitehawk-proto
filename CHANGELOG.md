@@ -2,6 +2,27 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.92.0](https://github.com/whitehawkcec/whitehawk-proto/compare/0.91.4...0.92.0) (2025-08-12)
+
+
+### ⚠ BREAKING CHANGES
+
+* **proto:** remove service `client_portal.curated_manufacturer_collections.v1`
+* **proto:** remove service `client_portal.curated_product_collections.v1`
+* **proto:** use correct type for `ReadResponse`
+* **proto:** use correct type for `ReadResponse`
+
+### Features
+
+* **proto:** remove service `client_portal.curated_manufacturer_collections.v1` ([919e215](https://github.com/whitehawkcec/whitehawk-proto/commit/919e215044b62e994f3517688af84756dfb098c2))
+* **proto:** remove service `client_portal.curated_product_collections.v1` ([4d335d3](https://github.com/whitehawkcec/whitehawk-proto/commit/4d335d36dc2c2d000cc8ce74d751c56c443c0959))
+
+
+### Bug Fixes
+
+* **proto:** use correct type for `ReadResponse` ([4f6c759](https://github.com/whitehawkcec/whitehawk-proto/commit/4f6c7599e78f754ff49aff98c769d4ee09ca0dfd))
+* **proto:** use correct type for `ReadResponse` ([b055904](https://github.com/whitehawkcec/whitehawk-proto/commit/b055904c3d7678087a7caa00c80cfddb66e9cf6d))
+
 ### [0.91.4](https://github.com/whitehawkcec/whitehawk-proto/compare/0.91.3...0.91.4) (2025-08-12)
 
 
