@@ -17,11 +17,6 @@ enum ScanProfileType {
   SCAN_PROFILE_TYPE_CONTINUOUS_ANNUAL = 2;
 }
 
-message BlackKiteEcosystem {
-  int32 id = 1;
-  string name = 2;
-}
-
 message BlackKiteEntity {
   int32 id = 1;
   string name = 2;
@@ -58,10 +53,6 @@ message SummaryComplianceReport {
 
 message ComplianceSummaryEntry {
   google.protobuf.Struct json = 1;
-}
-
-message ComplianceFramework {
-  repeated google.protobuf.Struct findings = 1;
 }
 
 message CyberRating {
