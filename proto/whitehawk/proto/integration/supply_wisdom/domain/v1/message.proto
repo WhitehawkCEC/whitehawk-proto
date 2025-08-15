@@ -19,17 +19,3 @@ message SupplyWisdomTarget {
   string target_type = 1;
   string target_name = 2;
 }
-
-message FileResponse {
-  MetaData meta_data = 1;
-  File file = 2;
-}
-
-message MetaData {
-  string name = 1;
-  string type = 2;
-}
-
-message File {
-  bytes content = 1;
-}
