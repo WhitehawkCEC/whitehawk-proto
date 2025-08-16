@@ -14,7 +14,7 @@
           packages = with pkgs; [
             buf
             nodePackages.pnpm
-            temurin-bin-11
+            temurin-bin-21
           ];
         };
       }
