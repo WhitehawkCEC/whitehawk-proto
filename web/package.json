@@ -4,7 +4,7 @@
   "license": "MIT",
   "type": "module",
   "scripts": {
-    "build": "tsdown src-gen/**/*.ts --format cjs,esm --minify --clean && tsc"
+    "build": "tsdown src-gen/**/*.ts --format cjs --format esm --minify --clean --sourcemap --dts"
   },
   "dependencies": {
     "@protobuf-ts/runtime": "^2.11.1",
