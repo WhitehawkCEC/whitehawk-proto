@@ -4,7 +4,7 @@
   "license": "MIT",
   "type": "module",
   "scripts": {
-    "build": "tsup src-gen/**/*.ts --format cjs,esm --minify --clean && tsc"
+    "build": "tsdown src-gen/**/*.ts --format cjs,esm --minify --clean && tsc"
   },
   "dependencies": {
     "@protobuf-ts/runtime": "^2.11.1",
@@ -13,7 +13,7 @@
   },
   "devDependencies": {
     "cross-env": "^10.0.0",
-    "tsup": "^8.5.0",
+    "tsdown": "^0.14.1",
     "typescript": "^5.9.2"
   }
 }
