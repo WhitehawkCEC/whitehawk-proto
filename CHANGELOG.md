@@ -2,6 +2,37 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.93.0](https://github.com/whitehawkcec/whitehawk-proto/compare/0.92.0...0.93.0) (2025-08-18)
+
+
+### ⚠ BREAKING CHANGES
+
+* **proto:** remove unused argument from `ListRequest`
+* **proto:** remove unused argument from `ListRequest`
+* **java:** build with java 21
+* **proto:** remove unused messages from `whitehawk.proto.integration.cyber_one.sync.v1`
+* **proto:** remove unused messages from `whitehawk.proto.integration.black_kite.domain.v2`
+* **proto:** remove unused messages from `whitehawk.proto.integration.black_kite.domain.v1`
+* **proto:** remove unused messages from `whitehawk.proto.job.v1`
+* **proto:** remove unused messages from `whitehawk.proto.integration.supply_wisdom.sync.v1`
+* **proto:** remove unused messages from `whitehawk.proto.integration.supply_wisdom.domain.v1`
+
+### Features
+
+* **proto:** remove unused argument from `ListRequest` ([392ff45](https://github.com/whitehawkcec/whitehawk-proto/commit/392ff45844929cfd7d7117c2930b804799da16c5))
+* **proto:** remove unused argument from `ListRequest` ([d52d6d6](https://github.com/whitehawkcec/whitehawk-proto/commit/d52d6d67687fbe7640b78ff526b88dcff4e18c73))
+* **proto:** remove unused messages from `whitehawk.proto.integration.black_kite.domain.v1` ([55a5eeb](https://github.com/whitehawkcec/whitehawk-proto/commit/55a5eeb36db1f00fa00e055a066f552be1f9dc59))
+* **proto:** remove unused messages from `whitehawk.proto.integration.black_kite.domain.v2` ([39b5844](https://github.com/whitehawkcec/whitehawk-proto/commit/39b58443f4d8274bf1991b8f88b5422f4e01d699))
+* **proto:** remove unused messages from `whitehawk.proto.integration.cyber_one.sync.v1` ([c03979a](https://github.com/whitehawkcec/whitehawk-proto/commit/c03979acbe884197a9ea9bae72c74b54577d1638))
+* **proto:** remove unused messages from `whitehawk.proto.integration.supply_wisdom.domain.v1` ([d118e6e](https://github.com/whitehawkcec/whitehawk-proto/commit/d118e6e95d2254760968240e00e05835f36971c6))
+* **proto:** remove unused messages from `whitehawk.proto.integration.supply_wisdom.sync.v1` ([1620c22](https://github.com/whitehawkcec/whitehawk-proto/commit/1620c22e088c824e0447ed93c007ba175fec400c))
+* **proto:** remove unused messages from `whitehawk.proto.job.v1` ([71a9495](https://github.com/whitehawkcec/whitehawk-proto/commit/71a949577e22920d22c0b5d7eb330bdf16d17ad4))
+
+
+### build
+
+* **java:** build with java 21 ([d78d140](https://github.com/whitehawkcec/whitehawk-proto/commit/d78d1401544e7ae3a56b16a1bdb38c7635bfb965))
+
 ## [0.92.0](https://github.com/whitehawkcec/whitehawk-proto/compare/0.91.4...0.92.0) (2025-08-12)
 
 
