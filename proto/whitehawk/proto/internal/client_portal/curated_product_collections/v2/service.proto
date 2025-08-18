@@ -36,9 +36,7 @@ message UpdateRequest {
 
 message UpdateResponse {}
 
-message ListRequest {
-  optional Id id = 1 [(google.api.field_behavior) = REQUIRED];
-}
+message ListRequest {}
 
 message ListResponse {
   message Entry {
