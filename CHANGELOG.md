@@ -2,6 +2,22 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.94.0](https://github.com/whitehawkcec/whitehawk-proto/compare/0.93.1...0.94.0) (2025-08-21)
+
+
+### ⚠ BREAKING CHANGES
+
+* **java:** bump version (major) for `protobuf-java`
+
+### Features
+
+* **proto:** add service `client_portal.manufacturers__0__resources__0__data_preview_image.v1` ([99d4dd1](https://github.com/whitehawkcec/whitehawk-proto/commit/99d4dd1b2a81f770bf1438beb762befdff7db7da))
+
+
+### build
+
+* **java:** bump version (major) for `protobuf-java` ([4b877af](https://github.com/whitehawkcec/whitehawk-proto/commit/4b877af991bfdc7a1f6619957180c7f6998ead76))
+
 ### [0.93.1](https://github.com/whitehawkcec/whitehawk-proto/compare/0.93.0...0.93.1) (2025-08-19)
 
 ## [0.93.0](https://github.com/whitehawkcec/whitehawk-proto/compare/0.92.0...0.93.0) (2025-08-18)
