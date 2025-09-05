@@ -3,7 +3,7 @@
     "release": "git pull && standard-version"
   },
   "devDependencies": {
-    "@bufbuild/buf": "^1.54.0",
+    "@bufbuild/buf": "^1.57.0",
     "@prettier/plugin-xml": "^0.13.1",
     "prettier": "^2.8.8",
     "standard-version": "^9.5.0"
