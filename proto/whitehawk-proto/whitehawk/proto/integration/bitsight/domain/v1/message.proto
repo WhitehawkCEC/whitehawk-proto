@@ -2,8 +2,8 @@ syntax = "proto3";
 
 package whitehawk.proto.integration.bitsight.domain.v1;
 
-import "whitehawk/proto/uuid/v1/message.proto";
 import "whitehawk/proto/time/v1/message.proto";
+import "whitehawk/proto/uuid/v1/message.proto";
 
 message ApiToken {
   // 40 characters (lowercase letters or numbers)
