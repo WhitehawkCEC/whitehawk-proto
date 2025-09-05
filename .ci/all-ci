@@ -31,6 +31,7 @@ deploy() {
 }
 
 build_buf() {
+  pnpm install
   pnpm exec buf lint || exit
   pnpm exec buf generate || exit
 }
