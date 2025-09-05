@@ -10,7 +10,7 @@
     "options": ["--proto_path=proto/*/"]
   },
 
-  "buf.binaryPath": "./node_modules/@bufbuild/buf/bin/buf",
+  "buf.commandLine.path": "./node_modules/@bufbuild/buf/bin/buf",
 
   "xml.format.splitAttributes": true,
 
@@ -28,6 +28,9 @@
   },
   "[jsonc]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[proto3]": {
+    "editor.defaultFormatter": "bufbuild.vscode-buf"
   },
   "[xml]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
