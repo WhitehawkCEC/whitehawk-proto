@@ -19,11 +19,13 @@ main() {
 build() {
   version=$1
   build_buf
+  build_buf_build $version
   build_java $version
   build_web $version
 }
 
 deploy() {
+  deploy_buf_build
   deploy_java
   deploy_web
 }
@@ -31,6 +33,15 @@ deploy() {
 build_buf() {
   buf lint || exit
   buf generate || exit
+}
+
+build_buf_build() {
+  version=$1
+  echo $version >TAG_NAME
+}
+
+deploy_buf_build() {
+  pnpm exec buf push --label $(cat TAG_NAME) --label main || exit
 }
 
 build_java() {
