@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.94.2](https://github.com/whitehawkcec/whitehawk-proto/compare/0.94.1...0.94.2) (2025-09-05)
+
+
+### Features
+
+* **proto/core:** add messages for `account` ([7d79595](https://github.com/whitehawkcec/whitehawk-proto/commit/7d7959534b2564a6271f8a6177cdebc4861fb578))
+* **proto/core:** add messages for `subscription` ([890b86e](https://github.com/whitehawkcec/whitehawk-proto/commit/890b86e21a442841929a1a3edda493f5b4babbec))
+* **proto/core:** mark required fields ([25c28c0](https://github.com/whitehawkcec/whitehawk-proto/commit/25c28c0c3f92959f17875b6802c86f0e4dc9e9e8))
+* **proto/core:** switch to edition 2023 ([beed722](https://github.com/whitehawkcec/whitehawk-proto/commit/beed72213c4e85c6dbbf4fa29cc926c9cfaa9ce0))
+
 ### [0.94.1](https://github.com/whitehawkcec/whitehawk-proto/compare/0.94.0...0.94.1) (2025-09-05)
 
 
