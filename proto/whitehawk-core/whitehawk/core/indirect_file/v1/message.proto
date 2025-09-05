@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package whitehawk.core.indirect_file.v1;
+
+message IndirectDownloadViaGet {
+  string url = 1;
+}
+
+message IndirectUploadViaPostFormData {
+  string url = 1;
+  map<string, string> form_data_entries = 2;
+  string form_data_content_key_name = 3;
+}

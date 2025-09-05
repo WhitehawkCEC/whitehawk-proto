@@ -2,6 +2,9 @@ version: v2
 modules:
   - name: buf.build/whitehawkcec/whitehawk-proto
     path: ./proto/whitehawk-proto
+
+  - name: buf.build/whitehawkcec/whitehawk-core
+    path: ./proto/whitehawk-core
 deps:
   - buf.build/googleapis/googleapis
 lint:
