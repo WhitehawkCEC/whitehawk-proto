@@ -31,8 +31,8 @@ deploy() {
 }
 
 build_buf() {
-  buf lint || exit
-  buf generate || exit
+  pnpm exec buf lint || exit
+  pnpm exec buf generate || exit
 }
 
 build_buf_build() {
