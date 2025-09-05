@@ -12,7 +12,6 @@
       {
         devShell = pkgs.mkShellNoCC {
           packages = with pkgs; [
-            buf
             nodePackages.pnpm
             temurin-bin-21
           ];
