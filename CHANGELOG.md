@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.94.1](https://github.com/whitehawkcec/whitehawk-proto/compare/0.94.0...0.94.1) (2025-09-05)
+
+
+### Features
+
+* add proto module `whitehawk-core` ([65866ba](https://github.com/whitehawkcec/whitehawk-proto/commit/65866ba1fb1cf76534e84c02fa1b157767e51c06))
+
 ## [0.94.0](https://github.com/whitehawkcec/whitehawk-proto/compare/0.93.1...0.94.0) (2025-08-21)
 
 
