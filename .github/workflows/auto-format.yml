@@ -54,11 +54,11 @@ jobs:
 
       - name: Auto format (buf)
         run: |
-          nix develop --command buf format -w
+          nix develop --command pnpm exec buf format -w
       - name: Commit changes (buf)
         run: |
           git add -u
-          git commit -m 'style: `buf format -w`' || true
+          git commit -m 'style: `pnpm exec buf format -w`' || true
 
       - name: Auto format (java)
         run: |
