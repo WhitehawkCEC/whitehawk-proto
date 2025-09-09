@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+// buf:lint:ignore PACKAGE_LOWER_SNAKE_CASE
+package whitehawk.api.kilo.resources.accounts__0__subscriptions.v1;
+
+import "google/api/field_behavior.proto";
+import "whitehawk/core/account/v1/message.proto";
+import "whitehawk/core/subscription/v1/message.proto";
+
+service Service {
+  rpc List(ListRequest) returns (stream ListResponse) {}
+}
+
+message ListRequest {
+  optional whitehawk.core.account.v1.AccountId account_id = 1 [(google.api.field_behavior) = REQUIRED];
+}
+
+message ListResponse {
+  message Entry {
+    optional whitehawk.core.subscription.v1.SubscriptionId subscription_id = 1 [(google.api.field_behavior) = REQUIRED];
+    optional string name = 2 [(google.api.field_behavior) = REQUIRED];
+  }
+
+  repeated Entry found = 1;
+}
