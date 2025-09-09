@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.94.6](https://github.com/whitehawkcec/whitehawk-proto/compare/0.94.5...0.94.6) (2025-09-09)
+
+
+### Features
+
+* add proto module `whitehawk-api-kilo` ([9cd3d99](https://github.com/whitehawkcec/whitehawk-proto/commit/9cd3d990ec631355fa1c4821ebd69e197aab2c8c))
+* **proto/api-kilo:** add service `resources.accounts__0__subscriptions__0__compliance_xlsx.v1` ([672d489](https://github.com/whitehawkcec/whitehawk-proto/commit/672d4897fe30eaa8c64972e3267021f655e74b9e))
+* **proto/api-kilo:** add service `resources.accounts__0__subscriptions__0__findings_xlsx.v1` ([e099629](https://github.com/whitehawkcec/whitehawk-proto/commit/e0996292147a1cda35cf1c8332cfcfb6e7d9825e))
+
 ### [0.94.5](https://github.com/whitehawkcec/whitehawk-proto/compare/0.94.4...0.94.5) (2025-09-05)
 
 
