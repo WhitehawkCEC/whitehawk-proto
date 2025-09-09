@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.94.7](https://github.com/whitehawkcec/whitehawk-proto/compare/0.94.6...0.94.7) (2025-09-09)
+
+
+### Features
+
+* **proto/api-kilo:** add service `resources.accounts__0__subscriptions__0__entities__0__compliance_xlsx.v1` ([5c0fc2e](https://github.com/whitehawkcec/whitehawk-proto/commit/5c0fc2ed8988500aeb7bc5ea8e1f733e704b7bc9))
+* **proto/api-kilo:** add service `resources.accounts__0__subscriptions__0__entities__0__findings_xlsx.v1` ([b0dc5ec](https://github.com/whitehawkcec/whitehawk-proto/commit/b0dc5ec04779de8946008a2bdd6739dd9812effe))
+* **proto/api-kilo:** add service `resources.accounts__0__subscriptions__0__entities.v1` ([d1e7716](https://github.com/whitehawkcec/whitehawk-proto/commit/d1e77160266ad66b6480904afce8644894d96431))
+* **proto/api-kilo:** add service `resources.accounts__0__subscriptions.v1` ([202f470](https://github.com/whitehawkcec/whitehawk-proto/commit/202f470e3762d510eb70c6c631bc557b3401b0a0))
+* **proto/api-kilo:** add service `resources.accounts.v1` ([eb7ea77](https://github.com/whitehawkcec/whitehawk-proto/commit/eb7ea77d3b44a1130d98005f624cd2ad54511cbe))
+* **proto/core:** add messages for `entity` ([4910de4](https://github.com/whitehawkcec/whitehawk-proto/commit/4910de4626ed7eea1dab0fe77779b53c47d4b509))
+
 ### [0.94.6](https://github.com/whitehawkcec/whitehawk-proto/compare/0.94.5...0.94.6) (2025-09-09)
 
 
