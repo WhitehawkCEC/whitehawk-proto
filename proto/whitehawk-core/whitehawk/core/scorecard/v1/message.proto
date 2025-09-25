@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package whitehawk.core.scorecard.v1;
+
+import "google/api/field_behavior.proto";
+
+message ScorecardId {
+  optional string value = 1 [(google.api.field_behavior) = REQUIRED];
+}
