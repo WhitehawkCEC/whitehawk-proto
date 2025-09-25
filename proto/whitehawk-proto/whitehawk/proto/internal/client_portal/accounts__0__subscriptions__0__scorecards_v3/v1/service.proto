@@ -1,0 +1,44 @@
+syntax = "proto3";
+
+// buf:lint:ignore PACKAGE_LOWER_SNAKE_CASE
+package whitehawk.proto.internal.client_portal.accounts__0__subscriptions__0__scorecards_v3.v1;
+
+import "google/api/field_behavior.proto";
+import "whitehawk/core/account/v1/message.proto";
+import "whitehawk/core/scorecard/v1/message.proto";
+import "whitehawk/core/subscription/v1/message.proto";
+import "whitehawk/proto/scorecard_v3/indepthblackkitewithframeworks/v2/message.proto";
+import "whitehawk/proto/scorecard_v3/v1/message.proto";
+
+service Service {
+  rpc Read(ReadRequest) returns (ReadResponse);
+  rpc Update(UpdateRequest) returns (UpdateResponse);
+}
+
+message ReadRequest {
+  optional whitehawk.core.account.v1.AccountId account_id = 1 [(google.api.field_behavior) = REQUIRED];
+  optional whitehawk.core.subscription.v1.SubscriptionId subscription_id = 2 [(google.api.field_behavior) = REQUIRED];
+  optional whitehawk.core.scorecard.v1.ScorecardId scorecard_id = 3 [(google.api.field_behavior) = REQUIRED];
+}
+
+message ReadResponse {
+  oneof scorecard {
+    ScorecardInDepthBlackKiteWithFrameworksV2 bkf2 = 1;
+  }
+}
+
+message UpdateRequest {
+  optional whitehawk.core.account.v1.AccountId account_id = 1 [(google.api.field_behavior) = REQUIRED];
+  optional whitehawk.core.subscription.v1.SubscriptionId subscription_id = 2 [(google.api.field_behavior) = REQUIRED];
+  optional whitehawk.core.scorecard.v1.ScorecardId scorecard_id = 3 [(google.api.field_behavior) = REQUIRED];
+  oneof scorecard {
+    ScorecardInDepthBlackKiteWithFrameworksV2 bkf2 = 4;
+  }
+}
+
+message UpdateResponse {}
+
+message ScorecardInDepthBlackKiteWithFrameworksV2 {
+  optional whitehawk.proto.scorecard_v3.indepthblackkitewithframeworks.v2.ScorecardInDepthBlackKiteWithFrameworks data = 1 [(google.api.field_behavior) = REQUIRED];
+  optional whitehawk.proto.scorecard_v3.v1.TemplateId template = 2 [(google.api.field_behavior) = REQUIRED];
+}
