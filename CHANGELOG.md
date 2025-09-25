@@ -2,6 +2,21 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.95.0](https://github.com/whitehawkcec/whitehawk-proto/compare/0.94.7...0.95.0) (2025-09-25)
+
+
+### ⚠ BREAKING CHANGES
+
+* **proto:** remove `kilo.resources.accounts__0__subscriptions__0__compliance_xlsx.v1`
+* **proto:** remove `kilo.resources.accounts__0__subscriptions__0__findings_xlsx.v1`
+
+### Features
+
+* **proto/core:** add messages for `scorecard` ([76863b0](https://github.com/whitehawkcec/whitehawk-proto/commit/76863b0c88fdbab09900302a40ff03125895b452))
+* **proto:** add service `client_portal.accounts__0__subscriptions__0__scorecards_v3.v1` ([556e0e2](https://github.com/whitehawkcec/whitehawk-proto/commit/556e0e2b1ff83b55537688e0dc956c47a9ab139f))
+* **proto:** remove `kilo.resources.accounts__0__subscriptions__0__compliance_xlsx.v1` ([8a8c09d](https://github.com/whitehawkcec/whitehawk-proto/commit/8a8c09df3956a6789129b5cd1dffb0b84edad047))
+* **proto:** remove `kilo.resources.accounts__0__subscriptions__0__findings_xlsx.v1` ([440f7d7](https://github.com/whitehawkcec/whitehawk-proto/commit/440f7d78925600683c3995e2f0ce8d9c8a3e631f))
+
 ### [0.94.7](https://github.com/whitehawkcec/whitehawk-proto/compare/0.94.6...0.94.7) (2025-09-09)
 
 
