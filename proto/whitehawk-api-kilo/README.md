@@ -2,7 +2,7 @@
 
 ## Authentication
 
-Use metadata key `api-key`.
+Use metadata key `x-api-key`.
 
 ### Authentication Example (Typescript)
 
