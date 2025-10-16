@@ -11,7 +11,7 @@ import { Service } from '@buf/whitehawkcec_whitehawk-api-kilo.connectrpc_es/whit
 import { createPromiseClient } from '@connectrpc/connect'
 import { createGrpcTransport } from '@connectrpc/connect-node'
 
-const METADATA_KEY = 'api-key'
+const METADATA_KEY = 'x-api-key'
 const apiKeyValue = 'whk_...'
 
 const transport = createGrpcTransport({
