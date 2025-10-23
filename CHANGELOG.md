@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.95.3](https://github.com/whitehawkcec/whitehawk-proto/compare/0.95.2...0.95.3) (2025-10-23)
+
+
+### Features
+
+* **proto:** add kilo resource `accounts__0__subscriptions__0__entities__0__compliance` ([b257e0f](https://github.com/whitehawkcec/whitehawk-proto/commit/b257e0f6b565ac06c8ff07eae6441e6e0ed129c6))
+* **proto:** add kilo resource `accounts__0__subscriptions__0__entities__0__findings` ([f2f88ce](https://github.com/whitehawkcec/whitehawk-proto/commit/f2f88ce5df8aefd7c61521a3737ac66a8f5d20b9))
+* **proto:** add kilo resource `accounts__0__subscriptions__0__entities__0__latest_scorecard` ([b5fa265](https://github.com/whitehawkcec/whitehawk-proto/commit/b5fa26597b642224eeae7366e1d7fd977dae7a51))
+
 ### [0.95.2](https://github.com/whitehawkcec/whitehawk-proto/compare/0.95.1...0.95.2) (2025-10-16)
 
 ### [0.95.1](https://github.com/whitehawkcec/whitehawk-proto/compare/0.95.0...0.95.1) (2025-10-16)
