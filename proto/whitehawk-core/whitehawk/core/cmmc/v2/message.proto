@@ -4,6 +4,11 @@ package whitehawk.core.cmmc.v2;
 
 import "google/api/field_behavior.proto";
 
+// two-letter domain abbreviation
+message DomainId {
+  optional string value = 1 [(google.api.field_behavior) = REQUIRED];
+}
+
 // Each practice has a practice identification number in the format
 //
 // ```
