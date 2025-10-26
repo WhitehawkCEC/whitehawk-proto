@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+package whitehawk.core.cmmc.v2;
+
+import "google/api/field_behavior.proto";
+
+// Each practice has a practice identification number in the format
+//
+// ```
+// DD.L#-REQ
+// ```
+//
+// where:
+//
+// - DD is the two-letter domain abbreviation;
+// - L# is the level number; and
+// - REQ is the NIST SP 800-171 Rev 2 or NIST SP 800-172 security requirement number.
+message PracticeIdentificationNumber {
+  optional string value = 1 [(google.api.field_behavior) = REQUIRED];
+}
