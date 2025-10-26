@@ -27,15 +27,20 @@ message SetRequest {
 message SetResponse {}
 
 message Level1Assessment {
-  message Entry {
-    optional whitehawk.core.cmmc.v2.PracticeIdentificationNumber id = 1 [(google.api.field_behavior) = REQUIRED];
-    optional AssessmentResult result = 2 [(google.api.field_behavior) = REQUIRED];
-    optional string evidence_or_findings = 3 [(google.api.field_behavior) = REQUIRED];
-    optional string remediation_notes = 4 [(google.api.field_behavior) = REQUIRED];
-    optional string policy = 5 [(google.api.field_behavior) = REQUIRED];
-  }
+  repeated DomainAssessement domains = 1 [(google.api.field_behavior) = REQUIRED];
+  repeated PracticeAssessement practices = 2 [(google.api.field_behavior) = REQUIRED];
+}
 
-  repeated Entry values = 1 [(google.api.field_behavior) = REQUIRED];
+message DomainAssessement {
+  optional whitehawk.core.cmmc.v2.DomainId id = 1 [(google.api.field_behavior) = REQUIRED];
+  optional string policy = 2 [(google.api.field_behavior) = REQUIRED];
+}
+
+message PracticeAssessement {
+  optional whitehawk.core.cmmc.v2.PracticeIdentificationNumber id = 1 [(google.api.field_behavior) = REQUIRED];
+  optional AssessmentResult result = 2 [(google.api.field_behavior) = REQUIRED];
+  optional string evidence_or_findings = 3 [(google.api.field_behavior) = REQUIRED];
+  optional string remediation_notes = 4 [(google.api.field_behavior) = REQUIRED];
 }
 
 enum AssessmentResult {
