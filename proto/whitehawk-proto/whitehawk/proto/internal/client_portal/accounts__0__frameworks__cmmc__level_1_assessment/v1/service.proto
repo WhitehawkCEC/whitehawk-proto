@@ -1,0 +1,45 @@
+syntax = "proto3";
+
+// buf:lint:ignore PACKAGE_LOWER_SNAKE_CASE
+package whitehawk.proto.internal.client_portal.accounts__0__frameworks__cmmc__level_1_assessment.v1;
+
+import "google/api/field_behavior.proto";
+import "whitehawk/core/account/v1/message.proto";
+import "whitehawk/core/cmmc/v2/message.proto";
+
+service Service {
+  rpc Get(GetRequest) returns (GetResponse);
+  rpc Set(SetRequest) returns (SetResponse);
+}
+
+message GetRequest {
+  optional whitehawk.core.account.v1.AccountId account_id = 1 [(google.api.field_behavior) = REQUIRED];
+}
+
+message GetResponse {
+  optional Level1Assessment found = 1 [(google.api.field_behavior) = REQUIRED];
+}
+
+message SetRequest {
+  optional whitehawk.core.account.v1.AccountId account_id = 1 [(google.api.field_behavior) = REQUIRED];
+}
+
+message SetResponse {}
+
+message Level1Assessment {
+  message Entry {
+    optional whitehawk.core.cmmc.v2.PracticeIdentificationNumber id = 1 [(google.api.field_behavior) = REQUIRED];
+    optional AssessmentResult result = 2 [(google.api.field_behavior) = REQUIRED];
+    optional string evidence_or_findings = 3 [(google.api.field_behavior) = REQUIRED];
+    optional string remediation_notes = 4 [(google.api.field_behavior) = REQUIRED];
+  }
+
+  repeated Entry values = 1 [(google.api.field_behavior) = REQUIRED];
+}
+
+enum AssessmentResult {
+  ASSESSMENT_RESULT_UNSPECIFIED = 0;
+  ASSESSMENT_RESULT_MET = 1;
+  ASSESSMENT_RESULT_NOT_MET = 2;
+  ASSESSMENT_RESULT_NOT_AVAILABLE = 3;
+}
