@@ -22,6 +22,7 @@ message GetResponse {
 
 message SetRequest {
   optional whitehawk.core.account.v1.AccountId account_id = 1 [(google.api.field_behavior) = REQUIRED];
+  optional Level1Assessment value = 2 [(google.api.field_behavior) = REQUIRED];
 }
 
 message SetResponse {}
