@@ -32,6 +32,7 @@ message Level1Assessment {
     optional AssessmentResult result = 2 [(google.api.field_behavior) = REQUIRED];
     optional string evidence_or_findings = 3 [(google.api.field_behavior) = REQUIRED];
     optional string remediation_notes = 4 [(google.api.field_behavior) = REQUIRED];
+    optional string policy = 5 [(google.api.field_behavior) = REQUIRED];
   }
 
   repeated Entry values = 1 [(google.api.field_behavior) = REQUIRED];
