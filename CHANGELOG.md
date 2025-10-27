@@ -2,6 +2,22 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.96.0](https://github.com/whitehawkcec/whitehawk-proto/compare/0.95.3...0.96.0) (2025-10-27)
+
+
+### ⚠ BREAKING CHANGES
+
+* **proto:** change structure of client portal `accounts__0__frameworks__cmmc__level_1_assessment.v1`
+
+### Features
+
+* **proto/core:** add cmmc `DomainId` ([6c88cf3](https://github.com/whitehawkcec/whitehawk-proto/commit/6c88cf30de9d104b74623ef09d9dea1447567bc4))
+* **proto/core:** add messages for cmmc v2 ([c8ec626](https://github.com/whitehawkcec/whitehawk-proto/commit/c8ec626d5f08d7152ce7bff024c7c64459320c6f))
+* **proto:** add client portal service `accounts__0__frameworks__cmmc__level_1_assessment.v1` ([d7865f2](https://github.com/whitehawkcec/whitehawk-proto/commit/d7865f26e0c79864661d4934df5014bcf6360e73))
+* **proto:** add policy field ([3b368f7](https://github.com/whitehawkcec/whitehawk-proto/commit/3b368f7c06a9e56cec79a445bfab64e333e2166c))
+* **proto:** allow actually changing `accounts__0__frameworks__cmmc__level_1_assessment.v1` ([1b769ea](https://github.com/whitehawkcec/whitehawk-proto/commit/1b769eaae2b53427b14ca4d0649232ba6d2a33fc))
+* **proto:** change structure of client portal `accounts__0__frameworks__cmmc__level_1_assessment.v1` ([5081a57](https://github.com/whitehawkcec/whitehawk-proto/commit/5081a575effa0145a16cffd959baeaac7240d2c0))
+
 ### [0.95.3](https://github.com/whitehawkcec/whitehawk-proto/compare/0.95.2...0.95.3) (2025-10-23)
 
 
