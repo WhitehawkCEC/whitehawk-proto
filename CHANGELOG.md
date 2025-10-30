@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.97.1](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.97.0...0.97.1) (2025-10-30)
+
+
+### Features
+
+* compliance entities return row ([444ca32](https://github.com/WhitehawkCEC/whitehawk-proto/commit/444ca32ee4f5a1c8520984c1184eadf4cf37082d))
+
 ## [0.97.0](https://github.com/whitehawkcec/whitehawk-proto/compare/0.96.0...0.97.0) (2025-10-30)
 
 
