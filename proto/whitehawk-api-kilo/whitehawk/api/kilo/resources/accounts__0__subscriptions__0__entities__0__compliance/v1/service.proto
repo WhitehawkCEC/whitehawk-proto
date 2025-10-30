@@ -21,3 +21,31 @@ message GetRequest {
 message GetResponse {
   // optional bytes chunk = 1 [(google.api.field_behavior) = REQUIRED];
 }
+
+message listRequest {
+  optional whitehawk.core.account.v1.AccountId account_id = 1 [(google.api.field_behavior) = REQUIRED];
+  optional whitehawk.core.subscription.v1.SubscriptionId subscription_id = 2 [(google.api.field_behavior) = REQUIRED];
+  optional whitehawk.core.entity.v1.EntityId entity_id = 3 [(google.api.field_behavior) = REQUIRED];
+}
+
+message ListResponse {
+  repeated Row entry = 1;
+}
+
+message Row {
+  string risk_vector = 1;
+  string asset = 2;
+  string sub_asset = 3;
+  string severity = 4;
+  string cvss = 5;
+  string output = 6;
+  string issue = 7;
+  string first_seen = 8;
+  string last_check = 9;
+  string detail = 10;
+  string description = 11;
+  string migration = 12;
+  string references = 13;
+}
+
+

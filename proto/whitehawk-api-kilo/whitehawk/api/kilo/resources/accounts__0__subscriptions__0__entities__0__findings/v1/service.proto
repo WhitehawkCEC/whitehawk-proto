@@ -19,5 +19,5 @@ message GetRequest {
 }
 
 message GetResponse {
-  // optional bytes chunk = 1 [(google.api.field_behavior) = REQUIRED];
+  optional bytes chunk = 1 [(google.api.field_behavior) = REQUIRED];
 }
