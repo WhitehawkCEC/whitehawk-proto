@@ -28,16 +28,16 @@ message SetRequest {
 message SetResponse {}
 
 message Level1Assessment {
-  repeated DomainAssessement domains = 1 [(google.api.field_behavior) = REQUIRED];
-  repeated PracticeAssessement practices = 2 [(google.api.field_behavior) = REQUIRED];
+  repeated DomainAssessment domains = 1 [(google.api.field_behavior) = REQUIRED];
+  repeated PracticeAssessment practices = 2 [(google.api.field_behavior) = REQUIRED];
 }
 
-message DomainAssessement {
+message DomainAssessment {
   optional whitehawk.core.cmmc.v2.DomainId id = 1 [(google.api.field_behavior) = REQUIRED];
   optional string policy = 2 [(google.api.field_behavior) = REQUIRED];
 }
 
-message PracticeAssessement {
+message PracticeAssessment {
   optional whitehawk.core.cmmc.v2.PracticeIdentificationNumber id = 1 [(google.api.field_behavior) = REQUIRED];
   optional AssessmentResult result = 2 [(google.api.field_behavior) = REQUIRED];
   optional string evidence_or_findings = 3 [(google.api.field_behavior) = REQUIRED];
