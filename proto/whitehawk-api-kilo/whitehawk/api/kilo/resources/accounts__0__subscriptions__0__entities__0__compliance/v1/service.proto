@@ -22,7 +22,7 @@ message GetResponse {
   // optional bytes chunk = 1 [(google.api.field_behavior) = REQUIRED];
 }
 
-message listRequest {
+message ListRequest {
   optional whitehawk.core.account.v1.AccountId account_id = 1 [(google.api.field_behavior) = REQUIRED];
   optional whitehawk.core.subscription.v1.SubscriptionId subscription_id = 2 [(google.api.field_behavior) = REQUIRED];
   optional whitehawk.core.entity.v1.EntityId entity_id = 3 [(google.api.field_behavior) = REQUIRED];
