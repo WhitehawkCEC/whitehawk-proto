@@ -47,5 +47,3 @@ message Row {
   string migration = 12;
   string references = 13;
 }
-
-
