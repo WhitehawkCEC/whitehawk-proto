@@ -1,0 +1,64 @@
+syntax = "proto3";
+
+// buf:lint:ignore PACKAGE_LOWER_SNAKE_CASE
+package whitehawk.proto.internal.client_portal.accounts__0__frameworks__acsc_essential_8__assessment.v1;
+
+import "google/api/field_behavior.proto";
+import "whitehawk/core/account/v1/message.proto";
+
+service Service {
+  rpc Get(GetRequest) returns (GetResponse);
+  rpc Set(SetRequest) returns (SetResponse);
+}
+
+message GetRequest {
+  optional whitehawk.core.account.v1.AccountId account_id = 1 [(google.api.field_behavior) = REQUIRED];
+}
+
+message GetResponse {
+  optional Essential8Assessment found = 1 [(google.api.field_behavior) = REQUIRED];
+}
+
+message SetRequest {
+  optional whitehawk.core.account.v1.AccountId account_id = 1 [(google.api.field_behavior) = REQUIRED];
+  optional Essential8Assessment value = 2 [(google.api.field_behavior) = REQUIRED];
+}
+
+message SetResponse {}
+
+message Essential8Assessment {
+  message Entry {
+    optional MitigationStrategy strategy = 1 [(google.api.field_behavior) = REQUIRED];
+    optional MaturityLevel maturity = 2 [(google.api.field_behavior) = REQUIRED];
+    repeated RequirementAssessment requirements = 3 [(google.api.field_behavior) = REQUIRED];
+  }
+
+  repeated Entry entries = 1 [(google.api.field_behavior) = REQUIRED];
+}
+
+enum MitigationStrategy {
+  MITIGATION_STRATEGY_UNSPECIFIED = 0;
+  MITIGATION_STRATEGY_PATCH_APPLICATIONS = 1;
+  MITIGATION_STRATEGY_PATCH_OPERATING_SYSTEMS = 2;
+  MITIGATION_STRATEGY_MULTI_FACTOR_AUTHENTICATION = 3;
+  MITIGATION_STRATEGY_RESTRICT_ADMINISTRATIVE_PRIVILEGES = 4;
+  MITIGATION_STRATEGY_APPLICATION_CONTROL = 5;
+  MITIGATION_STRATEGY_RESTRICT_MICROSOFT_OFFICE_MACROS = 6;
+  MITIGATION_STRATEGY_USER_APPLICATION_HARDENING = 7;
+  MITIGATION_STRATEGY_REGULAR_BACKUPS = 8;
+}
+
+enum MaturityLevel {
+  MATURITY_LEVEL_UNSPECIFIED = 0;
+  MATURITY_LEVEL_ZERO = 1;
+  MATURITY_LEVEL_ONE = 2;
+  MATURITY_LEVEL_TWO = 3;
+  MATURITY_LEVEL_THREE = 4;
+}
+
+message RequirementAssessment {
+  optional string text = 1 [(google.api.field_behavior) = REQUIRED];
+  optional bool is_satisfied = 2 [(google.api.field_behavior) = REQUIRED];
+  optional string evidence_or_findings = 3 [(google.api.field_behavior) = REQUIRED];
+  optional string remediation_notes = 4 [(google.api.field_behavior) = REQUIRED];
+}
