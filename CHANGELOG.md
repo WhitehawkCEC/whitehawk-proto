@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.97.3](https://github.com/whitehawkcec/whitehawk-proto/compare/0.97.2...0.97.3) (2025-12-08)
+
+
+### Features
+
+* **proto:** add client portal service `accounts__0__frameworks__acsc_essential_8__assessment.v1` ([1eb25b4](https://github.com/whitehawkcec/whitehawk-proto/commit/1eb25b49945a6d7f8af4de9e01c094cafe4575d0))
+
 ### [0.97.2](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.97.1...0.97.2) (2025-10-30)
 
 
