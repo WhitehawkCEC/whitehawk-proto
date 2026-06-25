@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.98.0](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.97.3...0.98.0) (2026-06-25)
+
+
+### ⚠ BREAKING CHANGES
+
+* **proto:** remove unused client_portal bundle set v2 service
+
+### Features
+
+* **proto:** remove unused client_portal bundle set v2 service ([b7a6da9](https://github.com/WhitehawkCEC/whitehawk-proto/commit/b7a6da948f30c77c7111124d708cafe9bb74d316))
+
 ### [0.97.3](https://github.com/whitehawkcec/whitehawk-proto/compare/0.97.2...0.97.3) (2025-12-08)
 
 
