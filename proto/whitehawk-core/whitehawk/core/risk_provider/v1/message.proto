@@ -1,0 +1,17 @@
+edition = "2023";
+
+package whitehawk.core.risk_provider.v1;
+
+import "google/api/field_behavior.proto";
+
+message RiskProviderId {
+  string value = 1 [(google.api.field_behavior) = REQUIRED];
+}
+
+message RiskProviderConnectionId {
+  string value = 1 [(google.api.field_behavior) = REQUIRED];
+}
+
+message RiskProviderSyncRunId {
+  string value = 1 [(google.api.field_behavior) = REQUIRED];
+}
