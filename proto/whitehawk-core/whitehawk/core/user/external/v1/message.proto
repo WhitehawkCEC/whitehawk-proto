@@ -1,0 +1,10 @@
+edition = "2023";
+
+package whitehawk.core.user.external.v1;
+
+import "google/api/field_behavior.proto";
+
+message ExternalUserId {
+  string issuer = 1 [(google.api.field_behavior) = REQUIRED];
+  string subject = 2 [(google.api.field_behavior) = REQUIRED];
+}
