@@ -1,0 +1,9 @@
+edition = "2023";
+
+package whitehawk.core.client.v1;
+
+import "google/api/field_behavior.proto";
+
+message ClientId {
+  string value = 1 [(google.api.field_behavior) = REQUIRED];
+}
