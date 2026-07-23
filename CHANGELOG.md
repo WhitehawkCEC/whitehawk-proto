@@ -2,6 +2,22 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.98.1](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.98.0...0.98.1) (2026-07-23)
+
+
+### Features
+
+* **proto:** add client id ([727f487](https://github.com/WhitehawkCEC/whitehawk-proto/commit/727f487e6e4e034baa34ed2f8342ca5011102c56))
+* **proto:** add client service ([e3a6635](https://github.com/WhitehawkCEC/whitehawk-proto/commit/e3a66357783abd2bf8a42f6a6fe2eccb8c5f274b))
+* **proto:** add company id ([98ab306](https://github.com/WhitehawkCEC/whitehawk-proto/commit/98ab3061b27eb2163a30b50180d30a75de8b72b8))
+* **proto:** add ecosystem id ([ce02a74](https://github.com/WhitehawkCEC/whitehawk-proto/commit/ce02a7422ae0d19f0def482d5d24ebd1bdefe10f))
+* **proto:** add external user id ([033f6d3](https://github.com/WhitehawkCEC/whitehawk-proto/commit/033f6d354348ebcadbc8679ee328bdcf5cc4b5d1))
+* **proto:** add industry id ([3ffbcc4](https://github.com/WhitehawkCEC/whitehawk-proto/commit/3ffbcc4c8239b250f74c0c776e3019cbaea7d855))
+* **proto:** add industry service ([141391b](https://github.com/WhitehawkCEC/whitehawk-proto/commit/141391b91760466f23241388e9aa4a3ccb8b04c0))
+* **proto:** add risk provider ids ([028b725](https://github.com/WhitehawkCEC/whitehawk-proto/commit/028b725c5537ac9772ccbe376495598f3d4aae27))
+* **proto:** add user id ([2e617fb](https://github.com/WhitehawkCEC/whitehawk-proto/commit/2e617fbaf3a037e8430d57ea35268f92a8fc6ceb))
+* **proto:** add whitehawk-api-client ([dfe5cd6](https://github.com/WhitehawkCEC/whitehawk-proto/commit/dfe5cd6e8b64214b45693afe3b1f475af1609294))
+
 ## [0.98.0](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.97.3...0.98.0) (2026-06-25)
 
 
