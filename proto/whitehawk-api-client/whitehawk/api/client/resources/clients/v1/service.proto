@@ -1,0 +1,103 @@
+edition = "2023";
+
+package whitehawk.api.client.resources.clients.v1;
+
+import "google/api/field_behavior.proto";
+import "whitehawk/core/client/v1/message.proto";
+import "whitehawk/core/user/v1/message.proto";
+
+service Service {
+  rpc Create(CreateRequest) returns (CreateResponse) {}
+  rpc Read(ReadRequest) returns (ReadResponse) {}
+  rpc Update(UpdateRequest) returns (UpdateResponse) {}
+  rpc Delete(DeleteRequest) returns (DeleteResponse) {}
+  rpc List(ListRequest) returns (stream ListResponse) {}
+}
+
+enum ClientStatus {
+  CLIENT_STATUS_UNSPECIFIED = 0;
+  CLIENT_STATUS_ACTIVE = 1;
+  CLIENT_STATUS_INACTIVE = 2;
+}
+
+message CreateRequest {
+  string name = 1 [(google.api.field_behavior) = REQUIRED];
+  ClientStatus status = 2 [(google.api.field_behavior) = REQUIRED];
+}
+
+message CreateResponse {
+  message Success {
+    whitehawk.core.client.v1.ClientId client_id = 1 [(google.api.field_behavior) = REQUIRED];
+  }
+
+  message IdAlreadyExists {}
+
+  oneof result {
+    Success success = 1;
+    IdAlreadyExists id_already_exists = 2;
+  }
+}
+
+message ReadRequest {
+  whitehawk.core.client.v1.ClientId client_id = 1 [(google.api.field_behavior) = REQUIRED];
+}
+
+message ReadResponse {
+  message Found {
+    string name = 1 [(google.api.field_behavior) = REQUIRED];
+    ClientStatus status = 2 [(google.api.field_behavior) = REQUIRED];
+    whitehawk.core.user.v1.UserId owner = 3 [(google.api.field_behavior) = REQUIRED];
+  }
+
+  message NotFound {}
+
+  oneof result {
+    Found found = 1;
+    NotFound not_found = 2;
+  }
+}
+
+message UpdateRequest {
+  whitehawk.core.client.v1.ClientId client_id = 1 [(google.api.field_behavior) = REQUIRED];
+  string name = 2 [(google.api.field_behavior) = REQUIRED];
+  ClientStatus status = 3 [(google.api.field_behavior) = REQUIRED];
+}
+
+message UpdateResponse {
+  message Success {}
+
+  message NotFound {}
+
+  oneof result {
+    Success success = 1;
+    NotFound not_found = 2;
+  }
+}
+
+message DeleteRequest {
+  whitehawk.core.client.v1.ClientId client_id = 1 [(google.api.field_behavior) = REQUIRED];
+}
+
+message DeleteResponse {
+  message Success {}
+
+  message NotFound {}
+
+  oneof result {
+    Success success = 1;
+    NotFound not_found = 2;
+  }
+}
+
+message ListRequest {}
+
+message ListResponse {
+  message Entry {
+    whitehawk.core.client.v1.ClientId client_id = 1 [(google.api.field_behavior) = REQUIRED];
+    string name = 2 [(google.api.field_behavior) = REQUIRED];
+    ClientStatus status = 3 [(google.api.field_behavior) = REQUIRED];
+    whitehawk.core.user.v1.UserId owner = 4 [(google.api.field_behavior) = REQUIRED];
+  }
+
+  repeated Entry entries = 1 [(google.api.field_behavior) = REQUIRED];
+}
