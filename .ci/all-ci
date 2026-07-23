@@ -20,14 +20,16 @@ build() {
   version=$1
   build_buf
   build_buf_build $version
-  build_java $version
-  build_web $version
+  # disable generation of java/web artifacts
+  # build_java $version
+  # build_web $version
 }
 
 deploy() {
   deploy_buf_build
-  deploy_java
-  deploy_web
+  # disable deploy of java/web artifacts
+  # deploy_java
+  # deploy_web
 }
 
 build_buf() {
