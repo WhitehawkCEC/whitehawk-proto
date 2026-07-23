@@ -1,0 +1,102 @@
+edition = "2023";
+
+package whitehawk.api.client.resources.industries.v1;
+
+import "google/api/field_behavior.proto";
+import "whitehawk/core/industry/v1/message.proto";
+
+service Service {
+  rpc Create(CreateRequest) returns (CreateResponse) {}
+  rpc Read(ReadRequest) returns (ReadResponse) {}
+  rpc Update(UpdateRequest) returns (UpdateResponse) {}
+  rpc Delete(DeleteRequest) returns (DeleteResponse) {}
+  rpc List(ListRequest) returns (stream ListResponse) {}
+}
+
+message CreateRequest {
+  whitehawk.core.industry.v1.IndustryId industry_id = 1 [(google.api.field_behavior) = REQUIRED];
+  string name = 2 [(google.api.field_behavior) = REQUIRED];
+  string description = 3 [(google.api.field_behavior) = REQUIRED];
+}
+
+message CreateResponse {
+  message Success {}
+
+  message IdAlreadyExists {}
+
+  message NameAlreadyExists {}
+
+  oneof result {
+    Success success = 1;
+    IdAlreadyExists id_already_exists = 2;
+    NameAlreadyExists name_already_exists = 3;
+  }
+}
+
+message ReadRequest {
+  whitehawk.core.industry.v1.IndustryId industry_id = 1 [(google.api.field_behavior) = REQUIRED];
+}
+
+message ReadResponse {
+  message Found {
+    string name = 1 [(google.api.field_behavior) = REQUIRED];
+    string description = 2 [(google.api.field_behavior) = REQUIRED];
+  }
+
+  message NotFound {}
+
+  oneof result {
+    Found found = 1;
+    NotFound not_found = 2;
+  }
+}
+
+message UpdateRequest {
+  whitehawk.core.industry.v1.IndustryId industry_id = 1 [(google.api.field_behavior) = REQUIRED];
+  string name = 2 [(google.api.field_behavior) = REQUIRED];
+  string description = 3 [(google.api.field_behavior) = REQUIRED];
+}
+
+message UpdateResponse {
+  message Success {}
+
+  message NotFound {}
+
+  message NameAlreadyExists {}
+
+  oneof result {
+    Success success = 1;
+    NotFound not_found = 2;
+    NameAlreadyExists name_already_exists = 3;
+  }
+}
+
+message DeleteRequest {
+  whitehawk.core.industry.v1.IndustryId industry_id = 1 [(google.api.field_behavior) = REQUIRED];
+}
+
+message DeleteResponse {
+  message Success {}
+
+  message NotFound {}
+
+  message InUse {}
+
+  oneof result {
+    Success success = 1;
+    NotFound not_found = 2;
+    InUse in_use = 3;
+  }
+}
+
+message ListRequest {}
+
+message ListResponse {
+  message Entry {
+    whitehawk.core.industry.v1.IndustryId industry_id = 1 [(google.api.field_behavior) = REQUIRED];
+    string name = 2 [(google.api.field_behavior) = REQUIRED];
+    string description = 3 [(google.api.field_behavior) = REQUIRED];
+  }
+
+  repeated Entry entries = 1 [(google.api.field_behavior) = REQUIRED];
+}
