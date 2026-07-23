@@ -8,6 +8,9 @@ modules:
 
   - name: buf.build/whitehawkcec/whitehawk-core
     path: ./proto/whitehawk-core
+
+  - name: buf.build/whitehawkcec/whitehawk-api-client
+    path: ./proto/whitehawk-api-client
 deps:
   - buf.build/googleapis/googleapis
 lint:
