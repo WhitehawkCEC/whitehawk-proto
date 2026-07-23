@@ -35,7 +35,8 @@ deploy() {
 build_buf() {
   pnpm install
   pnpm exec buf lint || exit
-  pnpm exec buf generate || exit
+  # disable generation of java/web artifacts
+  # pnpm exec buf generate || exit
 }
 
 build_buf_build() {
