@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.98.2](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.98.1...0.98.2) (2026-07-23)
+
+
+### Bug Fixes
+
+* **proto:** disable generation and deploy of java/web artifacts ([1218bf4](https://github.com/WhitehawkCEC/whitehawk-proto/commit/1218bf4f01118d93830eab1873367ca1fa9a2dd9))
+
 ### [0.98.1](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.98.0...0.98.1) (2026-07-23)
 
 
