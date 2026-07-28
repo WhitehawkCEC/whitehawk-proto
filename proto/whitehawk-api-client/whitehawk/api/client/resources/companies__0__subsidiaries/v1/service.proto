@@ -1,0 +1,19 @@
+edition = "2023";
+
+// buf:lint:ignore PACKAGE_LOWER_SNAKE_CASE
+package whitehawk.api.client.resources.companies__0__subsidiaries.v1;
+
+import "google/api/field_behavior.proto";
+import "whitehawk/core/company/v1/message.proto";
+
+service Service {
+  rpc List(ListRequest) returns (stream ListResponse) {}
+}
+
+message ListRequest {
+  whitehawk.core.company.v1.CompanyId company_id = 1 [(google.api.field_behavior) = REQUIRED];
+}
+
+message ListResponse {
+  repeated whitehawk.core.company.v1.CompanyInfo entries = 1 [(google.api.field_behavior) = REQUIRED];
+}
