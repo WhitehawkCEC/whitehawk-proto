@@ -1,0 +1,146 @@
+edition = "2023";
+
+package whitehawk.api.client.resources.companies.v1;
+
+import "google/api/field_behavior.proto";
+import "whitehawk/core/company/v1/message.proto";
+import "whitehawk/core/industry/v1/message.proto";
+
+service Service {
+  rpc Create(CreateRequest) returns (CreateResponse) {}
+  rpc Read(ReadRequest) returns (ReadResponse) {}
+  rpc Update(UpdateRequest) returns (UpdateResponse) {}
+  rpc Delete(DeleteRequest) returns (DeleteResponse) {}
+  rpc List(ListRequest) returns (stream ListResponse) {}
+}
+
+message CreateRequest {
+  whitehawk.core.company.v1.CompanyId company_id = 1 [(google.api.field_behavior) = REQUIRED];
+  string name = 2 [(google.api.field_behavior) = REQUIRED];
+  string primary_domain = 3 [(google.api.field_behavior) = REQUIRED];
+  repeated string additional_domains = 4 [(google.api.field_behavior) = OPTIONAL];
+  whitehawk.core.industry.v1.IndustryId industry_id = 5 [(google.api.field_behavior) = REQUIRED];
+  string industry_name = 6 [(google.api.field_behavior) = REQUIRED];
+  whitehawk.core.company.v1.CompanyInfo parent_company = 7 [(google.api.field_behavior) = OPTIONAL];
+}
+
+message CreateResponse {
+  message Success {}
+
+  message IdAlreadyExists {}
+
+  message NameAlreadyExists {}
+
+  message DomainAlreadyExists {}
+
+  message IndustryMismatch {}
+
+  message ParentMismatch {}
+
+  message SelfParent {}
+
+  oneof result {
+    Success success = 1;
+    IdAlreadyExists id_already_exists = 2;
+    NameAlreadyExists name_already_exists = 3;
+    DomainAlreadyExists domain_already_exists = 4;
+    IndustryMismatch industry_mismatch = 5;
+    ParentMismatch parent_mismatch = 6;
+    SelfParent self_parent = 7;
+  }
+}
+
+message ReadRequest {
+  whitehawk.core.company.v1.CompanyId company_id = 1 [(google.api.field_behavior) = REQUIRED];
+}
+
+message ReadResponse {
+  message Found {
+    string name = 1 [(google.api.field_behavior) = REQUIRED];
+    string primary_domain = 2 [(google.api.field_behavior) = REQUIRED];
+    repeated string additional_domains = 3 [(google.api.field_behavior) = OPTIONAL];
+    whitehawk.core.industry.v1.IndustryId industry_id = 4 [(google.api.field_behavior) = REQUIRED];
+    string industry_name = 5 [(google.api.field_behavior) = REQUIRED];
+    whitehawk.core.company.v1.CompanyInfo parent_company = 6 [(google.api.field_behavior) = OPTIONAL];
+  }
+
+  message NotFound {}
+
+  oneof result {
+    Found found = 1;
+    NotFound not_found = 2;
+  }
+}
+
+message UpdateRequest {
+  whitehawk.core.company.v1.CompanyId company_id = 1 [(google.api.field_behavior) = REQUIRED];
+  string name = 2 [(google.api.field_behavior) = REQUIRED];
+  string primary_domain = 3 [(google.api.field_behavior) = REQUIRED];
+  repeated string additional_domains = 4 [(google.api.field_behavior) = OPTIONAL];
+  whitehawk.core.industry.v1.IndustryId industry_id = 5 [(google.api.field_behavior) = REQUIRED];
+  string industry_name = 6 [(google.api.field_behavior) = REQUIRED];
+  whitehawk.core.company.v1.CompanyInfo parent_company = 7 [(google.api.field_behavior) = OPTIONAL];
+}
+
+message UpdateResponse {
+  message Success {}
+
+  message NotFound {}
+
+  message NameAlreadyExists {}
+
+  message DomainAlreadyExists {}
+
+  message IndustryMismatch {}
+
+  message ParentMismatch {}
+
+  message SelfParent {}
+
+  message ParentCycle {}
+
+  oneof result {
+    Success success = 1;
+    NotFound not_found = 2;
+    NameAlreadyExists name_already_exists = 3;
+    DomainAlreadyExists domain_already_exists = 4;
+    IndustryMismatch industry_mismatch = 5;
+    ParentMismatch parent_mismatch = 6;
+    SelfParent self_parent = 7;
+    ParentCycle parent_cycle = 8;
+  }
+}
+
+message DeleteRequest {
+  whitehawk.core.company.v1.CompanyId company_id = 1 [(google.api.field_behavior) = REQUIRED];
+}
+
+message DeleteResponse {
+  message Success {
+    int32 detached_subsidiaries = 1 [(google.api.field_behavior) = REQUIRED];
+    int32 removed_provider_mappings = 2 [(google.api.field_behavior) = REQUIRED];
+  }
+
+  message NotFound {}
+
+  oneof result {
+    Success success = 1;
+    NotFound not_found = 2;
+  }
+}
+
+message ListRequest {}
+
+message ListResponse {
+  message Entry {
+    whitehawk.core.company.v1.CompanyId company_id = 1 [(google.api.field_behavior) = REQUIRED];
+    string name = 2 [(google.api.field_behavior) = REQUIRED];
+    string primary_domain = 3 [(google.api.field_behavior) = REQUIRED];
+    repeated string additional_domains = 4 [(google.api.field_behavior) = OPTIONAL];
+    whitehawk.core.industry.v1.IndustryId industry_id = 5 [(google.api.field_behavior) = REQUIRED];
+    string industry_name = 6 [(google.api.field_behavior) = REQUIRED];
+    whitehawk.core.company.v1.CompanyInfo parent_company = 7 [(google.api.field_behavior) = OPTIONAL];
+  }
+
+  repeated Entry entries = 1 [(google.api.field_behavior) = REQUIRED];
+}
