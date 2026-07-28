@@ -7,3 +7,9 @@ import "google/api/field_behavior.proto";
 message CompanyId {
   string value = 1 [(google.api.field_behavior) = REQUIRED];
 }
+
+message CompanyInfo {
+  CompanyId company_id = 1 [(google.api.field_behavior) = REQUIRED];
+  string name = 2 [(google.api.field_behavior) = REQUIRED];
+  string primary_domain = 3 [(google.api.field_behavior) = REQUIRED];
+}
