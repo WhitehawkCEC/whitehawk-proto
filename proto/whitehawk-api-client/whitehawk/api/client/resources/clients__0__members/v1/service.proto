@@ -1,0 +1,109 @@
+edition = "2023";
+
+// buf:lint:ignore PACKAGE_LOWER_SNAKE_CASE
+package whitehawk.api.client.resources.clients__0__members.v1;
+
+import "google/api/field_behavior.proto";
+import "whitehawk/core/client/v1/message.proto";
+import "whitehawk/core/user/v1/message.proto";
+
+service Service {
+  rpc Create(CreateRequest) returns (CreateResponse) {}
+  rpc Read(ReadRequest) returns (ReadResponse) {}
+  rpc Update(UpdateRequest) returns (UpdateResponse) {}
+  rpc Delete(DeleteRequest) returns (DeleteResponse) {}
+  rpc List(ListRequest) returns (stream ListResponse) {}
+}
+
+message CreateRequest {
+  whitehawk.core.client.v1.ClientId client_id = 1 [(google.api.field_behavior) = REQUIRED];
+  whitehawk.core.user.v1.UserId user_id = 2 [(google.api.field_behavior) = REQUIRED];
+  whitehawk.core.client.v1.ClientMemberRole role = 3 [(google.api.field_behavior) = REQUIRED];
+}
+
+message CreateResponse {
+  message Success {}
+
+  message ClientNotFound {}
+
+  message UserNotFound {}
+
+  message AlreadyMember {}
+
+  oneof result {
+    Success success = 1;
+    ClientNotFound client_not_found = 2;
+    UserNotFound user_not_found = 3;
+    AlreadyMember already_member = 4;
+  }
+}
+
+message ReadRequest {
+  whitehawk.core.client.v1.ClientId client_id = 1 [(google.api.field_behavior) = REQUIRED];
+  whitehawk.core.user.v1.UserId user_id = 2 [(google.api.field_behavior) = REQUIRED];
+}
+
+message ReadResponse {
+  message Found {
+    whitehawk.core.client.v1.ClientMemberRole role = 1 [(google.api.field_behavior) = REQUIRED];
+  }
+
+  message NotFound {}
+
+  oneof result {
+    Found found = 1;
+    NotFound not_found = 2;
+  }
+}
+
+message UpdateRequest {
+  whitehawk.core.client.v1.ClientId client_id = 1 [(google.api.field_behavior) = REQUIRED];
+  whitehawk.core.user.v1.UserId user_id = 2 [(google.api.field_behavior) = REQUIRED];
+  whitehawk.core.client.v1.ClientMemberRole role = 3 [(google.api.field_behavior) = REQUIRED];
+}
+
+message UpdateResponse {
+  message Success {}
+
+  message NotFound {}
+
+  message OwnerProtected {}
+
+  oneof result {
+    Success success = 1;
+    NotFound not_found = 2;
+    OwnerProtected owner_protected = 3;
+  }
+}
+
+message DeleteRequest {
+  whitehawk.core.client.v1.ClientId client_id = 1 [(google.api.field_behavior) = REQUIRED];
+  whitehawk.core.user.v1.UserId user_id = 2 [(google.api.field_behavior) = REQUIRED];
+}
+
+message DeleteResponse {
+  message Success {}
+
+  message NotFound {}
+
+  message OwnerProtected {}
+
+  oneof result {
+    Success success = 1;
+    NotFound not_found = 2;
+    OwnerProtected owner_protected = 3;
+  }
+}
+
+message ListRequest {
+  whitehawk.core.client.v1.ClientId client_id = 1 [(google.api.field_behavior) = REQUIRED];
+}
+
+message ListResponse {
+  message Entry {
+    whitehawk.core.user.v1.UserId user_id = 1 [(google.api.field_behavior) = REQUIRED];
+    whitehawk.core.client.v1.ClientMemberRole role = 2 [(google.api.field_behavior) = REQUIRED];
+  }
+
+  repeated Entry entries = 1 [(google.api.field_behavior) = REQUIRED];
+}
