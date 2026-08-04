@@ -1,0 +1,40 @@
+edition = "2023";
+
+// buf:lint:ignore PACKAGE_LOWER_SNAKE_CASE
+package whitehawk.api.client.resources.users__0__invitations.v1;
+
+import "google/api/field_behavior.proto";
+import "google/protobuf/timestamp.proto";
+import "whitehawk/core/client/v1/message.proto";
+
+service Service {
+  rpc List(ListRequest) returns (stream ListResponse) {}
+  rpc Delete(DeleteRequest) returns (DeleteResponse) {}
+}
+
+message ListRequest {}
+
+message ListResponse {
+  message Entry {
+    whitehawk.core.client.v1.ClientId client_id = 1 [(google.api.field_behavior) = REQUIRED];
+    whitehawk.core.client.v1.ClientMemberRole role = 2 [(google.api.field_behavior) = REQUIRED];
+    google.protobuf.Timestamp timestamp = 3 [(google.api.field_behavior) = REQUIRED];
+  }
+
+  repeated Entry entries = 1 [(google.api.field_behavior) = REQUIRED];
+}
+
+message DeleteRequest {
+  whitehawk.core.client.v1.ClientId client_id = 1 [(google.api.field_behavior) = REQUIRED];
+}
+
+message DeleteResponse {
+  message Success {}
+
+  message NotFound {}
+
+  oneof result {
+    Success success = 1;
+    NotFound not_found = 2;
+  }
+}
