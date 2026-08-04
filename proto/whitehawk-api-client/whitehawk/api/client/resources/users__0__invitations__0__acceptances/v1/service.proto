@@ -1,0 +1,29 @@
+edition = "2023";
+
+// buf:lint:ignore PACKAGE_LOWER_SNAKE_CASE
+package whitehawk.api.client.resources.users__0__invitations__0__acceptances.v1;
+
+import "google/api/field_behavior.proto";
+import "whitehawk/core/client/v1/message.proto";
+
+service Service {
+  rpc Create(CreateRequest) returns (CreateResponse) {}
+}
+
+message CreateRequest {
+  whitehawk.core.client.v1.ClientId client_id = 1 [(google.api.field_behavior) = REQUIRED];
+}
+
+message CreateResponse {
+  message Accepted {}
+
+  message InvitationNotFound {}
+
+  message AlreadyMember {}
+
+  oneof result {
+    Accepted accepted = 1;
+    InvitationNotFound invitation_not_found = 2;
+    AlreadyMember already_member = 3;
+  }
+}
