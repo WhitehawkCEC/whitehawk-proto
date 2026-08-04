@@ -7,3 +7,10 @@ import "google/api/field_behavior.proto";
 message ClientId {
   string value = 1 [(google.api.field_behavior) = REQUIRED];
 }
+
+enum ClientMemberRole {
+  CLIENT_MEMBER_ROLE_UNSPECIFIED = 0;
+  CLIENT_MEMBER_ROLE_ADMIN = 1;
+  CLIENT_MEMBER_ROLE_WRITE = 2;
+  CLIENT_MEMBER_ROLE_READ = 3;
+}
