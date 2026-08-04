@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.98.5](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.98.4...0.98.5) (2026-08-04)
+
+
+### Features
+
+* **proto:** add client member roles ([df33b5a](https://github.com/WhitehawkCEC/whitehawk-proto/commit/df33b5a730248e505fa7d00c1692d58af8346182))
+* **proto:** client members service ([13da0c8](https://github.com/WhitehawkCEC/whitehawk-proto/commit/13da0c85aacbbf0f2f35de0c9e98d6b7dd363280))
+* **proto:** service to accept an invitation ([06debba](https://github.com/WhitehawkCEC/whitehawk-proto/commit/06debbad9d98b534589a16c7d7e81eac60688a02))
+* **proto:** service to issue mbmber invitaions ([e60a87d](https://github.com/WhitehawkCEC/whitehawk-proto/commit/e60a87dd75c4d1e7cdf53a4ee9bc54ba5bd52958))
+* **proto:** service to view clients that user is a member of ([4dab199](https://github.com/WhitehawkCEC/whitehawk-proto/commit/4dab1992626ca1341d56c2687ed996268e3ece8a))
+* **proto:** service to view user invitations ([f84fdb4](https://github.com/WhitehawkCEC/whitehawk-proto/commit/f84fdb429548386423824a582ed620ee3fc43d8c))
+
 ### [0.98.4](https://github.com/WhitehawkCEC/whitehawk-proto/compare/0.98.3...0.98.4) (2026-07-28)
 
 
