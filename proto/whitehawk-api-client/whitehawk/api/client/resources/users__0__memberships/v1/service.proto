@@ -1,0 +1,22 @@
+edition = "2023";
+
+// buf:lint:ignore PACKAGE_LOWER_SNAKE_CASE
+package whitehawk.api.client.resources.users__0__memberships.v1;
+
+import "google/api/field_behavior.proto";
+import "whitehawk/core/client/v1/message.proto";
+
+service Service {
+  rpc List(ListRequest) returns (stream ListResponse) {}
+}
+
+message ListRequest {}
+
+message ListResponse {
+  message Entry {
+    whitehawk.core.client.v1.ClientId client_id = 1 [(google.api.field_behavior) = REQUIRED];
+    whitehawk.core.client.v1.ClientMemberRole role = 2 [(google.api.field_behavior) = REQUIRED];
+  }
+
+  repeated Entry entries = 1 [(google.api.field_behavior) = REQUIRED];
+}
