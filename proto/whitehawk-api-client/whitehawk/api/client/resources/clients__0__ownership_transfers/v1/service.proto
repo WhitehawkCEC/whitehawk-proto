@@ -1,0 +1,32 @@
+edition = "2023";
+
+// buf:lint:ignore PACKAGE_LOWER_SNAKE_CASE
+package whitehawk.api.client.resources.clients__0__ownership_transfers.v1;
+
+import "google/api/field_behavior.proto";
+import "whitehawk/core/client/v1/message.proto";
+import "whitehawk/core/user/v1/message.proto";
+
+service Service {
+  rpc Create(CreateRequest) returns (CreateResponse) {}
+}
+
+message CreateRequest {
+  whitehawk.core.client.v1.ClientId client_id = 1 [(google.api.field_behavior) = REQUIRED];
+  whitehawk.core.user.v1.UserId prior_owner = 2 [(google.api.field_behavior) = REQUIRED];
+  whitehawk.core.user.v1.UserId new_owner = 3 [(google.api.field_behavior) = REQUIRED];
+}
+
+message CreateResponse {
+  message Created {}
+
+  message StalePrevState {}
+
+  message NewOwnerNotEligible {}
+
+  oneof result {
+    Created created = 1;
+    StalePrevState stale_prev_state = 2;
+    NewOwnerNotEligible new_owner_not_eligible = 3;
+  }
+}
